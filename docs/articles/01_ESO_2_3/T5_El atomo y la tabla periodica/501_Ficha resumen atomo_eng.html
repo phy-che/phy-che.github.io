@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Your Name">
 
-<title>About</title>
+<title>The Atom</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,23 +27,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1a742e95ac4a0fa7fea0cd96c974761e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-1a742e95ac4a0fa7fea0cd96c974761e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,66 +58,95 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No se han encontrado resultados",
-    "search-matching-documents-text": "documentos encontrados",
-    "search-copy-link-title": "Copiar el enlace en la búsqueda",
-    "search-hide-matches-text": "Ocultar resultados adicionales",
-    "search-more-match-text": "resultado adicional en este documento",
-    "search-more-matches-text": "resultados adicionales en este documento",
-    "search-clear-button-title": "Borrar",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Buscar"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Buscar"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/001_recursos_generales.html"> 
+    <a class="nav-link" href="../../../articles/001_recursos_generales.html"> 
 <span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/01_ESO_2_3/index.html"> 
+    <a class="nav-link" href="../../../articles/01_ESO_2_3/index.html"> 
 <span class="menu-text">2º y 3ª ESO</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/02_ESO_4/index.html"> 
+    <a class="nav-link" href="../../../articles/02_ESO_4/index.html"> 
 <span class="menu-text">4º ESO</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/03_BACH_1/index.html"> 
+    <a class="nav-link" href="../../../articles/03_BACH_1/index.html"> 
 <span class="menu-text">1º BACH</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/04_BACH_2_Fisica/index.html"> 
+    <a class="nav-link" href="../../../articles/04_BACH_2_Fisica/index.html"> 
 <span class="menu-text">2º BACH Física</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/05_BACH_2_Quimica/index.html"> 
+    <a class="nav-link" href="../../../articles/05_BACH_2_Quimica/index.html"> 
 <span class="menu-text">2º BACH Química</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./articles/06_Educacion/index.html"> 
+    <a class="nav-link" href="../../../articles/06_Educacion/index.html"> 
 <span class="menu-text">Educación</span></a>
   </li>  
 </ul>
@@ -132,26 +162,147 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2º y 3ª ESO</li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html">T5_El atomo y la tabla periodica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html">The Atom</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">2º y 3ª ESO</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">T1_La medida</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T1_La medida/101_Que es medir.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">101_Que es medir</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T1_La medida/102_Magnitudes y unidades.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">102_Magnitudes y unidades</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T1_La medida/103_Factores de conversión.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">103_Factores de conversión</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">T5_El atomo y la tabla periodica</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">El átomo</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">The Atom</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">T7_Movimiento. Cinematica</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">T5. Cinemática</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#what-is-an-atom" id="toc-what-is-an-atom" class="nav-link active" data-scroll-target="#what-is-an-atom">1. What is an Atom?</a></li>
+  <li><a href="#subatomic-particles" id="toc-subatomic-particles" class="nav-link" data-scroll-target="#subatomic-particles">2. Subatomic Particles</a></li>
+  <li><a href="#atomic-number-z" id="toc-atomic-number-z" class="nav-link" data-scroll-target="#atomic-number-z">3. Atomic Number (Z)</a></li>
+  <li><a href="#mass-number-a" id="toc-mass-number-a" class="nav-link" data-scroll-target="#mass-number-a">4. Mass Number (A)</a></li>
+  <li><a href="#electric-charge" id="toc-electric-charge" class="nav-link" data-scroll-target="#electric-charge">5. Electric Charge</a></li>
+  <li><a href="#isotopes" id="toc-isotopes" class="nav-link" data-scroll-target="#isotopes">6. Isotopes</a></li>
+  <li><a href="#relation-with-the-periodic-table" id="toc-relation-with-the-periodic-table" class="nav-link" data-scroll-target="#relation-with-the-periodic-table">7. Relation with the Periodic Table</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">8. Summary</a></li>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link" data-scroll-target="#exercise">9. Exercise</a>
+  <ul class="collapse">
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions:</a></li>
+  </ul></li>
+  <li><a href="#challenge-question" id="toc-challenge-question" class="nav-link" data-scroll-target="#challenge-question">10. Challenge Question</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="501_Ficha-resumen-atomo_eng.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2º y 3ª ESO</li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html">T5_El atomo y la tabla periodica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html">The Atom</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">The Atom</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Your Name </p>
+          </div>
+  </div>
     
   
     
@@ -162,9 +313,172 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="what-is-an-atom" class="level1">
+<h1>1. What is an Atom?</h1>
+<p>An atom is the smallest unit of matter that retains the properties of an element. Everything around us is made of atoms.</p>
+<p>Atoms are extremely small and cannot be seen with the naked eye.</p>
+<hr>
+</section>
+<section id="subatomic-particles" class="level1">
+<h1>2. Subatomic Particles</h1>
+<p>Atoms are made of three main particles:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Particle</th>
+<th>Charge</th>
+<th>Mass (approx.)</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Proton</td>
+<td>+1</td>
+<td>1</td>
+<td>Nucleus</td>
+</tr>
+<tr class="even">
+<td>Neutron</td>
+<td>0</td>
+<td>1</td>
+<td>Nucleus</td>
+</tr>
+<tr class="odd">
+<td>Electron</td>
+<td>-1</td>
+<td>~0</td>
+<td>Orbitals</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Protons and neutrons are in the nucleus.</li>
+<li>Electrons move around the nucleus.</li>
+</ul>
+<hr>
+</section>
+<section id="atomic-number-z" class="level1">
+<h1>3. Atomic Number (Z)</h1>
+<p>The atomic number (Z) is the number of protons in an atom.</p>
+<ul>
+<li>It defines the element.</li>
+<li>Example: Hydrogen has Z = 1</li>
+</ul>
+<hr>
+</section>
+<section id="mass-number-a" class="level1">
+<h1>4. Mass Number (A)</h1>
+<p>The mass number (A) is the total number of protons and neutrons.</p>
+<p><span class="math display">\[
+A = Z + N
+\]</span></p>
+<p>Where: - Z = number of protons - N = number of neutrons</p>
+<hr>
+</section>
+<section id="electric-charge" class="level1">
+<h1>5. Electric Charge</h1>
+<ul>
+<li>Neutral atom: protons = electrons</li>
+<li>Ion: protons ≠ electrons</li>
+</ul>
+<p>Types of ions: - Cation: loses electrons → positive charge - Anion: gains electrons → negative charge</p>
+<hr>
+</section>
+<section id="isotopes" class="level1">
+<h1>6. Isotopes</h1>
+<p>Isotopes are atoms of the same element with:</p>
+<ul>
+<li>Same number of protons (Z)</li>
+<li>Different number of neutrons (N)</li>
+</ul>
+<p>Example: - Carbon-12 - Carbon-14</p>
+<hr>
+</section>
+<section id="relation-with-the-periodic-table" class="level1">
+<h1>7. Relation with the Periodic Table</h1>
+<ul>
+<li>The periodic table is ordered by atomic number (Z)</li>
+<li>Each element has a unique Z</li>
+<li>Elements in the same group have similar properties</li>
+</ul>
+<hr>
+</section>
+<section id="summary" class="level1">
+<h1>8. Summary</h1>
+<ul>
+<li>Atoms are made of protons, neutrons, and electrons</li>
+<li>Z = number of protons</li>
+<li>A = protons + neutrons</li>
+<li>Ions have charge</li>
+<li>Isotopes differ in neutrons</li>
+</ul>
+<hr>
+</section>
+<section id="exercise" class="level1">
+<h1>9. Exercise</h1>
+<p>Complete the following table:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Element</th>
+<th>Z</th>
+<th>A</th>
+<th>Protons</th>
+<th>Neutrons</th>
+<th>Electrons</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>X</td>
+<td>8</td>
+<td>16</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+</tr>
+<tr class="even">
+<td>Y</td>
+<td>?</td>
+<td>23</td>
+<td>11</td>
+<td>?</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>Z</td>
+<td>17</td>
+<td>?</td>
+<td>?</td>
+<td>18</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions:</h2>
+<ol type="1">
+<li>Calculate the missing values.</li>
+<li>Identify if the atom is neutral or an ion.</li>
+<li>If it is an ion, indicate its charge.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="challenge-question" class="level1">
+<h1>10. Challenge Question</h1>
+<p>An atom has: - 12 protons - 12 neutrons - 10 electrons</p>
+<p>Answer:</p>
+<ul>
+<li>What is Z?</li>
+<li>What is A?</li>
+<li>Is it an ion?</li>
+<li>What is its charge?</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -192,12 +506,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copiado");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copiado");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

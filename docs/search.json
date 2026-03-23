@@ -1,14 +1,42 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Física y química",
+    "objectID": "articles/001_recursos_generales.html",
+    "href": "articles/001_recursos_generales.html",
+    "title": "Recursos sobre física y química generales y más",
     "section": "",
-    "text": "Esta es una página destinada al aprendizaje de la Física y de la Química en los cursos de Secundaria."
+    "text": "Pizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More"
   },
   {
-    "objectID": "01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html",
-    "href": "01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html",
+    "objectID": "articles/001_recursos_generales.html#nivel-eso",
+    "href": "articles/001_recursos_generales.html#nivel-eso",
+    "title": "Recursos sobre física y química generales y más",
+    "section": "",
+    "text": "Pizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More"
+  },
+  {
+    "objectID": "articles/001_recursos_generales.html#nivel-bachillerato",
+    "href": "articles/001_recursos_generales.html#nivel-bachillerato",
+    "title": "Recursos sobre física y química generales y más",
+    "section": "Nivel bachillerato",
+    "text": "Nivel bachillerato\n\nPizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad."
+  },
+  {
+    "objectID": "articles/001_recursos_generales.html#examen-pau---madrid",
+    "href": "articles/001_recursos_generales.html#examen-pau---madrid",
+    "title": "Recursos sobre física y química generales y más",
+    "section": "Examen PAU - Madrid",
+    "text": "Examen PAU - Madrid\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón)."
+  },
+  {
+    "objectID": "articles/001_recursos_generales.html#nivel-universitario",
+    "href": "articles/001_recursos_generales.html#nivel-universitario",
+    "title": "Recursos sobre física y química generales y más",
+    "section": "Nivel universitario",
+    "text": "Nivel universitario\n\nVídeos de los cursos de la UPV\nListas de vídeos de la UPV"
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
+    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
     "title": "The Atom",
     "section": "",
     "text": "An atom is the smallest unit of matter that retains the properties of an element. Everything around us is made of atoms.\nAtoms are extremely small and cannot be seen with the naked eye.",
@@ -20,8 +48,8 @@
     ]
   },
   {
-    "objectID": "01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#questions",
-    "href": "01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#questions",
+    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#questions",
+    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#questions",
     "title": "The Atom",
     "section": "Questions:",
     "text": "Questions:\n\nCalculate the missing values.\nIdentify if the atom is neutral or an ion.\nIf it is an ion, indicate its charge.",
@@ -33,61 +61,48 @@
     ]
   },
   {
-    "objectID": "01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
-    "href": "01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
-    "title": "T5. Cinemática",
-    "section": "",
-    "text": "Test\n\n\n\nBla\n\n\nTralara",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "T5. Cinemática"
-    ]
-  },
-  {
-    "objectID": "01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#posicion",
-    "href": "01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#posicion",
-    "title": "T5. Cinemática",
-    "section": "",
-    "text": "Test",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "T5. Cinemática"
-    ]
-  },
-  {
-    "objectID": "01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#velocidad",
-    "href": "01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#velocidad",
-    "title": "T5. Cinemática",
-    "section": "",
-    "text": "Bla\n\n\nTralara",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "T5. Cinemática"
-    ]
-  },
-  {
-    "objectID": "esp/index.html",
-    "href": "esp/index.html",
-    "title": "Física y química",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Física y química - MAIN",
     "section": "",
     "text": "Esta es una página destinada al aprendizaje de la Física y de la Química en los cursos de Secundaria."
   },
   {
-    "objectID": "eng/index.html",
-    "href": "eng/index.html",
-    "title": "Physics and chemistry",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This is a web to learn physics and chemistry."
+    "text": "About this site"
   },
   {
-    "objectID": "04_BACH_2_Fisica/T7_OEM y Optica Fisica/700_Recursos.html",
-    "href": "04_BACH_2_Fisica/T7_OEM y Optica Fisica/700_Recursos.html",
+    "objectID": "articles/04_BACH_2_Fisica/T6_Ondas y fenomenos ondulatorios/600_Recursos.html",
+    "href": "articles/04_BACH_2_Fisica/T6_Ondas y fenomenos ondulatorios/600_Recursos.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "Lista de vídeos del MOOC de la UPV (Valencia) sobre Fundamentos de Oscilaciones y Ondas para Ingeniería: Lista de vídeos YouTube",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T6_Ondas y fenomenos ondulatorios",
+      "Recursos"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T6_Ondas y fenomenos ondulatorios/600_Recursos.html#enlaces-a-exámenes-pau",
+    "href": "articles/04_BACH_2_Fisica/T6_Ondas y fenomenos ondulatorios/600_Recursos.html#enlaces-a-exámenes-pau",
+    "title": "Recursos",
+    "section": "Enlaces a exámenes PAU",
+    "text": "Enlaces a exámenes PAU\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón). Notar que tiene separado MVAS, Movimiento ondulatorio, Ondas estacionarias, Ondas Sonoras y Doppler.",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T6_Ondas y fenomenos ondulatorios",
+      "Recursos"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T7_OEM y Optica Fisica/700_Recursos.html",
+    "href": "articles/04_BACH_2_Fisica/T7_OEM y Optica Fisica/700_Recursos.html",
     "title": "Recursos",
     "section": "",
     "text": "Recursos OEM y óptica física\n\nVídeo sobre interferencias de la luz (doble rendija) con ondas coherentes (mantienen diferencia de fase constante y crean interferencia estable) y ondas no coherentes (que no tienen diferencia de fase constante y la interferencia es inestable): Vídeo simulation of the Double Slit Experiment with Incoherent and Coherent Light",
@@ -99,30 +114,81 @@
     ]
   },
   {
-    "objectID": "04_BACH_2_Fisica/T6_Ondas y fenomenos ondulatorios/600_Recursos.html",
-    "href": "04_BACH_2_Fisica/T6_Ondas y fenomenos ondulatorios/600_Recursos.html",
-    "title": "Recursos",
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
+    "title": "T5. Cinemática",
     "section": "",
-    "text": "Recursos de ondas y fenómenos ondulatorios\n\nLista de vídeos del MOOC de la UPV (Valencia) sobre Fundamentos de Oscilaciones y Ondas para Ingeniería: Lista de vídeos YouTube",
+    "text": "Test\n\n\n\nBla\n\n\nTralara",
     "crumbs": [
       "Home",
-      "2º BACH Física",
-      "T6_Ondas y fenomenos ondulatorios",
-      "Recursos"
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "T5. Cinemática"
     ]
   },
   {
-    "objectID": "esp/001_recursos_generales.html",
-    "href": "esp/001_recursos_generales.html",
-    "title": "Recursos sobre física y química generales y más",
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#posicion",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#posicion",
+    "title": "T5. Cinemática",
     "section": "",
-    "text": "Nivel ESO\n\n\nNivel bachillerato\n\nEn esta web de Moisés López Caeiro podéis encontrar algunos de los mejores apuntes y explicaciones de Física de 2Bach que hay en Internet: FisQuiMat\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.\n\n\n\n\nNivel universitario\n\nVídeos de los cursos de la UPV\nListas de vídeos de la UPV"
+    "text": "Test",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "T5. Cinemática"
+    ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#velocidad",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#velocidad",
+    "title": "T5. Cinemática",
     "section": "",
-    "text": "About this site"
+    "text": "Bla\n\n\nTralara",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "T5. Cinemática"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html",
+    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html",
+    "title": "El átomo",
+    "section": "",
+    "text": "Los átomos son los ladrillos que constituyen toda la materia que nos rodea: el suelo, el aire y todos los gases, el agua y todos los líquidos, la comida, los elementos químicos o nuestro propio cuerpo. Todo lo que nos rodea e incluso nosotros mismos estamos formado por átomos.\n\n\n\n\n\n\nImportantMuy importante\n\n\n\nEl átomo es la unidad más pequeña de la materia que conserva las propiedades de un elemento. Todos los átomos que conoce el ser humano están ordenados en la Tabla periódica.\n\n\nLos átomos son extremadamente pequeños (escala nanométrica, entre \\(0,1·10^{-9}m\\) y \\(0,5·10^{-9}m\\)): no pueden verse a simple vista y tampoco con un microscopio óptico.\n\n\n\n\n\n\nNotePara saber más\n\n\n\n\n\nLos átomos solo se pueden ver con unos microscopios especiales llamados: Microscopio de Efecto Túnel (STM), Microscopio de Fuerza Atómica (AFM), Microscopio Electrónico de Transmisión (TEM/STEM) de alta resolución.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T5_El atomo y la tabla periodica",
+      "El átomo"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#completa-la-siguiente-tabla",
+    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#completa-la-siguiente-tabla",
+    "title": "El átomo",
+    "section": "1. Completa la siguiente tabla:",
+    "text": "1. Completa la siguiente tabla:\n\n\n\nElemento\nZ\nA\nProtones\nNeutrones\nElectrones\n\n\n\n\nX\n8\n16\n?\n?\n?\n\n\nY\n?\n23\n11\n?\n11\n\n\nZ\n17\n?\n?\n18\n?\n\n\n\nSobre la tabla anterior: 1. Calcula los valores que faltan. 2. Indica si el átomo es neutro o un ion. 3. Si es un ion, indica su carga.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T5_El atomo y la tabla periodica",
+      "El átomo"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#pregunta-de-desafío",
+    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#pregunta-de-desafío",
+    "title": "El átomo",
+    "section": "2.Pregunta de desafío",
+    "text": "2.Pregunta de desafío\nUn átomo tiene: - 12 protones - 12 neutrones - 10 electrones\nResponde:\n\n¿Cuál es Z?\n¿Cuál es A?\n¿Es un ion?\n¿Cuál es su carga?",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T5_El atomo y la tabla periodica",
+      "El átomo"
+    ]
   }
 ]
