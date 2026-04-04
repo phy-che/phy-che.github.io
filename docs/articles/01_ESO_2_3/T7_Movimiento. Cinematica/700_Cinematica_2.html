@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Cinemática (2º ESO)</title>
+<title>Cinemática (3º ESO)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -222,7 +257,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">T7_Movimiento. Cinematica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">Cinemática (2º ESO)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">T7_Movimiento. Cinematica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html">Cinemática (3º ESO)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -306,8 +341,14 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cinemática (2º ESO)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Cinemática (3º ESO)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -335,73 +376,48 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#introducción-1" id="toc-introducción-1" class="nav-link" data-scroll-target="#introducción-1">Introducción</a></li>
   <li><a href="#definición" id="toc-definición" class="nav-link" data-scroll-target="#definición">Definición</a></li>
-  <li><a href="#ejemplos-cotidianos" id="toc-ejemplos-cotidianos" class="nav-link" data-scroll-target="#ejemplos-cotidianos">Ejemplos cotidianos</a></li>
-  <li><a href="#imagen" id="toc-imagen" class="nav-link" data-scroll-target="#imagen">Imagen</a></li>
-  <li><a href="#vídeos" id="toc-vídeos" class="nav-link" data-scroll-target="#vídeos">Vídeos</a></li>
+  <li><a href="#ejemplos-razonados" id="toc-ejemplos-razonados" class="nav-link" data-scroll-target="#ejemplos-razonados">Ejemplos razonados</a></li>
   <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios">Ejercicios</a></li>
-  <li><a href="#ejercicios-competenciales" id="toc-ejercicios-competenciales" class="nav-link" data-scroll-target="#ejercicios-competenciales">Ejercicios competenciales</a></li>
   </ul></li>
   <li><a href="#espacio-recorrido" id="toc-espacio-recorrido" class="nav-link" data-scroll-target="#espacio-recorrido">Espacio recorrido</a>
   <ul class="collapse">
   <li><a href="#introducción-2" id="toc-introducción-2" class="nav-link" data-scroll-target="#introducción-2">Introducción</a></li>
   <li><a href="#definición-1" id="toc-definición-1" class="nav-link" data-scroll-target="#definición-1">Definición</a></li>
-  <li><a href="#ejemplos" id="toc-ejemplos" class="nav-link" data-scroll-target="#ejemplos">Ejemplos</a></li>
-  <li><a href="#imagen-1" id="toc-imagen-1" class="nav-link" data-scroll-target="#imagen-1">Imagen</a></li>
-  <li><a href="#vídeos-1" id="toc-vídeos-1" class="nav-link" data-scroll-target="#vídeos-1">Vídeos</a></li>
+  <li><a href="#ejemplos-razonados-1" id="toc-ejemplos-razonados-1" class="nav-link" data-scroll-target="#ejemplos-razonados-1">Ejemplos razonados</a></li>
   <li><a href="#ejercicios-1" id="toc-ejercicios-1" class="nav-link" data-scroll-target="#ejercicios-1">Ejercicios</a></li>
   </ul></li>
   <li><a href="#rapidez-y-velocidad" id="toc-rapidez-y-velocidad" class="nav-link" data-scroll-target="#rapidez-y-velocidad">Rapidez y velocidad</a>
   <ul class="collapse">
   <li><a href="#introducción-3" id="toc-introducción-3" class="nav-link" data-scroll-target="#introducción-3">Introducción</a></li>
   <li><a href="#definiciones" id="toc-definiciones" class="nav-link" data-scroll-target="#definiciones">Definiciones</a></li>
-  <li><a href="#fórmula-principal" id="toc-fórmula-principal" class="nav-link" data-scroll-target="#fórmula-principal">Fórmula principal</a>
-  <ul class="collapse">
-  <li><a href="#despejes" id="toc-despejes" class="nav-link" data-scroll-target="#despejes">Despejes</a></li>
-  </ul></li>
-  <li><a href="#ejemplos-1" id="toc-ejemplos-1" class="nav-link" data-scroll-target="#ejemplos-1">Ejemplos</a></li>
-  <li><a href="#vídeos-2" id="toc-vídeos-2" class="nav-link" data-scroll-target="#vídeos-2">Vídeos</a></li>
+  <li><a href="#fórmula-principal" id="toc-fórmula-principal" class="nav-link" data-scroll-target="#fórmula-principal">Fórmula principal</a></li>
+  <li><a href="#despejes-paso-a-paso" id="toc-despejes-paso-a-paso" class="nav-link" data-scroll-target="#despejes-paso-a-paso">Despejes paso a paso</a></li>
+  <li><a href="#ejemplos-razonados-2" id="toc-ejemplos-razonados-2" class="nav-link" data-scroll-target="#ejemplos-razonados-2">Ejemplos razonados</a></li>
   <li><a href="#ejercicios-2" id="toc-ejercicios-2" class="nav-link" data-scroll-target="#ejercicios-2">Ejercicios</a></li>
   </ul></li>
   <li><a href="#clasificación-de-movimientos" id="toc-clasificación-de-movimientos" class="nav-link" data-scroll-target="#clasificación-de-movimientos">Clasificación de movimientos</a>
   <ul class="collapse">
   <li><a href="#tipos" id="toc-tipos" class="nav-link" data-scroll-target="#tipos">Tipos</a></li>
-  <li><a href="#ejemplos-2" id="toc-ejemplos-2" class="nav-link" data-scroll-target="#ejemplos-2">Ejemplos</a></li>
-  <li><a href="#vídeos-3" id="toc-vídeos-3" class="nav-link" data-scroll-target="#vídeos-3">Vídeos</a></li>
+  <li><a href="#ejemplos-razonados-3" id="toc-ejemplos-razonados-3" class="nav-link" data-scroll-target="#ejemplos-razonados-3">Ejemplos razonados</a></li>
+  <li><a href="#ejercicios-3" id="toc-ejercicios-3" class="nav-link" data-scroll-target="#ejercicios-3">Ejercicios</a></li>
   </ul></li>
   <li><a href="#mru-fórmulas-y-gráficas" id="toc-mru-fórmulas-y-gráficas" class="nav-link" data-scroll-target="#mru-fórmulas-y-gráficas">MRU: Fórmulas y gráficas</a>
   <ul class="collapse">
   <li><a href="#introducción-4" id="toc-introducción-4" class="nav-link" data-scroll-target="#introducción-4">Introducción</a></li>
   <li><a href="#fórmula" id="toc-fórmula" class="nav-link" data-scroll-target="#fórmula">Fórmula</a></li>
-  <li><a href="#despejes-1" id="toc-despejes-1" class="nav-link" data-scroll-target="#despejes-1">Despejes</a></li>
-  <li><a href="#gráficas" id="toc-gráficas" class="nav-link" data-scroll-target="#gráficas">Gráficas</a></li>
   <li><a href="#ejemplo" id="toc-ejemplo" class="nav-link" data-scroll-target="#ejemplo">Ejemplo</a></li>
-  <li><a href="#ejercicios-3" id="toc-ejercicios-3" class="nav-link" data-scroll-target="#ejercicios-3">Ejercicios</a></li>
+  <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
+  <li><a href="#gráfica-velocidad-tiempo" id="toc-gráfica-velocidad-tiempo" class="nav-link" data-scroll-target="#gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</a></li>
   </ul></li>
-  <li><a href="#mrua-fórmulas-y-gráficas" id="toc-mrua-fórmulas-y-gráficas" class="nav-link" data-scroll-target="#mrua-fórmulas-y-gráficas">MRUA: Fórmulas y gráficas</a>
-  <ul class="collapse">
-  <li><a href="#introducción-5" id="toc-introducción-5" class="nav-link" data-scroll-target="#introducción-5">Introducción</a></li>
-  <li><a href="#fórmulas" id="toc-fórmulas" class="nav-link" data-scroll-target="#fórmulas">Fórmulas</a></li>
-  <li><a href="#despejes-2" id="toc-despejes-2" class="nav-link" data-scroll-target="#despejes-2">Despejes</a></li>
-  <li><a href="#gráficas-1" id="toc-gráficas-1" class="nav-link" data-scroll-target="#gráficas-1">Gráficas</a></li>
-  <li><a href="#ejemplo-1" id="toc-ejemplo-1" class="nav-link" data-scroll-target="#ejemplo-1">Ejemplo</a></li>
-  <li><a href="#ejercicios-4" id="toc-ejercicios-4" class="nav-link" data-scroll-target="#ejercicios-4">Ejercicios</a></li>
-  </ul></li>
-  <li><a href="#ejercicios-finales" id="toc-ejercicios-finales" class="nav-link" data-scroll-target="#ejercicios-finales">Ejercicios finales</a>
-  <ul class="collapse">
-  <li><a href="#sencillos" id="toc-sencillos" class="nav-link" data-scroll-target="#sencillos">Sencillos</a></li>
-  <li><a href="#intermedios" id="toc-intermedios" class="nav-link" data-scroll-target="#intermedios">Intermedios</a></li>
-  <li><a href="#avanzados" id="toc-avanzados" class="nav-link" data-scroll-target="#avanzados">Avanzados</a></li>
-  </ul></li>
-  <li><a href="#recursos-adicionales" id="toc-recursos-adicionales" class="nav-link" data-scroll-target="#recursos-adicionales">Recursos adicionales</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="700_Cinematica.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="700_Cinematica_2.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">T7_Movimiento. Cinematica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">Cinemática (2º ESO)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">T7_Movimiento. Cinematica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html">Cinemática (3º ESO)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Cinemática (2º ESO)</h1>
+<h1 class="title">Cinemática (3º ESO)</h1>
 </div>
 
 
@@ -420,70 +436,46 @@ window.Quarto = {
 
 <section id="introducción" class="level1">
 <h1>Introducción</h1>
-<p>La <strong>cinemática</strong> es la parte de la física que estudia <strong>cómo se mueven los objetos</strong>, sin preocuparse de por qué se mueven.</p>
-<p>Ejemplo intuitivo: cuando vas en bicicleta, puedes fijarte en <strong>dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando</strong>. Todo eso lo estudia la cinemática.</p>
+<p>La <strong>cinemática</strong> es la parte de la física que estudia el movimiento de los cuerpos sin analizar sus causas.</p>
+<p>En este nivel vamos a: - Analizar el movimiento con mayor precisión - Interpretar gráficas - Relacionar magnitudes físicas</p>
+<p>Ejemplo: cuando un coche se incorpora a una autopista, cambia su velocidad progresivamente → esto implica aceleración.</p>
 <hr>
 </section>
 <section id="sistema-de-referencia-posición-y-trayectoria" class="level1">
 <h1>Sistema de referencia, posición y trayectoria</h1>
 <section id="introducción-1" class="level2">
 <h2 class="anchored" data-anchor-id="introducción-1">Introducción</h2>
-<p>Imagina que estás en un parque. Para decir dónde estás necesitas un punto de referencia (por ejemplo, un banco).</p>
+<p>Para describir un movimiento necesitamos un punto de referencia. Sin él, no podemos decir si algo se mueve o no.</p>
+<p>Ejemplo: una persona sentada en un tren está en reposo respecto al tren, pero en movimiento respecto a la Tierra.</p>
 </section>
 <section id="definición" class="level2">
 <h2 class="anchored" data-anchor-id="definición">Definición</h2>
 <ul>
-<li><strong>Sistema de referencia</strong>: conjunto de ejes y un punto desde el que medimos posiciones.</li>
-<li><strong>Posición (x)</strong>: lugar donde está un objeto respecto al sistema de referencia. Unidad: <strong>metro (m)</strong>.</li>
-<li><strong>Trayectoria</strong>: camino que sigue un objeto.</li>
+<li><strong>Sistema de referencia</strong>: conjunto formado por un origen y unos ejes.</li>
+<li><strong>Posición (x)</strong>: distancia al origen. Unidad: <strong>metro (m)</strong>.</li>
+<li><strong>Trayectoria</strong>: línea que describe el movimiento.</li>
 </ul>
 </section>
-<section id="ejemplos-cotidianos" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplos-cotidianos">Ejemplos cotidianos</h2>
+<section id="ejemplos-razonados" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-razonados">Ejemplos razonados</h2>
 <ol type="1">
-<li>Un coche en una carretera (trayectoria recta).</li>
-<li>Una pelota lanzada (trayectoria curva).</li>
+<li><p><strong>Tren en vía recta</strong><br>
+Trayectoria rectilínea. La posición cambia linealmente con el tiempo.</p></li>
+<li><p><strong>Pelota lanzada</strong><br>
+Trayectoria curva. La gravedad modifica la dirección del movimiento.</p></li>
 </ol>
-</section>
-<section id="imagen" class="level2">
-<h2 class="anchored" data-anchor-id="imagen">Imagen</h2>
-<p>https://commons.wikimedia.org/wiki/File:Trajectory_of_a_projectile.svg</p>
-</section>
-<section id="vídeos" class="level2">
-<h2 class="anchored" data-anchor-id="vídeos">Vídeos</h2>
-<ul>
-<li>Español: https://www.youtube.com/watch?v=6f0Xy9WvZ7g<br>
-</li>
-<li>Inglés: https://www.youtube.com/watch?v=ZM8ECpBuQYE</li>
-</ul>
 </section>
 <section id="ejercicios" class="level2">
 <h2 class="anchored" data-anchor-id="ejercicios">Ejercicios</h2>
 <ol type="1">
-<li>Define trayectoria con tus palabras.<br>
+<li>Explica por qué la posición depende del sistema de referencia.<br>
 </li>
-<li>¿Puede cambiar la posición sin cambiar la trayectoria?<br>
+<li>Describe la trayectoria de un coche en una rotonda.<br>
 </li>
-<li>Pon un ejemplo de trayectoria curva.</li>
+<li>¿Puede un objeto estar en reposo y en movimiento a la vez?</li>
 </ol>
 <div class="callout-answer" data-collapse="true">
-<p><strong>Soluciones</strong></p>
-<ol type="1">
-<li>Camino que sigue un objeto.<br>
-</li>
-<li>Sí, si se mueve dentro del mismo tipo de trayectoria.<br>
-</li>
-<li>Una pelota lanzada.</li>
-</ol>
-</div>
-</section>
-<section id="ejercicios-competenciales" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios-competenciales">Ejercicios competenciales</h2>
-<ol type="1">
-<li>Describe el movimiento de una persona en un centro comercial usando un sistema de referencia.</li>
-</ol>
-<div class="callout-answer" data-collapse="true">
-<p>Depende del punto elegido, por ejemplo la entrada.</p>
+<p>Sí, depende del sistema de referencia elegido.</p>
 </div>
 <hr>
 </section>
@@ -492,49 +484,35 @@ window.Quarto = {
 <h1>Espacio recorrido</h1>
 <section id="introducción-2" class="level2">
 <h2 class="anchored" data-anchor-id="introducción-2">Introducción</h2>
-<p>No es lo mismo ir en línea recta que dar vueltas.</p>
+<p>El espacio recorrido mide cuánto camino haces, independientemente de dónde acabes.</p>
 </section>
 <section id="definición-1" class="level2">
 <h2 class="anchored" data-anchor-id="definición-1">Definición</h2>
 <ul>
-<li><strong>Espacio recorrido (s)</strong>: distancia total recorrida. Unidad: <strong>metro (m)</strong>.</li>
+<li><strong>Espacio recorrido (s)</strong>: longitud total del camino. Unidad: <strong>metro (m)</strong>.</li>
 </ul>
 </section>
-<section id="ejemplos" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplos">Ejemplos</h2>
+<section id="ejemplos-razonados-1" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-razonados-1">Ejemplos razonados</h2>
 <ol type="1">
-<li>Dar una vuelta a una pista.</li>
-<li>Ir de casa al colegio por distintas calles.</li>
-</ol>
-</section>
-<section id="imagen-1" class="level2">
-<h2 class="anchored" data-anchor-id="imagen-1">Imagen</h2>
-<p>https://commons.wikimedia.org/wiki/File:Distance_vs_displacement.svg</p>
-</section>
-<section id="vídeos-1" class="level2">
-<h2 class="anchored" data-anchor-id="vídeos-1">Vídeos</h2>
-<ul>
-<li>Español: https://www.youtube.com/watch?v=QkP4P3l1zqA<br>
+<li>Dar vueltas a una pista → mucho espacio recorrido aunque acabes en el mismo punto.<br>
 </li>
-<li>Inglés: https://www.youtube.com/watch?v=3uDkJq5tX0A</li>
-</ul>
+<li>Ir al colegio por distintos caminos → mismo origen y final, distinto espacio.</li>
+</ol>
 </section>
 <section id="ejercicios-1" class="level2">
 <h2 class="anchored" data-anchor-id="ejercicios-1">Ejercicios</h2>
 <ol type="1">
-<li>¿Es igual espacio recorrido que desplazamiento?<br>
+<li>Un alumno da 3 vueltas a una pista de 100 m. ¿Qué espacio recorre? Explica.<br>
 </li>
-<li>Calcula el espacio si recorres 3 m + 2 m.<br>
+<li>¿Por qué el espacio recorrido nunca es negativo?<br>
 </li>
-<li>¿Puede ser cero el espacio recorrido?</li>
+<li>Describe una situación donde el desplazamiento sea cero.</li>
 </ol>
 <div class="callout-answer" data-collapse="true">
 <ol type="1">
-<li>No.<br>
+<li>300 m<br>
 </li>
-<li>5 m.<br>
-</li>
-<li>Solo si no hay movimiento.</li>
 </ol>
 </div>
 <hr>
@@ -544,58 +522,57 @@ window.Quarto = {
 <h1>Rapidez y velocidad</h1>
 <section id="introducción-3" class="level2">
 <h2 class="anchored" data-anchor-id="introducción-3">Introducción</h2>
-<p>No es lo mismo ir rápido que saber hacia dónde vas.</p>
+<p>La rapidez indica cuánto de rápido te mueves; la velocidad añade dirección.</p>
 </section>
 <section id="definiciones" class="level2">
 <h2 class="anchored" data-anchor-id="definiciones">Definiciones</h2>
 <ul>
-<li><strong>Rapidez</strong>: cuánto de rápido se mueve. Unidad: <strong>m/s</strong>.</li>
-<li><strong>Velocidad</strong>: rapidez + dirección.</li>
+<li><strong>Rapidez media</strong>: distancia/tiempo<br>
+</li>
+<li><strong>Velocidad media</strong>: desplazamiento/tiempo</li>
 </ul>
+<p>Unidad: <strong>m/s</strong></p>
 </section>
 <section id="fórmula-principal" class="level2">
 <h2 class="anchored" data-anchor-id="fórmula-principal">Fórmula principal</h2>
-<p>:contentReference<span data-index="0">oaicite:0</span></p>
-<section id="despejes" class="level3">
-<h3 class="anchored" data-anchor-id="despejes">Despejes</h3>
-<ul>
-<li><span class="math inline">\(\( s = v \cdot t \)\)</span></li>
-<li><span class="math inline">\(\( t = \frac{s}{v} \)\)</span></li>
-</ul>
+<!--
+$v = \frac{s}{t}$
+-->
 </section>
-</section>
-<section id="ejemplos-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplos-1">Ejemplos</h2>
+<section id="despejes-paso-a-paso" class="level2">
+<h2 class="anchored" data-anchor-id="despejes-paso-a-paso">Despejes paso a paso</h2>
 <ol type="1">
-<li>Un coche a 60 km/h.<br>
-</li>
-<li>Un avión hacia el norte.</li>
+<li>Quitamos denominador multiplicando por $ t $:</li>
 </ol>
+<p><span class="math inline">\(s = v \cdot t\)</span></p>
+<ol start="2" type="1">
+<li>Despejamos $ t $:</li>
+</ol>
+<!--
+$t = \frac{s}{v}$
+-->
 </section>
-<section id="vídeos-2" class="level2">
-<h2 class="anchored" data-anchor-id="vídeos-2">Vídeos</h2>
-<ul>
-<li>Español: https://www.youtube.com/watch?v=3z4d8mGQ2oM<br>
+<section id="ejemplos-razonados-2" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-razonados-2">Ejemplos razonados</h2>
+<ol type="1">
+<li>Coche: 100 km en 1 h → rapidez media 100 km/h<br>
 </li>
-<li>Inglés: https://www.youtube.com/watch?v=Q8TXgCzxEnw</li>
-</ul>
+<li>Ciclista que vuelve al inicio → velocidad media 0</li>
+</ol>
 </section>
 <section id="ejercicios-2" class="level2">
 <h2 class="anchored" data-anchor-id="ejercicios-2">Ejercicios</h2>
 <ol type="1">
-<li>Calcula la rapidez si recorres 10 m en 2 s.<br>
+<li>Calcula la rapidez de un móvil que recorre 200 m en 20 s.<br>
 </li>
-<li>Diferencia entre velocidad y rapidez.<br>
+<li>Explica por qué la velocidad puede ser negativa.<br>
 </li>
-<li>¿Puede ser negativa la velocidad?</li>
+<li>Da un ejemplo donde rapidez ≠ velocidad.</li>
 </ol>
 <div class="callout-answer" data-collapse="true">
 <ol type="1">
-<li>5 m/s<br>
+<li>10 m/s<br>
 </li>
-<li>Dirección<br>
-</li>
-<li>Sí</li>
 </ol>
 </div>
 <hr>
@@ -606,28 +583,36 @@ window.Quarto = {
 <section id="tipos" class="level2">
 <h2 class="anchored" data-anchor-id="tipos">Tipos</h2>
 <ul>
-<li><strong>MRU</strong>: velocidad constante.</li>
-<li><strong>MRUA</strong>: aceleración constante.</li>
-<li><strong>MCU</strong>: trayectoria circular uniforme.</li>
-<li><strong>MCUA</strong>: circular con aceleración.</li>
-</ul>
-</section>
-<section id="ejemplos-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplos-2">Ejemplos</h2>
-<ul>
-<li>MRU: coche en autopista.</li>
-<li>MRUA: caída libre.</li>
-<li>MCU: rueda girando.</li>
-<li>MCUA: ventilador arrancando.</li>
-</ul>
-</section>
-<section id="vídeos-3" class="level2">
-<h2 class="anchored" data-anchor-id="vídeos-3">Vídeos</h2>
-<ul>
-<li>Español: https://www.youtube.com/watch?v=QhR2k1pR7Qk<br>
+<li><strong>MRU</strong>: velocidad constante<br>
 </li>
-<li>Inglés: https://www.youtube.com/watch?v=9l7Jr5g1mYQ</li>
+<li><strong>MRUA</strong>: aceleración constante<br>
+</li>
+<li><strong>MCU</strong>: movimiento circular uniforme<br>
+</li>
+<li><strong>MCUA</strong>: circular acelerado</li>
 </ul>
+</section>
+<section id="ejemplos-razonados-3" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-razonados-3">Ejemplos razonados</h2>
+<ul>
+<li>MRU: coche en autopista sin acelerar<br>
+</li>
+<li>MRUA: caída libre<br>
+</li>
+<li>MCU: rueda girando<br>
+</li>
+<li>MCUA: ventilador arrancando</li>
+</ul>
+</section>
+<section id="ejercicios-3" class="level2">
+<h2 class="anchored" data-anchor-id="ejercicios-3">Ejercicios</h2>
+<ol type="1">
+<li>Clasifica el movimiento de un ascensor al arrancar.<br>
+</li>
+<li>Explica por qué en MCU hay aceleración.<br>
+</li>
+<li>Describe un MRUA cotidiano.</li>
+</ol>
 <hr>
 </section>
 </section>
@@ -635,155 +620,64 @@ window.Quarto = {
 <h1>MRU: Fórmulas y gráficas</h1>
 <section id="introducción-4" class="level2">
 <h2 class="anchored" data-anchor-id="introducción-4">Introducción</h2>
-<p>Movimiento con velocidad constante.</p>
+<p>En MRU la velocidad es constante → no hay aceleración.</p>
 </section>
 <section id="fórmula" class="level2">
 <h2 class="anchored" data-anchor-id="fórmula">Fórmula</h2>
-<p>:contentReference<span data-index="1">oaicite:1</span></p>
-</section>
-<section id="despejes-1" class="level2">
-<h2 class="anchored" data-anchor-id="despejes-1">Despejes</h2>
-<ul>
-<li><span class="math inline">\(\( v = \frac{x - x_0}{t} \)\)</span></li>
-<li><span class="math inline">\(\( t = \frac{x - x_0}{v} \)\)</span></li>
-</ul>
-</section>
-<section id="gráficas" class="level2">
-<h2 class="anchored" data-anchor-id="gráficas">Gráficas</h2>
-<ul>
-<li>Posición-tiempo: recta<br>
-</li>
-<li>Velocidad-tiempo: constante<br>
-</li>
-<li>Aceleración-tiempo: cero</li>
-</ul>
+<p><span class="math inline">\(x = x_0 + v t\)</span></p>
 </section>
 <section id="ejemplo" class="level2">
 <h2 class="anchored" data-anchor-id="ejemplo">Ejemplo</h2>
-<p>Un coche a 10 m/s durante 5 s → 50 m</p>
+<p>Un móvil parte del origen con velocidad 10 m/s.</p>
 </section>
-<section id="ejercicios-3" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios-3">Ejercicios</h2>
-<ol type="1">
-<li>Calcula posición tras 3 s a 2 m/s<br>
-</li>
-<li>¿Qué forma tiene la gráfica?<br>
-</li>
-<li>¿Hay aceleración?</li>
-</ol>
-<div class="callout-answer" data-collapse="true">
-<ol type="1">
-<li>6 m<br>
-</li>
-<li>Recta<br>
-</li>
-<li>No</li>
-</ol>
+<section id="gráfica-posición-tiempo" class="level2">
+<h2 class="anchored" data-anchor-id="gráfica-posición-tiempo">Gráfica posición-tiempo</h2>
+<div id="c7782b90" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">10</span>,<span class="dv">100</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">10</span><span class="op">*</span>t</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.plot(t,x)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Tiempo (s)"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Posición (m)"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"MRU: Posición vs Tiempo"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="700_Cinematica_2_files/figure-html/cell-2-output-1.png" width="593" height="450" class="figure-img"></p>
+</figure>
 </div>
-<hr>
-</section>
-</section>
-<section id="mrua-fórmulas-y-gráficas" class="level1">
-<h1>MRUA: Fórmulas y gráficas</h1>
-<section id="introducción-5" class="level2">
-<h2 class="anchored" data-anchor-id="introducción-5">Introducción</h2>
-<p>Movimiento con aceleración constante.</p>
-</section>
-<section id="fórmulas" class="level2">
-<h2 class="anchored" data-anchor-id="fórmulas">Fórmulas</h2>
-<p>:contentReference<span data-index="2">oaicite:2</span></p>
-<p>:contentReference<span data-index="3">oaicite:3</span></p>
-</section>
-<section id="despejes-2" class="level2">
-<h2 class="anchored" data-anchor-id="despejes-2">Despejes</h2>
-<ul>
-<li><span class="math inline">\(\( a = \frac{v - v_0}{t} \)\)</span></li>
-</ul>
-</section>
-<section id="gráficas-1" class="level2">
-<h2 class="anchored" data-anchor-id="gráficas-1">Gráficas</h2>
-<ul>
-<li>Posición-tiempo: curva<br>
-</li>
-<li>Velocidad-tiempo: recta<br>
-</li>
-<li>Aceleración-tiempo: constante</li>
-</ul>
-</section>
-<section id="ejemplo-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplo-1">Ejemplo</h2>
-<p>Caída libre.</p>
-</section>
-<section id="ejercicios-4" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicios-4">Ejercicios</h2>
-<ol type="1">
-<li>Calcula velocidad tras 2 s con a=3<br>
-</li>
-<li>Forma de gráfica<br>
-</li>
-<li>¿Hay aceleración?</li>
-</ol>
-<div class="callout-answer" data-collapse="true">
-<ol type="1">
-<li>6 m/s<br>
-</li>
-<li>Recta<br>
-</li>
-<li>Sí</li>
-</ol>
 </div>
-<hr>
+</div>
 </section>
-</section>
-<section id="ejercicios-finales" class="level1">
-<h1>Ejercicios finales</h1>
-<section id="sencillos" class="level2">
-<h2 class="anchored" data-anchor-id="sencillos">Sencillos</h2>
-<ol type="1">
-<li>Define velocidad<br>
-</li>
-<li>Qué es MRU<br>
-</li>
-<li>Qué es aceleración<br>
-</li>
-<li>Unidad de velocidad</li>
-</ol>
-</section>
-<section id="intermedios" class="level2">
-<h2 class="anchored" data-anchor-id="intermedios">Intermedios</h2>
-<ol start="5" type="1">
-<li>Calcula velocidad<br>
-</li>
-<li>Calcula posición<br>
-</li>
-<li>Interpreta gráfica<br>
-</li>
-<li>Diferencia MRU/MRUA</li>
-</ol>
-</section>
-<section id="avanzados" class="level2">
-<h2 class="anchored" data-anchor-id="avanzados">Avanzados</h2>
-<ol start="9" type="1">
-<li>Analiza movimiento de un ascensor<br>
-</li>
-<li>Explica caída de una pelota con gráficas</li>
-</ol>
-<hr>
-</section>
-</section>
-<section id="recursos-adicionales" class="level1">
-<h1>Recursos adicionales</h1>
-<ul>
-<li>https://phet.colorado.edu<br>
-</li>
-<li>https://www.fisicalab.com<br>
-</li>
-<li>https://www.khanacademy.org/science/physics<br>
-</li>
-<li>https://www.educaplus.org</li>
-</ul>
+<section id="gráfica-velocidad-tiempo" class="level2">
+<h2 class="anchored" data-anchor-id="gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</h2>
+<div id="bb236e74" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> np.full_like(t,<span class="dv">10</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>plt.plot(t,v)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Tiempo (s)"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Velocidad (m/s)"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"MRU: Velocidad constante"</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="700_Cinematica_2_files/figure-html/cell-3-output-1.png" width="597" height="449" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

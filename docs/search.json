@@ -1200,14 +1200,14 @@
   {
     "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
     "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
-    "title": "T5. Cinemática",
+    "title": "Cinemática (2º ESO)",
     "section": "",
-    "text": "Test\n\n\n\nBla\n\n\nTralara",
+    "text": "La cinemática es la parte de la física que estudia cómo se mueven los objetos, sin preocuparse de por qué se mueven.\nEjemplo intuitivo: cuando vas en bicicleta, puedes fijarte en dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando. Todo eso lo estudia la cinemática.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T7_Movimiento. Cinematica",
-      "T5. Cinemática"
+      "Cinemática (2º ESO)"
     ]
   },
   {
@@ -1293,6 +1293,786 @@
     "text": "Webs de referencia\n\nFisiquimicamente de Rodrigo Alcaraz et al.\n\n\n\nTeoría\n\n\nEjercicios resueltos:\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos muy útiles para bachillerato en la sección “instituto”.\nAcademia Alcover:Extensa colección de problemas resueltos y muchos de ellos explicados en vídeo.",
     "crumbs": [
       "1º BACH"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nImagina que estás en un parque. Para decir dónde estás necesitas un punto de referencia (por ejemplo, un banco).",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#definición",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#definición",
+    "title": "Cinemática (2º ESO)",
+    "section": "Definición",
+    "text": "Definición\n\nSistema de referencia: conjunto de ejes y un punto desde el que medimos posiciones.\nPosición (x): lugar donde está un objeto respecto al sistema de referencia. Unidad: metro (m).\nTrayectoria: camino que sigue un objeto.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos-cotidianos",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos-cotidianos",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejemplos cotidianos",
+    "text": "Ejemplos cotidianos\n\nUn coche en una carretera (trayectoria recta).\nUna pelota lanzada (trayectoria curva).",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#imagen",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#imagen",
+    "title": "Cinemática (2º ESO)",
+    "section": "Imagen",
+    "text": "Imagen\nhttps://commons.wikimedia.org/wiki/File:Trajectory_of_a_projectile.svg",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos",
+    "title": "Cinemática (2º ESO)",
+    "section": "Vídeos",
+    "text": "Vídeos\n\nEspañol: https://www.youtube.com/watch?v=6f0Xy9WvZ7g\n\nInglés: https://www.youtube.com/watch?v=ZM8ECpBuQYE",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nDefine trayectoria con tus palabras.\n\n¿Puede cambiar la posición sin cambiar la trayectoria?\n\nPon un ejemplo de trayectoria curva.\n\n\nSoluciones\n\nCamino que sigue un objeto.\n\nSí, si se mueve dentro del mismo tipo de trayectoria.\n\nUna pelota lanzada.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-competenciales",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-competenciales",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejercicios competenciales",
+    "text": "Ejercicios competenciales\n\nDescribe el movimiento de una persona en un centro comercial usando un sistema de referencia.\n\n\nDepende del punto elegido, por ejemplo la entrada.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-2",
+    "title": "Cinemática (2º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nNo es lo mismo ir en línea recta que dar vueltas.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#definición-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#definición-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Definición",
+    "text": "Definición\n\nEspacio recorrido (s): distancia total recorrida. Unidad: metro (m).",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\nDar una vuelta a una pista.\nIr de casa al colegio por distintas calles.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#imagen-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#imagen-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Imagen",
+    "text": "Imagen\nhttps://commons.wikimedia.org/wiki/File:Distance_vs_displacement.svg",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Vídeos",
+    "text": "Vídeos\n\nEspañol: https://www.youtube.com/watch?v=QkP4P3l1zqA\n\nInglés: https://www.youtube.com/watch?v=3uDkJq5tX0A",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\n¿Es igual espacio recorrido que desplazamiento?\n\nCalcula el espacio si recorres 3 m + 2 m.\n\n¿Puede ser cero el espacio recorrido?\n\n\n\nNo.\n\n5 m.\n\nSolo si no hay movimiento.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-3",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-3",
+    "title": "Cinemática (2º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nNo es lo mismo ir rápido que saber hacia dónde vas.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#definiciones",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#definiciones",
+    "title": "Cinemática (2º ESO)",
+    "section": "Definiciones",
+    "text": "Definiciones\n\nRapidez: cuánto de rápido se mueve. Unidad: m/s.\nVelocidad: rapidez + dirección.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#fórmula-principal",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#fórmula-principal",
+    "title": "Cinemática (2º ESO)",
+    "section": "Fórmula principal",
+    "text": "Fórmula principal\n:contentReferenceoaicite:0\n\nDespejes\n\n\\(\\( s = v \\cdot t \\)\\)\n\\(\\( t = \\frac{s}{v} \\)\\)",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\nUn coche a 60 km/h.\n\nUn avión hacia el norte.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos-2",
+    "title": "Cinemática (2º ESO)",
+    "section": "Vídeos",
+    "text": "Vídeos\n\nEspañol: https://www.youtube.com/watch?v=3z4d8mGQ2oM\n\nInglés: https://www.youtube.com/watch?v=Q8TXgCzxEnw",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-2",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nCalcula la rapidez si recorres 10 m en 2 s.\n\nDiferencia entre velocidad y rapidez.\n\n¿Puede ser negativa la velocidad?\n\n\n\n5 m/s\n\nDirección\n\nSí",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#tipos",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#tipos",
+    "title": "Cinemática (2º ESO)",
+    "section": "Tipos",
+    "text": "Tipos\n\nMRU: velocidad constante.\nMRUA: aceleración constante.\nMCU: trayectoria circular uniforme.\nMCUA: circular con aceleración.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplos-2",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\nMRU: coche en autopista.\nMRUA: caída libre.\nMCU: rueda girando.\nMCUA: ventilador arrancando.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos-3",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#vídeos-3",
+    "title": "Cinemática (2º ESO)",
+    "section": "Vídeos",
+    "text": "Vídeos\n\nEspañol: https://www.youtube.com/watch?v=QhR2k1pR7Qk\n\nInglés: https://www.youtube.com/watch?v=9l7Jr5g1mYQ",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-4",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-4",
+    "title": "Cinemática (2º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nMovimiento con velocidad constante.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#fórmula",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#fórmula",
+    "title": "Cinemática (2º ESO)",
+    "section": "Fórmula",
+    "text": "Fórmula\n:contentReferenceoaicite:1",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#despejes-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#despejes-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Despejes",
+    "text": "Despejes\n\n\\(\\( v = \\frac{x - x_0}{t} \\)\\)\n\\(\\( t = \\frac{x - x_0}{v} \\)\\)",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#gráficas",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#gráficas",
+    "title": "Cinemática (2º ESO)",
+    "section": "Gráficas",
+    "text": "Gráficas\n\nPosición-tiempo: recta\n\nVelocidad-tiempo: constante\n\nAceleración-tiempo: cero",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplo",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplo",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejemplo",
+    "text": "Ejemplo\nUn coche a 10 m/s durante 5 s → 50 m",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-3",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-3",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nCalcula posición tras 3 s a 2 m/s\n\n¿Qué forma tiene la gráfica?\n\n¿Hay aceleración?\n\n\n\n6 m\n\nRecta\n\nNo",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-5",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#introducción-5",
+    "title": "Cinemática (2º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nMovimiento con aceleración constante.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#fórmulas",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#fórmulas",
+    "title": "Cinemática (2º ESO)",
+    "section": "Fórmulas",
+    "text": "Fórmulas\n:contentReferenceoaicite:2\n:contentReferenceoaicite:3",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#despejes-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#despejes-2",
+    "title": "Cinemática (2º ESO)",
+    "section": "Despejes",
+    "text": "Despejes\n\n\\(\\( a = \\frac{v - v_0}{t} \\)\\)",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#gráficas-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#gráficas-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Gráficas",
+    "text": "Gráficas\n\nPosición-tiempo: curva\n\nVelocidad-tiempo: recta\n\nAceleración-tiempo: constante",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplo-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejemplo-1",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejemplo",
+    "text": "Ejemplo\nCaída libre.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-4",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-4",
+    "title": "Cinemática (2º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nCalcula velocidad tras 2 s con a=3\n\nForma de gráfica\n\n¿Hay aceleración?\n\n\n\n6 m/s\n\nRecta\n\nSí",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#sencillos",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#sencillos",
+    "title": "Cinemática (2º ESO)",
+    "section": "Sencillos",
+    "text": "Sencillos\n\nDefine velocidad\n\nQué es MRU\n\nQué es aceleración\n\nUnidad de velocidad",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#intermedios",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#intermedios",
+    "title": "Cinemática (2º ESO)",
+    "section": "Intermedios",
+    "text": "Intermedios\n\nCalcula velocidad\n\nCalcula posición\n\nInterpreta gráfica\n\nDiferencia MRU/MRUA",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#avanzados",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#avanzados",
+    "title": "Cinemática (2º ESO)",
+    "section": "Avanzados",
+    "text": "Avanzados\n\nAnaliza movimiento de un ascensor\n\nExplica caída de una pelota con gráficas",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (2º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html",
+    "title": "Cinemática (3º ESO)",
+    "section": "",
+    "text": "La cinemática es la parte de la física que estudia el movimiento de los cuerpos sin analizar sus causas.\nEn este nivel vamos a: - Analizar el movimiento con mayor precisión - Interpretar gráficas - Relacionar magnitudes físicas\nEjemplo: cuando un coche se incorpora a una autopista, cambia su velocidad progresivamente → esto implica aceleración.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-1",
+    "title": "Cinemática (3º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nPara describir un movimiento necesitamos un punto de referencia. Sin él, no podemos decir si algo se mueve o no.\nEjemplo: una persona sentada en un tren está en reposo respecto al tren, pero en movimiento respecto a la Tierra.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#definición",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#definición",
+    "title": "Cinemática (3º ESO)",
+    "section": "Definición",
+    "text": "Definición\n\nSistema de referencia: conjunto formado por un origen y unos ejes.\nPosición (x): distancia al origen. Unidad: metro (m).\nTrayectoria: línea que describe el movimiento.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejemplos razonados",
+    "text": "Ejemplos razonados\n\nTren en vía recta\nTrayectoria rectilínea. La posición cambia linealmente con el tiempo.\nPelota lanzada\nTrayectoria curva. La gravedad modifica la dirección del movimiento.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nExplica por qué la posición depende del sistema de referencia.\n\nDescribe la trayectoria de un coche en una rotonda.\n\n¿Puede un objeto estar en reposo y en movimiento a la vez?\n\n\nSí, depende del sistema de referencia elegido.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-2",
+    "title": "Cinemática (3º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nEl espacio recorrido mide cuánto camino haces, independientemente de dónde acabes.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#definición-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#definición-1",
+    "title": "Cinemática (3º ESO)",
+    "section": "Definición",
+    "text": "Definición\n\nEspacio recorrido (s): longitud total del camino. Unidad: metro (m).",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados-1",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejemplos razonados",
+    "text": "Ejemplos razonados\n\nDar vueltas a una pista → mucho espacio recorrido aunque acabes en el mismo punto.\n\nIr al colegio por distintos caminos → mismo origen y final, distinto espacio.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios-1",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios-1",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nUn alumno da 3 vueltas a una pista de 100 m. ¿Qué espacio recorre? Explica.\n\n¿Por qué el espacio recorrido nunca es negativo?\n\nDescribe una situación donde el desplazamiento sea cero.\n\n\n\n300 m",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-3",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-3",
+    "title": "Cinemática (3º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nLa rapidez indica cuánto de rápido te mueves; la velocidad añade dirección.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#definiciones",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#definiciones",
+    "title": "Cinemática (3º ESO)",
+    "section": "Definiciones",
+    "text": "Definiciones\n\nRapidez media: distancia/tiempo\n\nVelocidad media: desplazamiento/tiempo\n\nUnidad: m/s",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#fórmula-principal",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#fórmula-principal",
+    "title": "Cinemática (3º ESO)",
+    "section": "Fórmula principal",
+    "text": "Fórmula principal",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#despejes-paso-a-paso",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#despejes-paso-a-paso",
+    "title": "Cinemática (3º ESO)",
+    "section": "Despejes paso a paso",
+    "text": "Despejes paso a paso\n\nQuitamos denominador multiplicando por $ t $:\n\n\\(s = v \\cdot t\\)\n\nDespejamos $ t $:",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados-2",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejemplos razonados",
+    "text": "Ejemplos razonados\n\nCoche: 100 km en 1 h → rapidez media 100 km/h\n\nCiclista que vuelve al inicio → velocidad media 0",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios-2",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios-2",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nCalcula la rapidez de un móvil que recorre 200 m en 20 s.\n\nExplica por qué la velocidad puede ser negativa.\n\nDa un ejemplo donde rapidez ≠ velocidad.\n\n\n\n10 m/s",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#tipos",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#tipos",
+    "title": "Cinemática (3º ESO)",
+    "section": "Tipos",
+    "text": "Tipos\n\nMRU: velocidad constante\n\nMRUA: aceleración constante\n\nMCU: movimiento circular uniforme\n\nMCUA: circular acelerado",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados-3",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplos-razonados-3",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejemplos razonados",
+    "text": "Ejemplos razonados\n\nMRU: coche en autopista sin acelerar\n\nMRUA: caída libre\n\nMCU: rueda girando\n\nMCUA: ventilador arrancando",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios-3",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejercicios-3",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nClasifica el movimiento de un ascensor al arrancar.\n\nExplica por qué en MCU hay aceleración.\n\nDescribe un MRUA cotidiano.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-4",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#introducción-4",
+    "title": "Cinemática (3º ESO)",
+    "section": "Introducción",
+    "text": "Introducción\nEn MRU la velocidad es constante → no hay aceleración.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#fórmula",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#fórmula",
+    "title": "Cinemática (3º ESO)",
+    "section": "Fórmula",
+    "text": "Fórmula\n\\(x = x_0 + v t\\)",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplo",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#ejemplo",
+    "title": "Cinemática (3º ESO)",
+    "section": "Ejemplo",
+    "text": "Ejemplo\nUn móvil parte del origen con velocidad 10 m/s.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#gráfica-posición-tiempo",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#gráfica-posición-tiempo",
+    "title": "Cinemática (3º ESO)",
+    "section": "Gráfica posición-tiempo",
+    "text": "Gráfica posición-tiempo\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0,10,100)\nx = 10*t\n\nplt.figure()\nplt.plot(t,x)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Posición (m)\")\nplt.title(\"MRU: Posición vs Tiempo\")\nplt.grid()\nplt.show()",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#gráfica-velocidad-tiempo",
+    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica_2.html#gráfica-velocidad-tiempo",
+    "title": "Cinemática (3º ESO)",
+    "section": "Gráfica velocidad-tiempo",
+    "text": "Gráfica velocidad-tiempo\n\nv = np.full_like(t,10)\n\nplt.figure()\nplt.plot(t,v)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Velocidad (m/s)\")\nplt.title(\"MRU: Velocidad constante\")\nplt.grid()\nplt.show()",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T7_Movimiento. Cinematica",
+      "Cinemática (3º ESO)"
     ]
   }
 ]
