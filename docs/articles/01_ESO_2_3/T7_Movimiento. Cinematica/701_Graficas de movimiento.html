@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Recursos gigantes</title>
+<title>Cinemática (3º ESO)</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,26 +23,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b045d97e262b05561b740d7cbd1ab6ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-b045d97e262b05561b740d7cbd1ab6ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +106,37 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -88,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -97,11 +161,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-eso">    
         <li>
-    <a class="dropdown-item" href="../articles/01_ESO_2_3/index.html">
+    <a class="dropdown-item" href="../../../articles/01_ESO_2_3/index.html">
  <span class="dropdown-text">2º y 3ª ESO</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../articles/02_ESO_4/index.html">
+    <a class="dropdown-item" href="../../../articles/02_ESO_4/index.html">
  <span class="dropdown-text">4º ESO</span></a>
   </li>  
     </ul>
@@ -112,15 +176,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-bach">    
         <li>
-    <a class="dropdown-item" href="../articles/03_BACH_1/index.html">
+    <a class="dropdown-item" href="../../../articles/03_BACH_1/index.html">
  <span class="dropdown-text">1º BACH</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../articles/04_BACH_2_Fisica/index.html">
+    <a class="dropdown-item" href="../../../articles/04_BACH_2_Fisica/index.html">
  <span class="dropdown-text">2º BACH Física</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../articles/05_BACH_2_Quimica/index.html">
+    <a class="dropdown-item" href="../../../articles/05_BACH_2_Quimica/index.html">
  <span class="dropdown-text">2º BACH Química</span></a>
   </li>  
     </ul>
@@ -131,31 +195,31 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos-gigantes">    
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/001_recursos_gigantes.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/001_recursos_gigantes.html">
  <span class="dropdown-text">Recursos gigantes</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/002_recursos_ESO_23_FyQ.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/002_recursos_ESO_23_FyQ.html">
  <span class="dropdown-text">Recursos 2ª y 3ª ESO FyQ</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/002_recursos_ESO_40_FyQ.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/002_recursos_ESO_40_FyQ.html">
  <span class="dropdown-text">Recursos 4ª ESO FyQ</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/003_recursos_1BACH_FyQ.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/003_recursos_1BACH_FyQ.html">
  <span class="dropdown-text">Recursos 1º Bach FyQ</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/004_recursos_2BACH_Fisica.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/004_recursos_2BACH_Fisica.html">
  <span class="dropdown-text">Recursos 2º Bach Física</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/005_recursos_2BACH_Quimica.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/005_recursos_2BACH_Quimica.html">
  <span class="dropdown-text">Recursos 2º Bach Química</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../recursos_gigantes/100_Otros recursos.html">
+    <a class="dropdown-item" href="../../../recursos_gigantes/100_Otros recursos.html">
  <span class="dropdown-text">Otros recursos</span></a>
   </li>  
     </ul>
@@ -166,15 +230,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-otros-recursos">    
         <li>
-    <a class="dropdown-item" href="../otros_recursos/001_HigieneSueno.html">
+    <a class="dropdown-item" href="../../../otros_recursos/001_HigieneSueno.html">
  <span class="dropdown-text">Higiene del sueño</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../otros_recursos/002_LecturaComprensiva.html">
+    <a class="dropdown-item" href="../../../otros_recursos/002_LecturaComprensiva.html">
  <span class="dropdown-text">Lectura comprensiva</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../otros_recursos/003_TecnicasEstudio.html">
+    <a class="dropdown-item" href="../../../otros_recursos/003_TecnicasEstudio.html">
  <span class="dropdown-text">Técnicas de estudio</span></a>
   </li>  
     </ul>
@@ -197,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../recursos_gigantes/001_recursos_gigantes.html">Recursos gigantes</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">T7_Movimiento. Cinematica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html">Cinemática (3º ESO)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -209,48 +273,98 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../articles/01_ESO_2_3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2º y 3ª ESO</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">T1_La medida</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/001_recursos_gigantes.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Recursos gigantes</span></a>
+  <a href="../../../articles/01_ESO_2_3/T1_La medida/101_Que es medir.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">101_Que es medir</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/002_recursos_ESO_23_FyQ.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recursos 2ª y 3ª ESO FyQ</span></a>
+  <a href="../../../articles/01_ESO_2_3/T1_La medida/102_Magnitudes y unidades.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">102_Magnitudes y unidades</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/002_recursos_ESO_40_FyQ.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recursos 4ª ESO FyQ</span></a>
+  <a href="../../../articles/01_ESO_2_3/T1_La medida/103_Factores de conversión.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">103_Factores de conversión</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">T5_El atomo y la tabla periodica</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/003_recursos_1BACH_FyQ.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recursos 1º Bach FyQ</span></a>
+  <a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">El átomo</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/004_recursos_2BACH_Fisica.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recursos 2º Bach Física</span></a>
+  <a href="../../../articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Atom</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">T7_Movimiento. Cinematica</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/005_recursos_2BACH_Quimica.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Recursos 2º Bach Química</span></a>
+  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinemática</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../recursos_gigantes/100_Otros recursos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Otros recursos</span></a>
+  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UD6: El Movimiento</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Cinemática (3º ESO)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -261,21 +375,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#webs-de-física-y-química-para-secundaria" id="toc-webs-de-física-y-química-para-secundaria" class="nav-link active" data-scroll-target="#webs-de-física-y-química-para-secundaria">Webs de Física y Química para secundaria:</a></li>
-  <li><a href="#libros-de-texto-abiertos" id="toc-libros-de-texto-abiertos" class="nav-link" data-scroll-target="#libros-de-texto-abiertos">Libros de texto abiertos</a></li>
-  <li><a href="#para-perderse-en-la-divulgación-científica" id="toc-para-perderse-en-la-divulgación-científica" class="nav-link" data-scroll-target="#para-perderse-en-la-divulgación-científica">Para perderse en la divulgación científica:</a></li>
-  <li><a href="#webs-y-blogs-muy-interesantes-para-profundizar" id="toc-webs-y-blogs-muy-interesantes-para-profundizar" class="nav-link" data-scroll-target="#webs-y-blogs-muy-interesantes-para-profundizar">Webs y blogs muy interesantes para profundizar:</a></li>
-  <li><a href="#webs-clásicas" id="toc-webs-clásicas" class="nav-link" data-scroll-target="#webs-clásicas">Webs clásicas:</a></li>
-  <li><a href="#webs-donde-buscar-otros-libros" id="toc-webs-donde-buscar-otros-libros" class="nav-link" data-scroll-target="#webs-donde-buscar-otros-libros">Webs donde buscar otros libros:</a></li>
+  <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link active" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
+  <li><a href="#gráfica-velocidad-tiempo" id="toc-gráfica-velocidad-tiempo" class="nav-link" data-scroll-target="#gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="701_Graficas-de-movimiento.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html">T7_Movimiento. Cinematica</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html">Cinemática (3º ESO)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Recursos gigantes</h1>
+<h1 class="title">Cinemática (3º ESO)</h1>
 </div>
 
 
@@ -292,74 +402,52 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Esta web agradece a increibles profesionales el trabajo que han realizado de producción y publicación de impresionantes materiales que se pueden encontrar por Internet.</p>
-<p>“A hombros de gigantes” sigue teniendo aquí sentido porque nuestra comprensión de las ciencias ha sido tremendamente facilitada por la labor de estos.</p>
-<p>Aquí planteamos una lista (incremental) de algunos de ellos donde pueden encontrar materiales de altísima calidad.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="gráfica-posición-tiempo" class="level2">
+<h2 class="anchored" data-anchor-id="gráfica-posición-tiempo">Gráfica posición-tiempo</h2>
+<div id="d222bfa5" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">10</span>,<span class="dv">100</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">10</span><span class="op">*</span>t</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.plot(t,x)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Tiempo (s)"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Posición (m)"</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"MRU: Posición vs Tiempo"</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="701_Graficas de movimiento_files/figure-html/cell-2-output-1.png" width="593" height="450" class="figure-img"></p>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-Note
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Esta lista pretende ser muy breve como rápida referencia. Personalmente he estado mucho tiempo buceando en muchos recursos y aunque hay muchos de extraordinaria calidad me he visto abrumado por la cantidad de material o por algunos diseños de webs que me resultaban poco intuitivos para encontrar algo concreto, etc. Es decir, hay enormes gigantes que no hemos puesto aquí, pero no significa que ese trabajo no sea a todas luces impresionante.</p>
-<p>En el resto de enlaces a recursos hay una lista más pormenorizada de recursos curso a curso.</p>
+</section>
+<section id="gráfica-velocidad-tiempo" class="level2">
+<h2 class="anchored" data-anchor-id="gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</h2>
+<div id="c779c651" class="cell" data-execution_count="2">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> np.full_like(t,<span class="dv">10</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>plt.figure()</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>plt.plot(t,v)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Tiempo (s)"</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Velocidad (m/s)"</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"MRU: Velocidad constante"</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="701_Graficas de movimiento_files/figure-html/cell-3-output-1.png" width="597" height="449" class="figure-img"></p>
+</figure>
 </div>
 </div>
-<section id="webs-de-física-y-química-para-secundaria" class="level2">
-<h2 class="anchored" data-anchor-id="webs-de-física-y-química-para-secundaria">Webs de Física y Química para secundaria:</h2>
-<ul>
-<li><a href="https://sites.google.com/site/smmfisicayquimica/portada?authuser=0">FisQuiMat</a> de Moisés López Caeiro: tiene unos materiales extraordinarios y maravillosamente explicados. Destacamos los de Física de 2º Bach.</li>
-<li><a href="https://www.fiquipedia.es/">Fiquipedia</a> de Enrique García: impresionante colección de materiales para la física y química de secundaria y oposiciones.</li>
-<li><a href="https://fisiquimicamente.com/">Fisiquimicamente</a> de Rodrigo Alcaraz et al.: web con diseño muy juvenil con una tremenda cantidad de materiales variados realizados por un nutrido grupo de profesionales.</li>
-<li><a href="https://fisquiweb.es/Apuntes/apuntes.htm">FisQuiWeb</a> de Luis Ignacio García: web distribuida por cursos, temas y secciones (mirar <a href="https://fisquiweb.es/Apuntes/apuntes.htm">apuntes</a>) donde te puedes descargar los archivos editables en MS Word.</li>
-<li><a href="https://www.fisicalab.com/">FisicaLab</a> estupenda web para aprender Física para todos los niveles con buenas explicaciones y diagramas muy buenos.</li>
-</ul>
-</section>
-<section id="libros-de-texto-abiertos" class="level2">
-<h2 class="anchored" data-anchor-id="libros-de-texto-abiertos">Libros de texto abiertos</h2>
-<ul>
-<li><a href="https://espanol.libretexts.org/Bookshelves">LibreTexts</a> en español</li>
-<li><a href="https://openstax.org/subjects">OpenStax</a> que se puede elegir a través del menú en español también, aunque es menos evidente.</li>
-</ul>
-</section>
-<section id="para-perderse-en-la-divulgación-científica" class="level2">
-<h2 class="anchored" data-anchor-id="para-perderse-en-la-divulgación-científica">Para perderse en la divulgación científica:</h2>
-<ul>
-<li><a href="https://www.youtube.com/@QuantumFracture">Quantum Fracture</a></li>
-<li><a href="https://www.youtube.com/results?search_query=veritasium+espa%C3%B1ol">Veritasium</a> en español.</li>
-</ul>
-</section>
-<section id="webs-y-blogs-muy-interesantes-para-profundizar" class="level2">
-<h2 class="anchored" data-anchor-id="webs-y-blogs-muy-interesantes-para-profundizar">Webs y blogs muy interesantes para profundizar:</h2>
-<ul>
-<li><a href="https://eltamiz.com/">El Tamiz</a>. Tiene por ejemplo una estupenda explicación de las <a href="https://eltamiz.com/2011/08/10/las-ecuaciones-de-maxwell-introduccion-historica/">ecuaciones de Maxwell</a>.</li>
-</ul>
-</section>
-<section id="webs-clásicas" class="level2">
-<h2 class="anchored" data-anchor-id="webs-clásicas">Webs clásicas:</h2>
-<ul>
-<li><a href="http://hyperphysics.phy-astr.gsu.edu/hbasees/hframe.html">Hyperphysics</a> del Dr.&nbsp;Carl Rod Nave y traducida por M. Olmo en castellano</li>
-<li><a href="https://www.feynmanlectures.caltech.edu/">The Feynman Lectures on Physics</a>.</li>
-</ul>
-</section>
-<section id="webs-donde-buscar-otros-libros" class="level2">
-<h2 class="anchored" data-anchor-id="webs-donde-buscar-otros-libros">Webs donde buscar otros libros:</h2>
-<ul>
-<li><a href="https://openlibrary.org/?lang=es">OpenLibrary.org</a></li>
-<li><a href="https://www.textos.info/">Textos.info</a></li>
-<li><a href="http://libros.csic.es/freebooks.php">Libros del CSIC</a></li>
-<li><a href="https://www.doabooks.org/">Doab Books</a></li>
-<li><a href="https://oapen.org/">OAPEN</a></li>
-<li><a href="https://www.intechopen.com/books">Intech open Books</a></li>
-<li><a href="https://openresearchlibrary.org/home">Open Search Library</a></li>
-<li><a href="https://uolpress.co.uk/">Opening up humanities research</a> - University of London.</li>
-<li><a href="https://about.jstor.org/products/books/open-access/">Open Access Books - Jstor</a></li>
-<li>Antigua web de <a href="https://web.archive.org/web/20230331232106/http://www.librosmaravillosos.com/nuevocatalogo.html">Libros Maravillosos</a> en archive.org</li>
-</ul>
+</div>
+
 
 
 </section>
