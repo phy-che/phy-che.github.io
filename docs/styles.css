@@ -1,1 +1,5 @@
 /* css styles */
+/* Centrar los nombres debajo de las imágenes*/
+.caption{
+   text-align: center;
+}

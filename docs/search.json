@@ -110,827 +110,463 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html",
-    "title": "El átomo",
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html",
+    "title": "Cinemática y movimiento.",
     "section": "",
-    "text": "Los átomos son los ladrillos que constituyen toda la materia que nos rodea: el suelo, el aire y todos los gases, el agua y todos los líquidos, la comida, los elementos químicos o nuestro propio cuerpo. Todo lo que nos rodea e incluso nosotros mismos estamos formado por átomos.\n\n\n\n\n\n\nImportantMuy importante\n\n\n\nEl átomo es la unidad más pequeña de la materia que conserva las propiedades de un elemento. Todos los átomos que conoce el ser humano están ordenados en la Tabla periódica.\n\n\nLos átomos son extremadamente pequeños (escala nanométrica, entre \\(0,1·10^{-9}m\\) y \\(0,5·10^{-9}m\\)): no pueden verse a simple vista y tampoco con un microscopio óptico.\n\n\n\n\n\n\nNotePara saber más\n\n\n\n\n\nLos átomos solo se pueden ver con unos microscopios especiales llamados: Microscopio de Efecto Túnel (STM), Microscopio de Fuerza Atómica (AFM), Microscopio Electrónico de Transmisión (TEM/STEM) de alta resolución.",
+    "text": "La cinemática es la parte de la física que estudia cómo se mueven los objetos, sin preocuparse de por qué se mueven.\nEjemplo: cuando vas en bicicleta, puedes fijarte en dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando. Todo eso lo estudia la cinemática.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "El átomo"
+      "T07. Movimiento - cinemática",
+      "Cinemática y movimiento."
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#completa-la-siguiente-tabla",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#completa-la-siguiente-tabla",
-    "title": "El átomo",
-    "section": "1. Completa la siguiente tabla:",
-    "text": "1. Completa la siguiente tabla:\n\n\n\nElemento\nZ\nA\nProtones\nNeutrones\nElectrones\n\n\n\n\nX\n8\n16\n?\n?\n?\n\n\nY\n?\n23\n11\n?\n11\n\n\nZ\n17\n?\n?\n18\n?\n\n\n\nSobre la tabla anterior: 1. Calcula los valores que faltan. 2. Indica si el átomo es neutro o un ion. 3. Si es un ion, indica su carga.",
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#sistema-de-referencia-y-posición",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#sistema-de-referencia-y-posición",
+    "title": "Cinemática y movimiento.",
+    "section": "Sistema de referencia y posición",
+    "text": "Sistema de referencia y posición\nImagina que estás hablando con un amigo para que te encuentre un un parque y le dices que estás a cien metros de la puerta de entrada. Con esa información le has dado un punto que actúa como origen del sistema de referencia (“la entrada”) y la posición (“a cien metros de esa entrada”).\n\n\n\nSistema referencia 1D\n\n\n\n\n\n\n\n\nImportantMuy importante\n\n\n\n\nSistema de referencia: conjunto de ejes y un punto, que es el origen, desde el que medimos posiciones.\n\nEn cada problema elegiremos un sistema de referencia y se considerará fijo e inmóvil.\n\nPosición (x): lugar donde está un objeto respecto al origen del sistema de referencia. Unidad: metro (m).\n\n\n\nDiremos que un “cuerpo” está en movimiento cuando cambia su posición respecto al origen del sistema de referencia a lo largo del tiempo.\n\n\n\nMovimiento en el eje horizontal con sistema de referencia",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "El átomo"
+      "T07. Movimiento - cinemática",
+      "Cinemática y movimiento."
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#pregunta-de-desafío",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo.html#pregunta-de-desafío",
-    "title": "El átomo",
-    "section": "2.Pregunta de desafío",
-    "text": "2.Pregunta de desafío\nUn átomo tiene: - 12 protones - 12 neutrones - 10 electrones\nResponde:\n\n¿Cuál es Z?\n¿Cuál es A?\n¿Es un ion?\n¿Cuál es su carga?",
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#trayectoria",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#trayectoria",
+    "title": "Cinemática y movimiento.",
+    "section": "Trayectoria",
+    "text": "Trayectoria\nTrayectoria: es el camino que sigue un objeto, es decir, el conjunto de sus posiciones a medida que pasa el tiempo. Por ejemplo: los puntos por donde pasaría un ciclista siguiendo la carretera del dibujo.\n\n\n\nTrayectoria\n\n\nLas trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.\n\n\n\nTrayectoria curva de una pelota al tirar a canasta",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "El átomo"
+      "T07. Movimiento - cinemática",
+      "Cinemática y movimiento."
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/502_Ejercicios_atomo.html",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/502_Ejercicios_atomo.html",
-    "title": "Ejercicios átomo",
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios",
+    "title": "Cinemática y movimiento.",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\nDefine trayectoria con tus palabras.\n\n¿Puede cambiar la posición sin cambiar la trayectoria?\n\nPon un ejemplo de trayectoria curva.\n¿Cómo dibujarías la trayectoria de una persona que quiere ir desde la Escuela a la Cancha Deportiva?\n\n\n\n\nMapa de ciudad\n\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nCamino que sigue un objeto.\n\nSí, si se mueve dentro del mismo tipo de trayectoria.\n\nUna pelota lanzada.\nEste ejercicio tiene diferentes soluciones. Lo interesante es simplemente pensar que ha de pasar por numerosas calles.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática y movimiento."
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios-1",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios-1",
+    "title": "Cinemática y movimiento.",
+    "section": "Ejercicios",
+    "text": "Ejercicios\n\n¿Es igual espacio recorrido que desplazamiento?\n\nCalcula el espacio recorrido vas de tu casa al instituto (200 m), de allí al supermercado (otros 60 m en el mismo sentido) y del supermercado a casa (260 m del supermercado a casa en sentido contrario).\nCalcula ahora el desplazamiento yendo a los sitios anteriores y considerando que tu casa es el punto inicial y final.\n¿Cuál sería el desplazamiento si fueras de casa al instituto y de allí al supermercado sin volver a casa?\n¿Y el espacio recorrido?\n¿Puede ser cero el espacio recorrido?\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nSí, solo cuando no hay movimiento, es decir, si no te desplazas.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática y movimiento."
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
+    "title": "The Atom",
     "section": "",
-    "text": "Ejercicio de Átomos, isótopos e iones\nCompleta la siguiente tabla. Se dan datos mínimos en cada caso. Debes deducir el resto de magnitudes.\n\n\n\n\n\n\nNoteRecuerda\n\n\n\n\n\nRecuerda:\n- Z = número atómico = número de protones\n- A = número másico = protones + neutrones\n- Q = carga = protones - electrones\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNombre del elemento\nSímbolo (con Z, A y Q)\nZ\nA\nQ\nNº protones\nNº electrones\nNº neutrones\n\n\n\n\nHidrógeno\n\n1\n1\n0\n\n\n\n\n\n\n\\(\\ce{^{4}_{2}He^{0}}\\)\n\n\n\n\n\n\n\n\nLitio\n\n\n7\n+1\n3\n\n\n\n\n\n\\(\\ce{^{12}_{6}C^{0}}\\)\n\n\n\n\n\n\n\n\nOxígeno\n\n8\n\n-2\n\n\n8\n\n\n\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n\n\n\n\n\n\n\n\nCloro\n\n\n\n\n17\n18\n18\n\n\n\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n\n\n\n\n\n\n\n\nHierro\n\n26\n\n\n\n23\n30\n\n\nUranio\n\\(\\ce{^{238}_{92}U^{0}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipSoluciones ejercicio 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNombre del elemento\nSímbolo (con Z, A y Q)\nZ\nA\nQ\nNº protones\nNº electrones\nNº neutrones\n\n\n\n\nHidrógeno\n\\(\\ce{^{1}_{1}H^{0}}\\)\n1\n1\n0\n1\n1\n0\n\n\nHelio\n\\(\\ce{^{4}_{2}He^{0}}\\)\n2\n4\n0\n2\n2\n2\n\n\nLitio\n\\(\\ce{^{7}_{3}Li^{+}}\\)\n3\n7\n+1\n3\n2\n4\n\n\nCarbono\n\\(\\ce{^{12}_{6}C^{0}}\\)\n6\n12\n0\n6\n6\n6\n\n\nOxígeno\n\\(\\ce{^{16}_{8}O^{2-}}\\)\n8\n16\n-2\n8\n10\n8\n\n\nSodio\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n11\n23\n+1\n11\n10\n12\n\n\nCloro\n\\(\\ce{^{35}_{17}Cl^{-}}\\)\n17\n35\n-1\n17\n18\n18\n\n\nCalcio\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n20\n40\n+2\n20\n18\n20\n\n\nHierro\n\\(\\ce{^{56}_{26}Fe^{3+}}\\)\n26\n56\n+3\n26\n23\n30\n\n\nUranio\n\\(\\ce{^{238}_{92}U^{0}}\\)\n92\n238\n0\n92\n92\n146\n\n\n\n\n\n\n\n\nPara ampliar: aplicaciones de algunos isótopos e iones\n\nCarbono-12 (\\(\\ce{^{12}C}\\)) Se utiliza como referencia para definir la masa atómica. Toda la escala de masas atómicas se basa en este isótopo.\nOxígeno (ión óxido, \\(\\ce{O^{2-}}\\)) Muy importante en la formación de compuestos como el agua o los óxidos metálicos. Es esencial en procesos biológicos y geológicos.\nSodio (\\(\\ce{Na^{+}}\\)) Fundamental en el funcionamiento del sistema nervioso. Permite la transmisión de impulsos nerviosos.\nCalcio (\\(\\ce{Ca^{2+}}\\)) Clave en la formación de huesos y dientes. También interviene en la contracción muscular.\nUranio-238 (\\(\\ce{^{238}U}\\)) Se usa como combustible en centrales nucleares y en la datación de rocas muy antiguas.\n\n\n\nEjercicios competenciales\n\nUn ion calcio tiene carga +2 y 20 protones. ¿Cuántos electrones tiene? Explica qué significa esa carga.\nEl cloro suele formar un ion con carga -1. Si tiene Z = 17, calcula el número de electrones y explica por qué gana electrones.\nUn átomo tiene 11 protones, 12 neutrones y 10 electrones. Identifica el elemento, su carga y escribe su símbolo completo.\nEn una bebida isotónica hay iones sodio (\\(\\ce{Na^{+}}\\)). Explica por qué son importantes para el cuerpo tras hacer deporte.\nUn átomo neutro tiene A = 40 y Z = 20. Calcula protones, electrones y neutrones. ¿De qué elemento se trata?\nEl hierro puede formar el ion \\(\\ce{Fe^{3+}}\\). Explica cuántos electrones ha perdido respecto al átomo neutro y por qué los metales tienden a perder electrones.\n\n\n\n\n\n\n\n\nTipSoluciones ejercicios competenciales\n\n\n\n\n\n\nTiene 18 electrones. Ha perdido 2 electrones, por eso su carga es positiva.\nTiene 18 electrones. Gana un electrón para completar su capa externa y ser más estable.\nEs sodio (\\(\\ce{^{23}_{11}Na^{+}}\\)). Tiene carga +1 porque ha perdido un electrón.\nAyudan a reponer sales minerales perdidas con el sudor y permiten el correcto funcionamiento muscular y nervioso.\nProtones = 20, electrones = 20, neutrones = 20. Es calcio.\nHa perdido 3 electrones. Los metales tienden a perder electrones porque así alcanzan una configuración electrónica más estable.",
+    "text": "Atoms are the building blocks that make up all the matter around us: the ground, the air and all gases, water and all liquids, food, chemical elements, and even our own body. Everything around us, including ourselves, is made of atoms.\n\n\n\n\n\n\nImportantVery important\n\n\n\nThe atom is the smallest unit of matter that retains the properties of an element. All the atoms known to humanity are organized in the Periodic Table.\n\n\nAtoms are extremely small (nanometric scale, between \\(0,1·10^{-9}m\\) and \\(0,5·10^{-9}m\\)): they cannot be seen with the naked eye or with an optical microscope.\n\n\n\n\n\n\nNoteLearn more\n\n\n\n\n\nAtoms can only be seen with special microscopes such as: Scanning Tunneling Microscope (STM), Atomic Force Microscope (AFM), High-resolution Transmission Electron Microscope (TEM/STEM).",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "Ejercicios átomo"
+      "T05. El atomo y la tabla periodica",
+      "The Atom"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html",
-    "title": "UD6: El Movimiento",
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#complete-the-following-table",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#complete-the-following-table",
+    "title": "The Atom",
+    "section": "1. Complete the following table:",
+    "text": "1. Complete the following table:\n\n\n\nElement\nZ\nA\nProtons\nNeutrons\nElectrons\n\n\n\n\nX\n8\n16\n?\n?\n?\n\n\nY\n?\n23\n11\n?\n11\n\n\nZ\n17\n?\n?\n18\n?\n\n\n\nBased on the table above:\n1. Calculate the missing values.\n2. Indicate whether the atom is neutral or an ion.\n3. If it is an ion, indicate its charge.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T05. El atomo y la tabla periodica",
+      "The Atom"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#challenge-question",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#challenge-question",
+    "title": "The Atom",
+    "section": "2. Challenge question",
+    "text": "2. Challenge question\nAn atom has: - 12 protons - 12 neutrons - 10 electrons\nAnswer:\n\nWhat is Z?\nWhat is A?\nIs it an ion?\nWhat is its charge?",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T05. El atomo y la tabla periodica",
+      "The Atom"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/502_Ejercicios_atomo_eng.html",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/502_Ejercicios_atomo_eng.html",
+    "title": "Atomo exercises",
     "section": "",
-    "text": "Nombre y Apellido:\n\n\n\n\nSe han tomado varias fotografías a dos coches.\nComparando las fotografías 1 y 2, ¿podemos asegurar que se ha movido el coche?\n\nComparando las fotografías 3 y 4, ¿podemos asegurar que se ha movido el coche?\n\n¿El instituto se mueve?\n\n\n\n\n\nUn objeto se mueve cuando cambia su ___________ respecto a algo que consideramos que está quieto.\nEl movimiento es algo ___________; depende de quién lo mide.\nNecesitamos considerar que al menos algo está ___________ para medir el movimiento de los demás cuerpos.\n\n\n\n\nEl sistema de referencia respecto al cual medimos el movimiento de un cuerpo consta de:\n\nUn punto que consideramos en reposo (origen), representado por O\n\nUn criterio de signos (+ / -)\n\nIndica la posición de cada cuerpo tomando diferentes puntos de origen:\n\nPunto de origen en la casa\n\nPunto de origen en el árbol\n\nPunto de origen en el instituto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndica la posición inicial, final y el desplazamiento del caracol en cada ejemplo.\n\n\n\n\n\nSi medimos posiciones a lo largo del tiempo, podemos construir una gráfica x(t).\n\nEje horizontal: tiempo (t)\n\nEje vertical: posición (x)\n\nCada punto representa un par (t, x).\n\n\nConstruye la siguiente gráfica.\n\nCalcula el desplazamiento entre:\n\nt = 0 s y t = 2 s\n\nt = 1 s y t = 4 s\n\nt = 2 s y t = 3 s\n\nt = 0 s y t = 4 s\n\n\n\n\n\n\nHaz una tabla de valores y dibuja la gráfica posición-tiempo según el origen:\n\nOrigen en la casa\n\nOrigen en el árbol\n\n\n\n\n\nLa velocidad media es la relación entre el desplazamiento y el tiempo:\n\\[\nv = \\frac{\\Delta x}{\\Delta t}\n\\]\nEjercicios:\n\nUna atleta recorre 400 m en 50 s → calcula la velocidad media\n\nA partir de una gráfica, calcula la velocidad entre 1 s y 5 s\n\n\n\n\n\nMovimiento en línea recta con velocidad constante.\n\nx: posición (m)\n\nv: velocidad (m/s)\n\nt: tiempo (s)\n\n\n\n\\[\nx(t) = x_0 + v \\cdot t\n\\]\n\\[\nv(t) = \\text{cte}\n\\]\n\\[\na(t) = 0\n\\]\n\n\n\n\n\n\n\n\\[\nx = 5 + 3t\n\\]\n\nPosición final: 500 m → ¿tiempo?\n\nTiempo: 1,5 h → ¿posición?\n\n\n\n\n\nMovimiento:\n\\[\nx = 2 + 4t\n\\]\n\nCalcula posición a los 3 s\n\nHaz tabla (0–5 s)\n\nDibuja gráfica\n\n\n\n\n\nUna corredora está a 40 m de la meta y avanza 5 m/s.\n\nEscribe la ecuación\n\nPosición a los 3 s\n\nTiempo hasta llegar\n\n\n\n\n\nA partir de una tabla:\n\nDibuja gráfica x/t\n\n¿Movimiento uniforme?\n\nVelocidad media en distintos intervalos\n\nVelocidad media total\n\nEcuación del movimiento\n\n\n\n\n\n\nUn ciclista va a 15 m/s → distancia en 1 min\n\nUn guepardo (30 m/s) → tiempo para 500 m\n\nLuz del Sol a la Tierra:\n\n\\[\nd = 150 \\cdot 10^6 \\, \\text{km}\n\\]\n\\[\nv = 3 \\cdot 10^8 \\, \\text{m/s}\n\\]\n¿Cuánto tarda?",
+    "text": "Exercise on Atoms, Isotopes and Ions\nComplete the following table. Minimal data are given in each case. You must deduce the remaining quantities.\n\n\n\n\n\n\nNoteRemember\n\n\n\n\n\nRemember:\n- Z = atomic number = number of protons\n- A = mass number = protons + neutrons\n- Q = charge = protons - electrons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElement name\nSymbol (with Z, A and Q)\nZ\nA\nQ\nNº protons\nNº electrons\nNº neutrons\n\n\n\n\nHydrogen\n\n1\n1\n0\n\n\n\n\n\n\n\\(\\ce{^{4}_{2}He^{0}}\\)\n\n\n\n\n\n\n\n\nLithium\n\n\n7\n+1\n3\n\n\n\n\n\n\\(\\ce{^{12}_{6}C^{0}}\\)\n\n\n\n\n\n\n\n\nOxygen\n\n8\n\n-2\n\n\n8\n\n\n\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n\n\n\n\n\n\n\n\nChlorine\n\n\n\n\n17\n18\n18\n\n\n\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n\n\n\n\n\n\n\n\nIron\n\n26\n\n\n\n23\n30\n\n\nUranium\n\\(\\ce{^{238}_{92}U^{0}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCautionSolutions exercise 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElement name\nSymbol (with Z, A and Q)\nZ\nA\nQ\nNº protons\nNº electrons\nNº neutrons\n\n\n\n\nHydrogen\n\\(\\ce{^{1}_{1}H^{0}}\\)\n1\n1\n0\n1\n1\n0\n\n\nHelium\n\\(\\ce{^{4}_{2}He^{0}}\\)\n2\n4\n0\n2\n2\n2\n\n\nLithium\n\\(\\ce{^{7}_{3}Li^{+}}\\)\n3\n7\n+1\n3\n2\n4\n\n\nCarbon\n\\(\\ce{^{12}_{6}C^{0}}\\)\n6\n12\n0\n6\n6\n6\n\n\nOxygen\n\\(\\ce{^{16}_{8}O^{2-}}\\)\n8\n16\n-2\n8\n10\n8\n\n\nSodium\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n11\n23\n+1\n11\n10\n12\n\n\nChlorine\n\\(\\ce{^{35}_{17}Cl^{-}}\\)\n17\n35\n-1\n17\n18\n18\n\n\nCalcium\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n20\n40\n+2\n20\n18\n20\n\n\nIron\n\\(\\ce{^{56}_{26}Fe^{3+}}\\)\n26\n56\n+3\n26\n23\n30\n\n\nUranium\n\\(\\ce{^{238}_{92}U^{0}}\\)\n92\n238\n0\n92\n92\n146\n\n\n\n\n\n\n\n\nExtension: applications of some isotopes and ions\n\nCarbon: -Carbon-12 (\\(\\ce{^{12}C}\\)): It is used as the reference to define atomic mass. The entire atomic mass scale is based on this isotope. -Carbon-14 (\\(\\ce{^{14}C}\\)): used to determine the age of organic materials (bones, wood, plants, tissues) up to approximately 50,000–60,000 years old. It is a fundamental technique in archaeology, geology and paleontology because unstable \\(\\ce{^{14}C}\\) decays at a constant rate after the organism’s death.\nOxygen (oxide ion, \\(\\ce{O^{2-}}\\)): Very important in the formation of compounds such as water or metal oxides. It is essential in biological and geological processes.\nSodium (\\(\\ce{Na^{+}}\\)): Essential for the functioning of the nervous system. It enables the transmission of nerve impulses.\nCalcium (\\(\\ce{Ca^{2+}}\\)): Key in the formation of bones and teeth. It also plays a role in muscle contraction.\nUranium-238 (\\(\\ce{^{238}U}\\)): It is used as fuel in nuclear power plants and in the dating of very old rocks.\n\n\n\nCompetency-based exercises\n\nA calcium ion has a charge of +2 and 20 protons. How many electrons does it have? Explain what this charge means.\nChlorine usually forms an ion with a charge of -1. If it has Z = 17, calculate the number of electrons and explain why it gains electrons.\nAn atom has 11 protons, 12 neutrons and 10 electrons. Identify the element, its charge and write its full symbol.\nIn an isotonic drink there are sodium ions (\\(\\ce{Na^{+}}\\)). Explain why they are important for the body after exercising.\nA neutral atom has A = 40 and Z = 20. Calculate protons, electrons and neutrons. Which element is it?\nIron can form the ion \\(\\ce{Fe^{3+}}\\). Explain how many electrons it has lost compared to the neutral atom and why metals tend to lose electrons.\n\n\n\n\n\n\n\n\nCautionSolutions competency exercises\n\n\n\n\n\n\nIt has 18 electrons. It has lost 2 electrons, which is why its charge is positive.\nIt has 18 electrons. It gains one electron to complete its outer shell and become more stable.\nIt is sodium (\\(\\ce{^{23}_{11}Na^{+}}\\)). It has a +1 charge because it has lost one electron.\nThey help replenish mineral salts lost through sweat and allow proper muscular and nervous function.\nProtons = 20, electrons = 20, neutrons = 20. It is calcium.\nIt has lost 3 electrons. Metals tend to lose electrons because this allows them to reach a more stable electronic configuration.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
+      "T05. El atomo y la tabla periodica",
+      "Atomo exercises"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#º-eso-ud6-el-movimiento",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#º-eso-ud6-el-movimiento",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Nombre y Apellido:",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#observación-del-movimiento",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#observación-del-movimiento",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Se han tomado varias fotografías a dos coches.\nComparando las fotografías 1 y 2, ¿podemos asegurar que se ha movido el coche?\n\nComparando las fotografías 3 y 4, ¿podemos asegurar que se ha movido el coche?\n\n¿El instituto se mueve?",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#el-movimiento",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#el-movimiento",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Un objeto se mueve cuando cambia su ___________ respecto a algo que consideramos que está quieto.\nEl movimiento es algo ___________; depende de quién lo mide.\nNecesitamos considerar que al menos algo está ___________ para medir el movimiento de los demás cuerpos.",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#sistema-de-referencia",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#sistema-de-referencia",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "El sistema de referencia respecto al cual medimos el movimiento de un cuerpo consta de:\n\nUn punto que consideramos en reposo (origen), representado por O\n\nUn criterio de signos (+ / -)\n\nIndica la posición de cada cuerpo tomando diferentes puntos de origen:\n\nPunto de origen en la casa\n\nPunto de origen en el árbol\n\nPunto de origen en el instituto",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#ejercicio-del-caracol",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#ejercicio-del-caracol",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Indica la posición inicial, final y el desplazamiento del caracol en cada ejemplo.",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#gráficas-posición-tiempo",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#gráficas-posición-tiempo",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Si medimos posiciones a lo largo del tiempo, podemos construir una gráfica x(t).\n\nEje horizontal: tiempo (t)\n\nEje vertical: posición (x)\n\nCada punto representa un par (t, x).\n\n\nConstruye la siguiente gráfica.\n\nCalcula el desplazamiento entre:\n\nt = 0 s y t = 2 s\n\nt = 1 s y t = 4 s\n\nt = 2 s y t = 3 s\n\nt = 0 s y t = 4 s",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#tabla-y-gráfica",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#tabla-y-gráfica",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Haz una tabla de valores y dibuja la gráfica posición-tiempo según el origen:\n\nOrigen en la casa\n\nOrigen en el árbol",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#velocidad-media",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#velocidad-media",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "La velocidad media es la relación entre el desplazamiento y el tiempo:\n\\[\nv = \\frac{\\Delta x}{\\Delta t}\n\\]\nEjercicios:\n\nUna atleta recorre 400 m en 50 s → calcula la velocidad media\n\nA partir de una gráfica, calcula la velocidad entre 1 s y 5 s",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#mru-movimiento-rectilíneo-uniforme",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#mru-movimiento-rectilíneo-uniforme",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "Movimiento en línea recta con velocidad constante.\n\nx: posición (m)\n\nv: velocidad (m/s)\n\nt: tiempo (s)\n\n\n\n\\[\nx(t) = x_0 + v \\cdot t\n\\]\n\\[\nv(t) = \\text{cte}\n\\]\n\\[\na(t) = 0\n\\]",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#problemas",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Cinematica_MRU.html#problemas",
-    "title": "UD6: El Movimiento",
-    "section": "",
-    "text": "\\[\nx = 5 + 3t\n\\]\n\nPosición final: 500 m → ¿tiempo?\n\nTiempo: 1,5 h → ¿posición?\n\n\n\n\n\nMovimiento:\n\\[\nx = 2 + 4t\n\\]\n\nCalcula posición a los 3 s\n\nHaz tabla (0–5 s)\n\nDibuja gráfica\n\n\n\n\n\nUna corredora está a 40 m de la meta y avanza 5 m/s.\n\nEscribe la ecuación\n\nPosición a los 3 s\n\nTiempo hasta llegar\n\n\n\n\n\nA partir de una tabla:\n\nDibuja gráfica x/t\n\n¿Movimiento uniforme?\n\nVelocidad media en distintos intervalos\n\nVelocidad media total\n\nEcuación del movimiento\n\n\n\n\n\n\nUn ciclista va a 15 m/s → distancia en 1 min\n\nUn guepardo (30 m/s) → tiempo para 500 m\n\nLuz del Sol a la Tierra:\n\n\\[\nd = 150 \\cdot 10^6 \\, \\text{km}\n\\]\n\\[\nv = 3 \\cdot 10^8 \\, \\text{m/s}\n\\]\n¿Cuánto tarda?",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "UD6: El Movimiento"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html",
-    "title": "Cinemática (3º ESO)",
-    "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0,10,100)\nx = 10*t\n\nplt.figure()\nplt.plot(t,x)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Posición (m)\")\nplt.title(\"MRU: Posición vs Tiempo\")\nplt.grid()\nplt.show()",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática (3º ESO)"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html#gráfica-posición-tiempo",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html#gráfica-posición-tiempo",
-    "title": "Cinemática (3º ESO)",
-    "section": "",
-    "text": "import numpy as np\nimport matplotlib.pyplot as plt\n\nt = np.linspace(0,10,100)\nx = 10*t\n\nplt.figure()\nplt.plot(t,x)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Posición (m)\")\nplt.title(\"MRU: Posición vs Tiempo\")\nplt.grid()\nplt.show()",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática (3º ESO)"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html#gráfica-velocidad-tiempo",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/701_Graficas de movimiento.html#gráfica-velocidad-tiempo",
-    "title": "Cinemática (3º ESO)",
-    "section": "Gráfica velocidad-tiempo",
-    "text": "Gráfica velocidad-tiempo\n\nv = np.full_like(t,10)\n\nplt.figure()\nplt.plot(t,v)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Velocidad (m/s)\")\nplt.title(\"MRU: Velocidad constante\")\nplt.grid()\nplt.show()",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática (3º ESO)"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-teóricos",
+    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
     "text": "Recursos teóricos",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T11. Física nuclear y de partículas",
+      "T02. Campo eléctrico",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-hacer-ejercicios",
+    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-hacer-ejercicios",
     "title": "Introducción",
     "section": "Recursos para hacer ejercicios",
     "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T11. Física nuclear y de partículas",
+      "T02. Campo eléctrico",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-ampliar",
+    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-ampliar",
     "title": "Introducción",
     "section": "Recursos para ampliar",
     "text": "Recursos para ampliar",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T11. Física nuclear y de partículas",
+      "T02. Campo eléctrico",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#simuladores-y-herramientas",
+    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#simuladores-y-herramientas",
     "title": "Introducción",
     "section": "Simuladores y herramientas",
     "text": "Simuladores y herramientas",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T11. Física nuclear y de partículas",
+      "T02. Campo eléctrico",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos\n\nVídeo sobre interferencias de la luz (doble rendija) con ondas coherentes (mantienen diferencia de fase constante y crean interferencia estable) y ondas no coherentes (que no tienen diferencia de fase constante y la interferencia es inestable): Vídeo simulation of the Double Slit Experiment with Incoherent and Coherent Light",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
+    "title": "Formulario OEM y Óptica física",
+    "section": "",
+    "text": "La velocidad de propagación de cualquier onda se puede escribir así: \\[\\large v= \\dfrac{\\lambda}{T} = \\lambda·f\\]\nLa velocidad de una onda electromagnética en el vacío o en el aire es: \\[\\Large c=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]\nDonde:\n- \\(\\varepsilon_0\\): permitiviad dueléctrica del vacío. \\(\\varepsilon_0=8,85·10^{-12} \\dfrac{C^2}{Nm^2}\\)\n- \\(\\mu_0\\): permeabilidad magnética del vacío. \\(\\mu_0 = 4\\pi·10^{-7} \\dfrac{N}{A^2}\\).\n\n\n\n\n\n\nTipFijarse\n\n\n\nY por supuesto se mantiene que: \\[v=c= \\dfrac{\\lambda}{T} = \\lambda·f=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T07. OEM y óptica física",
-      "Introducción"
+      "Formulario OEM y Óptica física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Reflexión de la luz",
+    "text": "Reflexión de la luz\nCuando la OEM se refleja en alguna superficie, en ángulo de incidencia es igual al ángulo de reflexión (estos ángulos siempre respecto a la normal a la superficie).\n\n\n\nReflexión de una onda",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T07. OEM y óptica física",
-      "Introducción"
+      "Formulario OEM y Óptica física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Refracción de la luz",
+    "text": "Refracción de la luz\nCuando la OEM se reflacta al pasar de un medio a otro, se cumple la *Ley de Snell (siempre los ángulos se miden respecto a la normal de la superficie de separación de ambos medios**).\nConsiderando que un rayo de luz va del medio 1 al medio 2: \\[\nn_1 · \\sin(\\theta_1) = n_2 · \\sin(\\theta_2)\n\\] - Si \\(n_2 &gt; n_1\\), el rayo se acercará a la normal.\n- Si \\(n_2 &lt; n_1\\), el rayo se alejará de la normal (en este caso se podría llegar al ángulo límite (\\(\\theta_1\\) adecuado para que \\(\\theta_2=90\\textdegree\\), y si \\(\\theta_1\\) sigue creciendo pasaríamos al fenómeno de reflexión total, donde ya no se produce refracción)).\n\n\n\nRefracción de la luz",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T07. OEM y óptica física",
-      "Introducción"
+      "Formulario OEM y Óptica física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Dispersión de la luz",
+    "text": "Dispersión de la luz\nEs el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, el ángulo de refracción cambia con la frecuencia de la onda.\n\n\n\n\n\n\nTipFijarse\n\n\n\nLa ecuación básica de la velocidad es: \\(v= \\dfrac{\\lambda}{T} = \\lambda·f\\). Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:\n- \\(\\lambda_1 = \\dfrac{v_1}{f}\\)\n- \\(\\lambda_2 = \\dfrac{v_2}{f}\\)\n\n\n\nAnálisis de la dispersión en un prisma:\nEn los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.\n- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).\n- El ángulo de desviación del rayo emergente (\\(\\delta\\)) se calcula por geometría y depende del ángulo de incidencia en el prisma (\\(i_{1}\\)), el ángulo de refracción de salida en el prisma (\\(r_{2}\\)) y el ángulo de fabricación del prisma (\\(\\varphi\\)). \\[\n\\large \\delta = i_1+r_2-\\varphi\n\\]\n\n\n\n\n\n\n\nNoteDemostración\n\n\n\n\n\nDemostración de: \\(\\delta = i_1+r_2-\\varphi\\) \n\\(r_1+i_2+(180\\textdegree - \\varphi)=180\\textdegree\\)\nNotar que el ánglo de separación de las caras oblicuas del prisma (\\(\\varphi\\)) es el ángulo suplementario del tercer ángulo del triángulo que forman \\(r_1\\) e \\(i_2\\).\n\\(\\phi = r_1 + i_2\\)\n\\((i_1-r_1) + (r_2-i2)+(180\\textdegree-\\delta)=180\\textdegree\\)\n\\(\\delta = i_1+r_2-(r_1+i_2)\\)\n\\(\\delta = i_1+r_2-\\varphi\\)",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T07. OEM y óptica física",
-      "Introducción"
+      "Formulario OEM y Óptica física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Absorción de la luz (no PAU)",
+    "text": "Absorción de la luz (no PAU)\nLa absorción es el fenómeno por el cual la luz cede energía al medio por el que se propaga. En este caso la energía radiante (de los fotones) al ser absorbida por la materia se puede transformar en energía térmica.\n\\[I(x) = I_0·e^{-\\alpha x}\\]",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T05. Movimiento armónico simple",
-      "Introducción"
+      "T07. OEM y óptica física",
+      "Formulario OEM y Óptica física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\nEjercicios MVAS (Movimiento armónico simple) de diferente tipo:\n\nCon muelles horizontales y verticales.\nA veces cuelgan ondas de esos muelles que generan ondas. Ej.: 2024 Modelo A.2; ### Ejercicios PAU Madrid",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T05. Movimiento armónico simple",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T05. Movimiento armónico simple",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T05. Movimiento armónico simple",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T03. Campo magnético",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T03. Campo magnético",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T03. Campo magnético",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T03. Campo magnético",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T09. Relatividad",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T09. Relatividad",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T09. Relatividad",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T09. Relatividad",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos\n\nLista de vídeos del MOOC de la UPV (Valencia) sobre Fundamentos de Oscilaciones y Ondas para Ingeniería: Lista de vídeos YouTube",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T06. Ondas y fenómenos ondulatorios",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\nObtener los parámetros de una onda (\\(\\lambda\\), \\(T\\), \\(f\\), \\(\\omega\\), \\(k\\), \\(\\phi\\)) y su ecuación en \\(x\\) o en \\(y\\) y suele haber que derivar para calcular o usar su velocidad y aceleración.\n\nEn ocasiones hay que saber leer una gráfica para saber extraer esos parámetros. Ej.: 2024-Julio B2; 2022-Julio-coincidentes A.2; 2022-Julio A.2.\nEn alguna ocasión se ha preguntado por una onda electromagnética donde la ecuación de onda se ve en un campo eléctrico. Ej.: 2021-Junio B.2.\n\nEjercicios de energía, potencia e intensidad de ondas. Ej.: 2021-Modelo A.2\n\n\n\nEjercicios PAU Madrid\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón). Notar que tiene separado MVAS, Movimiento ondulatorio, Ondas estacionarias, Ondas Sonoras y Doppler.",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T06. Ondas y fenómenos ondulatorios",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T06. Ondas y fenómenos ondulatorios",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T06. Ondas y fenómenos ondulatorios",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T01. Gravitación",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T01. Gravitación",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T01. Gravitación",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T01. Gravitación",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/003_recursos_1BACH_FyQ.html",
-    "href": "recursos_gigantes/003_recursos_1BACH_FyQ.html",
-    "title": "Recursos 1º Bach FyQ",
-    "section": "",
-    "text": "Webs de referencia\n\nFisiquimicamente de Rodrigo Alcaraz et al.\n\n\n\nTeoría\n\n\nEjercicios resueltos:\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos muy útiles para bachillerato en la sección “instituto”.\nAcademia Alcover:Extensa colección de problemas resueltos y muchos de ellos explicados en vídeo.",
-    "crumbs": [
-      "Recursos 1º Bach FyQ"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/005_recursos_2BACH_Quimica.html",
-    "href": "recursos_gigantes/005_recursos_2BACH_Quimica.html",
-    "title": "Recursos 2º Bach Química",
-    "section": "",
-    "text": "Webs de referencia\n\nFisiquimicamente de Rodrigo Alcaraz et al.\n\n\n\nTeoría\n\n\nEjercicios resueltos:\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos muy útiles para bachillerato en la sección “instituto”.\nAcademia Alcover:Extensa colección de problemas resueltos y muchos de ellos explicados en vídeo.",
-    "crumbs": [
-      "Recursos 2º Bach Química"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html",
-    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html",
-    "title": "Recursos 2º Bach Física",
+    "objectID": "articles/04_BACH_2_Fisica/index.html",
+    "href": "articles/04_BACH_2_Fisica/index.html",
+    "title": "2º BACH Física",
     "section": "",
     "text": "En esta página (en construcción) se irá construyendo los temas de forma resumida de 2º Bachillerato. Para la PAU lo más importante es la realización de problemas PAU y otros recursos que pueden resultar útiles. Aquí se incluye una lista de recursos muy intesantes:\nA veces se indica el lugar de origen dado que los contenidos y formato de exámenes PAU pueden cambiar por comunidades autónomas (lo que es aberrante porque cercena la igualdad de oportunidades).",
     "crumbs": [
-      "Recursos 2º Bach Física"
+      "Home",
+      "2º BACH Física"
     ]
   },
   {
-    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#teoría",
-    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#teoría",
-    "title": "Recursos 2º Bach Física",
+    "objectID": "articles/04_BACH_2_Fisica/index.html#teoría",
+    "href": "articles/04_BACH_2_Fisica/index.html#teoría",
+    "title": "2º BACH Física",
     "section": "Teoría",
     "text": "Teoría\n\nFisQuiMat de Moisés López Caeiro (Galicia) -&gt; FisQuiMat 2º Bachillerato:\n\nAquí tenéis los apuntes tema a tema. Van incluidos problemas resueltos.\n\nFisiquimicamente de Rodrigo Alcaraz et al. (Cantabria) -&gt; FisiQuimicamente 2º Bachillerato.\n\n\nVídeos de teoría\n\nAntonio Profe (Andalucía)\n\n\n\nResúmenes y formularios\n\nFormularios de FisQuiMat(Asturias) tema a tema, evidentemente donde pone “formulario”.\nMaterial de “Aprendiendo Física con Berto Tomás” (Islas Baleares):\n\nGuías tema a tema.\nFormularios",
     "crumbs": [
-      "Recursos 2º Bach Física"
+      "Home",
+      "2º BACH Física"
     ]
   },
   {
-    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#ejercicios-resueltos-en-pdf-y-vídeo",
-    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#ejercicios-resueltos-en-pdf-y-vídeo",
-    "title": "Recursos 2º Bach Física",
+    "objectID": "articles/04_BACH_2_Fisica/index.html#ejercicios-resueltos-en-pdf-y-vídeo",
+    "href": "articles/04_BACH_2_Fisica/index.html#ejercicios-resueltos-en-pdf-y-vídeo",
+    "title": "2º BACH Física",
     "section": "Ejercicios resueltos en PDF y vídeo",
     "text": "Ejercicios resueltos en PDF y vídeo\n\nVídeos\n\nVídeos de problemas PAU MADRID resueltos por Jose Ignacio Melero Pinillo - YouTube\n\nProblemas de Ondas #### PDF\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos en PDF muy útiles para bachillerato en la sección “instituto”.\nColecciones de problemas llamados Cuadernos en Aprendiendo Física con Berto Tomas (Islas Baleares). Ojo: Se indica el resultado numérico pero no el proceso de resolución.\n\n\n\nPDF y vídeos\n\nEjercicios 2º Bach Física de Academia Alcover (Islas Baleares):Extensa colección de problemas resueltos en PDF y muchos de ellos explicados en vídeo.",
     "crumbs": [
-      "Recursos 2º Bach Física"
+      "Home",
+      "2º BACH Física"
     ]
   },
   {
-    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#exámenes-pau-física-con-soluciones",
-    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#exámenes-pau-física-con-soluciones",
-    "title": "Recursos 2º Bach Física",
+    "objectID": "articles/04_BACH_2_Fisica/index.html#exámenes-pau-física-con-soluciones",
+    "href": "articles/04_BACH_2_Fisica/index.html#exámenes-pau-física-con-soluciones",
+    "title": "2º BACH Física",
     "section": "Exámenes PAU Física con soluciones",
     "text": "Exámenes PAU Física con soluciones\n\nPAU Madrid - Exámenes y soluciones elaborados por la U. Carlos III\nPAU MADRID - Enunciados (Libreoffice y PDF) y soluciones (PDF) en Fiquipedia\nPAU todas las comunidades (PDF) y algunos con soluciones en Fiquipedia\nPAU Andalucía - Resueltos por Enrique Muñoz Estrada (mates, física y química)\nPAU Islas Baleares - Resueltos por Academia Alcover",
     "crumbs": [
-      "Recursos 2º Bach Física"
+      "Home",
+      "2º BACH Física"
     ]
   },
   {
-    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#prácticas-de-laboratorio",
-    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#prácticas-de-laboratorio",
-    "title": "Recursos 2º Bach Física",
+    "objectID": "articles/04_BACH_2_Fisica/index.html#prácticas-de-laboratorio",
+    "href": "articles/04_BACH_2_Fisica/index.html#prácticas-de-laboratorio",
+    "title": "2º BACH Física",
     "section": "Prácticas de laboratorio",
     "text": "Prácticas de laboratorio\n\nPrácticas en FisQuiMat.",
     "crumbs": [
-      "Recursos 2º Bach Física"
+      "Home",
+      "2º BACH Física"
     ]
   },
   {
-    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html",
-    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html",
-    "title": "Recursos 2ª y 3ª ESO FyQ",
-    "section": "",
-    "text": "Fisiquimicamente de Rodrigo Alcaraz et al..\n\nApuntes\n\nFisQuiWeb de Luis Ignacio García.\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More\n\n\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.\n\n\n\n\n\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón).\n\n\n\n\n\nVídeos de los cursos de la UPV\nListas de vídeos de la UPV",
-    "crumbs": [
-      "Recursos 2ª y 3ª ESO FyQ"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-eso",
-    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-eso",
-    "title": "Recursos 2ª y 3ª ESO FyQ",
-    "section": "",
-    "text": "Pizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More",
-    "crumbs": [
-      "Recursos 2ª y 3ª ESO FyQ"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-bachillerato",
-    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-bachillerato",
-    "title": "Recursos 2ª y 3ª ESO FyQ",
-    "section": "",
-    "text": "Pizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.",
-    "crumbs": [
-      "Recursos 2ª y 3ª ESO FyQ"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#examen-pau---madrid",
-    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#examen-pau---madrid",
-    "title": "Recursos 2ª y 3ª ESO FyQ",
-    "section": "",
-    "text": "Examenes PAU en Fiquipedia y soluciones(Enrique García Simón).",
-    "crumbs": [
-      "Recursos 2ª y 3ª ESO FyQ"
-    ]
-  },
-  {
-    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-universitario",
-    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-universitario",
-    "title": "Recursos 2ª y 3ª ESO FyQ",
-    "section": "",
-    "text": "Vídeos de los cursos de la UPV\nListas de vídeos de la UPV",
-    "crumbs": [
-      "Recursos 2ª y 3ª ESO FyQ"
-    ]
-  },
-  {
-    "objectID": "otros_recursos/001_HigieneSueno.html",
-    "href": "otros_recursos/001_HigieneSueno.html",
-    "title": "Higiene del sueño",
-    "section": "",
-    "text": "Enlaces externos\n\nRecomendaciones de higiene del sueño del Hospital Universitario Rey Juan Carlos en PDF.",
-    "crumbs": [
-      "Higiene del sueño"
-    ]
-  },
-  {
-    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-teóricos",
-    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-teóricos",
+    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
-    "text": "Recursos teóricos"
+    "text": "Recursos teóricos",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T10. Física cuántica",
+      "Introducción"
+    ]
   },
   {
-    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-hacer-ejercicios",
-    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-hacer-ejercicios",
+    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-hacer-ejercicios",
     "title": "Introducción",
     "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid"
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T10. Física cuántica",
+      "Introducción"
+    ]
   },
   {
-    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-ampliar",
-    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-ampliar",
+    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-ampliar",
     "title": "Introducción",
     "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar"
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T10. Física cuántica",
+      "Introducción"
+    ]
   },
   {
-    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#simuladores-y-herramientas",
-    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#simuladores-y-herramientas",
+    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#simuladores-y-herramientas",
     "title": "Introducción",
     "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html",
-    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html",
-    "title": "Recursos 4ª ESO FyQ",
-    "section": "",
-    "text": "Fisiquimicamente de Rodrigo Alcaraz et al..\n\nApuntes\n\nFisQuiWeb de Luis Ignacio García.\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More\n\n\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.\n\n\n\n\n\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón).\n\n\n\n\n\nVídeos de los cursos de la UPV\nListas de vídeos de la UPV",
+    "text": "Simuladores y herramientas",
     "crumbs": [
-      "Recursos 4ª ESO FyQ"
+      "Home",
+      "2º BACH Física",
+      "T10. Física cuántica",
+      "Introducción"
     ]
   },
   {
-    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-eso",
-    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-eso",
-    "title": "Recursos 4ª ESO FyQ",
-    "section": "",
-    "text": "Pizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More",
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos\n\nLa estupenda FisQuiMat de Moisés López Caeiro:\n\nApuntes 2º Bachillerato Física de FisQuiMat.\nEn su sección de óptica.",
     "crumbs": [
-      "Recursos 4ª ESO FyQ"
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Introducción"
     ]
   },
   {
-    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-bachillerato",
-    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-bachillerato",
-    "title": "Recursos 4ª ESO FyQ",
-    "section": "",
-    "text": "Pizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.",
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid\n\nRecopilación ejercicios PAU Madrid en Fiquipedia.",
     "crumbs": [
-      "Recursos 4ª ESO FyQ"
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Introducción"
     ]
   },
   {
-    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#examen-pau---madrid",
-    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#examen-pau---madrid",
-    "title": "Recursos 4ª ESO FyQ",
-    "section": "",
-    "text": "Examenes PAU en Fiquipedia y soluciones(Enrique García Simón).",
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
     "crumbs": [
-      "Recursos 4ª ESO FyQ"
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Introducción"
     ]
   },
   {
-    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-universitario",
-    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-universitario",
-    "title": "Recursos 4ª ESO FyQ",
-    "section": "",
-    "text": "Vídeos de los cursos de la UPV\nListas de vídeos de la UPV",
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas\n\nSimulador PHET de Lentes y espejos\nSimulación de trazado de rayos",
     "crumbs": [
-      "Recursos 4ª ESO FyQ"
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Introducción"
     ]
   },
   {
-    "objectID": "recursos_gigantes/100_Otros recursos.html",
-    "href": "recursos_gigantes/100_Otros recursos.html",
-    "title": "Otros recursos",
-    "section": "",
-    "text": "Sketch Explanations\nPublic Domain Pictures",
+    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos",
     "crumbs": [
-      "Otros recursos"
+      "Home",
+      "2º BACH Física",
+      "T04. Induccion electromagnética",
+      "Introducción"
     ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T04. Induccion electromagnética",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T04. Induccion electromagnética",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T04. Induccion electromagnética",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Física y química",
+    "section": "",
+    "text": "Esta es una página destinada al aprendizaje de la Física y de la Química en los cursos de Secundaria. Se irá generando de forma incremental. Se pretenden aportar otros recursos que sean útiles de cara a la salud y al estudio."
+  },
+  {
+    "objectID": "index.html#sobre-los-materiales",
+    "href": "index.html#sobre-los-materiales",
+    "title": "Física y química",
+    "section": "Sobre los materiales",
+    "text": "Sobre los materiales\nEsta web solo tiene un ánimo educativo y no tiene ánimo de lucro. Todos los materiales aquí usados son propios o tienen licencias abiertas. A medida que vamos generando material tratamos de incoporar la licencia.\n\n\n\n\n\n\nImportant\n\n\n\nEn general todo el contenido propio está bajo esta licencia:\nCC BY-NC-SA 4.0\nAtribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional\n\n\n\n\n\n\n\n\nNote\n\n\n\nTambién hay enlaces a otras páginas y recursos realizados por grandes profesionales que tienen compartido también su trabajo. Si por error detecta que alguno de los materiales aquí usados tiene copyright, no está bien licenciado o el enlace por algún motivo no es adecuado, por favor, no dude en comentarlo (ser.internete@gmail.com)y trataremos de corregir el error lo antes posible."
   },
   {
     "objectID": "recursos_gigantes/001_recursos_gigantes.html",
@@ -1003,462 +639,657 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Física y química",
+    "objectID": "recursos_gigantes/100_Otros recursos.html",
+    "href": "recursos_gigantes/100_Otros recursos.html",
+    "title": "Otros recursos",
     "section": "",
-    "text": "Esta es una página destinada al aprendizaje de la Física y de la Química en los cursos de Secundaria. Se irá generando de forma incremental. Se pretenden aportar otros recursos que sean útiles de cara a la salud y al estudio."
+    "text": "Sketch Explanations\nPublic Domain Pictures",
+    "crumbs": [
+      "Otros recursos"
+    ]
   },
   {
-    "objectID": "index.html#sobre-los-materiales",
-    "href": "index.html#sobre-los-materiales",
-    "title": "Física y química",
-    "section": "Sobre los materiales",
-    "text": "Sobre los materiales\nEsta web solo tiene un ánimo educativo y no tiene ánimo de lucro. Todos los materiales aquí usados son propios o tienen licencias abiertas. A medida que vamos generando material tratamos de incoporar la licencia.\n\n\n\n\n\n\nImportant\n\n\n\nEn general todo el contenido propio está bajo esta licencia:\nCC BY-NC-SA 4.0\nAtribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional\n\n\n\n\n\n\n\n\nNote\n\n\n\nTambién hay enlaces a otras páginas y recursos realizados por grandes profesionales que tienen compartido también su trabajo. Si por error detecta que alguno de los materiales aquí usados tiene copyright, no está bien licenciado o el enlace por algún motivo no es adecuado, por favor, no dude en comentarlo (ser.internete@gmail.com)y trataremos de corregir el error lo antes posible."
+    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html",
+    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html",
+    "title": "Recursos 4ª ESO FyQ",
+    "section": "",
+    "text": "Fisiquimicamente de Rodrigo Alcaraz et al..\n\nApuntes\n\nFisQuiWeb de Luis Ignacio García.\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More\n\n\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.\n\n\n\n\n\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón).\n\n\n\n\n\nVídeos de los cursos de la UPV\nListas de vídeos de la UPV",
+    "crumbs": [
+      "Recursos 4ª ESO FyQ"
+    ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-teóricos",
+    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-eso",
+    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-eso",
+    "title": "Recursos 4ª ESO FyQ",
+    "section": "",
+    "text": "Pizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More",
+    "crumbs": [
+      "Recursos 4ª ESO FyQ"
+    ]
+  },
+  {
+    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-bachillerato",
+    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-bachillerato",
+    "title": "Recursos 4ª ESO FyQ",
+    "section": "",
+    "text": "Pizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.",
+    "crumbs": [
+      "Recursos 4ª ESO FyQ"
+    ]
+  },
+  {
+    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#examen-pau---madrid",
+    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#examen-pau---madrid",
+    "title": "Recursos 4ª ESO FyQ",
+    "section": "",
+    "text": "Examenes PAU en Fiquipedia y soluciones(Enrique García Simón).",
+    "crumbs": [
+      "Recursos 4ª ESO FyQ"
+    ]
+  },
+  {
+    "objectID": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-universitario",
+    "href": "recursos_gigantes/002_recursos_ESO_40_FyQ.html#nivel-universitario",
+    "title": "Recursos 4ª ESO FyQ",
+    "section": "",
+    "text": "Vídeos de los cursos de la UPV\nListas de vídeos de la UPV",
+    "crumbs": [
+      "Recursos 4ª ESO FyQ"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-teóricos",
+    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T04. Induccion electromagnética",
-      "Introducción"
-    ]
+    "text": "Recursos teóricos"
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-hacer-ejercicios",
+    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-hacer-ejercicios",
+    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-hacer-ejercicios",
     "title": "Introducción",
     "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T04. Induccion electromagnética",
-      "Introducción"
-    ]
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid"
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#recursos-para-ampliar",
+    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-ampliar",
+    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#recursos-para-ampliar",
     "title": "Introducción",
     "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T04. Induccion electromagnética",
-      "Introducción"
-    ]
+    "text": "Recursos para ampliar"
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T04. Induccion electromagnética/0400_Introduccion.html#simuladores-y-herramientas",
+    "objectID": "code_snippets_truquis/template_introduccion_2BachFis.html#simuladores-y-herramientas",
+    "href": "code_snippets_truquis/template_introduccion_2BachFis.html#simuladores-y-herramientas",
     "title": "Introducción",
     "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas"
+  },
+  {
+    "objectID": "otros_recursos/001_HigieneSueno.html",
+    "href": "otros_recursos/001_HigieneSueno.html",
+    "title": "Higiene del sueño",
+    "section": "",
+    "text": "Enlaces externos\n\nRecomendaciones de higiene del sueño del Hospital Universitario Rey Juan Carlos en PDF.",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T04. Induccion electromagnética",
-      "Introducción"
+      "Higiene del sueño"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos\n\nLa estupenda FisQuiMat de Moisés López Caeiro:\n\nApuntes 2º Bachillerato Física de FisQuiMat.\nEn su sección de óptica.",
+    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html",
+    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html",
+    "title": "Recursos 2ª y 3ª ESO FyQ",
+    "section": "",
+    "text": "Fisiquimicamente de Rodrigo Alcaraz et al..\n\nApuntes\n\nFisQuiWeb de Luis Ignacio García.\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More\n\n\n\n\n\n\nPizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.\n\n\n\n\n\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón).\n\n\n\n\n\nVídeos de los cursos de la UPV\nListas de vídeos de la UPV",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T08. Óptica geométrica",
-      "Introducción"
+      "Recursos 2ª y 3ª ESO FyQ"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid\n\nRecopilación ejercicios PAU Madrid en Fiquipedia.",
+    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-eso",
+    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-eso",
+    "title": "Recursos 2ª y 3ª ESO FyQ",
+    "section": "",
+    "text": "Pizarras de Fiquipedida (Enrique García Simón).\n\n\n\n\nUniverse More",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T08. Óptica geométrica",
-      "Introducción"
+      "Recursos 2ª y 3ª ESO FyQ"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
+    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-bachillerato",
+    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-bachillerato",
+    "title": "Recursos 2ª y 3ª ESO FyQ",
+    "section": "",
+    "text": "Pizarras de Fiquipedida (Enrique García Simón).\nEn esta web de Moisés López Caeiro podéis encontrar apuntes y explicaciones de Física de 2Bach: FisQuiMat.\nListas de vídeos del canal Quantum Fractura. Suele tener unas animaciones estupendas y explicar las cosas de forma muy intuitiva.\n\nEn concreto tiene algunos vídeos para explicar algunos conceptos clave de cara a selectividad.",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T08. Óptica geométrica",
-      "Introducción"
+      "Recursos 2ª y 3ª ESO FyQ"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas\n\nSimulador PHET de Lentes y espejos\nSimulación de trazado de rayos",
+    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#examen-pau---madrid",
+    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#examen-pau---madrid",
+    "title": "Recursos 2ª y 3ª ESO FyQ",
+    "section": "",
+    "text": "Examenes PAU en Fiquipedia y soluciones(Enrique García Simón).",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T08. Óptica geométrica",
-      "Introducción"
+      "Recursos 2ª y 3ª ESO FyQ"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
+    "objectID": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-universitario",
+    "href": "recursos_gigantes/002_recursos_ESO_23_FyQ.html#nivel-universitario",
+    "title": "Recursos 2ª y 3ª ESO FyQ",
+    "section": "",
+    "text": "Vídeos de los cursos de la UPV\nListas de vídeos de la UPV",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T10. Física cuántica",
-      "Introducción"
+      "Recursos 2ª y 3ª ESO FyQ"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T10. Física cuántica",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
-    "section": "Recursos para ampliar",
-    "text": "Recursos para ampliar",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T10. Física cuántica",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T10. Física cuántica/1000_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
-    "section": "Simuladores y herramientas",
-    "text": "Simuladores y herramientas",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T10. Física cuántica",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/index.html",
-    "href": "articles/04_BACH_2_Fisica/index.html",
-    "title": "2º BACH Física",
+    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html",
+    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html",
+    "title": "Recursos 2º Bach Física",
     "section": "",
     "text": "En esta página (en construcción) se irá construyendo los temas de forma resumida de 2º Bachillerato. Para la PAU lo más importante es la realización de problemas PAU y otros recursos que pueden resultar útiles. Aquí se incluye una lista de recursos muy intesantes:\nA veces se indica el lugar de origen dado que los contenidos y formato de exámenes PAU pueden cambiar por comunidades autónomas (lo que es aberrante porque cercena la igualdad de oportunidades).",
     "crumbs": [
-      "Home",
-      "2º BACH Física"
+      "Recursos 2º Bach Física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/index.html#teoría",
-    "href": "articles/04_BACH_2_Fisica/index.html#teoría",
-    "title": "2º BACH Física",
+    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#teoría",
+    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#teoría",
+    "title": "Recursos 2º Bach Física",
     "section": "Teoría",
     "text": "Teoría\n\nFisQuiMat de Moisés López Caeiro (Galicia) -&gt; FisQuiMat 2º Bachillerato:\n\nAquí tenéis los apuntes tema a tema. Van incluidos problemas resueltos.\n\nFisiquimicamente de Rodrigo Alcaraz et al. (Cantabria) -&gt; FisiQuimicamente 2º Bachillerato.\n\n\nVídeos de teoría\n\nAntonio Profe (Andalucía)\n\n\n\nResúmenes y formularios\n\nFormularios de FisQuiMat(Asturias) tema a tema, evidentemente donde pone “formulario”.\nMaterial de “Aprendiendo Física con Berto Tomás” (Islas Baleares):\n\nGuías tema a tema.\nFormularios",
     "crumbs": [
-      "Home",
-      "2º BACH Física"
+      "Recursos 2º Bach Física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/index.html#ejercicios-resueltos-en-pdf-y-vídeo",
-    "href": "articles/04_BACH_2_Fisica/index.html#ejercicios-resueltos-en-pdf-y-vídeo",
-    "title": "2º BACH Física",
+    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#ejercicios-resueltos-en-pdf-y-vídeo",
+    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#ejercicios-resueltos-en-pdf-y-vídeo",
+    "title": "Recursos 2º Bach Física",
     "section": "Ejercicios resueltos en PDF y vídeo",
     "text": "Ejercicios resueltos en PDF y vídeo\n\nVídeos\n\nVídeos de problemas PAU MADRID resueltos por Jose Ignacio Melero Pinillo - YouTube\n\nProblemas de Ondas #### PDF\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos en PDF muy útiles para bachillerato en la sección “instituto”.\nColecciones de problemas llamados Cuadernos en Aprendiendo Física con Berto Tomas (Islas Baleares). Ojo: Se indica el resultado numérico pero no el proceso de resolución.\n\n\n\nPDF y vídeos\n\nEjercicios 2º Bach Física de Academia Alcover (Islas Baleares):Extensa colección de problemas resueltos en PDF y muchos de ellos explicados en vídeo.",
     "crumbs": [
-      "Home",
-      "2º BACH Física"
+      "Recursos 2º Bach Física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/index.html#exámenes-pau-física-con-soluciones",
-    "href": "articles/04_BACH_2_Fisica/index.html#exámenes-pau-física-con-soluciones",
-    "title": "2º BACH Física",
+    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#exámenes-pau-física-con-soluciones",
+    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#exámenes-pau-física-con-soluciones",
+    "title": "Recursos 2º Bach Física",
     "section": "Exámenes PAU Física con soluciones",
     "text": "Exámenes PAU Física con soluciones\n\nPAU Madrid - Exámenes y soluciones elaborados por la U. Carlos III\nPAU MADRID - Enunciados (Libreoffice y PDF) y soluciones (PDF) en Fiquipedia\nPAU todas las comunidades (PDF) y algunos con soluciones en Fiquipedia\nPAU Andalucía - Resueltos por Enrique Muñoz Estrada (mates, física y química)\nPAU Islas Baleares - Resueltos por Academia Alcover",
     "crumbs": [
-      "Home",
-      "2º BACH Física"
+      "Recursos 2º Bach Física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/index.html#prácticas-de-laboratorio",
-    "href": "articles/04_BACH_2_Fisica/index.html#prácticas-de-laboratorio",
-    "title": "2º BACH Física",
+    "objectID": "recursos_gigantes/004_recursos_2BACH_Fisica.html#prácticas-de-laboratorio",
+    "href": "recursos_gigantes/004_recursos_2BACH_Fisica.html#prácticas-de-laboratorio",
+    "title": "Recursos 2º Bach Física",
     "section": "Prácticas de laboratorio",
     "text": "Prácticas de laboratorio\n\nPrácticas en FisQuiMat.",
     "crumbs": [
-      "Home",
-      "2º BACH Física"
+      "Recursos 2º Bach Física"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
-    "title": "Formulario OEM y Óptica física",
+    "objectID": "recursos_gigantes/005_recursos_2BACH_Quimica.html",
+    "href": "recursos_gigantes/005_recursos_2BACH_Quimica.html",
+    "title": "Recursos 2º Bach Química",
     "section": "",
-    "text": "La velocidad de propagación de cualquier onda se puede escribir así: \\[\\large v= \\dfrac{\\lambda}{T} = \\lambda·f\\]\nLa velocidad de una onda electromagnética en el vacío o en el aire es: \\[\\Large c=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]\nDonde:\n- \\(\\varepsilon_0\\): permitiviad dueléctrica del vacío. \\(\\varepsilon_0=8,85·10^{-12} \\dfrac{C^2}{Nm^2}\\)\n- \\(\\mu_0\\): permeabilidad magnética del vacío. \\(\\mu_0 = 4\\pi·10^{-7} \\dfrac{N}{A^2}\\).\n\n\n\n\n\n\nTipFijarse\n\n\n\nY por supuesto se mantiene que: \\[v=c= \\dfrac{\\lambda}{T} = \\lambda·f=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]",
+    "text": "Webs de referencia\n\nFisiquimicamente de Rodrigo Alcaraz et al.\n\n\n\nTeoría\n\n\nEjercicios resueltos:\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos muy útiles para bachillerato en la sección “instituto”.\nAcademia Alcover:Extensa colección de problemas resueltos y muchos de ellos explicados en vídeo.",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T07. OEM y óptica física",
-      "Formulario OEM y Óptica física"
+      "Recursos 2º Bach Química"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
-    "title": "Formulario OEM y Óptica física",
-    "section": "Reflexión de la luz",
-    "text": "Reflexión de la luz\nCuando la OEM se refleja en alguna superficie, en ángulo de incidencia es igual al ángulo de reflexión (estos ángulos siempre respecto a la normal a la superficie).\n\n\n\nReflexión de una onda",
+    "objectID": "recursos_gigantes/003_recursos_1BACH_FyQ.html",
+    "href": "recursos_gigantes/003_recursos_1BACH_FyQ.html",
+    "title": "Recursos 1º Bach FyQ",
+    "section": "",
+    "text": "Webs de referencia\n\nFisiquimicamente de Rodrigo Alcaraz et al.\n\n\n\nTeoría\n\n\nEjercicios resueltos:\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos muy útiles para bachillerato en la sección “instituto”.\nAcademia Alcover:Extensa colección de problemas resueltos y muchos de ellos explicados en vídeo.",
     "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T07. OEM y óptica física",
-      "Formulario OEM y Óptica física"
+      "Recursos 1º Bach FyQ"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
-    "title": "Formulario OEM y Óptica física",
-    "section": "Refracción de la luz",
-    "text": "Refracción de la luz\nCuando la OEM se reflacta al pasar de un medio a otro, se cumple la *Ley de Snell (siempre los ángulos se miden respecto a la normal de la superficie de separación de ambos medios**).\nConsiderando que un rayo de luz va del medio 1 al medio 2: \\[\nn_1 · \\sin(\\theta_1) = n_2 · \\sin(\\theta_2)\n\\] - Si \\(n_2 &gt; n_1\\), el rayo se acercará a la normal.\n- Si \\(n_2 &lt; n_1\\), el rayo se alejará de la normal (en este caso se podría llegar al ángulo límite (\\(\\theta_1\\) adecuado para que \\(\\theta_2=90\\textdegree\\), y si \\(\\theta_1\\) sigue creciendo pasaríamos al fenómeno de reflexión total, donde ya no se produce refracción)).\n\n\n\nRefracción de la luz",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T07. OEM y óptica física",
-      "Formulario OEM y Óptica física"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
-    "title": "Formulario OEM y Óptica física",
-    "section": "Dispersión de la luz",
-    "text": "Dispersión de la luz\nEs el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, el ángulo de refracción cambia con la frecuencia de la onda.\n\n\n\n\n\n\nTipFijarse\n\n\n\nLa ecuación básica de la velocidad es: \\(v= \\dfrac{\\lambda}{T} = \\lambda·f\\). Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:\n- \\(\\lambda_1 = \\dfrac{v_1}{f}\\)\n- \\(\\lambda_2 = \\dfrac{v_2}{f}\\)\n\n\n\nAnálisis de la dispersión en un prisma:\nEn los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.\n- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).\n- El ángulo de desviación del rayo emergente (\\(\\delta\\)) se calcula por geometría y depende del ángulo de incidencia en el prisma (\\(i_{1}\\)), el ángulo de refracción de salida en el prisma (\\(r_{2}\\)) y el ángulo de fabricación del prisma (\\(\\varphi\\)). \\[\n\\large \\delta = i_1+r_2-\\varphi\n\\]\n\n\n\n\n\n\n\nNoteDemostración\n\n\n\n\n\nDemostración de: \\(\\delta = i_1+r_2-\\varphi\\) \n\\(r_1+i_2+(180\\textdegree - \\varphi)=180\\textdegree\\)\nNotar que el ánglo de separación de las caras oblicuas del prisma (\\(\\varphi\\)) es el ángulo suplementario del tercer ángulo del triángulo que forman \\(r_1\\) e \\(i_2\\).\n\\(\\phi = r_1 + i_2\\)\n\\((i_1-r_1) + (r_2-i2)+(180\\textdegree-\\delta)=180\\textdegree\\)\n\\(\\delta = i_1+r_2-(r_1+i_2)\\)\n\\(\\delta = i_1+r_2-\\varphi\\)",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T07. OEM y óptica física",
-      "Formulario OEM y Óptica física"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
-    "title": "Formulario OEM y Óptica física",
-    "section": "Absorción de la luz (no PAU)",
-    "text": "Absorción de la luz (no PAU)\nLa absorción es el fenómeno por el cual la luz cede energía al medio por el que se propaga. En este caso la energía radiante (de los fotones) al ser absorbida por la materia se puede transformar en energía térmica.\n\\[I(x) = I_0·e^{-\\alpha x}\\]",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T07. OEM y óptica física",
-      "Formulario OEM y Óptica física"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-teóricos",
+    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
     "text": "Recursos teóricos",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T02. Campo eléctrico",
+      "T01. Gravitación",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-hacer-ejercicios",
+    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-hacer-ejercicios",
     "title": "Introducción",
     "section": "Recursos para hacer ejercicios",
     "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T02. Campo eléctrico",
+      "T01. Gravitación",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-ampliar",
-    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-para-ampliar",
+    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#recursos-para-ampliar",
     "title": "Introducción",
     "section": "Recursos para ampliar",
     "text": "Recursos para ampliar",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T02. Campo eléctrico",
+      "T01. Gravitación",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#simuladores-y-herramientas",
-    "href": "articles/04_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#simuladores-y-herramientas",
+    "objectID": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T01. Gravitación/0100_Introduccion.html#simuladores-y-herramientas",
     "title": "Introducción",
     "section": "Simuladores y herramientas",
     "text": "Simuladores y herramientas",
     "crumbs": [
       "Home",
       "2º BACH Física",
-      "T02. Campo eléctrico",
+      "T01. Gravitación",
       "Introducción"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html",
-    "title": "Cinemática",
+    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos\n\nLista de vídeos del MOOC de la UPV (Valencia) sobre Fundamentos de Oscilaciones y Ondas para Ingeniería: Lista de vídeos YouTube",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T06. Ondas y fenómenos ondulatorios",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\nObtener los parámetros de una onda (\\(\\lambda\\), \\(T\\), \\(f\\), \\(\\omega\\), \\(k\\), \\(\\phi\\)) y su ecuación en \\(x\\) o en \\(y\\) y suele haber que derivar para calcular o usar su velocidad y aceleración.\n\nEn ocasiones hay que saber leer una gráfica para saber extraer esos parámetros. Ej.: 2024-Julio B2; 2022-Julio-coincidentes A.2; 2022-Julio A.2.\nEn alguna ocasión se ha preguntado por una onda electromagnética donde la ecuación de onda se ve en un campo eléctrico. Ej.: 2021-Junio B.2.\n\nEjercicios de energía, potencia e intensidad de ondas. Ej.: 2021-Modelo A.2\n\n\n\nEjercicios PAU Madrid\n\nExamenes PAU en Fiquipedia y soluciones(Enrique García Simón). Notar que tiene separado MVAS, Movimiento ondulatorio, Ondas estacionarias, Ondas Sonoras y Doppler.",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T06. Ondas y fenómenos ondulatorios",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T06. Ondas y fenómenos ondulatorios",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T06. Ondas y fenómenos ondulatorios",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T09. Relatividad",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T09. Relatividad",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T09. Relatividad",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T09. Relatividad",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T03. Campo magnético",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T03. Campo magnético",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T03. Campo magnético",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T03. Campo magnético/0300_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T03. Campo magnético",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T05. Movimiento armónico simple",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\nEjercicios MVAS (Movimiento armónico simple) de diferente tipo:\n\nCon muelles horizontales y verticales.\nA veces cuelgan ondas de esos muelles que generan ondas. Ej.: 2024 Modelo A.2; ### Ejercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T05. Movimiento armónico simple",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T05. Movimiento armónico simple",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T05. Movimiento armónico simple/0500_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T05. Movimiento armónico simple",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos\n\nVídeo sobre interferencias de la luz (doble rendija) con ondas coherentes (mantienen diferencia de fase constante y crean interferencia estable) y ondas no coherentes (que no tienen diferencia de fase constante y la interferencia es inestable): Vídeo simulation of the Double Slit Experiment with Incoherent and Coherent Light",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-teóricos",
+    "title": "Introducción",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-hacer-ejercicios",
+    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-hacer-ejercicios",
+    "title": "Introducción",
+    "section": "Recursos para hacer ejercicios",
+    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-ampliar",
+    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#recursos-para-ampliar",
+    "title": "Introducción",
+    "section": "Recursos para ampliar",
+    "text": "Recursos para ampliar",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#simuladores-y-herramientas",
+    "href": "articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html#simuladores-y-herramientas",
+    "title": "Introducción",
+    "section": "Simuladores y herramientas",
+    "text": "Simuladores y herramientas",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/502_Ejercicios_atomo.html",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/502_Ejercicios_atomo.html",
+    "title": "Ejercicios átomo",
     "section": "",
-    "text": "La cinemática es la parte de la física que estudia cómo se mueven los objetos, sin preocuparse de por qué se mueven.\nEjemplo: cuando vas en bicicleta, puedes fijarte en dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando. Todo eso lo estudia la cinemática.",
+    "text": "Ejercicio de Átomos, isótopos e iones\nCompleta la siguiente tabla. Se dan datos mínimos en cada caso. Debes deducir el resto de magnitudes.\n\n\n\n\n\n\nNoteRecuerda\n\n\n\n\n\nRecuerda:\n- Z = número atómico = número de protones\n- A = número másico = protones + neutrones\n- Q = carga = protones - electrones\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNombre del elemento\nSímbolo (con Z, A y Q)\nZ\nA\nQ\nNº protones\nNº electrones\nNº neutrones\n\n\n\n\nHidrógeno\n\n1\n1\n0\n\n\n\n\n\n\n\\(\\ce{^{4}_{2}He^{0}}\\)\n\n\n\n\n\n\n\n\nLitio\n\n\n7\n+1\n3\n\n\n\n\n\n\\(\\ce{^{12}_{6}C^{0}}\\)\n\n\n\n\n\n\n\n\nOxígeno\n\n8\n\n-2\n\n\n8\n\n\n\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n\n\n\n\n\n\n\n\nCloro\n\n\n\n\n17\n18\n18\n\n\n\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n\n\n\n\n\n\n\n\nHierro\n\n26\n\n\n\n23\n30\n\n\nUranio\n\\(\\ce{^{238}_{92}U^{0}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCautionSoluciones ejercicio 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNombre del elemento\nSímbolo (con Z, A y Q)\nZ\nA\nQ\nNº protones\nNº electrones\nNº neutrones\n\n\n\n\nHidrógeno\n\\(\\ce{^{1}_{1}H^{0}}\\)\n1\n1\n0\n1\n1\n0\n\n\nHelio\n\\(\\ce{^{4}_{2}He^{0}}\\)\n2\n4\n0\n2\n2\n2\n\n\nLitio\n\\(\\ce{^{7}_{3}Li^{+}}\\)\n3\n7\n+1\n3\n2\n4\n\n\nCarbono\n\\(\\ce{^{12}_{6}C^{0}}\\)\n6\n12\n0\n6\n6\n6\n\n\nOxígeno\n\\(\\ce{^{16}_{8}O^{2-}}\\)\n8\n16\n-2\n8\n10\n8\n\n\nSodio\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n11\n23\n+1\n11\n10\n12\n\n\nCloro\n\\(\\ce{^{35}_{17}Cl^{-}}\\)\n17\n35\n-1\n17\n18\n18\n\n\nCalcio\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n20\n40\n+2\n20\n18\n20\n\n\nHierro\n\\(\\ce{^{56}_{26}Fe^{3+}}\\)\n26\n56\n+3\n26\n23\n30\n\n\nUranio\n\\(\\ce{^{238}_{92}U^{0}}\\)\n92\n238\n0\n92\n92\n146\n\n\n\n\n\n\n\n\nPara ampliar: aplicaciones de algunos isótopos e iones\n\nCarbono: -Carbono-12 (\\(\\ce{^{12}C}\\)): Se utiliza como referencia para definir la masa atómica. Toda la escala de masas atómicas se basa en este isótopo. -Carbono-14 (\\(\\ce{^{14}C}\\)):\nOxígeno (ión óxido, \\(\\ce{O^{2-}}\\)): Muy importante en la formación de compuestos como el agua o los óxidos metálicos. Es esencial en procesos biológicos y geológicos.\nSodio (\\(\\ce{Na^{+}}\\)): Fundamental en el funcionamiento del sistema nervioso. Permite la transmisión de impulsos nerviosos.\nCalcio (\\(\\ce{Ca^{2+}}\\)): Clave en la formación de huesos y dientes. También interviene en la contracción muscular.\nUranio-238 (\\(\\ce{^{238}U}\\)): Se usa como combustible en centrales nucleares y en la datación de rocas muy antiguas.\n\n\n\nEjercicios competenciales\n\nUn ion calcio tiene carga +2 y 20 protones. ¿Cuántos electrones tiene? Explica qué significa esa carga.\nEl cloro suele formar un ion con carga -1. Si tiene Z = 17, calcula el número de electrones y explica por qué gana electrones.\nUn átomo tiene 11 protones, 12 neutrones y 10 electrones. Identifica el elemento, su carga y escribe su símbolo completo.\nEn una bebida isotónica hay iones sodio (\\(\\ce{Na^{+}}\\)). Explica por qué son importantes para el cuerpo tras hacer deporte.\nUn átomo neutro tiene A = 40 y Z = 20. Calcula protones, electrones y neutrones. ¿De qué elemento se trata?\nEl hierro puede formar el ion \\(\\ce{Fe^{3+}}\\). Explica cuántos electrones ha perdido respecto al átomo neutro y por qué los metales tienden a perder electrones.\n\n\n\n\n\n\n\n\nCautionSoluciones ejercicios competenciales\n\n\n\n\n\n\nTiene 18 electrones. Ha perdido 2 electrones, por eso su carga es positiva.\nTiene 18 electrones. Gana un electrón para completar su capa externa y ser más estable.\nEs sodio (\\(\\ce{^{23}_{11}Na^{+}}\\)). Tiene carga +1 porque ha perdido un electrón.\nAyudan a reponer sales minerales perdidas con el sudor y permiten el correcto funcionamiento muscular y nervioso.\nProtones = 20, electrones = 20, neutrones = 20. Es calcio.\nHa perdido 3 electrones. Los metales tienden a perder electrones porque así alcanzan una configuración electrónica más estable.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática"
+      "T05. El atomo y la tabla periodica",
+      "Ejercicios átomo"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#sistema-de-referencia-y-posición",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#sistema-de-referencia-y-posición",
-    "title": "Cinemática",
-    "section": "Sistema de referencia y posición",
-    "text": "Sistema de referencia y posición\nImagina que estás hablando con un amigo para que te encuentre un un parque y le dices que estás a cien metros de la puerta de entrada. Con esa información le has dado un punto que actúa como origen del sistema de referencia (“la entrada”) y la posición (“a cien metros de esa entrada”).\n\n\n\nSistema referencia 1D\n\n\n\n\n\n\n\n\nImportantMuy importante\n\n\n\n\nSistema de referencia: conjunto de ejes y un punto, que es el origen, desde el que medimos posiciones.\n\nEn cada problema elegiremos un sistema de referencia y se considerará fijo e inmóvil.\n\nPosición (x): lugar donde está un objeto respecto al origen del sistema de referencia. Unidad: metro (m).\n\n\n\nDiremos que un “cuerpo” está en movimiento cuando cambia su posición respecto al origen del sistema de referencia a lo largo del tiempo.\n\n\n\nMovimiento en el eje horizontal con sistema de referencia",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#trayectoria",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#trayectoria",
-    "title": "Cinemática",
-    "section": "Trayectoria",
-    "text": "Trayectoria\nTrayectoria: es el camino que sigue un objeto, es decir, el conjunto de sus posiciones a medida que pasa el tiempo. Por ejemplo: los puntos por donde pasaría un ciclista siguiendo la carretera del dibujo.\n\n\n\nTrayectoria\n\n\nLas trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.\n\n\n\nTrayectoria curva de una pelota al tirar a canasta",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios",
-    "title": "Cinemática",
-    "section": "Ejercicios",
-    "text": "Ejercicios\n\nDefine trayectoria con tus palabras.\n\n¿Puede cambiar la posición sin cambiar la trayectoria?\n\nPon un ejemplo de trayectoria curva.\n¿Cómo dibujarías la trayectoria de una persona que quiere ir desde la Escuela a la Cancha Deportiva?\n\n\n\n\nMapa de ciudad\n\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nCamino que sigue un objeto.\n\nSí, si se mueve dentro del mismo tipo de trayectoria.\n\nUna pelota lanzada.\nEste ejercicio tiene diferentes soluciones. Lo interesante es simplemente pensar que ha de pasar por numerosas calles.",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-1",
-    "href": "articles/01_ESO_2_3/T7_Movimiento. Cinematica/700_Cinematica.html#ejercicios-1",
-    "title": "Cinemática",
-    "section": "Ejercicios",
-    "text": "Ejercicios\n\n¿Es igual espacio recorrido que desplazamiento?\n\nCalcula el espacio recorrido vas de tu casa al instituto (200 m), de allí al supermercado (otros 60 m en el mismo sentido) y del supermercado a casa (260 m del supermercado a casa en sentido contrario).\nCalcula ahora el desplazamiento yendo a los sitios anteriores y considerando que tu casa es el punto inicial y final.\n¿Cuál sería el desplazamiento si fueras de casa al instituto y de allí al supermercado sin volver a casa?\n¿Y el espacio recorrido?\n¿Puede ser cero el espacio recorrido?\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nSí, solo cuando no hay movimiento, es decir, si no te desplazas.",
-    "crumbs": [
-      "Home",
-      "2º y 3ª ESO",
-      "T7_Movimiento. Cinematica",
-      "Cinemática"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/502_Ejercicios_atomo_eng.html",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/502_Ejercicios_atomo_eng.html",
-    "title": "Atomo exercises",
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo.html",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo.html",
+    "title": "El átomo",
     "section": "",
-    "text": "Exercise on Atoms, Isotopes and Ions\nComplete the following table. Minimal data are given in each case. You must deduce the remaining quantities.\n\n\n\n\n\n\nNoteRemember\n\n\n\n\n\nRemember:\n- Z = atomic number = number of protons\n- A = mass number = protons + neutrons\n- Q = charge = protons - electrons\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElement name\nSymbol (with Z, A and Q)\nZ\nA\nQ\nNº protons\nNº electrons\nNº neutrons\n\n\n\n\nHydrogen\n\n1\n1\n0\n\n\n\n\n\n\n\\(\\ce{^{4}_{2}He^{0}}\\)\n\n\n\n\n\n\n\n\nLithium\n\n\n7\n+1\n3\n\n\n\n\n\n\\(\\ce{^{12}_{6}C^{0}}\\)\n\n\n\n\n\n\n\n\nOxygen\n\n8\n\n-2\n\n\n8\n\n\n\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n\n\n\n\n\n\n\n\nChlorine\n\n\n\n\n17\n18\n18\n\n\n\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n\n\n\n\n\n\n\n\nIron\n\n26\n\n\n\n23\n30\n\n\nUranium\n\\(\\ce{^{238}_{92}U^{0}}\\)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTipSolutions exercise 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nElement name\nSymbol (with Z, A and Q)\nZ\nA\nQ\nNº protons\nNº electrons\nNº neutrons\n\n\n\n\nHydrogen\n\\(\\ce{^{1}_{1}H^{0}}\\)\n1\n1\n0\n1\n1\n0\n\n\nHelium\n\\(\\ce{^{4}_{2}He^{0}}\\)\n2\n4\n0\n2\n2\n2\n\n\nLithium\n\\(\\ce{^{7}_{3}Li^{+}}\\)\n3\n7\n+1\n3\n2\n4\n\n\nCarbon\n\\(\\ce{^{12}_{6}C^{0}}\\)\n6\n12\n0\n6\n6\n6\n\n\nOxygen\n\\(\\ce{^{16}_{8}O^{2-}}\\)\n8\n16\n-2\n8\n10\n8\n\n\nSodium\n\\(\\ce{^{23}_{11}Na^{+}}\\)\n11\n23\n+1\n11\n10\n12\n\n\nChlorine\n\\(\\ce{^{35}_{17}Cl^{-}}\\)\n17\n35\n-1\n17\n18\n18\n\n\nCalcium\n\\(\\ce{^{40}_{20}Ca^{2+}}\\)\n20\n40\n+2\n20\n18\n20\n\n\nIron\n\\(\\ce{^{56}_{26}Fe^{3+}}\\)\n26\n56\n+3\n26\n23\n30\n\n\nUranium\n\\(\\ce{^{238}_{92}U^{0}}\\)\n92\n238\n0\n92\n92\n146\n\n\n\n\n\n\n\n\nExtension: applications of some isotopes and ions\n\nCarbon: -Carbon-12 (\\(\\ce{^{12}C}\\)): It is used as the reference to define atomic mass. The entire atomic mass scale is based on this isotope. -Carbon-14 (\\(\\ce{^{14}C}\\)): used to determine the age of organic materials (bones, wood, plants, tissues) up to approximately 50,000–60,000 years old. It is a fundamental technique in archaeology, geology and paleontology because unstable \\(\\ce{^{14}C}\\) decays at a constant rate after the organism’s death.\nOxygen (oxide ion, \\(\\ce{O^{2-}}\\)): Very important in the formation of compounds such as water or metal oxides. It is essential in biological and geological processes.\nSodium (\\(\\ce{Na^{+}}\\)): Essential for the functioning of the nervous system. It enables the transmission of nerve impulses.\nCalcium (\\(\\ce{Ca^{2+}}\\)): Key in the formation of bones and teeth. It also plays a role in muscle contraction.\nUranium-238 (\\(\\ce{^{238}U}\\)): It is used as fuel in nuclear power plants and in the dating of very old rocks.\n\n\n\nCompetency-based exercises\n\nA calcium ion has a charge of +2 and 20 protons. How many electrons does it have? Explain what this charge means.\nChlorine usually forms an ion with a charge of -1. If it has Z = 17, calculate the number of electrons and explain why it gains electrons.\nAn atom has 11 protons, 12 neutrons and 10 electrons. Identify the element, its charge and write its full symbol.\nIn an isotonic drink there are sodium ions (\\(\\ce{Na^{+}}\\)). Explain why they are important for the body after exercising.\nA neutral atom has A = 40 and Z = 20. Calculate protons, electrons and neutrons. Which element is it?\nIron can form the ion \\(\\ce{Fe^{3+}}\\). Explain how many electrons it has lost compared to the neutral atom and why metals tend to lose electrons.\n\n\n\n\n\n\n\n\nTipSolutions competency exercises\n\n\n\n\n\n\nIt has 18 electrons. It has lost 2 electrons, which is why its charge is positive.\nIt has 18 electrons. It gains one electron to complete its outer shell and become more stable.\nIt is sodium (\\(\\ce{^{23}_{11}Na^{+}}\\)). It has a +1 charge because it has lost one electron.\nThey help replenish mineral salts lost through sweat and allow proper muscular and nervous function.\nProtons = 20, electrons = 20, neutrons = 20. It is calcium.\nIt has lost 3 electrons. Metals tend to lose electrons because this allows them to reach a more stable electronic configuration.",
+    "text": "Los átomos son los ladrillos que constituyen toda la materia que nos rodea: el suelo, el aire y todos los gases, el agua y todos los líquidos, la comida, los elementos químicos o nuestro propio cuerpo. Todo lo que nos rodea e incluso nosotros mismos estamos formado por átomos.\n\n\n\n\n\n\nImportantMuy importante\n\n\n\nEl átomo es la unidad más pequeña de la materia que conserva las propiedades de un elemento. Todos los átomos que conoce el ser humano están ordenados en la Tabla periódica.\n\n\nLos átomos son extremadamente pequeños (escala nanométrica, entre \\(0,1·10^{-9}m\\) y \\(0,5·10^{-9}m\\)): no pueden verse a simple vista y tampoco con un microscopio óptico.\n\n\n\n\n\n\nNotePara saber más\n\n\n\n\n\nLos átomos solo se pueden ver con unos microscopios especiales llamados: Microscopio de Efecto Túnel (STM), Microscopio de Fuerza Atómica (AFM), Microscopio Electrónico de Transmisión (TEM/STEM) de alta resolución.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "Atomo exercises"
+      "T05. El atomo y la tabla periodica",
+      "El átomo"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
-    "title": "The Atom",
-    "section": "",
-    "text": "Atoms are the building blocks that make up all the matter around us: the ground, the air and all gases, water and all liquids, food, chemical elements, and even our own body. Everything around us, including ourselves, is made of atoms.\n\n\n\n\n\n\nImportantVery important\n\n\n\nThe atom is the smallest unit of matter that retains the properties of an element. All the atoms known to humanity are organized in the Periodic Table.\n\n\nAtoms are extremely small (nanometric scale, between \\(0,1·10^{-9}m\\) and \\(0,5·10^{-9}m\\)): they cannot be seen with the naked eye or with an optical microscope.\n\n\n\n\n\n\nNoteLearn more\n\n\n\n\n\nAtoms can only be seen with special microscopes such as: Scanning Tunneling Microscope (STM), Atomic Force Microscope (AFM), High-resolution Transmission Electron Microscope (TEM/STEM).",
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo.html#completa-la-siguiente-tabla",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo.html#completa-la-siguiente-tabla",
+    "title": "El átomo",
+    "section": "1. Completa la siguiente tabla:",
+    "text": "1. Completa la siguiente tabla:\n\n\n\nElemento\nZ\nA\nProtones\nNeutrones\nElectrones\n\n\n\n\nX\n8\n16\n?\n?\n?\n\n\nY\n?\n23\n11\n?\n11\n\n\nZ\n17\n?\n?\n18\n?\n\n\n\nSobre la tabla anterior: 1. Calcula los valores que faltan. 2. Indica si el átomo es neutro o un ion. 3. Si es un ion, indica su carga.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "The Atom"
+      "T05. El atomo y la tabla periodica",
+      "El átomo"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#complete-the-following-table",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#complete-the-following-table",
-    "title": "The Atom",
-    "section": "1. Complete the following table:",
-    "text": "1. Complete the following table:\n\n\n\nElement\nZ\nA\nProtons\nNeutrons\nElectrons\n\n\n\n\nX\n8\n16\n?\n?\n?\n\n\nY\n?\n23\n11\n?\n11\n\n\nZ\n17\n?\n?\n18\n?\n\n\n\nBased on the table above:\n1. Calculate the missing values.\n2. Indicate whether the atom is neutral or an ion.\n3. If it is an ion, indicate its charge.",
+    "objectID": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo.html#pregunta-de-desafío",
+    "href": "articles/01_ESO_2_3/T05. El atomo y la tabla periodica/501_Ficha resumen atomo.html#pregunta-de-desafío",
+    "title": "El átomo",
+    "section": "2.Pregunta de desafío",
+    "text": "2.Pregunta de desafío\nUn átomo tiene: - 12 protones - 12 neutrones - 10 electrones\nResponde:\n\n¿Cuál es Z?\n¿Cuál es A?\n¿Es un ion?\n¿Cuál es su carga?",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "The Atom"
+      "T05. El atomo y la tabla periodica",
+      "El átomo"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#challenge-question",
-    "href": "articles/01_ESO_2_3/T5_El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html#challenge-question",
-    "title": "The Atom",
-    "section": "2. Challenge question",
-    "text": "2. Challenge question\nAn atom has: - 12 protons - 12 neutrons - 10 electrons\nAnswer:\n\nWhat is Z?\nWhat is A?\nIs it an ion?\nWhat is its charge?",
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#gráfica-velocidad-tiempo",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#gráfica-velocidad-tiempo",
+    "title": "Gráficas del movimiento",
+    "section": "Gráfica velocidad-tiempo",
+    "text": "Gráfica velocidad-tiempo",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
-      "T5_El atomo y la tabla periodica",
-      "The Atom"
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
     ]
   },
   {
