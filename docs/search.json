@@ -383,6 +383,71 @@
     ]
   },
   {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
+    "title": "Formulario OEM y Óptica física",
+    "section": "",
+    "text": "La velocidad de propagación de cualquier onda se puede escribir así: \\[\\large v= \\dfrac{\\lambda}{T} = \\lambda·f\\]\nLa velocidad de una onda electromagnética en el vacío o en el aire es: \\[\\Large c=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]\nDonde:\n- \\(\\varepsilon_0\\): permitiviad dueléctrica del vacío. \\(\\varepsilon_0=8,85·10^{-12} \\dfrac{C^2}{Nm^2}\\)\n- \\(\\mu_0\\): permeabilidad magnética del vacío. \\(\\mu_0 = 4\\pi·10^{-7} \\dfrac{N}{A^2}\\).\n\n\n\n\n\n\nTipFijarse\n\n\n\nY por supuesto se mantiene que: \\[v=c= \\dfrac{\\lambda}{T} = \\lambda·f=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Formulario OEM y Óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Reflexión de la luz",
+    "text": "Reflexión de la luz\nCuando la OEM se refleja en alguna superficie, en ángulo de incidencia es igual al ángulo de reflexión (estos ángulos siempre respecto a la normal a la superficie).\n\n\n\nReflexión de una onda",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Formulario OEM y Óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Refracción de la luz",
+    "text": "Refracción de la luz\nCuando la OEM se reflacta al pasar de un medio a otro, se cumple la *Ley de Snell (siempre los ángulos se miden respecto a la normal de la superficie de separación de ambos medios**).\nConsiderando que un rayo de luz va del medio 1 al medio 2: \\[\nn_1 · \\sin(\\theta_1) = n_2 · \\sin(\\theta_2)\n\\] - Si \\(n_2 &gt; n_1\\), el rayo se acercará a la normal.\n- Si \\(n_2 &lt; n_1\\), el rayo se alejará de la normal (en este caso se podría llegar al ángulo límite (\\(\\theta_1\\) adecuado para que \\(\\theta_2=90\\textdegree\\), y si \\(\\theta_1\\) sigue creciendo pasaríamos al fenómeno de reflexión total, donde ya no se produce refracción)).\n\n\n\nRefracción de la luz",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Formulario OEM y Óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Dispersión de la luz",
+    "text": "Dispersión de la luz\nEs el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, el ángulo de refracción cambia con la frecuencia de la onda.\n\n\n\n\n\n\nTipFijarse\n\n\n\nLa ecuación básica de la velocidad es: \\(v= \\dfrac{\\lambda}{T} = \\lambda·f\\). Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:\n- \\(\\lambda_1 = \\dfrac{v_1}{f}\\)\n- \\(\\lambda_2 = \\dfrac{v_2}{f}\\)\n\n\n\nAnálisis de la dispersión en un prisma:\nEn los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.\n- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).\n- El ángulo de desviación del rayo emergente (\\(\\delta\\)) se calcula por geometría y depende del ángulo de incidencia en el prisma (\\(i_{1}\\)), el ángulo de refracción de salida en el prisma (\\(r_{2}\\)) y el ángulo de fabricación del prisma (\\(\\varphi\\)). \\[\n\\large \\delta = i_1+r_2-\\varphi\n\\]\n\n\n\n\n\n\n\nNoteDemostración\n\n\n\n\n\nDemostración de: \\(\\delta = i_1+r_2-\\varphi\\) \n\\(r_1+i_2+(180\\textdegree - \\varphi)=180\\textdegree\\)\nNotar que el ánglo de separación de las caras oblicuas del prisma (\\(\\varphi\\)) es el ángulo suplementario del tercer ángulo del triángulo que forman \\(r_1\\) e \\(i_2\\).\n\\(\\phi = r_1 + i_2\\)\n\\((i_1-r_1) + (r_2-i2)+(180\\textdegree-\\delta)=180\\textdegree\\)\n\\(\\delta = i_1+r_2-(r_1+i_2)\\)\n\\(\\delta = i_1+r_2-\\varphi\\)",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Formulario OEM y Óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
+    "title": "Formulario OEM y Óptica física",
+    "section": "Absorción de la luz (no PAU)",
+    "text": "Absorción de la luz (no PAU)\nLa absorción es el fenómeno por el cual la luz cede energía al medio por el que se propaga. En este caso la energía radiante (de los fotones) al ser absorbida por la materia se puede transformar en energía térmica.\n\\[I(x) = I_0·e^{-\\alpha x}\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Formulario OEM y Óptica física"
+    ]
+  },
+  {
     "objectID": "articles/04_BACH_2_Fisica/index.html",
     "href": "articles/04_BACH_2_Fisica/index.html",
     "title": "2º BACH Física",
@@ -1212,6 +1277,71 @@
       "2º BACH Física",
       "T07. OEM y óptica física",
       "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html",
+    "title": "Outline OEM y óptica física",
+    "section": "",
+    "text": "Onda vs corpúsculo\n\n\n\n\n\n\n\nFenómenos explicados por ambos\nFenómenos corpusculares\nFenómenos ondulatorios\n\n\n\n\n- Reflexión\n- Efecto fotoeléctrico\n- Difracción (luz bordea obstáculos)\n\n\n- Refracción\n- Efecto Compton\n- Interferencias (superposición de ondas)\n\n\n- Propagación rectilínea\n- Emisión/absorción luz\n- Polarización (orientación oscilaciones de onda)\n\n\n\n\n- Dispersión (separación luz blanca)\n\n\n\n\n\n\n-Doble rendija de Young - Vídeo Quantum Fracture - Este Experimento te Dejará LOCO | La Doble Rendija (10’) - Vñideo Antonio profe - 5. Interferencia. Experiencia de Young de la doble rendija. - ¿Existe el éter? - Vídeo Animación interferómetro - Vídeo Jorge Barrio - Experimento Michelson y Morley\n\n\n\n\nVídeo Alex explica: ¿Qué es la luz?. Un vídeo muy resumido y sencillo.\nVídeo Quantum Fracture: Ya en serio, ¿qué es la luz? (20’).",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Outline OEM y óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#naturaleza-de-la-luz.-controversia-histórica.",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#naturaleza-de-la-luz.-controversia-histórica.",
+    "title": "Outline OEM y óptica física",
+    "section": "",
+    "text": "Onda vs corpúsculo\n\n\n\n\n\n\n\nFenómenos explicados por ambos\nFenómenos corpusculares\nFenómenos ondulatorios\n\n\n\n\n- Reflexión\n- Efecto fotoeléctrico\n- Difracción (luz bordea obstáculos)\n\n\n- Refracción\n- Efecto Compton\n- Interferencias (superposición de ondas)\n\n\n- Propagación rectilínea\n- Emisión/absorción luz\n- Polarización (orientación oscilaciones de onda)\n\n\n\n\n- Dispersión (separación luz blanca)",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Outline OEM y óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#interferencias",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#interferencias",
+    "title": "Outline OEM y óptica física",
+    "section": "",
+    "text": "-Doble rendija de Young - Vídeo Quantum Fracture - Este Experimento te Dejará LOCO | La Doble Rendija (10’) - Vñideo Antonio profe - 5. Interferencia. Experiencia de Young de la doble rendija. - ¿Existe el éter? - Vídeo Animación interferómetro - Vídeo Jorge Barrio - Experimento Michelson y Morley",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Outline OEM y óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#naturaleza-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#naturaleza-de-la-luz",
+    "title": "Outline OEM y óptica física",
+    "section": "",
+    "text": "Vídeo Alex explica: ¿Qué es la luz?. Un vídeo muy resumido y sencillo.\nVídeo Quantum Fracture: Ya en serio, ¿qué es la luz? (20’).",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Outline OEM y óptica física"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#vídeos",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07001_.html#vídeos",
+    "title": "Outline OEM y óptica física",
+    "section": "Vídeos:",
+    "text": "Vídeos:\n\nFstfirenze Experimetno de Hertz &lt;!–\nUVA - Experimento de Hertz (9’) No es sobre las ondas eectromagnéticas –&gt;",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T07. OEM y óptica física",
+      "Outline OEM y óptica física"
     ]
   },
   {
