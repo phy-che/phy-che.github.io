@@ -1280,11 +1280,37 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#gráfica-velocidad-tiempo",
-    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#gráfica-velocidad-tiempo",
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#conversión-de-unidades",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#conversión-de-unidades",
     "title": "Gráficas del movimiento",
-    "section": "Gráfica velocidad-tiempo",
-    "text": "Gráfica velocidad-tiempo",
+    "section": "Conversión de unidades",
+    "text": "Conversión de unidades\nLas velocidades están en km/h, pero vamos a trabajar en unidades del SI (m/s):\n\\[v (m/s) = v (km/h) × \\dfrac{1000}{3600}\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#cálculo-de-tiempos",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#cálculo-de-tiempos",
+    "title": "Gráficas del movimiento",
+    "section": "Cálculo de tiempos",
+    "text": "Cálculo de tiempos\nCada tramo se calcula con:\n\\[t = \\dfrac{Δx}{v}\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#interpretación-física",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html#interpretación-física",
+    "title": "Gráficas del movimiento",
+    "section": "Interpretación física",
+    "text": "Interpretación física\n\nGráfica posición–tiempo\n\nCada tramo recto indica velocidad constante.\nLa pendiente de la recta representa la velocidad:\n\\[v = \\dfrac{Δx}{Δt}\\]\nPendiente positiva → se aleja de casa.\nPendiente negativa → vuelve a casa.\n\n\n\nGráfica velocidad–tiempo\n\nCada tramo horizontal indica velocidad constante.\nValores positivos → movimiento hacia adelante.\nValores negativos → movimiento de regreso.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
