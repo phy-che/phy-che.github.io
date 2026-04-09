@@ -112,105 +112,157 @@
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html",
-    "title": "Cinemática y movimiento.",
+    "title": "Movimiento y cinemática",
     "section": "",
     "text": "La cinemática es la parte de la física que estudia cómo se mueven los objetos, sin preocuparse de por qué se mueven.\nEjemplo: cuando vas en bicicleta, puedes fijarte en dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando. Todo eso lo estudia la cinemática.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movimiento y cinemática"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#sistema-de-referencia-y-posición",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#sistema-de-referencia-y-posición",
-    "title": "Cinemática y movimiento.",
+    "title": "Movimiento y cinemática",
     "section": "Sistema de referencia y posición",
-    "text": "Sistema de referencia y posición\nImagina que estás hablando con un amigo para que te encuentre un un parque y le dices que estás a cien metros de la puerta de entrada. Con esa información le has dado un punto que actúa como origen del sistema de referencia (“la entrada”) y la posición (“a cien metros de esa entrada”).\n\n\n\nSistema referencia 1D\n\n\n\n\n\n\n\n\nImportantMuy importante\n\n\n\n\nSistema de referencia: conjunto de ejes y un punto, que es el origen, desde el que medimos posiciones.\n\nEn cada problema elegiremos un sistema de referencia y se considerará fijo e inmóvil.\n\nPosición (x): lugar donde está un objeto respecto al origen del sistema de referencia. Unidad: metro (m).\n\n\n\nDiremos que un “cuerpo” está en movimiento cuando cambia su posición respecto al origen del sistema de referencia a lo largo del tiempo.\n\n\n\nMovimiento en el eje horizontal con sistema de referencia",
+    "text": "Sistema de referencia y posición\nPara poder entender y describir los movimientos necesitamos algunos elementos fundamentales.\nImagina que estás hablando con un amigo para que te encuentre un un parque y le dices que estás a cien metros de la puerta de entrada. Con esa información le has dado un punto que actúa como origen del sistema de referencia (“la entrada”) y la posición (“a cien metros de esa entrada”).\n\n\n\nSistema referencia 1D\n\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\nSistema de referencia: conjunto de ejes y un punto, que es el origen, desde el que medimos posiciones.\n\nEn cada problema elegiremos un sistema de referencia y se considerará fijo e inmóvil.\n\nPosición (x): lugar donde está un objeto respecto al origen del sistema de referencia en cada instante. Unidad: metro (m).",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movimiento y cinemática"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#criterio-de-signos-para-la-posición",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#criterio-de-signos-para-la-posición",
+    "title": "Movimiento y cinemática",
+    "section": "Criterio de signos para la posición",
+    "text": "Criterio de signos para la posición\nPara poder describir el movimiento es importante tener claro los signos de la posición. - Si nos movemos hacia la derecha, la posición definida por \\(x\\) irá creciendo hacia valores más positivos. - Si nos movemos hacia la izquierda, la \\(x\\) irá teniendo valores más pequeños hasta el cero. Si seguimos moviéndonos hacia la izquierda, la \\(x\\) irá teniendo valores más negativos.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Movimiento y cinemática"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#trayectoria",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#trayectoria",
-    "title": "Cinemática y movimiento.",
+    "title": "Movimiento y cinemática",
     "section": "Trayectoria",
-    "text": "Trayectoria\nTrayectoria: es el camino que sigue un objeto, es decir, el conjunto de sus posiciones a medida que pasa el tiempo. Por ejemplo: los puntos por donde pasaría un ciclista siguiendo la carretera del dibujo.\n\n\n\nTrayectoria\n\n\nLas trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.\n\n\n\nTrayectoria curva de una pelota al tirar a canasta",
+    "text": "Trayectoria\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nTrayectoria: es el camino que sigue un objeto, es decir, el conjunto de sus posiciones a medida que pasa el tiempo.\n\n\nPor ejemplo: los puntos por donde pasaría un ciclista siguiendo la carretera del dibujo.\n\n\n\nTrayectoria\n\n\nLas trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.\n\n\n\nTrayectoria curva de una pelota al tirar a canasta\n\n\n\n\n\n\n\n\nNota¡Atentos!\n\n\n\nEste curso solo vamos a considerar trayectorias rectas. Si la trayectoria va por diferentes calles, romperemos la trayectoria final en diferentes segmentos rectos.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movimiento y cinemática"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios",
-    "title": "Cinemática y movimiento.",
+    "title": "Movimiento y cinemática",
     "section": "Ejercicios",
-    "text": "Ejercicios\n\nDefine trayectoria con tus palabras.\n\n¿Puede cambiar la posición sin cambiar la trayectoria?\n\nPon un ejemplo de trayectoria curva.\n¿Cómo dibujarías la trayectoria de una persona que quiere ir desde la Escuela a la Cancha Deportiva?\n\n\n\n\nMapa de ciudad\n\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nCamino que sigue un objeto.\n\nSí, si se mueve dentro del mismo tipo de trayectoria.\n\nUna pelota lanzada.\nEste ejercicio tiene diferentes soluciones. Lo interesante es simplemente pensar que ha de pasar por numerosas calles.",
+    "text": "Ejercicios\n\nDefine trayectoria con tus palabras.\n\n¿Puede cambiar la posición sin cambiar la trayectoria?\n\nPon un ejemplo de trayectoria curva.\n¿Cómo dibujarías la trayectoria de una persona que quiere ir desde la Escuela a la Cancha Deportiva?\n\n\n\n\nMapa de ciudad\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\nCamino que sigue un objeto.\n\nSí, si se mueve dentro del mismo tipo de trayectoria.\n\nUna pelota lanzada.\nEste ejercicio tiene diferentes soluciones. Lo interesante es simplemente pensar que ha de pasar por numerosas calles.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movimiento y cinemática"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios-1",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#ejercicios-1",
-    "title": "Cinemática y movimiento.",
+    "title": "Movimiento y cinemática",
     "section": "Ejercicios",
-    "text": "Ejercicios\n\n¿Es igual espacio recorrido que desplazamiento?\n\nCalcula el espacio recorrido vas de tu casa al instituto (200 m), de allí al supermercado (otros 60 m en el mismo sentido) y del supermercado a casa (260 m del supermercado a casa en sentido contrario).\nCalcula ahora el desplazamiento yendo a los sitios anteriores y considerando que tu casa es el punto inicial y final.\n¿Cuál sería el desplazamiento si fueras de casa al instituto y de allí al supermercado sin volver a casa?\n¿Y el espacio recorrido?\n¿Puede ser cero el espacio recorrido?\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nSí, solo cuando no hay movimiento, es decir, si no te desplazas.",
+    "text": "Ejercicios\n\n¿Es igual espacio recorrido que desplazamiento?\n\nCalcula el espacio recorrido vas de tu casa al instituto (200 m), de allí al supermercado (otros 60 m en el mismo sentido) y del supermercado a casa (260 m del supermercado a casa en sentido contrario).\nCalcula ahora el desplazamiento yendo a los sitios anteriores y considerando que tu casa es el punto inicial y final.\n¿Cuál sería el desplazamiento si fueras de casa al instituto y de allí al supermercado sin volver a casa?\n¿Y el espacio recorrido?\n¿Puede ser cero el espacio recorrido?\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nSí, solo cuando no hay movimiento, es decir, si no te desplazas.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movimiento y cinemática"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#unidades-de-velocidad-dfracms-y-dfrackmh",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica.html#unidades-de-velocidad-dfracms-y-dfrackmh",
+    "title": "Movimiento y cinemática",
+    "section": "Unidades de velocidad: \\(\\dfrac{m}{s}\\) y \\(\\dfrac{km}{h}\\)",
+    "text": "Unidades de velocidad: \\(\\dfrac{m}{s}\\) y \\(\\dfrac{km}{h}\\)\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\nDe \\(\\dfrac{m}{s}\\) a \\(\\dfrac{km}{h}\\)\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\nDe \\(\\dfrac{km}{h}\\) a \\(\\dfrac{m}{s}\\)\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\nEjercicios de cambio de unidades\n\nConvierte \\(15\\dfrac{m}{s}\\) en \\(\\dfrac{km}{h}\\).\nConvierte \\(90\\dfrac{km}{h}\\) en \\(\\dfrac{m}{s}\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 \\dfrac{m}{s}\\) en \\(\\dfrac{km}{h}\\) \\[\n15 \\dfrac{m}{s} \\times \\dfrac{1 \\, km}{1000 \\, m} \\times \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 \\times \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 \\times 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 \\dfrac{km}{h}\\) en \\(\\dfrac{m}{s}\\)\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s}\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s}\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\frac{km}{h} = 25 \\frac{m}{s}\\)",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Movimiento y cinemática"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html",
-    "title": "Cinemática y movimiento.",
+    "title": "Movement and kinematics",
     "section": "",
     "text": "Kinematics is the branch of physics that studies how objects move, without worrying about why they move.\nExample: when you ride a bicycle, you can pay attention to where you are, what path you follow, how fast you are going, or whether you are accelerating. All of that is studied by kinematics.",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movement and kinematics"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#reference-system-and-position",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#reference-system-and-position",
-    "title": "Cinemática y movimiento.",
+    "title": "Movement and kinematics",
     "section": "Reference system and position",
-    "text": "Reference system and position\nImagine you are talking to a friend so they can find you in a park, and you tell them you are one hundred meters from the entrance. With that information, you have given a point that acts as the origin of the reference system (“the entrance”) and the position (“one hundred meters from that entrance”).\n\n\n\n\n\n\nImportantVery important\n\n\n\n\nReference system: a set of axes and a point, which is the origin, from which we measure positions.\n\nPosition (x): the place where an object is with respect to the origin of the reference system. Unit: meter (m).",
+    "text": "Reference system and position\nImagine you are talking to a friend so they can find you in a park, and you tell them you are one hundred meters from the entrance. With that information, you have given a point that acts as the origin of the reference system (“the entrance”) and the position (“one hundred meters from that entrance”).\n\n\n\nSistema referencia 1D\n\n\n\n\n\n\n\n\nImportantVery important\n\n\n\n\nReference system: a set of axes and a point, which is the origin, from which we measure positions.\n\nIn each problem we must choose a reference system and it will be considered fixed and still.\n\nPosition (x): the place where an object is with respect to the origin of the reference system. Unit: meter (m).\n\n\n\nWe say that a “body” is in motion when its position relative to the origin of the reference frame changes over time.\n\n\n\nMotion along the horizontal axis with a reference frame",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movement and kinematics"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#trajectory",
     "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#trajectory",
-    "title": "Cinemática y movimiento.",
+    "title": "Movement and kinematics",
     "section": "Trajectory",
-    "text": "Trajectory\nTrajectory: the path followed by an object, that is, the set of its positions as time passes.",
+    "text": "Trajectory\nTrajectory: is the path an object follows, that is, the set of its positions over time. For example: the points a cyclist would pass through following the road in the drawing.\n\n\n\nTrajectory\n\n\nTrajectories can be straight (a ball we drop or a car on a straight road) or curved like the previous image or the shot of a ball into a basket.\n\n\n\nCurved trajectory of a ball when shooting a basket",
     "crumbs": [
       "Home",
       "2º y 3ª ESO",
       "T07. Movimiento - cinemática",
-      "Cinemática y movimiento."
+      "Movement and kinematics"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#exercises",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#exercises",
+    "title": "Movement and kinematics",
+    "section": "Exercises",
+    "text": "Exercises\n\nDefine trajectory in your own words.\n\nCan the position change without changing the trajectory?\n\nGive an example of a curved trajectory.\n\nHow would you draw the trajectory of a person who wants to go from the school to the sports field?\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nThe path an object follows.\nYes, if it moves along the same type of trajectory.\nA thrown ball.\nThis exercise has different solutions. The interesting thing is simply to consider that it must pass through numerous streets.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Movement and kinematics"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#exercises-1",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html#exercises-1",
+    "title": "Movement and kinematics",
+    "section": "Exercises",
+    "text": "Exercises\n\nIs distance traveled the same as displacement?\nCalculate the distance traveled if you go from your house to school (200 m), from there to the supermarket (another 60 m in the same direction), and from the supermarket back home (260 m from the supermarket to home in the opposite direction).\nNow calculate the displacement if you go to the places mentioned above, considering your house as the starting and ending point.\nWhat would the displacement be if you went from home to school and from there to the supermarket without returning home?\nAnd the distance traveled?\nCan the distance traveled be zero?\n\n\n\n\n\n\n\nCautionSoluciones\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nYes, only when there is no movement, that is, if you are not moving.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Movement and kinematics"
     ]
   },
   {
