@@ -374,20 +374,7 @@
     "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
-    "text": "Recursos teóricos\n\nVídeo sobre interferencias de la luz (doble rendija) con ondas coherentes (mantienen diferencia de fase constante y crean interferencia estable) y ondas no coherentes (que no tienen diferencia de fase constante y la interferencia es inestable): Vídeo simulation of the Double Slit Experiment with Incoherent and Coherent Light",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T07. OEM y óptica física",
-      "Introducción"
-    ]
-  },
-  {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-hacer-ejercicios",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
-    "section": "Recursos para hacer ejercicios",
-    "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
+    "text": "Recursos teóricos\n\nVídeo sobre interferencias de la luz (doble rendija) con ondas coherentes (mantienen diferencia de fase constante y crean interferencia estable) y ondas no coherentes (que no tienen diferencia de fase constante y la interferencia es inestable): Vídeo simulation of the Double Slit Experiment with Incoherent and Coherent Light\n\n-Libro [Óptica electromagnética] LibreTexts: (https://espanol.libretexts.org/Bookshelves/Fisica/Optica_electromagnetica) ## Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid",
     "crumbs": [
       "Home",
       "2º BACH Física",
@@ -526,6 +513,58 @@
     ]
   },
   {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html",
+    "title": "Principios de la óptica",
+    "section": "",
+    "text": "Aquí nos olvidaremos de la naturaleza dual de la luz (tanto como corpúsculo o como onda) y nos centraremos en el concepto de rayo que indica la propagación de la luz. Estos son los principios que van a regir este tema: 1. La luz se propaga en línea recta en un medio homogéneo (las propiedades no varían con la posición considerada) e isótropo (las propiedades no dependen de la dirección considerada).\nEjs.: Aire, agua pura, vidrio.\n\\(\\rightarrow\\) Por eso representaremos la luz como rayos que son líneas imaginarias que muestran el avance de la luz. 2. Los rayos de luz son independientes unos de otros. 3. Se cumplen las leyes de la reflexión y refracción (leyes de Snell). 4. Los rayos luminosos son reversibles: el camino seguido por un rayo es independiente de que se produzca en un determinado sentido o en su contrario.\n\n\n\nRayo luminoso: es la línea imaginaria que representa el avance de la luz, en línea recta.\n\nNo se tiene en cuenta la naturaleza dual de la luz.\nSiempre es perpendicular al frente de ondas.\nSe propaga en línea recta.\nNo se altera al cruzarse con otros rayos (su trayectoria es independiente).\n\nDioptrio: superficie de separación entre dos medios con distinto índice de refracción.\n\nEsta superficie de separación puede ser plana o esférica.\nUna lente se construye con dos dioptrios.\n\nSistema óptico: conjunto de lentes y espejos por los que se propaga la luz con diferentes índices de refracción y reflexión. Solo vamos a considerar medios isótropos y homogéneos.\n\nSistema homogéneo: si su índice de refracción (=la velocidad de la luz) es el mismo en todos sus puntos.\n\nSistema heterogéneo: si su índice de refracción (=la velocidad de la luz) puede ser diferente en algunos puntos.\n\nSistema isótropo: la velocidad de la luz no depende de la dirección de propagación.\n\nSistema anisótropo: la velocidad de la luz será diferente según su dirección.\n\nSistema estigmático: si todos los rayos que parten de un punto \\(P\\) confluyen a otro punto \\(P'\\). Sistema astigmático: si no sucede lo anterior.\nEje óptico: es el eje común a todas las superficies de un sistema óptico centrado (donde todas las superficies tienen sus centros de curvatura en la misma recta).\n\nFoco: solo existe en los sistemas esféricos (no en los planos). Es el punto donde convergen los rayos de luz que llegan paralelos al eje óptico.\n\nLos rayos que vienen de muy lejos (del infinito) siempre se consideran que llegan paralelos al eje óptico.\n\n\n\n\n\nEn todos los problemas consideramos que estamos en esta zona y por tanto se aplica la aproximación paraxial.\nLa Zona paraxial (o de Gauss): zona de un diptrio donde podemos considerar que los rayos se propagan de forma paralela al eje óptico (es donde el análisis resulta más sencillo).\nLos rayos se encuentran en esta zona forman ángulos pequeños con el eje óptico, donde \\(\\alpha &lt; 10\\degree\\). En esos casos lo sucede es que: \\[\n\\alpha \\approx sen(\\alpha) \\approx tg(\\alpha) = \\dfrac{cateto_{opuesto}}{cateto_{contiguo}}\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Principios de la óptica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html#algunas-definiciones",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html#algunas-definiciones",
+    "title": "Principios de la óptica",
+    "section": "",
+    "text": "Rayo luminoso: es la línea imaginaria que representa el avance de la luz, en línea recta.\n\nNo se tiene en cuenta la naturaleza dual de la luz.\nSiempre es perpendicular al frente de ondas.\nSe propaga en línea recta.\nNo se altera al cruzarse con otros rayos (su trayectoria es independiente).\n\nDioptrio: superficie de separación entre dos medios con distinto índice de refracción.\n\nEsta superficie de separación puede ser plana o esférica.\nUna lente se construye con dos dioptrios.\n\nSistema óptico: conjunto de lentes y espejos por los que se propaga la luz con diferentes índices de refracción y reflexión. Solo vamos a considerar medios isótropos y homogéneos.\n\nSistema homogéneo: si su índice de refracción (=la velocidad de la luz) es el mismo en todos sus puntos.\n\nSistema heterogéneo: si su índice de refracción (=la velocidad de la luz) puede ser diferente en algunos puntos.\n\nSistema isótropo: la velocidad de la luz no depende de la dirección de propagación.\n\nSistema anisótropo: la velocidad de la luz será diferente según su dirección.\n\nSistema estigmático: si todos los rayos que parten de un punto \\(P\\) confluyen a otro punto \\(P'\\). Sistema astigmático: si no sucede lo anterior.\nEje óptico: es el eje común a todas las superficies de un sistema óptico centrado (donde todas las superficies tienen sus centros de curvatura en la misma recta).\n\nFoco: solo existe en los sistemas esféricos (no en los planos). Es el punto donde convergen los rayos de luz que llegan paralelos al eje óptico.\n\nLos rayos que vienen de muy lejos (del infinito) siempre se consideran que llegan paralelos al eje óptico.",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Principios de la óptica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html#aproximación-paraxial",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html#aproximación-paraxial",
+    "title": "Principios de la óptica",
+    "section": "",
+    "text": "En todos los problemas consideramos que estamos en esta zona y por tanto se aplica la aproximación paraxial.\nLa Zona paraxial (o de Gauss): zona de un diptrio donde podemos considerar que los rayos se propagan de forma paralela al eje óptico (es donde el análisis resulta más sencillo).\nLos rayos se encuentran en esta zona forman ángulos pequeños con el eje óptico, donde \\(\\alpha &lt; 10\\degree\\). En esos casos lo sucede es que: \\[\n\\alpha \\approx sen(\\alpha) \\approx tg(\\alpha) = \\dfrac{cateto_{opuesto}}{cateto_{contiguo}}\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Principios de la óptica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0802_ConvenioSignos_DIN1335.html",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0802_ConvenioSignos_DIN1335.html",
+    "title": "Convenio de signos DIN1335",
+    "section": "",
+    "text": "Convenio de signos: Norma DIN 1335\n\nExplicación del convenio de signos con estupendos diagramas en Fisicalab\nResumen DIN 1335\n\nMencionar en los problemas que se sigue la norma DIN 1335 Respetar este convenio es obligatorio.\n\nLa luz se propaga siempre de izquierda a derecha.\n\nEl origen está en el centro de la superficie (O: vértice óptico).\n\nEn los datos o parámetros de la imagen siempre se pone prima: \\(‘\\)\n\nEL objeto o punto objeto y su imagen se representan con mayúscula: \\(P\\) y \\(P’\\)\n\n\n¿Cómo se indican las distancias?\n\nLa distancia objeto e imagen al vértice óptico se representan con \\(s\\) minúscula: \\(s\\) y \\(s’\\)\n\nLas alturas del objeto y de la imagen: \\(y\\) e \\(y’\\)\n\nLas distancias focales (para lentes): \\(f\\) y \\(f’\\)\n\n¿Qué signo tendrán las distancias?\n\nEn el eje OX: distancias \\(\\oplus\\) (positivas) medidas hacia la derecha (y negativas \\(\\circleddash\\) hacia la izq.)\n\nEn el eje OY: distancias \\(\\oplus\\) medidas hacia arriba (\\(\\circleddash\\) hacia la abajo.)\n\n¿Cómo son los signos de los ángulos?\n\nLos ángulos del rayo hacia la normal: \\(\\circleddash\\) si el camino más corto es horario.\n\nUsualmente se emplea \\(\\hat{imath}\\) para el ángulo incidente y \\(\\hat{r}\\) para el reflejado o refractado.\n\nLos ángulos del rayo hacia el eje: \\(\\circleddash\\) si camino más corto es antihorario.\n\nUsualmente se emplea \\(\\alpha\\) para el ángulo respecto al eje óptico que sale del objeto y \\(\\beta\\) para el ángulo que forma el rayo de la imagen con el eje óptico.\n\n\n\nIMPORTANTE:\n\nEl rayo de luz siempre hay que tomarlo hacia la derecha, del objeto hacia el sistema, y de ahí ver donde converge.\n\nEl rayo de luz siempre sale del objeto y acabará en el ojo si este se dibuja, ¡nunca sale del ojo!",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Convenio de signos DIN1335"
+    ]
+  },
+  {
     "objectID": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
     "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
@@ -582,7 +621,7 @@
     "href": "articles/04_BACH_2_Fisica/T06. Ondas y fenómenos ondulatorios/0600_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
-    "text": "Recursos teóricos\n\nLista de vídeos del MOOC de la UPV (Valencia) sobre Fundamentos de Oscilaciones y Ondas para Ingeniería: Lista de vídeos YouTube",
+    "text": "Recursos teóricos\n\nLista de vídeos del MOOC de la UPV (Valencia) sobre Fundamentos de Oscilaciones y Ondas para Ingeniería: Lista de vídeos YouTube\nLibros Libretexts Ondas y acústica",
     "crumbs": [
       "Home",
       "2º BACH Física",
@@ -900,7 +939,7 @@
     "href": "recursos_gigantes/001_recursos_gigantes.html#webs-de-física-y-química-para-secundaria",
     "title": "Recursos gigantes",
     "section": "Webs de Física y Química para secundaria:",
-    "text": "Webs de Física y Química para secundaria:\n\nFisQuiMat de Moisés López Caeiro: tiene unos materiales extraordinarios y maravillosamente explicados. Destacamos los de Física de 2º Bach.\nFiquipedia de Enrique García: impresionante colección de materiales para la física y química de secundaria y oposiciones.\nFisiquimicamente de Rodrigo Alcaraz et al.: web con diseño muy juvenil con una tremenda cantidad de materiales variados realizados por un nutrido grupo de profesionales.\nFisQuiWeb de Luis Ignacio García: web distribuida por cursos, temas y secciones (mirar apuntes) donde te puedes descargar los archivos editables en MS Word.\nFisicaLab estupenda web para aprender Física para todos los niveles con buenas explicaciones y diagramas muy buenos.",
+    "text": "Webs de Física y Química para secundaria:\n\nFisQuiMat de Moisés López Caeiro: tiene unos materiales extraordinarios y maravillosamente explicados. Destacamos los de Física de 2º Bach.\nFiquipedia de Enrique García: impresionante colección de materiales para la física y química de secundaria y oposiciones.\nFisiquimicamente de Rodrigo Alcaraz et al.: web con diseño muy juvenil con una tremenda cantidad de materiales variados realizados por un nutrido grupo de profesionales.\nFisQuiWeb de Luis Ignacio García: web distribuida por cursos, temas y secciones (mirar apuntes) donde te puedes descargar los archivos editables en MS Word.\nFisicaLab estupenda web para aprender Física para todos los niveles con buenas explicaciones y diagramas muy buenos.\nBBC - Bitesize:web en inglés de la BBC con muchísimos recursos y explicaciones de todas las asignaturas por niveles.\n\nESO: KS3\nBachillerato: GSCE - Physics; GSCE todos los recursos",
     "crumbs": [
       "Recursos gigantes"
     ]
@@ -1022,55 +1061,120 @@
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
-    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
-    "title": "Introducción",
-    "section": "Recursos teóricos",
-    "text": "Recursos teóricos\n\nLa estupenda FisQuiMat de Moisés López Caeiro:\n\nApuntes 2º Bachillerato Física de FisQuiMat.\nEn su sección de óptica.",
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0803_Dioptrios.html",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0803_Dioptrios.html",
+    "title": "Dioptrios",
+    "section": "",
+    "text": "Dioptrio. Concepto.\n\n\nDioptrio plano simple\n\n\nDioptrio plano doble\n\n\nDioptrio esférico\nEn los sistemas esféricos tenemos el concepto de foco y distancia focal:\n\nEl foco es el punto donde convergen los rayos de luz que salen paralelos al eje.\n\nLos rayos de los objetos que están muy lejos siempre llegarán paralelos y convergen en el foco.\nEs decir: la imagen se forma en el foco si \\(s = -\\infty \\rightarrow s’ = f’\\). De esta manera (haciendo a \\(s = -\\infty\\), podemos calcular dónde está el foco).\n\n\nEl dioptrio esférico tiene dos focos característicos:\n\nEl foco objeto, F: los rayos que pasan por el foco salen paralelos al eje después del dioptrio. La distancia de este punto al vértice del dioptrio es la distancia focal objeto, f.\nEl foco imagen, F’: los rayos que llegan al dioptrio, paralelos al eje, pasan por el foco imagen. La distancia de este punto al vértice del dioptrio es la distancia focal imagen, f.’\n\nSiempre que dibujemos rayos, vamos a aprovechar estas características para elegir aquellos rayos más útiles. Siempre usaremos estos dos:\n\nRayo que salga del objeto, llega al dioptrio paralelo y por tanto va al foco. “Paralelo y al foco”.\nRayo que sale del objeto y pasa por el centro de curvatura y por tanto no se desvía. “Al centro y sin desviarse”. Como 3ª posibilidad: siempre podemos un rayo que pase por el foco y salga paralelo",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T08. Óptica geométrica",
-      "Introducción"
+      "Dioptrios"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html",
+    "title": "Formulario óptica geométrica",
+    "section": "",
+    "text": "Un dioptrio es una superficie transparente (plana o esférica) que separa dos medios con distintos índices de refracción, provocando la refracción de la luz y la formación de imágenes.\nNo entran en PAU.\n\n\nDioptrio plano en Fisicalab\n\nNo tiene focos y distancias focales.\nEs un dioptrio esférico donde \\(R\\rightarrow\\infty\\).\nLey de Snell: \\[\nn_1·sen(\\varepsilon_1)=n_2·sen(\\varepsilon_2) \\approx n_1·\\varepsilon_1 = n_2·\\varepsilon_2\n\\] Las superficies planas no cambian de tamaño:\nEsto implica que:\n\nTamaño objeto = tamaño imagen: \\(y = y'\\)\nDistancia objeto = distancia imagen: \\(s = s'\\)\n\nEcuación del dioptrio plano: \\[\n\\dfrac{s}{n}=\\dfrac{s'}{n'}\n\\]\n\n\n\n\nUn ejemplo clásico de esto es una lámina de caras paraleas. Suponiendo que hay un objeto a la izquierda de la lámina y el ojo está a la derecha de la misma: el ojo ve la imagen como si fuera el objeto desplazado hacia la derecha la siguiente distancia: \\[\nd = g· (1 - \\dfrac{1}{n})\n\\] Donde: - \\(d\\): es la distancia a la que aparece la imagen respecto de la posición del objeto. - \\(g\\): grosor de la lámina. - \\(n\\): índice de refracción del material de la lámina.",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Formulario óptica geométrica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#dioptrio-plano-simple",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#dioptrio-plano-simple",
+    "title": "Formulario óptica geométrica",
+    "section": "",
+    "text": "Dioptrio plano en Fisicalab\n\nNo tiene focos y distancias focales.\nEs un dioptrio esférico donde \\(R\\rightarrow\\infty\\).\nLey de Snell: \\[\nn_1·sen(\\varepsilon_1)=n_2·sen(\\varepsilon_2) \\approx n_1·\\varepsilon_1 = n_2·\\varepsilon_2\n\\] Las superficies planas no cambian de tamaño:\nEsto implica que:\n\nTamaño objeto = tamaño imagen: \\(y = y'\\)\nDistancia objeto = distancia imagen: \\(s = s'\\)\n\nEcuación del dioptrio plano: \\[\n\\dfrac{s}{n}=\\dfrac{s'}{n'}\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Formulario óptica geométrica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#dioptrio-plano-doble",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#dioptrio-plano-doble",
+    "title": "Formulario óptica geométrica",
+    "section": "",
+    "text": "Un ejemplo clásico de esto es una lámina de caras paraleas. Suponiendo que hay un objeto a la izquierda de la lámina y el ojo está a la derecha de la misma: el ojo ve la imagen como si fuera el objeto desplazado hacia la derecha la siguiente distancia: \\[\nd = g· (1 - \\dfrac{1}{n})\n\\] Donde: - \\(d\\): es la distancia a la que aparece la imagen respecto de la posición del objeto. - \\(g\\): grosor de la lámina. - \\(n\\): índice de refracción del material de la lámina.",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Formulario óptica geométrica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#espejo-plano",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#espejo-plano",
+    "title": "Formulario óptica geométrica",
+    "section": "Espejo plano",
+    "text": "Espejo plano\n\nReflexión: \\[\nn = - n'\n\\]\nEcuación del espejo plano: \\[\n\\dfrac{s}{n}= \\dfrac{s'}{n'}\n\\]\nTamaño objeto = tamaño imagen: \\(y = y'\\)\nDistancia objeto = distancia imagen: \\(s = s'\\)\nAumento lateral: \\[\nA_L=\\dfrac{y'}{y}=1\n\\] ## Espejo esférico",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Formulario óptica geométrica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-teóricos",
+    "title": "Introducción Opt. Geom.",
+    "section": "Recursos teóricos",
+    "text": "Recursos teóricos\n\nLa estupenda FisQuiMat de Moisés López Caeiro:\n\nApuntes 2º Bachillerato Física de FisQuiMat.\nEn su sección de óptica.\n\nFantástico tema de óptica en Fisicalab\nWeb sobre óptica geométrica\nWeb INTEF - Procomún sobre óptica geométrica\nLibro Libretexts Óptica geométrica",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Introducción Opt. Geom."
     ]
   },
   {
     "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-hacer-ejercicios",
     "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-hacer-ejercicios",
-    "title": "Introducción",
+    "title": "Introducción Opt. Geom.",
     "section": "Recursos para hacer ejercicios",
     "text": "Recursos para hacer ejercicios\n\nEjercicios PAU Madrid más habituales\n\n\nEjercicios PAU Madrid\n\nRecopilación ejercicios PAU Madrid en Fiquipedia.",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T08. Óptica geométrica",
-      "Introducción"
+      "Introducción Opt. Geom."
     ]
   },
   {
     "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-ampliar",
     "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#recursos-para-ampliar",
-    "title": "Introducción",
+    "title": "Introducción Opt. Geom.",
     "section": "Recursos para ampliar",
     "text": "Recursos para ampliar",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T08. Óptica geométrica",
-      "Introducción"
+      "Introducción Opt. Geom."
     ]
   },
   {
     "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#simuladores-y-herramientas",
     "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html#simuladores-y-herramientas",
-    "title": "Introducción",
+    "title": "Introducción Opt. Geom.",
     "section": "Simuladores y herramientas",
     "text": "Simuladores y herramientas\n\nSimulador PHET de Lentes y espejos\nSimulación de trazado de rayos",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T08. Óptica geométrica",
-      "Introducción"
+      "Introducción Opt. Geom."
     ]
   },
   {
@@ -1181,8 +1285,8 @@
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html",
     "title": "Formulario OEM y Óptica física",
     "section": "",
     "text": "La velocidad de propagación de cualquier onda se puede escribir así: \\[\\large v= \\dfrac{\\lambda}{T} = \\lambda·f\\]\nLa velocidad de una onda electromagnética en el vacío o en el aire es: \\[\\Large c=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]\nDonde:\n- \\(\\varepsilon_0\\): permitiviad dueléctrica del vacío. \\(\\varepsilon_0=8,85·10^{-12} \\dfrac{C^2}{Nm^2}\\)\n- \\(\\mu_0\\): permeabilidad magnética del vacío. \\(\\mu_0 = 4\\pi·10^{-7} \\dfrac{N}{A^2}\\).\n\n\n\n\n\n\nTipFijarse\n\n\n\nY por supuesto se mantiene que: \\[v=c= \\dfrac{\\lambda}{T} = \\lambda·f=\\dfrac{1}{\\sqrt{\\varepsilon_0 \\ \\mu_0}}\\]",
@@ -1194,8 +1298,8 @@
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#reflexión-de-la-luz",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#reflexión-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#reflexión-de-la-luz",
     "title": "Formulario OEM y Óptica física",
     "section": "Reflexión de la luz",
     "text": "Reflexión de la luz\nCuando la OEM se refleja en alguna superficie, en ángulo de incidencia es igual al ángulo de reflexión (estos ángulos siempre respecto a la normal a la superficie).\n\n\n\nReflexión de una onda",
@@ -1207,8 +1311,8 @@
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#refracción-de-la-luz",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#refracción-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#refracción-de-la-luz",
     "title": "Formulario OEM y Óptica física",
     "section": "Refracción de la luz",
     "text": "Refracción de la luz\nCuando la OEM se reflacta al pasar de un medio a otro, se cumple la *Ley de Snell (siempre los ángulos se miden respecto a la normal de la superficie de separación de ambos medios**).\nConsiderando que un rayo de luz va del medio 1 al medio 2: \\[\nn_1 · \\sin(\\theta_1) = n_2 · \\sin(\\theta_2)\n\\] - Si \\(n_2 &gt; n_1\\), el rayo se acercará a la normal.\n- Si \\(n_2 &lt; n_1\\), el rayo se alejará de la normal (en este caso se podría llegar al ángulo límite (\\(\\theta_1\\) adecuado para que \\(\\theta_2=90\\textdegree\\), y si \\(\\theta_1\\) sigue creciendo pasaríamos al fenómeno de reflexión total, donde ya no se produce refracción)).\n\n\n\nRefracción de la luz",
@@ -1220,8 +1324,8 @@
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#dispersión-de-la-luz",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#dispersión-de-la-luz",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#dispersión-de-la-luz",
     "title": "Formulario OEM y Óptica física",
     "section": "Dispersión de la luz",
     "text": "Dispersión de la luz\nEs el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, el ángulo de refracción cambia con la frecuencia de la onda.\n\n\n\n\n\n\nTipFijarse\n\n\n\nLa ecuación básica de la velocidad es: \\(v= \\dfrac{\\lambda}{T} = \\lambda·f\\). Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:\n- \\(\\lambda_1 = \\dfrac{v_1}{f}\\)\n- \\(\\lambda_2 = \\dfrac{v_2}{f}\\)\n\n\n\nAnálisis de la dispersión en un prisma:\nEn los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.\n- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).\n- El ángulo de desviación del rayo emergente (\\(\\delta\\)) se calcula por geometría y depende del ángulo de incidencia en el prisma (\\(i_{1}\\)), el ángulo de refracción de salida en el prisma (\\(r_{2}\\)) y el ángulo de fabricación del prisma (\\(\\varphi\\)). \\[\n\\large \\delta = i_1+r_2-\\varphi\n\\]\n\n\n\n\n\n\n\nNoteDemostración\n\n\n\n\n\nDemostración de: \\(\\delta = i_1+r_2-\\varphi\\) \n\\(r_1+i_2+(180\\textdegree - \\varphi)=180\\textdegree\\)\nNotar que el ánglo de separación de las caras oblicuas del prisma (\\(\\varphi\\)) es el ángulo suplementario del tercer ángulo del triángulo que forman \\(r_1\\) e \\(i_2\\).\n\\(\\phi = r_1 + i_2\\)\n\\((i_1-r_1) + (r_2-i2)+(180\\textdegree-\\delta)=180\\textdegree\\)\n\\(\\delta = i_1+r_2-(r_1+i_2)\\)\n\\(\\delta = i_1+r_2-\\varphi\\)",
@@ -1233,8 +1337,8 @@
     ]
   },
   {
-    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
-    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/07009_formulario.html#absorción-de-la-luz-no-pau",
+    "objectID": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#absorción-de-la-luz-no-pau",
+    "href": "articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#absorción-de-la-luz-no-pau",
     "title": "Formulario OEM y Óptica física",
     "section": "Absorción de la luz (no PAU)",
     "text": "Absorción de la luz (no PAU)\nLa absorción es el fenómeno por el cual la luz cede energía al medio por el que se propaga. En este caso la energía radiante (de los fotones) al ser absorbida por la materia se puede transformar en energía térmica.\n\\[I(x) = I_0·e^{-\\alpha x}\\]",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción</title>
+<title>Convenio de signos DIN1335</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -197,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">T11. Física nuclear y de partículas</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">Introducción</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html">T08. Óptica geométrica</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0802_ConvenioSignos_DIN1335.html">Convenio de signos DIN1335</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -351,13 +380,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">T08. Óptica geométrica</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html" class="sidebar-item-text sidebar-link">
@@ -372,7 +401,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0802_ConvenioSignos_DIN1335.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0802_ConvenioSignos_DIN1335.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Convenio de signos DIN1335</span></a>
   </div>
 </li>
@@ -438,16 +467,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
  <span class="menu-text">T11. Física nuclear y de partículas</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducción</span></a>
   </div>
 </li>
@@ -465,24 +494,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
-  <li><a href="#recursos-teóricos" id="toc-recursos-teóricos" class="nav-link" data-scroll-target="#recursos-teóricos">Recursos teóricos</a></li>
-  <li><a href="#recursos-para-hacer-ejercicios" id="toc-recursos-para-hacer-ejercicios" class="nav-link" data-scroll-target="#recursos-para-hacer-ejercicios">Recursos para hacer ejercicios</a>
-  <ul class="collapse">
-  <li><a href="#ejercicios-pau-madrid-más-habituales" id="toc-ejercicios-pau-madrid-más-habituales" class="nav-link" data-scroll-target="#ejercicios-pau-madrid-más-habituales">Ejercicios PAU Madrid más habituales</a></li>
-  <li><a href="#ejercicios-pau-madrid" id="toc-ejercicios-pau-madrid" class="nav-link" data-scroll-target="#ejercicios-pau-madrid">Ejercicios PAU Madrid</a></li>
-  </ul></li>
-  <li><a href="#recursos-para-ampliar" id="toc-recursos-para-ampliar" class="nav-link" data-scroll-target="#recursos-para-ampliar">Recursos para ampliar</a></li>
-  <li><a href="#simuladores-y-herramientas" id="toc-simuladores-y-herramientas" class="nav-link" data-scroll-target="#simuladores-y-herramientas">Simuladores y herramientas</a></li>
+  <li><a href="#convenio-de-signos-norma-din-1335" id="toc-convenio-de-signos-norma-din-1335" class="nav-link active" data-scroll-target="#convenio-de-signos-norma-din-1335">Convenio de signos: Norma DIN 1335</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">T11. Física nuclear y de partículas</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">Introducción</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html">T08. Óptica geométrica</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0802_ConvenioSignos_DIN1335.html">Convenio de signos DIN1335</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Introducción</h1>
+<h1 class="title">Convenio de signos DIN1335</h1>
 </div>
 
 
@@ -499,26 +520,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level2">
-<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
-</section>
-<section id="recursos-teóricos" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-teóricos">Recursos teóricos</h2>
-</section>
-<section id="recursos-para-hacer-ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-para-hacer-ejercicios">Recursos para hacer ejercicios</h2>
-<section id="ejercicios-pau-madrid-más-habituales" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicios-pau-madrid-más-habituales">Ejercicios PAU Madrid más habituales</h3>
-</section>
-<section id="ejercicios-pau-madrid" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicios-pau-madrid">Ejercicios PAU Madrid</h3>
-</section>
-</section>
-<section id="recursos-para-ampliar" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-para-ampliar">Recursos para ampliar</h2>
-</section>
-<section id="simuladores-y-herramientas" class="level2">
-<h2 class="anchored" data-anchor-id="simuladores-y-herramientas">Simuladores y herramientas</h2>
+<section id="convenio-de-signos-norma-din-1335" class="level1">
+<h1>Convenio de signos: Norma DIN 1335</h1>
+<ul>
+<li>Explicación del <a href="https://www.fisicalab.com/apartado/signos-sistemas-opticos">convenio de signos con estupendos diagramas en Fisicalab</a></li>
+<li><a href="http://s436787162.mialojamiento.es/resumen_din_1335.html">Resumen DIN 1335</a></li>
+</ul>
+<p>Mencionar en los problemas que se sigue la norma <strong>DIN 1335</strong> Respetar este convenio es obligatorio.</p>
+<ol type="1">
+<li>La luz se propaga siempre <strong>de izquierda a derecha</strong>.<br>
+</li>
+<li>El origen está en el centro de la superficie (O: vértice óptico).<br>
+</li>
+<li>En los datos o parámetros de la imagen siempre se pone prima: <span class="math inline">\(‘\)</span><br>
+</li>
+<li>EL objeto o punto objeto y su imagen se representan con mayúscula: <span class="math inline">\(P\)</span> y <span class="math inline">\(P’\)</span></li>
+</ol>
+<ul>
+<li>¿Cómo se indican las distancias?
+<ol start="5" type="1">
+<li>La distancia objeto e imagen al vértice óptico se representan con <span class="math inline">\(s\)</span> minúscula: <span class="math inline">\(s\)</span> y <span class="math inline">\(s’\)</span><br>
+</li>
+<li>Las alturas del objeto y de la imagen: <span class="math inline">\(y\)</span> e <span class="math inline">\(y’\)</span><br>
+</li>
+<li>Las distancias focales (para <em>lentes</em>): <span class="math inline">\(f\)</span> y <span class="math inline">\(f’\)</span></li>
+</ol></li>
+<li>¿Qué signo tendrán las distancias?
+<ol start="8" type="1">
+<li>En el <strong>eje OX</strong>: distancias <span class="math inline">\(\oplus\)</span> (positivas) medidas hacia la derecha (y negativas <span class="math inline">\(\circleddash\)</span> hacia la izq.)<br>
+</li>
+<li>En el <strong>eje OY</strong>: distancias <span class="math inline">\(\oplus\)</span> medidas hacia arriba (<span class="math inline">\(\circleddash\)</span> hacia la abajo.)</li>
+</ol></li>
+<li>¿Cómo son los signos de los ángulos?
+<ol start="10" type="1">
+<li>Los ángulos del rayo hacia la normal: <span class="math inline">\(\circleddash\)</span> si el camino más corto es horario.
+<ul>
+<li>Usualmente se emplea <span class="math inline">\(\hat{imath}\)</span> para el ángulo incidente y <span class="math inline">\(\hat{r}\)</span> para el reflejado o refractado.</li>
+</ul></li>
+<li>Los ángulos del rayo hacia el eje: <span class="math inline">\(\circleddash\)</span> si camino más corto es antihorario.
+<ul>
+<li>Usualmente se emplea <span class="math inline">\(\alpha\)</span> para el ángulo respecto al eje óptico que sale del objeto y <span class="math inline">\(\beta\)</span> para el ángulo que forma el rayo de la imagen con el eje óptico.</li>
+</ul></li>
+</ol></li>
+</ul>
+<p>IMPORTANTE:</p>
+<ul>
+<li>El rayo de luz siempre hay que tomarlo hacia la derecha, del objeto hacia el sistema, y de ahí ver donde converge.<br>
+</li>
+<li>El rayo de luz siempre sale del objeto y acabará en el ojo si este se dibuja, ¡nunca sale del ojo!</li>
+</ul>
 
 
 </section>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción</title>
+<title>Formulario OEM y Óptica física</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -197,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">T11. Física nuclear y de partículas</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">Introducción</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html">T07. OEM y óptica física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html">Formulario OEM y Óptica física</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -328,13 +357,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
  <span class="menu-text">T07. OEM y óptica física</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html" class="sidebar-item-text sidebar-link">
@@ -343,7 +372,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Formulario OEM y Óptica física</span></a>
   </div>
 </li>
@@ -438,16 +467,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
  <span class="menu-text">T11. Física nuclear y de partículas</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducción</span></a>
   </div>
 </li>
@@ -465,24 +494,28 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
-  <li><a href="#recursos-teóricos" id="toc-recursos-teóricos" class="nav-link" data-scroll-target="#recursos-teóricos">Recursos teóricos</a></li>
-  <li><a href="#recursos-para-hacer-ejercicios" id="toc-recursos-para-hacer-ejercicios" class="nav-link" data-scroll-target="#recursos-para-hacer-ejercicios">Recursos para hacer ejercicios</a>
+  <li><a href="#velocidad-de-la-luz" id="toc-velocidad-de-la-luz" class="nav-link active" data-scroll-target="#velocidad-de-la-luz">Velocidad de la luz:</a></li>
+  <li><a href="#en-otros-medios" id="toc-en-otros-medios" class="nav-link" data-scroll-target="#en-otros-medios">En otros medios:</a></li>
+  <li><a href="#ecuaciones-oem" id="toc-ecuaciones-oem" class="nav-link" data-scroll-target="#ecuaciones-oem">Ecuaciones OEM</a></li>
+  <li><a href="#fenómenos-de-la-luz-para-problemas" id="toc-fenómenos-de-la-luz-para-problemas" class="nav-link" data-scroll-target="#fenómenos-de-la-luz-para-problemas">Fenómenos de la luz para problemas</a>
   <ul class="collapse">
-  <li><a href="#ejercicios-pau-madrid-más-habituales" id="toc-ejercicios-pau-madrid-más-habituales" class="nav-link" data-scroll-target="#ejercicios-pau-madrid-más-habituales">Ejercicios PAU Madrid más habituales</a></li>
-  <li><a href="#ejercicios-pau-madrid" id="toc-ejercicios-pau-madrid" class="nav-link" data-scroll-target="#ejercicios-pau-madrid">Ejercicios PAU Madrid</a></li>
+  <li><a href="#reflexión-de-la-luz" id="toc-reflexión-de-la-luz" class="nav-link" data-scroll-target="#reflexión-de-la-luz">Reflexión de la luz</a></li>
+  <li><a href="#refracción-de-la-luz" id="toc-refracción-de-la-luz" class="nav-link" data-scroll-target="#refracción-de-la-luz">Refracción de la luz</a></li>
+  <li><a href="#dispersión-de-la-luz" id="toc-dispersión-de-la-luz" class="nav-link" data-scroll-target="#dispersión-de-la-luz">Dispersión de la luz</a>
+  <ul class="collapse">
+  <li><a href="#análisis-de-la-dispersión-en-un-prisma" id="toc-análisis-de-la-dispersión-en-un-prisma" class="nav-link" data-scroll-target="#análisis-de-la-dispersión-en-un-prisma">Análisis de la dispersión en un prisma:</a></li>
   </ul></li>
-  <li><a href="#recursos-para-ampliar" id="toc-recursos-para-ampliar" class="nav-link" data-scroll-target="#recursos-para-ampliar">Recursos para ampliar</a></li>
-  <li><a href="#simuladores-y-herramientas" id="toc-simuladores-y-herramientas" class="nav-link" data-scroll-target="#simuladores-y-herramientas">Simuladores y herramientas</a></li>
+  <li><a href="#absorción-de-la-luz-no-pau" id="toc-absorción-de-la-luz-no-pau" class="nav-link" data-scroll-target="#absorción-de-la-luz-no-pau">Absorción de la luz (no PAU)</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="0799_formulario.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">T11. Física nuclear y de partículas</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">Introducción</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0700_Introduccion.html">T07. OEM y óptica física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html">Formulario OEM y Óptica física</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Introducción</h1>
+<h1 class="title">Formulario OEM y Óptica física</h1>
 </div>
 
 
@@ -499,28 +532,129 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level2">
-<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<section id="velocidad-de-la-luz" class="level1">
+<h1>Velocidad de la luz:</h1>
+<p>La velocidad de propagación de cualquier onda se puede escribir así: <span class="math display">\[\large v= \dfrac{\lambda}{T} = \lambda·f\]</span></p>
+<p>La velocidad de una onda electromagnética en el vacío o en el aire es: <span class="math display">\[\Large c=\dfrac{1}{\sqrt{\varepsilon_0 \ \mu_0}}\]</span></p>
+<p>Donde:<br>
+- <span class="math inline">\(\varepsilon_0\)</span>: permitiviad dueléctrica del vacío. <span class="math inline">\(\varepsilon_0=8,85·10^{-12} \dfrac{C^2}{Nm^2}\)</span><br>
+- <span class="math inline">\(\mu_0\)</span>: permeabilidad magnética del vacío. <span class="math inline">\(\mu_0 = 4\pi·10^{-7} \dfrac{N}{A^2}\)</span>.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Fijarse">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Fijarse
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Y por supuesto se mantiene que: <span class="math display">\[v=c= \dfrac{\lambda}{T} = \lambda·f=\dfrac{1}{\sqrt{\varepsilon_0 \ \mu_0}}\]</span></p>
+</div>
+</div>
 </section>
-<section id="recursos-teóricos" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-teóricos">Recursos teóricos</h2>
+<section id="en-otros-medios" class="level1">
+<h1>En otros medios:</h1>
+<p>Se define el <strong>índice de refracción</strong> para caracterizar al medio: <span class="math display">\[n=\dfrac{c}{v}\]</span> - Donde <span class="math inline">\(c\)</span> es la velocidad de la luz en el vacío.<br>
+- <span class="math inline">\(v\)</span> es la velocidad de la luz en el medio considerado.</p>
+<p>El índice de refracción en vacío y en aire lógicamente es 1: <span class="math display">\[n_{vacío}=n_{aire}=1\]</span></p>
+<p>El índice de refraccion de un medio respecto de otro: <span class="math display">\[n_{2,1}=\dfrac{v_1}{v_2} =\dfrac{n_2}{n_1}\]</span></p>
 </section>
-<section id="recursos-para-hacer-ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-para-hacer-ejercicios">Recursos para hacer ejercicios</h2>
-<section id="ejercicios-pau-madrid-más-habituales" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicios-pau-madrid-más-habituales">Ejercicios PAU Madrid más habituales</h3>
+<section id="ecuaciones-oem" class="level1">
+<h1>Ecuaciones OEM</h1>
+<p>Una OEM es un campo eléctrico y magnético en fase que son perpendiculares entre sí.</p>
+<p>Si escribimos estos campos como onas unidimensionales:<br>
+- Campo eléctrico: <span class="math inline">\(E_y=E_0·\sin(\omega t - k x + \phi)\)</span><br>
+- Campo magnético: <span class="math inline">\(B_z=B_0·\sin(\omega t - k x + \phi)\)</span></p>
+<p>Sus amplitudes cumplen: <span class="math inline">\(B_0=\dfrac{E_0}{c}\)</span>.<br>
+Y por supuesto: <span class="math inline">\(c=\dfrac{\lambda}{T}=\lambda·f\)</span>.</p>
 </section>
-<section id="ejercicios-pau-madrid" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicios-pau-madrid">Ejercicios PAU Madrid</h3>
+<section id="fenómenos-de-la-luz-para-problemas" class="level1">
+<h1>Fenómenos de la luz para problemas</h1>
+<section id="reflexión-de-la-luz" class="level2">
+<h2 class="anchored" data-anchor-id="reflexión-de-la-luz">Reflexión de la luz</h2>
+<p>Cuando la OEM se refleja en alguna superficie, en ángulo de incidencia es igual al ángulo de reflexión (<strong>estos ángulos siempre respecto a la normal a la superficie</strong>).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://commons.wikimedia.org/wiki/File:Reflection_angles.svg"><img src="../../../img/both/Reflection_angles.png" class="img-fluid figure-img" width="300"></a></p>
+<figcaption>Reflexión de una onda</figcaption>
+</figure>
+</div>
+</section>
+<section id="refracción-de-la-luz" class="level2">
+<h2 class="anchored" data-anchor-id="refracción-de-la-luz">Refracción de la luz</h2>
+<p>Cuando la OEM se reflacta al pasar de un medio a otro, se cumple la *Ley de Snell<strong> (</strong>siempre los ángulos se miden respecto a la normal de la superficie de separación de ambos medios**).</p>
+<p>Considerando que un rayo de luz va del medio 1 al medio 2: <span class="math display">\[
+n_1 · \sin(\theta_1) = n_2 · \sin(\theta_2)
+\]</span> - Si <span class="math inline">\(n_2 &gt; n_1\)</span>, el rayo se acercará a la normal.<br>
+- Si <span class="math inline">\(n_2 &lt; n_1\)</span>, el rayo se alejará de la normal (en este caso se podría llegar al ángulo límite (<span class="math inline">\(\theta_1\)</span> adecuado para que <span class="math inline">\(\theta_2=90\textdegree\)</span>, y si <span class="math inline">\(\theta_1\)</span> sigue creciendo pasaríamos al fenómeno de reflexión total, donde ya no se produce refracción)).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://commons.wikimedia.org/wiki/File:Refracci%C3%B3n_y_reflexi%C3%B3n.svg"><img src="../../../img/esp/Refracción_y_reflexionTotal.png" height="300" class="figure-img"></a></p>
+<figcaption>Refracción de la luz</figcaption>
+</figure>
+</div>
+</section>
+<section id="dispersión-de-la-luz" class="level2">
+<h2 class="anchored" data-anchor-id="dispersión-de-la-luz">Dispersión de la luz</h2>
+<p>Es el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, <strong>el ángulo de refracción cambia con la frecuencia de la onda</strong>.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Fijarse">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Fijarse
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La ecuación básica de la velocidad es: <span class="math inline">\(v= \dfrac{\lambda}{T} = \lambda·f\)</span>. Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:<br>
+- <span class="math inline">\(\lambda_1 = \dfrac{v_1}{f}\)</span><br>
+- <span class="math inline">\(\lambda_2 = \dfrac{v_2}{f}\)</span></p>
+</div>
+</div>
+<section id="análisis-de-la-dispersión-en-un-prisma" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-la-dispersión-en-un-prisma">Análisis de la dispersión en un prisma:</h3>
+<p>En los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.<br>
+- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).<br>
+- El ángulo de desviación del rayo emergente (<span class="math inline">\(\delta\)</span>) se calcula por geometría y depende del ángulo de incidencia en el prisma (<span class="math inline">\(i_{1}\)</span>), el ángulo de refracción de <strong>salida</strong> en el prisma (<span class="math inline">\(r_{2}\)</span>) y el ángulo de fabricación del prisma (<span class="math inline">\(\varphi\)</span>). <span class="math display">\[
+\large \delta = i_1+r_2-\varphi
+\]</span></p>
+<!--
+[![Ángulos en un prisma](/img/both/PrismParameters.png){width=300}](https://commons.wikimedia.org/wiki/File:PrismParameters.png).
+-->
+<div class="callout callout-style-default callout-note callout-titled" title="Demostración">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Demostración
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Demostración de: <span class="math inline">\(\delta = i_1+r_2-\varphi\)</span> <a href="https://commons.wikimedia.org/wiki/File:PrismParameters.png"><img src="../../../img/both/angle-prism2.png" class="img-fluid quarto-figure quarto-figure-left" width="500" alt="Ángulos en un prisma"></a></p>
+<p><span class="math inline">\(r_1+i_2+(180\textdegree - \varphi)=180\textdegree\)</span></p>
+<p>Notar que el ánglo de separación de las caras oblicuas del prisma (<span class="math inline">\(\varphi\)</span>) es el ángulo suplementario del tercer ángulo del triángulo que forman <span class="math inline">\(r_1\)</span> e <span class="math inline">\(i_2\)</span>.</p>
+<p><span class="math inline">\(\phi = r_1 + i_2\)</span><br>
+<span class="math inline">\((i_1-r_1) + (r_2-i2)+(180\textdegree-\delta)=180\textdegree\)</span><br>
+<span class="math inline">\(\delta = i_1+r_2-(r_1+i_2)\)</span><br>
+<span class="math inline">\(\delta = i_1+r_2-\varphi\)</span></p>
+</div>
+</div>
+</div>
 </section>
 </section>
-<section id="recursos-para-ampliar" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-para-ampliar">Recursos para ampliar</h2>
-</section>
-<section id="simuladores-y-herramientas" class="level2">
-<h2 class="anchored" data-anchor-id="simuladores-y-herramientas">Simuladores y herramientas</h2>
+<section id="absorción-de-la-luz-no-pau" class="level2">
+<h2 class="anchored" data-anchor-id="absorción-de-la-luz-no-pau">Absorción de la luz (no PAU)</h2>
+<p>La absorción es el fenómeno por el cual la luz cede energía al medio por el que se propaga. En este caso la energía radiante (de los fotones) al ser absorbida por la materia se puede transformar en energía térmica.</p>
+<p><span class="math display">\[I(x) = I_0·e^{-\alpha x}\]</span></p>
 
 
+
+</section>
 </section>
 
 </main> <!-- /main -->

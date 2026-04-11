@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Introducción</title>
+<title>Principios de la óptica</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -197,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">T11. Física nuclear y de partículas</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">Introducción</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html">T08. Óptica geométrica</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html">Principios de la óptica</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -351,13 +380,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
  <span class="menu-text">T08. Óptica geométrica</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html" class="sidebar-item-text sidebar-link">
@@ -366,7 +395,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Principios de la óptica</span></a>
   </div>
 </li>
@@ -438,16 +467,16 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
  <span class="menu-text">T11. Física nuclear y de partículas</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introducción</span></a>
   </div>
 </li>
@@ -465,24 +494,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
-  <li><a href="#recursos-teóricos" id="toc-recursos-teóricos" class="nav-link" data-scroll-target="#recursos-teóricos">Recursos teóricos</a></li>
-  <li><a href="#recursos-para-hacer-ejercicios" id="toc-recursos-para-hacer-ejercicios" class="nav-link" data-scroll-target="#recursos-para-hacer-ejercicios">Recursos para hacer ejercicios</a>
+  <li><a href="#principios-de-la-óptica-geométrica" id="toc-principios-de-la-óptica-geométrica" class="nav-link active" data-scroll-target="#principios-de-la-óptica-geométrica">Principios de la óptica geométrica:</a>
   <ul class="collapse">
-  <li><a href="#ejercicios-pau-madrid-más-habituales" id="toc-ejercicios-pau-madrid-más-habituales" class="nav-link" data-scroll-target="#ejercicios-pau-madrid-más-habituales">Ejercicios PAU Madrid más habituales</a></li>
-  <li><a href="#ejercicios-pau-madrid" id="toc-ejercicios-pau-madrid" class="nav-link" data-scroll-target="#ejercicios-pau-madrid">Ejercicios PAU Madrid</a></li>
+  <li><a href="#algunas-definiciones" id="toc-algunas-definiciones" class="nav-link" data-scroll-target="#algunas-definiciones">Algunas definiciones</a></li>
+  <li><a href="#aproximación-paraxial" id="toc-aproximación-paraxial" class="nav-link" data-scroll-target="#aproximación-paraxial">Aproximación paraxial</a></li>
   </ul></li>
-  <li><a href="#recursos-para-ampliar" id="toc-recursos-para-ampliar" class="nav-link" data-scroll-target="#recursos-para-ampliar">Recursos para ampliar</a></li>
-  <li><a href="#simuladores-y-herramientas" id="toc-simuladores-y-herramientas" class="nav-link" data-scroll-target="#simuladores-y-herramientas">Simuladores y herramientas</a></li>
+  <li><a href="#tipos-de-imágenes" id="toc-tipos-de-imágenes" class="nav-link" data-scroll-target="#tipos-de-imágenes">Tipos de imágenes:</a></li>
+  <li><a href="#cómo-dibujar-los-rayos-objeto-e-imagen" id="toc-cómo-dibujar-los-rayos-objeto-e-imagen" class="nav-link" data-scroll-target="#cómo-dibujar-los-rayos-objeto-e-imagen">Cómo dibujar los rayos objeto e imagen</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">T11. Física nuclear y de partículas</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T11. Física nuclear y de partículas/1100_Introduccion.html">Introducción</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/index.html">2º BACH Física</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0800_Introduccion.html">T08. Óptica geométrica</a></li><li class="breadcrumb-item"><a href="../../../articles/04_BACH_2_Fisica/T08. Óptica geométrica/0801_Principios de la óptica.html">Principios de la óptica</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Introducción</h1>
+<h1 class="title">Principios de la óptica</h1>
 </div>
 
 
@@ -499,26 +526,105 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introducción" class="level2">
-<h2 class="anchored" data-anchor-id="introducción">Introducción</h2>
+<section id="principios-de-la-óptica-geométrica" class="level1">
+<h1>Principios de la óptica geométrica:</h1>
+<p>Aquí nos olvidaremos de la naturaleza dual de la luz (tanto como corpúsculo o como onda) y nos centraremos en el concepto de <strong>rayo</strong> que indica la propagación de la luz. Estos son los principios que van a regir este tema: 1. La <strong>luz se propaga en línea recta</strong> en un medio <em>homogéneo</em> (las propiedades no varían con la posición considerada) e <em>isótropo</em> (las propiedades no dependen de la dirección considerada).<br>
+Ejs.: Aire, agua pura, vidrio.<br>
+<span class="math inline">\(\rightarrow\)</span> Por eso representaremos la luz como rayos que son líneas imaginarias que muestran el avance de la luz. 2. Los <strong>rayos de luz son independientes</strong> unos de otros. 3. Se cumplen las <strong>leyes de la reflexión y refracción</strong> (leyes de Snell). 4. Los <strong>rayos luminosos son reversibles</strong>: el camino seguido por un rayo es independiente de que se produzca en un determinado sentido o en su contrario.</p>
+<section id="algunas-definiciones" class="level2">
+<h2 class="anchored" data-anchor-id="algunas-definiciones">Algunas definiciones</h2>
+<ul>
+<li><strong>Rayo luminoso</strong>: es la línea imaginaria que representa el avance de la luz, en línea recta.
+<ul>
+<li>No se tiene en cuenta la naturaleza dual de la luz.</li>
+<li>Siempre es perpendicular al frente de ondas.</li>
+<li>Se propaga en línea recta.</li>
+<li>No se altera al cruzarse con otros rayos (su trayectoria es independiente).</li>
+</ul></li>
+<li><strong>Dioptrio</strong>: superficie de separación entre dos medios con distinto índice de refracción.
+<ul>
+<li>Esta superficie de separación puede ser plana o esférica.</li>
+<li>Una lente se construye con dos dioptrios.</li>
+</ul></li>
+<li><strong>Sistema óptico</strong>: conjunto de lentes y espejos por los que se propaga la luz con diferentes índices de refracción y reflexión. Solo vamos a considerar medios <em>isótropos y homogéneos</em>.
+<ul>
+<li>Sistema <strong><em>homogéneo</em></strong>: si su índice de refracción (=la velocidad de la luz) es el mismo en todos sus puntos.
+<ul>
+<li>Sistema heterogéneo: si su índice de refracción (=la velocidad de la luz) puede ser diferente en algunos puntos.</li>
+</ul></li>
+<li>Sistema <strong><em>isótropo</em></strong>: la velocidad de la luz no depende de la dirección de propagación.
+<ul>
+<li>Sistema anisótropo: la velocidad de la luz será diferente según su dirección.</li>
+</ul></li>
+<li>Sistema <strong><em>estigmático</em></strong>: si todos los rayos que parten de un punto <span class="math inline">\(P\)</span> confluyen a otro punto <span class="math inline">\(P'\)</span>. Sistema astigmático: si no sucede lo anterior.</li>
+<li><strong>Eje óptico</strong>: es el eje común a todas las superficies de un <em>sistema óptico centrado</em> (donde todas las superficies tienen sus centros de curvatura en la misma recta).</li>
+</ul></li>
+<li><strong>Foco</strong>: solo existe en los sistemas esféricos (no en los planos). Es el punto donde convergen los rayos de luz que llegan paralelos al eje óptico.
+<ul>
+<li>Los rayos que vienen de muy lejos (del infinito) siempre se consideran que llegan paralelos al eje óptico.</li>
+</ul></li>
+</ul>
 </section>
-<section id="recursos-teóricos" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-teóricos">Recursos teóricos</h2>
-</section>
-<section id="recursos-para-hacer-ejercicios" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-para-hacer-ejercicios">Recursos para hacer ejercicios</h2>
-<section id="ejercicios-pau-madrid-más-habituales" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicios-pau-madrid-más-habituales">Ejercicios PAU Madrid más habituales</h3>
-</section>
-<section id="ejercicios-pau-madrid" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicios-pau-madrid">Ejercicios PAU Madrid</h3>
+<section id="aproximación-paraxial" class="level2">
+<h2 class="anchored" data-anchor-id="aproximación-paraxial">Aproximación paraxial</h2>
+<p>En todos los problemas consideramos que estamos en esta zona y por tanto se aplica la aproximación paraxial.</p>
+<p>La <strong>Zona paraxial (o de Gauss)</strong>: zona de un diptrio donde podemos considerar que los rayos se propagan de forma paralela al eje óptico (es donde el análisis resulta más sencillo).</p>
+<p>Los rayos se encuentran en esta zona forman ángulos pequeños con el eje óptico, donde <span class="math inline">\(\alpha &lt; 10\degree\)</span>. En esos casos lo sucede es que: <span class="math display">\[
+\alpha \approx sen(\alpha) \approx tg(\alpha) = \dfrac{cateto_{opuesto}}{cateto_{contiguo}}
+\]</span></p>
 </section>
 </section>
-<section id="recursos-para-ampliar" class="level2">
-<h2 class="anchored" data-anchor-id="recursos-para-ampliar">Recursos para ampliar</h2>
+<section id="tipos-de-imágenes" class="level1">
+<h1>Tipos de imágenes:</h1>
+<p>Solo se consideran imágenes formadas en medios **isótropos, homogéneos y estigmáticos”.</p>
+<ul>
+<li>Según su naturaleza:
+<ul>
+<li><p><strong>Reales</strong>: Los rayos que parten de cada punto <strong><em>convergen</em></strong> (=se juntan) tras pasar por el sistema óptico. Estas imágenes sí se pueden proyectar en una pantalla.<br>
+<strong><em>Siempre serán invertidas tanto en lentes como en espejos.</em></strong> <img src="../../../img/both/RealImage.png" class="img-fluid" alt="Imagen real"><br>
+La imagen real es aquella que se forma cuando, tras pasar por el sistema óptico, los rayos de luz son convergentes. Esta imagen la podemos percibir directamente con nuestro sentido de la vista colocando el ojo tal que los rayos que le llegan ya hayan pasado por el punto de convergencia (punto imagen). Además puede registrarse colocando una pantalla en el punto imagen.</p></li>
+<li><p><strong>Virtuales</strong><em>: Los rayos que parten de cada punto </em><strong>divergen</strong>* (=se separan) tras pasar por el sistema óptico, pero sus <em>prolongaciones</em> sí se juntan en un punto.<br>
+Estas imágenes no se pueden proyectar en una pantalla.<br>
+<strong><em>Las imágenes virtuales siempre serán derechas tanto en espejos como en lentes.</em></strong> <img src="../../../img/both/VirtualImage.png" class="img-fluid" alt="Imagen virtual"><br>
+La imagen virtual es aquella que se forma cuando, tras pasa por el sistema óptico, los rayos divergen. Para nuestro sentido de la vista los rayos parecen venir desde un punto por el que no han pasado realmente. La imagen se percibe en el lugar donde convergen las prolongaciones de esos rayos divergentes. Es el caso de la imagen formada por un espejo plano. Las imágenes virtuales no se pueden proyectar sobre una pantalla.</p></li>
+</ul></li>
+<li>Según su posición en relación al objeto original:
+<ul>
+<li><strong>Derechas</strong>: la imagen tiene la misma posición que el objeto.<br>
+</li>
+<li><strong>Invertidas</strong>: la imagen tiene la posición contraria que el objeto.</li>
+</ul></li>
+<li>Según su tamaño en relación al objeto original: <strong>menores</strong>, <strong>iguales</strong>, <strong>mayores</strong>.</li>
+</ul>
 </section>
-<section id="simuladores-y-herramientas" class="level2">
-<h2 class="anchored" data-anchor-id="simuladores-y-herramientas">Simuladores y herramientas</h2>
+<section id="cómo-dibujar-los-rayos-objeto-e-imagen" class="level1">
+<h1>Cómo dibujar los rayos objeto e imagen</h1>
+<p>¿Qué rayos se van a usar para los diagramas ópticos y cuáles son sus reglas de dibujo?</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Si viene un rayo paralelo al eje óptico desde el objeto, al pasar por el sistema óptico saldrá (él o su prolongación) por el foco imagen. (Solo en sistemas esféricos.)</p></li>
+<li><p>Si llega al sistema después de pasar por el foco objeto, sale paralelo al eje óptico.</p></li>
+<li><p>Si incide en el centro de curvatura o centro óptico:</p>
+<ul>
+<li>En espejos vuelve por el mismo camino (forma mismo ángulo).<br>
+</li>
+<li>Si es una lente no se desvía.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p>En general dibujaremos solo 2 rayos:<br>
+- <strong>Rayo paralelo al eje que pasa por el foco imagen.</strong><br>
+- <strong>Rayo que pasa por el centro óptico y no se desvía.</strong></p>
 
 
 </section>
