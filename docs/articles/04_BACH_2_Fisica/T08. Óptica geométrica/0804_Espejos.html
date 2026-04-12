@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -470,8 +499,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#espejo-plano" id="toc-espejo-plano" class="nav-link" data-scroll-target="#espejo-plano">Espejo plano</a></li>
   <li><a href="#espejo-esférico" id="toc-espejo-esférico" class="nav-link" data-scroll-target="#espejo-esférico">Espejo esférico</a>
   <ul class="collapse">
-  <li><a href="#cóncavo" id="toc-cóncavo" class="nav-link" data-scroll-target="#cóncavo">Cóncavo</a></li>
-  <li><a href="#convexo" id="toc-convexo" class="nav-link" data-scroll-target="#convexo">Convexo</a></li>
+  <li><a href="#parábolico-vs-esférico" id="toc-parábolico-vs-esférico" class="nav-link" data-scroll-target="#parábolico-vs-esférico">Parábolico vs esférico</a></li>
+  <li><a href="#elementos-de-un-espejo-esférico" id="toc-elementos-de-un-espejo-esférico" class="nav-link" data-scroll-target="#elementos-de-un-espejo-esférico">Elementos de un espejo esférico:</a></li>
+  <li><a href="#tipos-de-espejos-esfericos" id="toc-tipos-de-espejos-esfericos" class="nav-link" data-scroll-target="#tipos-de-espejos-esfericos">Tipos de espejos esfericos</a></li>
+  <li><a href="#rayos-para-el-diagrama-de-rayos" id="toc-rayos-para-el-diagrama-de-rayos" class="nav-link" data-scroll-target="#rayos-para-el-diagrama-de-rayos">Rayos para el diagrama de rayos</a></li>
+  <li><a href="#ecuaciones-del-espejo-esférico" id="toc-ecuaciones-del-espejo-esférico" class="nav-link" data-scroll-target="#ecuaciones-del-espejo-esférico">Ecuaciones del espejo esférico:</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -503,14 +535,80 @@ ul.task-list li input[type="checkbox"] {
 <h1>Espejos</h1>
 <section id="espejo-plano" class="level2">
 <h2 class="anchored" data-anchor-id="espejo-plano">Espejo plano</h2>
+<ul>
+<li><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/2-1-imagenes-formadas-por-espejos-planos">Teoría de Imágenes formadas por espejos planos de acceso gratuito en OpenStax</a></li>
+</ul>
+<p><img src="../../../img/esp/espejo_plano_OpenStax.webp" class="img-fluid" alt="Imagen en espejo plano de OpenStax"><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/1-introduccion">Acceso gratuito en OpenStax</a></p>
 </section>
 <section id="espejo-esférico" class="level2">
 <h2 class="anchored" data-anchor-id="espejo-esférico">Espejo esférico</h2>
-<section id="cóncavo" class="level3">
-<h3 class="anchored" data-anchor-id="cóncavo">Cóncavo</h3>
+<ul>
+<li><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/2-2-espejos-esfericos">Teoría de Imágenes formadas por espejos esféricos de acceso gratuito en OpenStax</a></li>
+</ul>
+<section id="parábolico-vs-esférico" class="level3">
+<h3 class="anchored" data-anchor-id="parábolico-vs-esférico">Parábolico vs esférico</h3>
+<p><img src="../../../img/esp/espejo_parabolico_vs_esferico_OpenStax.webp" class="img-fluid" alt="Formas de espejos tomada de OpenStax"><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/1-introduccion">Acceso gratuito en OpenStax</a></p>
+<p>Para que los rayos converjan en un solo punto de una superficie curva, necesitamos que esta sea parabólica (los telescopios tienen esta lente).<br>
+- La imagen que genera es virtual, y todos los rayos convergen en ese punto perfectamente.<br>
+- El problema es que tienen un “eje”: son muy buenas generando imágenes donde apunte ese eje, pero si miro por arriba o por abajo del mismo no veré el objeto bien.</p>
+<p>Por ello usamos en general superficies sin eje: ESFÉRICAS:<br>
+- Tienen la ventaja de no tener un eje.<br>
+- Pero en una esfera todos los rayos NO convergen en el mismo punto. Esto va a generar una aberración esférica:<br>
+- En la parte más cercana al centro de la superficie considerada, los rayos sí convergen en un punto de forma similar a la parábola.<br>
+- Sin embargo a medida que me alejo dejan de converger tan bien.</p>
+<p>Para solventar esos problemas lo que hago es usar superficies esféricas cuyo radio de curvatura es muy grande, y van a funcionar muy bien siempre que estemos en unos ángulos cercanos al eje, es decir, siempre que funcione bien la aproximación de óptica paraxial.<br>
+<img src="../../../img/esp/espejo_esferico_aberracion_cromatica.webp" class="img-fluid" alt="Aberración esférica en espejo esférico de OpenStax"><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/1-introduccion">Acceso gratuito en OpenStax</a></p>
 </section>
-<section id="convexo" class="level3">
-<h3 class="anchored" data-anchor-id="convexo">Convexo</h3>
+<section id="elementos-de-un-espejo-esférico" class="level3">
+<h3 class="anchored" data-anchor-id="elementos-de-un-espejo-esférico">Elementos de un espejo esférico:</h3>
+<p>Elementos de un espejo esférico:<br>
+- <strong><span class="math inline">\(C\)</span>, centro de curvatura</strong>: Centro de la esfera imaginaria donde está el espejo.<br>
+- <strong><span class="math inline">\(R\)</span>, radio de curvatura</strong>: es el radio de la esfera.<br>
+- <strong>Eje óptico</strong>: eje de simetría de la superficie del espejo. Se usa de eje de coordenadas.<br>
+- <strong><span class="math inline">\(O\)</span>, centro del espejo</strong>: el punto donde el eje óptico corta la superficie del espejo. Se toma como origen del sistema de coordenadas.<br>
+- <strong><span class="math inline">\(F\)</span>, foco</strong>: punto donde convergen los rayos de luz que salen paralelos al eje. - Los espejos esféricos <strong>SOLO TIENEN UN FOCO</strong>. - Si una objeto estuviera muy lejos y todos sus rayos vienen paralelos, se formaría en el foco.<br>
+- <strong><span class="math inline">\(f\)</span>, distancia focal</strong>: distancia entre <span class="math inline">\(O\)</span> y <span class="math inline">\(F\)</span>. En un espejo, como solo hay un foco, coinciden la distancia focal objeto con la imagen: <span class="math inline">\(f=f'\)</span>.</p>
+<p>En un espejo esférico <strong>la distancia focal es la mitad del radio de curvatura</strong>: <span class="math display">\[
+f = \dfrac{R}{2}
+\]</span></p>
+</section>
+<section id="tipos-de-espejos-esfericos" class="level3">
+<h3 class="anchored" data-anchor-id="tipos-de-espejos-esfericos">Tipos de espejos esfericos</h3>
+<p>Hay dos tipos, cóncavo y convexo. La única diferencia entre ellos para hacer el diagrama de rayos es que si el objeto está en el mismo lado que el foco o en el contrario.</p>
+<ul>
+<li><strong>Cóncavo</strong>
+<ul>
+<li>El objeto está a la izquierda de la “cara interna de la esfera”.<br>
+</li>
+<li>El foco está en el <em>mismo</em> lado del objeto.</li>
+</ul></li>
+<li><strong>Convexo</strong>
+<ul>
+<li>El objeto está a la izquierda de la “cara externa de la esfera”.</li>
+<li>El foco está en al otro lado del espejo de donde está el objeto.</li>
+</ul></li>
+</ul>
+<p><img src="../../../img/esp/espejos_concavo_y_convexo.webp" class="img-fluid" alt="Reflexión en espejo cóncavo y convexo respectivamente"><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-3/pages/2-2-espejos-esfericos">Acceso gratuito en OpenStax</a></p>
+</section>
+<section id="rayos-para-el-diagrama-de-rayos" class="level3">
+<h3 class="anchored" data-anchor-id="rayos-para-el-diagrama-de-rayos">Rayos para el diagrama de rayos</h3>
+<ol type="1">
+<li>Rayo paralelo al eje óptico que al llegar al espejo pasa por el foco (siempre el foco va “dentro” de la esfera: a la izquierda en cóncavos y a la derecha en convexos).</li>
+<li>Rayo por el centro de curvatura de la esfera sin desviarse.</li>
+</ol>
+</section>
+<section id="ecuaciones-del-espejo-esférico" class="level3">
+<h3 class="anchored" data-anchor-id="ecuaciones-del-espejo-esférico">Ecuaciones del espejo esférico:</h3>
+<ol type="1">
+<li>Como es un espejo la relación entre los índices de refracción es: <span class="math inline">\(n=-n'\)</span></li>
+<li>La distancia focal es: <span class="math inline">\(f = f' = \dfrac{R}{2}\)</span></li>
+<li>La ecuación para las distancias de objeto e imagen se relaciona con la distancia focal y con el radio así: <span class="math display">\[
+\dfrac{1}{s'}+\dfrac{1}{s} = \dfrac{1}{f}=\dfrac{2}{R}
+\]</span></li>
+<li>El aumento lateral es: <span class="math display">\[
+A_L= \dfrac{y'}{y}=-\dfrac{s'}{s}
+\]</span></li>
+</ol>
 
 
 </section>
