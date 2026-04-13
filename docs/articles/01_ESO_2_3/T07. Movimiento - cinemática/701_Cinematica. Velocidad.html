@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.30">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>magnitudes-y-unidades</title>
+<title>Movimiento y cinemática</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -57,20 +57,49 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -81,8 +110,8 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -194,11 +223,11 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/101_Que es medir.html">T01. La medida</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html">102_Magnitudes y unidades</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Cinematica. Velocidad.html">Movimiento y cinemática</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -213,20 +242,20 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="../../../articles/01_ESO_2_3/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2º y 3ª ESO</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">T01. La medida</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../articles/01_ESO_2_3/T01. La medida/101_Que es medir.html" class="sidebar-item-text sidebar-link">
@@ -235,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">102_Magnitudes y unidades</span></a>
   </div>
 </li>
@@ -251,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
  <span class="menu-text">T05. El atomo y la tabla periodica</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -284,46 +313,34 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">T07. Movimiento - cinemática</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Movement and kinematics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica. Posicion.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Movimiento y cinemática</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">(ENG) Movement and kinematics</span></a>
+  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Cinematica. Velocidad.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Movimiento y cinemática</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cinemática: velocidad</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">(ENG) Kinematics: velocity</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cinemática: aceleración</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Graficas de movimiento.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gráficas del movimiento</span></a>
   </div>
 </li>
@@ -336,17 +353,406 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#rapidez-y-velocidad" id="toc-rapidez-y-velocidad" class="nav-link active" data-scroll-target="#rapidez-y-velocidad">Rapidez y velocidad</a>
+  <ul class="collapse">
+  <li><a href="#unidades-de-velocidad-fracms-y-frackmh" id="toc-unidades-de-velocidad-fracms-y-frackmh" class="nav-link" data-scroll-target="#unidades-de-velocidad-fracms-y-frackmh">Unidades de velocidad: <span class="math inline">\(\frac{m}{s}\)</span> y <span class="math inline">\(\frac{km}{h}\)</span></a>
+  <ul class="collapse">
+  <li><a href="#conversión-de-dfracms-a-dfrackmh" id="toc-conversión-de-dfracms-a-dfrackmh" class="nav-link" data-scroll-target="#conversión-de-dfracms-a-dfrackmh">Conversión de <span class="math inline">\(\dfrac{m}{s}\)</span> a <span class="math inline">\(\dfrac{km}{h}\)</span></a></li>
+  <li><a href="#conversión-de-dfrackmh-a-dfracms" id="toc-conversión-de-dfrackmh-a-dfracms" class="nav-link" data-scroll-target="#conversión-de-dfrackmh-a-dfracms">Conversión de <span class="math inline">\(\dfrac{km}{h}\)</span> a <span class="math inline">\(\dfrac{m}{s}\)</span></a></li>
+  <li><a href="#ejercicios-de-cambio-de-unidades" id="toc-ejercicios-de-cambio-de-unidades" class="nav-link" data-scroll-target="#ejercicios-de-cambio-de-unidades">Ejercicios de cambio de unidades</a></li>
+  </ul></li>
+  <li><a href="#problemas-de-velocidad" id="toc-problemas-de-velocidad" class="nav-link" data-scroll-target="#problemas-de-velocidad">Problemas de velocidad</a></li>
+  </ul></li>
+  <li><a href="#recursos-adicionales" id="toc-recursos-adicionales" class="nav-link" data-scroll-target="#recursos-adicionales">Recursos adicionales</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="701_Cinematica.-Velocidad.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/101_Que es medir.html">T01. La medida</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html">102_Magnitudes y unidades</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_eng.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/701_Cinematica. Velocidad.html">Movimiento y cinemática</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Movimiento y cinemática</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="rapidez-y-velocidad" class="level1">
+<h1>Rapidez y velocidad</h1>
+<p>No es lo mismo ir rápido (rapidez) que saber hacia dónde vas con esa rapidez (velocidad).</p>
+<ul>
+<li><strong>Rapidez</strong>: cuánto de rápido se mueve. Unidad: <span class="math inline">\(\dfrac{m}{s}\)</span>.</li>
+<li><strong>Velocidad</strong>: rapidez + sentido de esa velocidad. También se mide en <span class="math inline">\(\dfrac{m}{s}\)</span> y el signo indicará si va hacia la derecha (+) o a la izquierda (-).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/sign-criteria_1Axis_velocity.jpg" class="img-fluid figure-img"></p>
+<figcaption>Criterio de signos para posición y velocidad</figcaption>
+</figure>
+</div>
+<p>El <em>sentido</em> indica si va hacia la derecha (velocidad positiva) o hacia la izquierda (velocidad negativa) según el criterio de signos indicado. Se representa con una flecha. La longitud de esa flecha, que es el <em>módulo</em> (el valor númerico sin signo), sería la rapidez.</p>
+<p>Normalmente vamos a usar el término <strong>velocidad</strong>, pero eso implica que tenemos que tener cuidado con los signos que nos salgan:<br>
+- El desplazamiento <span class="math inline">\(\Delta x\)</span> puede ser positivo o negativo.<br>
+- El <strong>tiempo siempre será positivo</strong>.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Es muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.</p>
+<ul>
+<li><p>Velocidad:<br>
+<span class="math inline">\(\large v = \dfrac{s}{t}\)</span>. Se mide en <strong>metros por segundo (<span class="math inline">\(\frac{m}{s}\)</span>)</strong></p></li>
+<li><p>Despejar a partir de la velocidad el espacio:<br>
+<span class="math inline">\(v = \dfrac{s}{t} \rightarrow v·t = s\)</span>. Se mide en <strong>metros (m)</strong>.</p></li>
+<li><p>Despejar a partir de la velocidad el tiempo:<br>
+<span class="math inline">\(v = \dfrac{s}{t} \rightarrow v·t = s  \rightarrow t = \dfrac{s}{v}\)</span>. Se mide en <strong>segundos (s)</strong>.</p></li>
+</ul>
+</div>
+</div>
+<section id="unidades-de-velocidad-fracms-y-frackmh" class="level2">
+<h2 class="anchored" data-anchor-id="unidades-de-velocidad-fracms-y-frackmh">Unidades de velocidad: <span class="math inline">\(\frac{m}{s}\)</span> y <span class="math inline">\(\frac{km}{h}\)</span></h2>
+<p>En general es mejor escribir <span class="math inline">\(\dfrac{m}{s}\)</span> en vez de <span class="math inline">\(m/s\)</span> y mejor <span class="math inline">\(\dfrac{km}{h}\)</span> que <span class="math inline">\(km/h\)</span> porque así sabemos sin duda cuál es el denominador.</p>
+<p>Es muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:</p>
+<section id="conversión-de-dfracms-a-dfrackmh" class="level3">
+<h3 class="anchored" data-anchor-id="conversión-de-dfracms-a-dfrackmh">Conversión de <span class="math inline">\(\dfrac{m}{s}\)</span> a <span class="math inline">\(\dfrac{km}{h}\)</span></h3>
+<p><span class="math display">\[
+1\dfrac{m}{s} = \dfrac{1\ m}{s} · \dfrac{1\ km}{1000\ m} · \dfrac{60·60\ s}{1\ h}= \dfrac{3600\ km}{1000\ h} = 3,6 \dfrac{km}{h}
+\]</span></p>
+</section>
+<section id="conversión-de-dfrackmh-a-dfracms" class="level3">
+<h3 class="anchored" data-anchor-id="conversión-de-dfrackmh-a-dfracms">Conversión de <span class="math inline">\(\dfrac{km}{h}\)</span> a <span class="math inline">\(\dfrac{m}{s}\)</span></h3>
+<p><span class="math display">\[
+1\dfrac{km}{h} = \dfrac{1\ km}{h} · \dfrac{1000\ m}{1\ km} · \dfrac{1\ h}{3600\ s} = \dfrac{1000\ m}{3600\ s} = \dfrac{1}{3,6}\dfrac{m}{s}
+\]</span></p>
+</section>
+<section id="ejercicios-de-cambio-de-unidades" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicios-de-cambio-de-unidades">Ejercicios de cambio de unidades</h3>
+<ol type="1">
+<li>Convierte <span class="math inline">\(15 m/s\)</span> en <span class="math inline">\(km/h\)</span>.</li>
+<li>Convierte <span class="math inline">\(90 km/h\)</span> en <span class="math inline">\(m/s\)</span>.</li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Soluciones
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>1. Convierte <span class="math inline">\(15 m/s\)</span> en <span class="math inline">\(km/h\)</span>.</strong> <span class="math display">\[
+15 \dfrac{m}{s} · \dfrac{1 \, km}{1000 \, m} · \dfrac{3600 \, s}{1 \, h}=
+\]</span> <span class="math display">\[
+= 15 · \dfrac{3600}{1000} \dfrac{km}{h} =
+\]</span></p>
+<p><span class="math display">\[
+= 15 · 3.6 = 54 \dfrac{km}{h}
+\]</span></p>
+<ul>
+<li><em>Resultado:</em> <span class="math inline">\(15 \dfrac{m}{s} = 54 \dfrac{km}{h}\)</span>.</li>
+</ul>
+<p><span class="math display">\[
+\\
+\\
+\]</span></p>
+<p><strong>2. Convierte <span class="math inline">\(90 km/h\)</span> en <span class="math inline">\(m/s\)</span>.</strong></p>
+<p><span class="math display">\[
+90 \dfrac{km}{h} · \dfrac{1000 \, m}{1 \, km} · \dfrac{1 \, h}{3600 \, s} =
+\]</span></p>
+<p><span class="math display">\[
+= 90 · \dfrac{1000}{3600} \dfrac{m}{s} =
+\]</span></p>
+<p><span class="math display">\[
+= \dfrac{90}{3.6} = 25 \dfrac{m}{s}
+\]</span></p>
+<ul>
+<li><em>Resultado:</em> <span class="math inline">\(90 \dfrac{km}{h} = 25 \dfrac{m}{s}\)</span></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="problemas-de-velocidad" class="level2">
+<h2 class="anchored" data-anchor-id="problemas-de-velocidad">Problemas de velocidad</h2>
+<p><strong>1. El Autobús de la Castellana</strong>. Un autobús de la EMT recorre los <strong>6 km</strong> que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente <strong>15 minutos</strong> (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Aplicamos la fórmula: <span class="math inline">\(v = \dfrac{d}{t}\)</span><br>
+<span class="math inline">\(v = \dfrac{6 \text{ km}}{0,25 \text{ h}} = 24 \text{ km/h}\)</span></p>
+</div>
+</div>
+</div>
+<p><strong>2. El patinete por el Retiro</strong>. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de <strong>750 metros</strong>, en su patinete eléctrico. Si tarda <strong>150 segundos</strong> en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math inline">\(v = \dfrac{d}{t}\)</span><br>
+<span class="math inline">\(v = \dfrac{750 \text{ m}}{150 \text{ s}} = 5 \text{ m/s}\)</span></p>
+</div>
+</div>
+</div>
+<p><strong>3. El Metro de Madrid (Línea 1)</strong>. Un tren de metro se encuentra en la posición <span class="math inline">\(x_i = 200 \text{ m}\)</span> (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición <span class="math inline">\(x_f = 1400 \text{ m}\)</span> (cerca de la estación de Bilbao). Si ha tardado <strong>80 segundos</strong> en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Calculamos el desplazamiento (<span class="math inline">\(\Delta x\)</span>): <span class="math inline">\(x_f - x_i = 1400 - 200 = 1200 \text{ m}\)</span><br>
+</li>
+<li>Calculamos la velocidad: <span class="math inline">\(v = \dfrac{\Delta x}{t} = \dfrac{1200 \text{ m}}{80 \text{ s}} = 15 \text{ m/s}\)</span><br>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p><strong>4. De Compras por la Gran Vía</strong>. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición <span class="math inline">\(0 \text{ m}\)</span>) y caminan hasta la Plaza de España, que está en la posición <span class="math inline">\(1300 \text{ m}\)</span>. Si tardan <strong>20 minutos</strong> (<span class="math inline">\(1200 \text{ s}\)</span>) en llegar, calcula el desplazamiento y la velocidad media en m/s.</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Desplazamiento: <span class="math inline">\(1300 \text{ m} - 0 \text{ m} = 1300 \text{ m}\)</span><br>
+</li>
+<li>Velocidad: <span class="math inline">\(v = \dfrac{1300 \text{ m}}{1200 \text{ s}} \approx 1,08 \text{ m/s}\)</span><br>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<p><strong>5. El Cercanías a Alcalá de Henares</strong> Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de <strong>90 km/h</strong>. Si el trayecto dura <strong>20 minutos</strong> (es decir, <span class="math inline">\(1/3\)</span> de hora o <span class="math inline">\(0,33 \text{ h}\)</span>), ¿qué distancia ha recorrido el tren?</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Escribimos la ecuación de la velocidad: <span class="math inline">\(v=\dfrac{d}{t}\)</span>.</li>
+<li>Despejamos el desplazamiento a partir de la ecuación anterior (como <span class="math inline">\(t\)</span> está dividiendo lo pasamos al otro lado multiplicando): <span class="math inline">\(v·t=d \rightarrow d = v \cdot t\)</span><br>
+</li>
+<li>Calculamos con valores numéricos: <span class="math inline">\(d = 90 \text{ km/h} \cdot 0,333 \text{ h} = 30 \text{ km}\)</span></li>
+</ol>
+</div>
+</div>
+</div>
+<p><strong>6. Viaje a Segovia en Coche</strong> Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de <strong>90 km</strong>. Si mantienen una velocidad media constante de <strong>120 km/h</strong> (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Escribimos la ecuación de la velocidad: <span class="math inline">\(v=\dfrac{d}{t}\)</span>.</li>
+<li>Para no equivocarnos lo primero que hacemos es quitar el denominador que es el <span class="math inline">\(t\)</span> y luego despejamos <span class="math inline">\(t\)</span>. <strong>¡¡Mucho cuidado que si no seguis los pasos os sale al revés!!</strong> <span class="math display">\[
+v=\dfrac{d}{t} \rightarrow v·t = d \rightarrow  t=\dfrac{d}{v}
+\]</span></li>
+<li>Sustituimos los valores numéricos y calculamos: <span class="math inline">\(t = \dfrac{90 \text{ km}}{120 \text{ km/h}} = 0,75 \text{ horas}\)</span><br>
+</li>
+<li>Para pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: <span class="math display">\[
+t = 0,75 h \rightarrow 0,75 h · \dfrac{60 min}{1 h} =  45 \text{ minutos}
+\]</span></li>
+</ol>
+</div>
+</div>
+</div>
+<!--
+
+# MRU: Fórmulas y gráficas
+
+## Introducción
+
+Movimiento con velocidad constante.
+
+## Fórmula
+
+:contentReference[oaicite:1]{index=1}
+
+## Despejes
+
+- $\( v = \frac{x - x_0}{t} \)$
+- $\( t = \frac{x - x_0}{v} \)$
+
+## Gráficas
+
+- Posición-tiempo: recta  
+- Velocidad-tiempo: constante  
+- Aceleración-tiempo: cero  
+
+## Ejemplo
+
+Un coche a 10 m/s durante 5 s → 50 m
+
+## Ejercicios
+
+1. Calcula posición tras 3 s a 2 m/s  
+2. ¿Qué forma tiene la gráfica?  
+3. ¿Hay aceleración?
+
+::: {.callout-answer collapse="true"}
+1. 6 m  
+2. Recta  
+3. No
+:::
+
+---
+
+# MRUA: Fórmulas y gráficas
+
+## Introducción
+
+Movimiento con aceleración constante.
+
+## Fórmulas
+
+:contentReference[oaicite:2]{index=2}
+
+:contentReference[oaicite:3]{index=3}
+
+## Despejes
+
+- $\( a = \frac{v - v_0}{t} \)$
+
+## Gráficas
+
+- Posición-tiempo: curva  
+- Velocidad-tiempo: recta  
+- Aceleración-tiempo: constante  
+
+## Ejemplo
+
+Caída libre.
+
+## Ejercicios
+
+1. Calcula velocidad tras 2 s con a=3  
+2. Forma de gráfica  
+3. ¿Hay aceleración?
+
+::: {.callout-answer collapse="true"}
+1. 6 m/s  
+2. Recta  
+3. Sí
+:::
+
+---
+
+# Ejercicios finales
+
+## Sencillos
+
+1. Define velocidad  
+2. Qué es MRU  
+3. Qué es aceleración  
+4. Unidad de velocidad  
+
+## Intermedios
+
+5. Calcula velocidad  
+6. Calcula posición  
+7. Interpreta gráfica  
+8. Diferencia MRU/MRUA  
+
+## Avanzados
+
+9. Analiza movimiento de un ascensor  
+10. Explica caída de una pelota con gráficas  
+
+---
+
+-->
+</section>
+</section>
+<section id="recursos-adicionales" class="level1">
+<h1>Recursos adicionales</h1>
+<ul>
+<li><p>English video <a href="https://www.youtube.com/watch?v=ZM8ECpBuQYE">Motion in one dimension</a></p></li>
+<li><p><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/3-introduccion">Movimiento rectilíneo</a></p></li>
+</ul>
+<!--
+- https://phet.colorado.edu  
+- https://www.fisicalab.com  
+- https://www.khanacademy.org/science/physics  
+- https://www.educaplus.org  
+-->
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -374,12 +780,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiado");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiado");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

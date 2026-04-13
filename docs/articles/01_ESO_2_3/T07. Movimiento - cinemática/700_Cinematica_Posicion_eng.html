@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>magnitudes-y-unidades</title>
+<title>(ENG) Movement and kinematics</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -197,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/101_Que es medir.html">T01. La medida</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html">102_Magnitudes y unidades</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html">(ENG) Movement and kinematics</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -220,13 +249,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">T01. La medida</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../articles/01_ESO_2_3/T01. La medida/101_Que es medir.html" class="sidebar-item-text sidebar-link">
@@ -235,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">102_Magnitudes y unidades</span></a>
   </div>
 </li>
@@ -284,13 +313,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">T07. Movimiento - cinemática</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion.html" class="sidebar-item-text sidebar-link">
@@ -299,7 +328,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">(ENG) Movement and kinematics</span></a>
   </div>
 </li>
@@ -336,17 +365,308 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#motion-is-relative" id="toc-motion-is-relative" class="nav-link" data-scroll-target="#motion-is-relative">Motion is relative</a>
+  <ul class="collapse">
+  <li><a href="#reference-system-and-position" id="toc-reference-system-and-position" class="nav-link" data-scroll-target="#reference-system-and-position">Reference system and position</a></li>
+  <li><a href="#sign-convention-for-position" id="toc-sign-convention-for-position" class="nav-link" data-scroll-target="#sign-convention-for-position">Sign convention for position</a></li>
+  </ul></li>
+  <li><a href="#what-is-motion-then" id="toc-what-is-motion-then" class="nav-link" data-scroll-target="#what-is-motion-then">What is motion then?</a>
+  <ul class="collapse">
+  <li><a href="#trajectory" id="toc-trajectory" class="nav-link" data-scroll-target="#trajectory">Trajectory</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  </ul></li>
+  <li><a href="#distance-traveled-and-displacement" id="toc-distance-traveled-and-displacement" class="nav-link" data-scroll-target="#distance-traveled-and-displacement">Distance traveled and displacement</a>
+  <ul class="collapse">
+  <li><a href="#exercises-1" id="toc-exercises-1" class="nav-link" data-scroll-target="#exercises-1">Exercises</a></li>
+  </ul></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional resources</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="700_Cinematica_Posicion_eng.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/101_Que es medir.html">T01. La medida</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T01. La medida/102_Magnitudes y unidades.html">102_Magnitudes y unidades</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/index.html">2º y 3ª ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_3/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html">(ENG) Movement and kinematics</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">(ENG) Movement and kinematics</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p><strong>Kinematics</strong> is the part of physics that studies <strong>how objects move</strong>, without worrying about why they move.</p>
+<p>Example: when you ride a bicycle, you can pay attention to <strong>where you are, what path you follow, how fast you go or if you are accelerating</strong>. All of that is studied by kinematics.</p>
+</section>
+<section id="motion-is-relative" class="level1">
+<h1>Motion is relative</h1>
+<p>What does this mean? A person sitting next to you on the bus is at rest from your point of view. But from the point of view of a person sitting at the bus stop, they will see that person moving.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Motion always depends on the observer: something moves when it changes its position with respect to a point that we choose (in this case with respect to the observer). This point is the <strong>origin of the reference system</strong> and is part of the <strong>reference point</strong>.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/bus-stop-in-tel-aviv.jpg" class="img-fluid figure-img" width="300"></p>
+<figcaption>Bus stop</figcaption>
+</figure>
+</div>
+<section id="reference-system-and-position" class="level2">
+<h2 class="anchored" data-anchor-id="reference-system-and-position">Reference system and position</h2>
+<p>To understand and describe motion we need some fundamental elements.</p>
+<p>Imagine you are talking to a friend so they can find you in a park and you tell them you are one hundred meters from the entrance. With that information you have given a point that acts as the origin of the reference system (“the entrance”) and the position (“one hundred meters from that entrance”).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/esp/sistemaReferencia_1D.jpg" class="img-fluid figure-img"></p>
+<figcaption>1D reference system</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Reference system</strong>: set of axes and a <em>point</em>, which is the <strong>origin</strong>, from which we measure positions.
+<ul>
+<li>In each problem we will choose a reference system and its origin. In general these will be considered fixed and immobile throughout the problem.</li>
+</ul></li>
+<li><strong>Position (x)</strong>: place where an object is <span style="color:red;">with respect to the origin of the reference system at each instant.</span> Unit: <strong>meter (m)</strong>.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sign-convention-for-position" class="level2">
+<h2 class="anchored" data-anchor-id="sign-convention-for-position">Sign convention for position</h2>
+<p>To describe motion it is important to be clear about the signs of position.</p>
+<ul>
+<li>If we move to the right, the position defined by <span class="math inline">\(x\)</span> will increase towards more positive values.<br>
+</li>
+<li>If we move to the left, <span class="math inline">\(x\)</span> will take smaller values until zero. If we keep moving to the left, <span class="math inline">\(x\)</span> will take more negative values.</li>
+</ul>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/both/sign-criteria_1Axis_numbres.jpg" class="img-fluid figure-img" width="500"></p>
+<figcaption>Sign convention for position</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="what-is-motion-then" class="level1">
+<h1>What is motion then?</h1>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We will say that a “body” is in <strong>motion</strong> when it changes its position (<span class="math inline">\('x'\)</span>) with respect to the origin of the reference system over time (<span class="math inline">\(t\)</span>).</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/SistemaReferencia_1D_movimiento.jpg" class="img-fluid figure-img"></p>
+<figcaption>Motion on the horizontal axis with reference system</figcaption>
+</figure>
+</div>
+<p>In the previous image we observe how at time <span class="math inline">\(t1\)</span> the person is at a position <span class="math inline">\(x=10m\)</span> and after time has passed, that person is at position <span class="math inline">\(x=95m\)</span>.<br>
+- They have covered a distance of <span class="math inline">\(d = 95m-10m  = 85m\)</span>.<br>
+- It coincides with the displacement (which is calculated as final position <span class="math inline">\(x_f\)</span> minus initial position <span class="math inline">\(x_i\)</span>): <span class="math inline">\(\Delta x = x_f - x_i = 95 - 10 = 85m\)</span>.<br>
+- They did it in the following time: <span class="math inline">\(\Delta t = t_2-t_1 = 60s - 0s = 60s\)</span>.<br>
+- Their velocity can be calculated as: <span class="math display">\[
+v = \dfrac{\Delta x}{\Delta t} = \dfrac{85m}{60s} \approx 1,42 \dfrac{m}{s}
+\]</span></p>
+<section id="trajectory" class="level2">
+<h2 class="anchored" data-anchor-id="trajectory">Trajectory</h2>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Trajectory</strong>: is the path followed by an object, that is, the set of its positions as time passes.</p>
+</div>
+</div>
+<p>For example: the points a cyclist would pass through following the road in the drawing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/camino.jpg" class="img-fluid figure-img" width="300"></p>
+<figcaption>Trajectory</figcaption>
+</figure>
+</div>
+<p>Trajectories can be straight (a ball that we drop or a car on a straight road) or curved like the previous image or the shot of a ball into a basket.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/330px_parabolic_trajectory.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Curved trajectory of a ball when shooting into a basket</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Pay attention!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pay attention!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This course we will only consider straight trajectories. If the trajectory goes through different streets, we will break the final trajectory into different straight segments.</p>
+</div>
+</div>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<ol type="1">
+<li>Define trajectory in your own words.<br>
+</li>
+<li>Can the position change without changing the trajectory?<br>
+</li>
+<li>Give an example of a curved trajectory.</li>
+<li>How would you draw the trajectory of a person who wants to go from the School to the Sports Field?</li>
+</ol>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/esp/city_map.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>City map</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Path followed by an object.<br>
+</li>
+<li>Yes, if it moves within the same type of trajectory.<br>
+</li>
+<li>A thrown ball.</li>
+<li>This exercise has different solutions. The interesting thing is simply to think that they must go through many streets.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="distance-traveled-and-displacement" class="level1">
+<h1>Distance traveled and displacement</h1>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Distance traveled (s)</strong>: is the total distance covered by a body in its motion. Unit: <strong>meter (m)</strong>.</p>
+<p><strong>Displacement(<span class="math inline">\(\Delta x\)</span>)</strong>: is the distance between the initial position (<span class="math inline">\(x_i\)</span>) and the final position (<span class="math inline">\(x_f\)</span>), it is also measured in <strong>meters (m)</strong> and is calculated as: <span class="math inline">\(\Delta x = x_f - x_i\)</span></p>
+</div>
+</div>
+<p>When we move in a straight line and do not go back, the distance traveled coincides with the displacement.</p>
+<p>But when we go somewhere and come back, these values may not coincide. <em>For example: sometimes we may have a distance traveled of 100 m, but the displacement is 0. When? When we go from our house to the school which is 50 m away and then return.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/Espacio_recorrido_y_Desplazamiento.jpg" class="img-fluid figure-img"></p>
+<figcaption>Difference between distance traveled and displacement</figcaption>
+</figure>
+</div>
+<section id="exercises-1" class="level2">
+<h2 class="anchored" data-anchor-id="exercises-1">Exercises</h2>
+<ol type="1">
+<li>Is distance traveled the same as displacement?<br>
+</li>
+<li>Calculate the distance traveled: you go from your house to the school (200 m), from there to the supermarket (another 60 m in the same direction) and from the supermarket back home (260 m from the supermarket to home in the opposite direction).</li>
+<li>Now calculate the displacement going to the previous places considering that your house is the initial and final point.</li>
+<li>What would be the displacement if you went from home to the school and from there to the supermarket without returning home?</li>
+<li>And the distance traveled?</li>
+<li>Can the distance traveled be zero?</li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>No.<br>
+</li>
+<li><span class="math inline">\(s=200 + 60 + 260  = 520 m\)</span>.</li>
+<li><span class="math inline">\(\Delta x = x_f - x_i = 0 - 0 = 0 m\)</span>.</li>
+<li><span class="math inline">\(\Delta x = x_f - x_i = (200+60) - 0 = 260 m\)</span>.</li>
+<li><span class="math inline">\(s=200 + 60 = 260 m\)</span>.</li>
+<li>Yes, only when there is no motion, that is, if you do not move.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="additional-resources" class="level1">
+<h1>Additional resources</h1>
+<ul>
+<li><p>English video <a href="https://www.youtube.com/watch?v=ZM8ECpBuQYE">Motion in one dimension</a></p></li>
+<li><p><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/3-introduccion">Rectilinear motion</a></p></li>
+</ul>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

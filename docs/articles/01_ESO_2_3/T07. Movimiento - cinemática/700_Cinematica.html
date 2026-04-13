@@ -421,7 +421,7 @@ window.Quarto = {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>El movimiento siempre depende del observador: algo se mueve cuando cambia su posición respecto a un punto que nosotros decidimos (en este caso respecto al observador). Es punto se llama <strong>punto de referencia</strong> u <strong>origen del sistema de referencia</strong>.</p>
+<p>El movimiento siempre depende del observador: algo se mueve cuando cambia su posición respecto a un punto que nosotros decidimos (en este caso respecto al observador). Es punto es el <strong>origen del sistema de referencia</strong> y forma parte del <strong>punto de referencia</strong>.</p>
 </div>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -451,9 +451,9 @@ window.Quarto = {
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><strong>Sistema de referencia</strong>: conjunto de ejes y un punto, que es el origen, desde el que medimos posiciones.
+<li><strong>Sistema de referencia</strong>: conjunto de ejes y un <em>punto</em>, que es el <strong>origen</strong>, desde el que medimos posiciones.
 <ul>
-<li>En cada problema elegiremos un sistema de referencia y se considerará fijo e inmóvil.</li>
+<li>En cada problema elegiremos un sistema de referencia y su origen. En general estos se considerarán fijos e inmóviles durante todo el problema.</li>
 </ul></li>
 <li><strong>Posición (x)</strong>: lugar donde está un objeto <span style="color:red;">respecto al origen del sistema de referencia en cada instante.</span> Unidad: <strong>metro (m)</strong>.</li>
 </ul>
@@ -462,7 +462,18 @@ window.Quarto = {
 </section>
 <section id="criterio-de-signos-para-la-posición" class="level2">
 <h2 class="anchored" data-anchor-id="criterio-de-signos-para-la-posición">Criterio de signos para la posición</h2>
-<p>Para poder describir el movimiento es importante tener claro los signos de la posición. - Si nos movemos hacia la derecha, la posición definida por <span class="math inline">\(x\)</span> irá creciendo hacia valores más positivos. - Si nos movemos hacia la izquierda, la <span class="math inline">\(x\)</span> irá teniendo valores más pequeños hasta el cero. Si seguimos moviéndonos hacia la izquierda, la <span class="math inline">\(x\)</span> irá teniendo valores más negativos. <img src="../../../img/both/sign-criteria_1Axis_numbres.jpg" class="img-fluid" alt="Criterio de signos de posición"></p>
+<p>Para poder describir el movimiento es importante tener claro los signos de la posición.</p>
+<ul>
+<li>Si nos movemos hacia la derecha, la posición definida por <span class="math inline">\(x\)</span> irá creciendo hacia valores más positivos.<br>
+</li>
+<li>Si nos movemos hacia la izquierda, la <span class="math inline">\(x\)</span> irá teniendo valores más pequeños hasta el cero. Si seguimos moviéndonos hacia la izquierda, la <span class="math inline">\(x\)</span> irá teniendo valores más negativos.</li>
+</ul>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/both/sign-criteria_1Axis_numbres.jpg" class="img-fluid figure-img" width="500"></p>
+<figcaption>Criterio de signos de posición</figcaption>
+</figure>
+</div>
 </section>
 </section>
 <section id="qué-es-el-movimiento-entonces" class="level1">
@@ -486,6 +497,13 @@ window.Quarto = {
 <figcaption>Movimiento en el eje horizontal con sistema de referencia</figcaption>
 </figure>
 </div>
+<p>En la imagen anterior se observa cómo en el instante <span class="math inline">\(t1\)</span> la persona está en una posición <span class="math inline">\(x=10m\)</span> y después de que el tiempo haya avanzado, esa persona está en la posición <span class="math inline">\(x=95m\)</span>.<br>
+- Ha recorrido una distancia de <span class="math inline">\(d = 95m-10m  = 85m\)</span>.<br>
+- Coincide con el desplazamiento (que se calcula como la posición final <span class="math inline">\(x_f\)</span> menos la posición inicial <span class="math inline">\(x_i\)</span>): <span class="math inline">\(\Delta x = x_f - x_i = 95 - 10 = 85m\)</span>.<br>
+- Lo ha hecho en el siguiente tiempo: <span class="math inline">\(\Delta t = t_2-t_1 = 60s - 0s = 60s\)</span>.<br>
+- Su velocidad se puede calcular así: <span class="math display">\[
+v = \dfrac{\Delta x}{\Delta t} = \dfrac{85m}{60s} \approx 1,42 \dfrac{m}{s}
+\]</span></p>
 <section id="trayectoria" class="level2">
 <h2 class="anchored" data-anchor-id="trayectoria">Trayectoria</h2>
 <div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
@@ -511,7 +529,7 @@ window.Quarto = {
 <p>Las trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../../img/both/330px_parabolic_trajectory.png" class="img-fluid figure-img"></p>
+<p><img src="../../../img/both/330px_parabolic_trajectory.png" class="img-fluid figure-img" width="300"></p>
 <figcaption>Trayectoria curva de una pelota al tirar a canasta</figcaption>
 </figure>
 </div>
@@ -605,18 +623,7 @@ window.Quarto = {
 <li>¿Y el espacio recorrido?</li>
 <li>¿Puede ser cero el espacio recorrido?</li>
 </ol>
-<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Precaución</span>Soluciones
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
+<!-- ::: {.callout-caution title="Soluciones" collapse="true"} -->
 <ol type="1">
 <li>No.<br>
 </li>
@@ -626,9 +633,7 @@ window.Quarto = {
 <li><span class="math inline">\(s=200 + 60 = 260 m\)</span>.</li>
 <li>Sí, solo cuando no hay movimiento, es decir, si no te desplazas.</li>
 </ol>
-</div>
-</div>
-</div>
+<!-- ::: -->
 <hr>
 </section>
 </section>
@@ -675,6 +680,24 @@ window.Quarto = {
 <h1>Problemas de velocidad</h1>
 <p><strong>1. El Autobús de la Castellana</strong> Un autobús de la EMT recorre los <strong>6 km</strong> que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente <strong>15 minutos</strong> (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="Solución">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Solución
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Aplicamos la fórmula: <span class="math inline">\(v = \dfrac{d}{t}\)</span><br>
+<span class="math inline">\(v = \dfrac{6 \text{ km}}{0,25 \text{ h}} = 24 \text{ km/h}\)</span></p>
+</div>
+</div>
+</div>
+<p><strong>2. El patinete por el Retiro</strong> Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de <strong>750 metros</strong>, en su patinete eléctrico. Si tarda <strong>150 segundos</strong> en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -686,12 +709,12 @@ window.Quarto = {
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Aplicamos la fórmula: <span class="math inline">\(v = \dfrac{d}{t}\)</span><br>
-<span class="math inline">\(v = \dfrac{6 \text{ km}}{0,25 \text{ h}} = 24 \text{ km/h}\)</span></p>
+<p><span class="math inline">\(v = \dfrac{d}{t}\)</span><br>
+<span class="math inline">\(v = \dfrac{750 \text{ m}}{150 \text{ s}} = 5 \text{ m/s}\)</span></p>
 </div>
 </div>
 </div>
-<p><strong>2. El patinete por el Retiro</strong> Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de <strong>750 metros</strong>, en su patinete eléctrico. Si tarda <strong>150 segundos</strong> en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?</p>
+<p><strong>3. El Metro de Madrid (Línea 1)</strong> Un tren de metro se encuentra en la posición <span class="math inline">\(x_i = 200 \text{ m}\)</span> (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición <span class="math inline">\(x_f = 1400 \text{ m}\)</span> (cerca de la estación de Bilbao). Si ha tardado <strong>80 segundos</strong> en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="Solución">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -704,12 +727,16 @@ window.Quarto = {
 </div>
 <div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><span class="math inline">\(v = \dfrac{d}{t}\)</span><br>
-<span class="math inline">\(v = \dfrac{750 \text{ m}}{150 \text{ s}} = 5 \text{ m/s}\)</span></p>
+<ol type="1">
+<li>Calculamos el desplazamiento (<span class="math inline">\(\Delta x\)</span>): <span class="math inline">\(x_f - x_i = 1400 - 200 = 1200 \text{ m}\)</span><br>
+</li>
+<li>Calculamos la velocidad: <span class="math inline">\(v = \dfrac{\Delta x}{t} = \dfrac{1200 \text{ m}}{80 \text{ s}} = 15 \text{ m/s}\)</span><br>
+</li>
+</ol>
 </div>
 </div>
 </div>
-<p><strong>3. El Metro de Madrid (Línea 1)</strong> Un tren de metro se encuentra en la posición <span class="math inline">\(x_i = 200 \text{ m}\)</span> (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición <span class="math inline">\(x_f = 1400 \text{ m}\)</span> (cerca de la estación de Bilbao). Si ha tardado <strong>80 segundos</strong> en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.</p>
+<p><strong>4. De Compras por la Gran Vía</strong> Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición <span class="math inline">\(0 \text{ m}\)</span>) y caminan hasta la Plaza de España, que está en la posición <span class="math inline">\(1300 \text{ m}\)</span>. Si tardan <strong>20 minutos</strong> (<span class="math inline">\(1200 \text{ s}\)</span>) en llegar, calcula el desplazamiento y la velocidad media en m/s.</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="Solución">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -723,15 +750,15 @@ window.Quarto = {
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li>Calculamos el desplazamiento (<span class="math inline">\(\Delta x\)</span>): <span class="math inline">\(x_f - x_i = 1400 - 200 = 1200 \text{ m}\)</span><br>
+<li>Desplazamiento: <span class="math inline">\(1300 \text{ m} - 0 \text{ m} = 1300 \text{ m}\)</span><br>
 </li>
-<li>Calculamos la velocidad: <span class="math inline">\(v = \dfrac{\Delta x}{t} = \dfrac{1200 \text{ m}}{80 \text{ s}} = 15 \text{ m/s}\)</span><br>
+<li>Velocidad: <span class="math inline">\(v = \dfrac{1300 \text{ m}}{1200 \text{ s}} \approx 1,08 \text{ m/s}\)</span><br>
 </li>
 </ol>
 </div>
 </div>
 </div>
-<p><strong>4. De Compras por la Gran Vía</strong> Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición <span class="math inline">\(0 \text{ m}\)</span>) y caminan hasta la Plaza de España, que está en la posición <span class="math inline">\(1300 \text{ m}\)</span>. Si tardan <strong>20 minutos</strong> (<span class="math inline">\(1200 \text{ s}\)</span>) en llegar, calcula el desplazamiento y la velocidad media en m/s.</p>
+<p><strong>5. El Cercanías a Alcalá de Henares</strong> Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de <strong>90 km/h</strong>. Si el trayecto dura <strong>20 minutos</strong> (es decir, <span class="math inline">\(1/3\)</span> de hora o <span class="math inline">\(0,33 \text{ h}\)</span>), ¿qué distancia ha recorrido el tren?</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="Solución">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -744,16 +771,12 @@ window.Quarto = {
 </div>
 <div id="callout-13" class="callout-13-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<ol type="1">
-<li>Desplazamiento: <span class="math inline">\(1300 \text{ m} - 0 \text{ m} = 1300 \text{ m}\)</span><br>
-</li>
-<li>Velocidad: <span class="math inline">\(v = \dfrac{1300 \text{ m}}{1200 \text{ s}} \approx 1,08 \text{ m/s}\)</span><br>
-</li>
-</ol>
+<p>Despejamos el desplazamiento: <span class="math inline">\(d = v \cdot t\)</span><br>
+<span class="math inline">\(d = 90 \text{ km/h} \cdot 0,333 \text{ h} = 30 \text{ km}\)</span></p>
 </div>
 </div>
 </div>
-<p><strong>5. El Cercanías a Alcalá de Henares</strong> Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de <strong>90 km/h</strong>. Si el trayecto dura <strong>20 minutos</strong> (es decir, <span class="math inline">\(1/3\)</span> de hora o <span class="math inline">\(0,33 \text{ h}\)</span>), ¿qué distancia ha recorrido el tren?</p>
+<p><strong>6. Viaje a Segovia en Coche</strong> Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de <strong>90 km</strong>. Si mantienen una velocidad media constante de <strong>120 km/h</strong> (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?</p>
 <div class="callout callout-style-default callout-caution callout-titled" title="Solución">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -765,24 +788,6 @@ window.Quarto = {
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-14" class="callout-14-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Despejamos el desplazamiento: <span class="math inline">\(d = v \cdot t\)</span><br>
-<span class="math inline">\(d = 90 \text{ km/h} \cdot 0,333 \text{ h} = 30 \text{ km}\)</span></p>
-</div>
-</div>
-</div>
-<p><strong>6. Viaje a Segovia en Coche</strong> Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de <strong>90 km</strong>. Si mantienen una velocidad media constante de <strong>120 km/h</strong> (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?</p>
-<div class="callout callout-style-default callout-caution callout-titled" title="Solución">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Precaución</span>Solución
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
 <li>Despejamos el tiempo: <span class="math inline">\(t = \dfrac{d}{v}\)</span><br>
@@ -815,7 +820,7 @@ window.Quarto = {
 <li>Convierte <span class="math inline">\(90\dfrac{km}{h}\)</span> en <span class="math inline">\(\dfrac{m}{s}\)</span>.</li>
 </ol>
 <div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -824,7 +829,7 @@ window.Quarto = {
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><strong>1. Convierte <span class="math inline">\(15 \dfrac{m}{s}\)</span> en <span class="math inline">\(\dfrac{km}{h}\)</span></strong> <span class="math display">\[
 15 \dfrac{m}{s} \times \dfrac{1 \, km}{1000 \, m} \times \dfrac{3600 \, s}{1 \, h}=
