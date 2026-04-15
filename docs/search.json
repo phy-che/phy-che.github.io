@@ -620,6 +620,32 @@
     ]
   },
   {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#rayos",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#rayos",
+    "title": "Formulario óptica geométrica",
+    "section": "Rayos",
+    "text": "Rayos\nUsar dos rayos (se añade el tercero como extra):\n\nParalelo al eje óptico: sale de la lente pasando por el foco imagen (o su prolongación). Paralelo y al foco imagen.\n\nPasa por el centro de la lente: no se desvía. Por el centro (del sistema óptico) y sin desviarse.\nPasa por el foco objeto (o va hacia el foco objeto): sale de la lente paralelo al eje óptico.\n\nPara el trazado de rayos y los signos lo único que hay que tener en cuenta es que:\n- En la lente convergente(\\(\\updownarrow\\)), el foco imagen está a la derecha de la lente (\\(f'&gt;0\\)). Los rayos convergerán a la derecha de la lente.\n- En la lente divergente, el foco imagen está a la izquierda de la lente (\\(f'&lt;0\\)). Los rayos divergerán a la derecha de la lente.",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Formulario óptica geométrica"
+    ]
+  },
+  {
+    "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#ecuaciones-de-la-lente",
+    "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0899_Formulario.html#ecuaciones-de-la-lente",
+    "title": "Formulario óptica geométrica",
+    "section": "Ecuaciones de la lente",
+    "text": "Ecuaciones de la lente\n\nEcuación del constructor de lentes: \\[\n\\frac{n}{s'}-\\frac{n}{s}=(n'-n)·(\\frac{1}{R_1}-\\frac{1}{R_2})\n\\] Donde:\n\nn es el índice de refracción de fuera de la lente. Como suele ser aire: n = 1.\nn’ es el índice de refracción del material óptico de la lente. Como \\(n=1 \\rightarrow (n’-n) = (n’-1)\\).\nR1 y R2 son los radios de cada superficie curva de la lente.\ns’ distancia a la imagen, s distancia al objeto y f’ es la distancia focal del foco imagen.\n\n\nCuando la lente está en el aire (\\(n = 1\\)) la ecuación anterior nos queda así de simplificada (¡aprender muy bien!): \\[\n\\dfrac{1}{s'}-\\dfrac{1}{s}=(n'-1)·(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}) = \\frac{1}{f’} = p \\ (potencia\\ de\\ la\\ lente)\n\\]\n\nPotencia focal: es la inversa de la (distancia) focal imagen: \\[\np = \\dfrac{1}{f'} \\ \\  [dioptrías = D = m^{-1}]\n\\]\n\nDe la ecuación del constructor de lentes se deduce que la potencia (\\(dioptrías = D = m^{-1}\\)) es: \\[\np = \\dfrac{1}{f'} = \\dfrac{1}{s'}-\\dfrac{1}{s}\n\\]\n\nAumento lateral (\\(A_L\\)): \\[\nA_L = \\dfrac{y'}{y} = \\dfrac{s'}{s}.\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T08. Óptica geométrica",
+      "Formulario óptica geométrica"
+    ]
+  },
+  {
     "objectID": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0804_Espejos.html",
     "href": "articles/04_BACH_2_Fisica/T08. Óptica geométrica/0804_Espejos.html",
     "title": "Espejos",

@@ -4,17 +4,37 @@
    text-align: center;
 }
 
+
+/****************************************
+      TABLAS HTML
+****************************************/
 table {
-  border-collapse: collapse;
-  display: grid;
+  border-collapse: collapse; /* clave para que las líneas coincidan */
+  /*display: grid;*/
+  width: 100%
 }
 
-table, th, td {
+/*table, th, td {
   border: 1px solid black;
-}
+}*/
+
+/*th, td {
+  padding: 6px;
+}*/
 
 th, td {
-  padding: 6px;
+  border: 1px solid black;     /* líneas visibles */
+  padding: 6px 10px;
+  /*text-align: center;*/
+  vertical-align: middle;
+}
+
+thead th {
+  border-bottom: 2px solid black; /* línea más fuerte para encabezado */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;   /* opcional: zebra */
 }
 
 /* html, body {
