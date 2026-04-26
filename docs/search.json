@@ -1146,7 +1146,7 @@
     "href": "articles/04_BACH_2_Fisica/T09. Relatividad/0900_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
     "section": "Recursos teóricos",
-    "text": "Recursos teóricos",
+    "text": "Recursos teóricos\n\nRESUMEN DE RELATIVIDAD EN 7 MINUTOS FÍSICA 2º BACHILLERATO de Estudia con Eleni.\n\nEl Dibujo que te Hará Entender la Relatividad de Quantum Fracture.\n\nSerie de videos de Las clases de física de Jorge Barrio sobre la relatividad especial.\n\nRelatividad Introducción La relatividad galileana de Las clases de física de Jorge Barrio.",
     "crumbs": [
       "Home",
       "2º BACH Física",
@@ -1718,6 +1718,383 @@
     "text": "Webs de referencia\n\nFisiquimicamente de Rodrigo Alcaraz et al.\n\n\n\nTeoría\n\n\nEjercicios resueltos:\n\nnikaTeleco de Cristina Fernández Sánchez: materiales y colecciones de ejercicios resueltos muy útiles para bachillerato en la sección “instituto”.\nAcademia Alcover:Extensa colección de problemas resueltos y muchos de ellos explicados en vídeo.",
     "crumbs": [
       "1º BACH"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html",
+    "title": "Cinemática: aceleración",
+    "section": "",
+    "text": "La aceleración es una magnitud física que mide cómo cambia la velocidad de un objeto a lo largo del tiempo.\n\nSi la velocidad aumenta → aceleración positiva\nSi la velocidad disminuye → aceleración negativa (deceleración)\n\n\n\nEn Madrid, una ciudad con más de 3 millones de habitantes, un coche pasa de 10 m/s a 20 m/s en 5 s.\nHay un aumento de velocidad, por lo que la aceleración es positiva.\n\n\n\nEn Tokio, una de las ciudades más pobladas del mundo, un tren reduce su velocidad de 30 m/s a 10 m/s en 4 s.\nLa velocidad disminuye, por lo que la aceleración es negativa.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#ejemplo-1-aceleración-positiva",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#ejemplo-1-aceleración-positiva",
+    "title": "Cinemática: aceleración",
+    "section": "",
+    "text": "En Madrid, una ciudad con más de 3 millones de habitantes, un coche pasa de 10 m/s a 20 m/s en 5 s.\nHay un aumento de velocidad, por lo que la aceleración es positiva.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#ejemplo-2-aceleración-negativa",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#ejemplo-2-aceleración-negativa",
+    "title": "Cinemática: aceleración",
+    "section": "",
+    "text": "En Tokio, una de las ciudades más pobladas del mundo, un tren reduce su velocidad de 30 m/s a 10 m/s en 4 s.\nLa velocidad disminuye, por lo que la aceleración es negativa.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-la-aceleración",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-la-aceleración",
+    "title": "Cinemática: aceleración",
+    "section": "1) Calcular la aceleración",
+    "text": "1) Calcular la aceleración\n\nEjercicio 1 (Madrid, España)\nMadrid es la capital de España y cuenta con una extensa red de transporte urbano. Un autobús de la EMT arranca desde una parada en el centro y pasa de 4 m/s a 16 m/s en 6 s.\nPregunta: ¿Cuál es la aceleración del autobús?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\na = \\frac{v_f - v_i}{t}\n\\]\n\\[\na = \\frac{16 - 4}{6} = \\frac{12}{6} = 2 \\, m/s^2\n\\]\n\n\n\n\n\nEjercicio 2 (Nueva York, EE.UU.)\nNueva York es conocida por su tráfico intenso. Un taxi acelera en Manhattan pasando de 2 m/s a 22 m/s en 10 s.\nPregunta: Calcula la aceleración.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\na = \\frac{22 - 2}{10} = \\frac{20}{10} = 2 \\, m/s^2\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-el-tiempo",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-el-tiempo",
+    "title": "Cinemática: aceleración",
+    "section": "2) Calcular el tiempo",
+    "text": "2) Calcular el tiempo\n\nEjercicio 1 (Tokio, Japón)\nTokio tiene uno de los sistemas ferroviarios más eficientes del mundo. Un tren pasa de 0 m/s a 30 m/s con una aceleración de 3 m/s^2.\nPregunta: ¿Cuánto tiempo tarda en alcanzar esa velocidad?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt = \\frac{v_f - v_i}{a}\n\\]\n\\[\nt = \\frac{30 - 0}{3} = 10 \\, s\n\\]\n\n\n\n\n\nEjercicio 2 (París, Francia)\nParís cuenta con una gran red de metro. Un tren acelera de 5 m/s a 25 m/s con una aceleración de 4 m/s^2.\nPregunta: ¿Cuánto tiempo tarda?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt = \\frac{25 - 5}{4} = \\frac{20}{4} = 5 \\, s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-δv",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-δv",
+    "title": "Cinemática: aceleración",
+    "section": "3) Calcular Δv",
+    "text": "3) Calcular Δv\n\nEjercicio 1 (Roma, Italia)\nRoma es famosa por su historia milenaria. Un coche pasa de 10 m/s a 18 m/s en una avenida cercana al Coliseo.\nPregunta: ¿Cuál es el cambio de velocidad?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\n\\Delta v = v_f - v_i = 18 - 10 = 8 \\, m/s\n\\]\n\n\n\n\n\nEjercicio 2 (El Cairo, Egipto)\nEl Cairo es una de las ciudades más grandes de África. Un autobús pasa de 12 m/s a 30 m/s.\nPregunta: Calcula Δv.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\n\\Delta v = 30 - 12 = 18 \\, m/s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#velocidad-inicial",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#velocidad-inicial",
+    "title": "Cinemática: aceleración",
+    "section": "4) Velocidad inicial",
+    "text": "4) Velocidad inicial\n\nEjercicio 1 (Buenos Aires)\n\\[\nv_i = v_f - a \\cdot t = 20 - (2 \\cdot 5) = 10 \\, m/s\n\\]\n\n\nEjercicio 2 (Ciudad de México)\n\\[\nv_i = 30 - (3 \\cdot 4) = 18 \\, m/s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#velocidad-final",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#velocidad-final",
+    "title": "Cinemática: aceleración",
+    "section": "5) Velocidad final",
+    "text": "5) Velocidad final\n\nEjercicio 1 (Sídney)\n\\[\nv_f = v_i + a \\cdot t = 10 + (2 \\cdot 6) = 22 \\, m/s\n\\]\n\n\nEjercicio 2 (Toronto)\n\\[\nv_f = 5 + (3 \\cdot 3) = 14 \\, m/s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#tiempo-inicial",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#tiempo-inicial",
+    "title": "Cinemática: aceleración",
+    "section": "6) Tiempo inicial",
+    "text": "6) Tiempo inicial\n\nEjercicio 1 (Dubái)\n\\[\nt_i = t_f - t = 10 - 5 = 5 \\, s\n\\]\n\n\nEjercicio 2 (Singapur)\n\\[\nt_i = 8 - 3 = 5 \\, s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#tiempo-final",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#tiempo-final",
+    "title": "Cinemática: aceleración",
+    "section": "7) Tiempo final",
+    "text": "7) Tiempo final\n\nEjercicio 1 (Seúl)\n\\[\nt_f = t_i + t = 2 + 6 = 8 \\, s\n\\]\n\n\nEjercicio 2 (Ámsterdam)\n\\[\nt_f = 1 + 4 = 5 \\, s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-inicial",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-inicial",
+    "title": "Cinemática: aceleración",
+    "section": "4) Calcular velocidad inicial",
+    "text": "4) Calcular velocidad inicial\n\nEjercicio 1 (Buenos Aires, Argentina)\nBuenos Aires es conocida por su cultura y el tango. Un coche alcanza 25 m/s tras acelerar durante 5 s con una aceleración de 3 m/s^2.\nPregunta: ¿Cuál era su velocidad inicial?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_i = v_f - a \\cdot t\n\\]\n\\[\nv_i = 25 - (3 \\cdot 5) = 25 - 15 = 10 \\, m/s\n\\]\n\n\n\n\n\nEjercicio 2 (Ciudad de México, México)\nCiudad de México es una de las más pobladas del mundo. Un vehículo llega a 40 m/s tras 8 s con una aceleración de 4 m/s^2.\nPregunta: Calcula la velocidad inicial.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_i = 40 - (4 \\cdot 8) = 40 - 32 = 8 \\, m/s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-final",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-final",
+    "title": "Cinemática: aceleración",
+    "section": "5) Calcular velocidad final",
+    "text": "5) Calcular velocidad final\n\nEjercicio 1 (Sídney, Australia)\nSídney es famosa por su ópera. Un coche parte de 6 m/s y acelera a 2 m/s^2 durante 7 s.\nPregunta: ¿Cuál es su velocidad final?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_f = v_i + a \\cdot t\n\\]\n\\[\nv_f = 6 + (2 \\cdot 7) = 6 + 14 = 20 \\, m/s\n\\]\n\n\n\n\n\nEjercicio 2 (Toronto, Canadá)\nToronto es una ciudad multicultural. Un vehículo parte de 3 m/s con una aceleración de 5 m/s^2 durante 4 s.\nPregunta: Calcula la velocidad final.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_f = 3 + (5 \\cdot 4) = 3 + 20 = 23 \\, m/s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-inicial",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-inicial",
+    "title": "Cinemática: aceleración",
+    "section": "6) Calcular tiempo inicial",
+    "text": "6) Calcular tiempo inicial\n\nEjercicio 1 (Dubái, Emiratos Árabes Unidos)\nDubái es conocida por sus rascacielos como el Burj Khalifa. Un coche termina de acelerar en t_f = 12 s y el proceso duró 7 s.\nPregunta: ¿Cuál era el tiempo inicial?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_i = t_f - t\n\\]\n\\[\nt_i = 12 - 7 = 5 \\, s\n\\]\n\n\n\n\n\nEjercicio 2 (Singapur)\nSingapur es una ciudad-estado muy avanzada tecnológicamente. Un movimiento termina en t_f = 9 s y duró 4 s.\nPregunta: Calcula t_i.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_i = 9 - 4 = 5 \\, s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-final",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-final",
+    "title": "Cinemática: aceleración",
+    "section": "7) Calcular tiempo final",
+    "text": "7) Calcular tiempo final\n\nEjercicio 1 (Seúl, Corea del Sur)\nSeúl es un referente tecnológico mundial. Un movimiento empieza en t_i = 3 s y dura 6 s.\nPregunta: ¿Cuál es el tiempo final?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_f = t_i + t\n\\]\n\\[\nt_f = 3 + 6 = 9 \\, s\n\\]\n\n\n\n\n\nEjercicio 2 (Ámsterdam, Países Bajos)\nÁmsterdam es famosa por sus canales. Un movimiento comienza en t_i = 2 s y dura 5 s.\nPregunta: Calcula el tiempo final.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_f = 2 + 5 = 7 \\, s\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Cinemática: aceleración"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html",
+    "title": "Gráficas del movimiento",
+    "section": "",
+    "text": "En física, usamos gráficas para entender cómo se mueve un objeto. Las más importantes son:\n\n\nRepresenta cómo cambia la posición con el tiempo.\n\nEje horizontal: tiempo (\\(t\\)).\n\nEje vertical: posición (\\(x\\)).\n\nIdeas clave: - Línea recta inclinada → movimiento con velocidad constante.\n- Más inclinada → mayor velocidad.\n- Línea horizontal → el objeto está parado.\n\n\n\nRepresenta cómo cambia la velocidad con el tiempo.\n\nEje horizontal: tiempo (\\(t\\)).\n\nEje vertical: velocidad (\\(v\\)).\n\nIdeas clave: - Línea horizontal → velocidad constante.\n- Línea inclinada → hay aceleración.\n- Subiendo → acelera.\n- Bajando → frena.\n\n\n\nRepresenta cómo cambia la aceleración con el tiempo.\n\nEje horizontal: tiempo (\\(t\\)).\n\nEje vertical: aceleración (\\(a\\)).\n\nIdeas clave: - Línea horizontal → aceleración constante.\n- Valor positivo → aumenta velocidad.\n- Valor negativo → disminuye velocidad.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#gráfica-tiempo-espacio-posición-tiempo",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#gráfica-tiempo-espacio-posición-tiempo",
+    "title": "Gráficas del movimiento",
+    "section": "",
+    "text": "Representa cómo cambia la posición con el tiempo.\n\nEje horizontal: tiempo (\\(t\\))\nEje vertical: posición (\\(x\\))\n\nIdeas clave: - Línea recta inclinada → movimiento con velocidad constante - Más inclinada → mayor velocidad - Línea horizontal → el objeto está parado",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#gráfica-tiempo-velocidad",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#gráfica-tiempo-velocidad",
+    "title": "Gráficas del movimiento",
+    "section": "",
+    "text": "Representa cómo cambia la velocidad con el tiempo.\n\nEje horizontal: tiempo (\\(t\\))\nEje vertical: velocidad (\\(v\\))\n\nIdeas clave: - Línea horizontal → velocidad constante - Línea inclinada → hay aceleración - Subiendo → acelera - Bajando → frena",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#gráfica-tiempo-aceleración",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#gráfica-tiempo-aceleración",
+    "title": "Gráficas del movimiento",
+    "section": "",
+    "text": "Representa cómo cambia la aceleración con el tiempo.\n\nEje horizontal: tiempo (\\(t\\))\nEje vertical: aceleración (\\(a\\))\n\nIdeas clave: - Línea horizontal → aceleración constante - Valor positivo → aumenta velocidad - Valor negativo → disminuye velocidad",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#pasos",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#pasos",
+    "title": "Gráficas del movimiento",
+    "section": "Pasos",
+    "text": "Pasos\n\nIdentificar cómo cambia la posición\nElegir valores de tiempo\nCalcular la posición\nRepresentar los puntos\nUnirlos",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-paseo-en-bicicleta",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-paseo-en-bicicleta",
+    "title": "Gráficas del movimiento",
+    "section": "Ejemplo 1: Paseo en bicicleta",
+    "text": "Ejemplo 1: Paseo en bicicleta\nUna estudiante va en bicicleta por un carril bici en su ciudad, manteniendo una velocidad constante de 2 m/s. Sale desde el punto de origen (posición 0) y se mueve sin detenerse durante varios segundos.\nPregunta: Representa la gráfica de la posición en función del tiempo.\nUna persona recorre una ciudad a velocidad constante de \\(2 \\, m/s\\).\n\\[\nx = 2t\n\\]\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nt = np.linspace(0,10,100)\nx = 2*t\n\nplt.plot(t,x)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Posición (m)\")\nplt.title(\"Movimiento en bicicleta\")\nplt.show()",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-coche-parado",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-coche-parado",
+    "title": "Gráficas del movimiento",
+    "section": "Ejemplo 2: Coche parado",
+    "text": "Ejemplo 2: Coche parado\nUn coche está detenido en un semáforo en una avenida. Durante varios segundos permanece siempre en la misma posición, situada a 5 metros del punto de referencia.\nPregunta: Dibuja la gráfica posición-tiempo de este movimiento.\n\\[\nx = 5\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-movimiento-constante",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-movimiento-constante",
+    "title": "Gráficas del movimiento",
+    "section": "Ejemplo 1: Movimiento constante",
+    "text": "Ejemplo 1: Movimiento constante\nUn tren de cercanías circula entre dos estaciones manteniendo una velocidad constante de 10 m/s durante todo el trayecto.\nPregunta: Representa la gráfica velocidad-tiempo.\n\\[\nv = 10\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-aceleración-constante",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-aceleración-constante",
+    "title": "Gráficas del movimiento",
+    "section": "Ejemplo 2: Aceleración constante",
+    "text": "Ejemplo 2: Aceleración constante\nUn coche arranca desde el reposo en un semáforo y aumenta su velocidad de forma uniforme con una aceleración constante. Su velocidad sigue la relación:\nv=2t\nPregunta: Dibuja la gráfica velocidad-tiempo y describe cómo cambia la velocidad.\n\\[\nv = 2t\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-aceleración-constante",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-aceleración-constante",
+    "title": "Gráficas del movimiento",
+    "section": "Ejemplo 1: Aceleración constante",
+    "text": "Ejemplo 1: Aceleración constante\n\\[\na = 3\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-frenado",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-frenado",
+    "title": "Gráficas del movimiento",
+    "section": "Ejemplo 2: Frenado",
+    "text": "Ejemplo 2: Frenado\nUn coche circula por una carretera y comienza a frenar de forma constante con una aceleración de -2 m/s² hasta detenerse.\nPregunta: Dibuja la gráfica aceleración-tiempo e indica qué significa que la aceleración sea negativa. \\[\na = -2\n\\]",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-complejo",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-complejo",
+    "title": "Gráficas del movimiento",
+    "section": "# Ejemplo complejo",
+    "text": "# Ejemplo complejo\ntitle: “Estudio Cinemático: El Trayecto del Niño” author: “Gemini AI” format: html —",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#enunciado-del-problema",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#enunciado-del-problema",
+    "title": "Gráficas del movimiento",
+    "section": "Enunciado del Problema",
+    "text": "Enunciado del Problema\nUn niño realiza un trayecto dividido en las siguientes etapas:\n\nCasa a Escuela: Camina \\(d_1 = 300\\text{ m}\\) a una velocidad constante de \\(v = 1.5\\text{ m/s}\\).\nEscuela a Supermercado: Acelera uniformemente desde \\(1.5\\text{ m/s}\\) hasta alcanzar una velocidad máxima de \\(3\\text{ m/s}\\) en un tramo de \\(50\\text{ m}\\).\nEntrada al Supermercado: Mantiene esa velocidad máxima de \\(3\\text{ m/s}\\) durante \\(20\\text{ s}\\).\nSupermercado de vuelta a Escuela: Regresa a velocidad constante de \\(-2\\text{ m/s}\\) (sentido opuesto) durante \\(100\\text{ m}\\).\nEscuela a Casa (Aceleración y Frenado):\n\nAcelera desde \\(-2\\text{ m/s}\\) hasta \\(-4\\text{ m/s}\\) en \\(10\\text{ s}\\).\nInmediatamente frena (desacelera) hasta detenerse justo al llegar a su casa (\\(v=0\\)).",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#cálculos-cinemáticos",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#cálculos-cinemáticos",
+    "title": "Gráficas del movimiento",
+    "section": "Cálculos Cinemáticos",
+    "text": "Cálculos Cinemáticos\nUtilizaremos las ecuaciones del Movimiento Rectilíneo Uniforme (MRU) y Uniformemente Variado (MRUV).\n\nParte 1: Casa \\(\\rightarrow\\) Escuela (MRU)\nDatos: \\(v_0 = 1.5\\), \\(\\Delta x = 300\\). \\[\\Delta t_1 = \\frac{\\Delta x}{v} = \\frac{300}{1.5} = 200\\text{ s}\\]\n\n\nParte 2: Escuela \\(\\rightarrow\\) Tramo Acelerado (MRUV)\nDatos: \\(v_0 = 1.5\\), \\(v_f = 3\\), \\(\\Delta x = 50\\). Usamos \\(v_f^2 = v_0^2 + 2a\\Delta x\\): \\[a_2 = \\frac{v_f^2 - v_0^2}{2\\Delta x} = \\frac{3^2 - 1.5^2}{2(50)} = \\frac{9 - 2.25}{100} = 0.0675\\text{ m/s}^2\\] Tiempo empleado: \\(\\Delta t_2 = \\frac{v_f - v_0}{a} = \\frac{1.5}{0.0675} \\approx 22.22\\text{ s}\\).\n\n\nParte 3: Velocidad Máxima (MRU)\nDatos: \\(v = 3\\), \\(\\Delta t_3 = 20\\). \\[\\Delta x_3 = v \\cdot \\Delta t = 3 \\cdot 20 = 60\\text{ m}\\]\n\n\nParte 5: El Frenado Final (MRUV)\nPara la última etapa, el niño debe quedar en \\(x = 0\\) y \\(v = 0\\). Supongamos que tras la aceleración del punto 5, se encuentra en una posición \\(x_{pre}\\) y debe recorrer la distancia restante frenando.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#visualización-de-gráficas-cinemáticas",
+    "href": "articles/01_ESO_2_3/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#visualización-de-gráficas-cinemáticas",
+    "title": "Gráficas del movimiento",
+    "section": "Visualización de Gráficas Cinemáticas",
+    "text": "Visualización de Gráficas Cinemáticas\nEl siguiente código genera las tres gráficas (Posición, Velocidad y Aceleración) compartiendo el eje del tiempo para observar la correlación exacta entre ellas.\n\n\n\n\n\n\n\n\n\n\nExplicación de los ajustes:\n\nAlineación: Se usa plt.subplots(3, 1, sharex=True), lo que garantiza que el eje del tiempo sea el mismo para las tres gráficas y los eventos (como el cambio de velocidad) se vean verticalmente sincronizados.\nSentido del movimiento: En el regreso (Super \\(\\rightarrow\\) Escuela \\(\\rightarrow\\) Casa), la velocidad se vuelve negativa porque el niño está volviendo hacia el origen (\\(x=0\\)).\nCálculo de Frenado: En la última etapa, la aceleración es positiva (\\(+0.266\\text{ m/s}^2\\)) a pesar de que está “frenando”. Esto es físicamente correcto porque su velocidad es negativa y para detenerse (llegar a \\(0\\)) la aceleración debe tener sentido opuesto al movimiento.\n\n\n\n\n\n\n\n\n\nFigure 1: Gráficas sincronizadas de Posición, Velocidad y Aceleración.",
+    "crumbs": [
+      "Home",
+      "2º y 3ª ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
     ]
   }
 ]
