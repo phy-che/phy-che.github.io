@@ -14,7 +14,7 @@
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html",
     "title": "Gráficas del movimiento",
     "section": "",
-    "text": "Una gráfica es una representación visual de los datos de un fenómeno físico. En este caso vamos a representar en gráficas en movimientos sencillos la relación que existe entre: - El tiempo y la posición. - El tiempo y la velocidad. - El tiempo y la aceleración.\n\n\n\nSe hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).\n\n\n\n\n\n\n\nLas gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.\n\n\n\n\n\nLa siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).\n\n\n\n\n\n\n\n\n\n\n\n\nEn la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).",
+    "text": "Una gráfica es una representación visual de los datos de un fenómeno físico. En este caso vamos a representar en gráficas en movimientos sencillos la relación que existe entre: - El tiempo y la posición. - El tiempo y la velocidad. - El tiempo y la aceleración.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -26,8 +26,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#normas-importantes-a-la-hora-de-representar-las-gráficas",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#normas-importantes-a-la-hora-de-representar-las-gráficas",
     "title": "Gráficas del movimiento",
-    "section": "",
-    "text": "Se hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).",
+    "section": "Normas importantes a la hora de representar las gráficas:",
+    "text": "Normas importantes a la hora de representar las gráficas:\n\nSe hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -39,8 +39,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#gráfica-posición-tiempo",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#gráfica-posición-tiempo",
     "title": "Gráficas del movimiento",
-    "section": "",
-    "text": "Las gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.",
+    "section": "Gráfica posición-tiempo",
+    "text": "Gráfica posición-tiempo\nLas gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -52,8 +52,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida",
     "title": "Gráficas del movimiento",
-    "section": "",
-    "text": "La siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).",
+    "section": "Ejemplo (ida)",
+    "text": "Ejemplo (ida)\nLa siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -65,8 +65,34 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida-y-vuelta",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida-y-vuelta",
     "title": "Gráficas del movimiento",
-    "section": "",
-    "text": "En la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).",
+    "section": "Ejemplo (ida y vuelta)",
+    "text": "Ejemplo (ida y vuelta)\nEn la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicio-1",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicio-1",
+    "title": "Gráficas del movimiento",
+    "section": "✏️ Ejercicio 1",
+    "text": "✏️ Ejercicio 1\nUn ciclista se mueve en línea recta con velocidad constante. En el instante inicial \\(t = 0\\) s se encuentra en la posición \\(x = 10\\) m. A los 5 segundos está en la posición \\(x = 30\\) m.\nSe pide:\n\nCalcula la velocidad del ciclista.\n\nEscribe la ecuación del movimiento.\n\nCompleta la tabla de valores:\n\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n\n\n\n2\n\n\n\n4\n\n\n\n6\n\n\n\n8\n\n\n\n\n\nRepresenta:\n\nGráfica posición-tiempo \\(x(t)\\)\nGráfica velocidad-tiempo \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Velocidad\n\\[\nv = \\frac{30 - 10}{5} = 4 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = 10 + 4t\n\\]\n\n\n3. Tabla\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n10\n\n\n2\n18\n\n\n4\n26\n\n\n6\n34\n\n\n8\n42\n\n\n\n\n\n4. Gráficas\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nt = np.linspace(0,10,100)\nx = 10 + 4*t\n\nplt.plot(t,x)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Posición (m)\")\nplt.title(\"MRU - Ejercicio 1\")\nplt.grid()\nplt.show()",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicio-2",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicio-2",
+    "title": "Gráficas del movimiento",
+    "section": "✏️ Ejercicio 2",
+    "text": "✏️ Ejercicio 2\nUn coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en \\(x = -20\\) m.\nSe pide:\n\nConvierte la velocidad a m/s.\n\nEscribe la ecuación del movimiento.\n\nCalcula la posición a los 3 s, 6 s y 10 s.\n\nRepresenta:\n\nGráfica \\(x(t)\\)\nGráfica \\(v(t)\\)\n\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Conversión de velocidad\n\\[\n72 \\text{ km/h} = 20 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = -20 + 20t\n\\]\n\n\n3. Posiciones\n\n\\(x(3) = 40\\) m\n\n\\(x(6) = 100\\) m\n\n\\(x(10) = 180\\) m\n\n\n\n4. Gráficas\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nt = np.linspace(0,10,100)\nx = -20 + 20*t\n\nplt.plot(t,x)\nplt.xlabel(\"Tiempo (s)\")\nplt.ylabel(\"Posición (m)\")\nplt.title(\"MRU - Ejercicio 2\")\nplt.grid()\nplt.show()",
     "crumbs": [
       "Home",
       "2º ESO",
