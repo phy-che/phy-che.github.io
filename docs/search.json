@@ -3323,5 +3323,18 @@
       "Home",
       "2º ESO"
     ]
+  },
+  {
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicio-posición-velocidad-y-gráficas-de-movimiento.",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicio-posición-velocidad-y-gráficas-de-movimiento.",
+    "title": "Gráficas del movimiento",
+    "section": "Ejercicio posición, velocidad y gráficas de movimiento.",
+    "text": "Ejercicio posición, velocidad y gráficas de movimiento.\nUn ciclista se mueve en línea recta con velocidad constante. En el instante inicial \\(t = 0\\) s se encuentra en la posición \\(x = 10\\) m. A los 5 segundos está en la posición \\(x = 30\\) m.\nSe pide:\n\nCalcula la velocidad del ciclista.\n\nEscribe la ecuación del movimiento.\n\nCompleta la tabla de valores:\n\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n\n\n\n2\n\n\n\n4\n\n\n\n6\n\n\n\n8\n\n\n\n\n\nRepresenta:\n\nGráfica posición-tiempo \\(x(t)\\)\nGráfica velocidad-tiempo \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Velocidad\n\\[\nv = \\frac{30 - 10}{5} = 4 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = 10 + 4t\n\\]\n\n\n3. Tabla\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n10\n\n\n2\n18\n\n\n4\n26\n\n\n6\n34\n\n\n8\n42\n\n\n\n\n\n4. Gráficas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio\n\nUn coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en \\(x = -20\\) m.\nSe pide:\n\nConvierte la velocidad a m/s.\n\nEscribe la ecuación del movimiento.\n\nCalcula la posición a los 3 s, 6 s y 10 s.\n\nRepresenta:\n\nGráfica \\(x(t)\\)\nGráfica \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Conversión de velocidad\n\\[\n72 \\text{ km/h} = 20 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = -20 + 20t\n\\]\n\n\n3. Posiciones\n\n\\(x(3) = 40\\) m\n\n\\(x(6) = 100\\) m\n\n\\(x(10) = 180\\) m\n\n\n\n4. Gráficas\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas del movimiento"
+    ]
   }
 ]

@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -368,8 +333,10 @@ window.Quarto = {
   <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
   <li><a href="#ejemplo-ida" id="toc-ejemplo-ida" class="nav-link" data-scroll-target="#ejemplo-ida">Ejemplo (ida)</a></li>
   <li><a href="#ejemplo-ida-y-vuelta" id="toc-ejemplo-ida-y-vuelta" class="nav-link" data-scroll-target="#ejemplo-ida-y-vuelta">Ejemplo (ida y vuelta)</a></li>
-  <li><a href="#ejercicio-1" id="toc-ejercicio-1" class="nav-link" data-scroll-target="#ejercicio-1">✏️ Ejercicio 1</a></li>
-  <li><a href="#ejercicio-2" id="toc-ejercicio-2" class="nav-link" data-scroll-target="#ejercicio-2">✏️ Ejercicio 2</a></li>
+  <li><a href="#ejercicio-posición-velocidad-y-gráficas-de-movimiento." id="toc-ejercicio-posición-velocidad-y-gráficas-de-movimiento." class="nav-link" data-scroll-target="#ejercicio-posición-velocidad-y-gráficas-de-movimiento.">Ejercicio posición, velocidad y gráficas de movimiento.</a>
+  <ul class="collapse">
+  <li><a href="#ejercicio" id="toc-ejercicio" class="nav-link" data-scroll-target="#ejercicio">Ejercicio</a></li>
+  </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="703_Graficas-de-movimiento.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -437,7 +404,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="ejemplo-ida">Ejemplo (ida)</h2>
 <p>La siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.</p>
 <p>Vemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición <span class="math inline">\(x = 0m\)</span>).</p>
-<div id="2c8971c1" class="cell" data-execution_count="1">
+<div id="0d75278a" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -451,7 +418,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="ejemplo-ida-y-vuelta">Ejemplo (ida y vuelta)</h2>
 <p>En la siguiente gŕafica se ve cómo la persona va al instituto (<span class="math inline">\(x=500m\)</span>) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.</p>
 <p>Ahora vemos que la vuelta se muestra acercándose a al eje horizontal (<span class="math inline">\(x=0m\)</span>) con una diagonal que decrece hacia la derecha.</p>
-<div id="e36806d9" class="cell" data-execution_count="2">
+<div id="c0278f75" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -462,8 +429,8 @@ window.Quarto = {
 </div>
 <p><strong>Pregunta</strong>: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: <span class="math inline">\(v\dfrac{d}{t}\)</span>.</p>
 </section>
-<section id="ejercicio-1" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-1">✏️ Ejercicio 1</h2>
+<section id="ejercicio-posición-velocidad-y-gráficas-de-movimiento." class="level2">
+<h2 class="anchored" data-anchor-id="ejercicio-posición-velocidad-y-gráficas-de-movimiento.">Ejercicio posición, velocidad y gráficas de movimiento.</h2>
 <p>Un ciclista se mueve en línea recta con velocidad constante. En el instante inicial <span class="math inline">\(t = 0\)</span> s se encuentra en la posición <span class="math inline">\(x = 10\)</span> m. A los 5 segundos está en la posición <span class="math inline">\(x = 30\)</span> m.</p>
 <p><strong>Se pide:</strong></p>
 <ol type="1">
@@ -569,25 +536,22 @@ x(t) = 10 + 4t
 </section>
 <section id="gráficas" class="level4">
 <h4 class="anchored" data-anchor-id="gráficas">4. Gráficas</h4>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">10</span>,<span class="dv">100</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">10</span> <span class="op">+</span> <span class="dv">4</span><span class="op">*</span>t</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>plt.plot(t,x)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Tiempo (s)"</span>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Posición (m)"</span>)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"MRU - Ejercicio 1"</span>)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
+<div id="dbd433bb" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="703_Graficas de movimiento_files/figure-html/cell-4-output-1.png" width="585" height="449" class="figure-img"></p>
+</figure>
 </div>
 </div>
 </div>
 </section>
-<section id="ejercicio-2" class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-2">✏️ Ejercicio 2</h2>
+</div>
+</div>
+</div>
+<section id="ejercicio" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicio">Ejercicio</h3>
+<!--Ejercicio de posición, velocidad y gráficas de movimiento. MRU. Coche con velocidad constante. -->
 <p>Un coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en <span class="math inline">\(x = -20\)</span> m.</p>
 <p><strong>Se pide:</strong></p>
 <ol type="1">
@@ -603,7 +567,6 @@ x(t) = 10 + 4t
 <li>Gráfica <span class="math inline">\(v(t)\)</span></li>
 </ul></li>
 </ol>
-<hr>
 <div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -640,18 +603,26 @@ x(t) = -20 + 20t
 </section>
 <section id="gráficas-1" class="level4">
 <h4 class="anchored" data-anchor-id="gráficas-1">4. Gráficas</h4>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> np.linspace(<span class="dv">0</span>,<span class="dv">10</span>,<span class="dv">100</span>)</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="op">-</span><span class="dv">20</span> <span class="op">+</span> <span class="dv">20</span><span class="op">*</span>t</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>plt.plot(t,x)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Tiempo (s)"</span>)</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Posición (m)"</span>)</span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"MRU - Ejercicio 2"</span>)</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>plt.grid()</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Gráfica de tiempo-posición:</p>
+<div id="723d4f55" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="703_Graficas de movimiento_files/figure-html/cell-5-output-1.png" width="596" height="449" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Gráfica de tiempo-velocidad:</p>
+<div id="c29e1755" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="703_Graficas de movimiento_files/figure-html/cell-6-output-1.png" width="585" height="449" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 </div>
 </div>
@@ -659,6 +630,7 @@ x(t) = -20 + 20t
 
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
