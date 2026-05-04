@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.30">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Movimiento y cinemática. Posición.</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-b045d97e262b05561b740d7cbd1ab6ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-eso" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ESO</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-eso">    
+        <li>
+    <a class="dropdown-item" href="../../../articles/01_ESO_2/index.html">
+ <span class="dropdown-text">2º ESO</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/01_ESO_2_eng/index.html">
+ <span class="dropdown-text">2º ESO (eng)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/02_ESO_3/index.html">
+ <span class="dropdown-text">3ª ESO</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/02_ESO_3_eng/index.html">
+ <span class="dropdown-text">3ª ESO (eng)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/03_ESO_4/index.html">
+ <span class="dropdown-text">4º ESO</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">BACH</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bach">    
+        <li>
+    <a class="dropdown-item" href="../../../articles/04_BACH_1/index.html">
+ <span class="dropdown-text">1º BACH</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/05_BACH_2_Fisica/index.html">
+ <span class="dropdown-text">2º BACH Física</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/06_BACH_2_Quimica/index.html">
+ <span class="dropdown-text">2º BACH Química</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recursos-gigantes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recursos gigantes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos-gigantes">    
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/001_recursos_gigantes.html">
+ <span class="dropdown-text">Recursos gigantes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/002_recursos_ESO_23_FyQ.html">
+ <span class="dropdown-text">Recursos 2ª y 3ª ESO FyQ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/002_recursos_ESO_40_FyQ.html">
+ <span class="dropdown-text">Recursos 4ª ESO FyQ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/003_recursos_1BACH_FyQ.html">
+ <span class="dropdown-text">Recursos 1º Bach FyQ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/004_recursos_2BACH_Fisica.html">
+ <span class="dropdown-text">Recursos 2º Bach Física</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/005_recursos_2BACH_Quimica.html">
+ <span class="dropdown-text">Recursos 2º Bach Química</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/100_Otros recursos.html">
+ <span class="dropdown-text">Otros recursos</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-otros-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Otros recursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-otros-recursos">    
+        <li>
+    <a class="dropdown-item" href="../../../otros_recursos/001_HigieneSueno.html">
+ <span class="dropdown-text">Higiene del sueño</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../otros_recursos/002_LecturaComprensiva.html">
+ <span class="dropdown-text">Lectura comprensiva</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../otros_recursos/003_TecnicasEstudio.html">
+ <span class="dropdown-text">Técnicas de estudio</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/phy-che/phy-che.github.io"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/index.html">2º ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">Movimiento y cinemática. Posición.</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../articles/01_ESO_2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2º ESO</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">T05. El atomo y la tabla periodica</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T05. El atomo y la tabla periodica/501_El_atomo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">El átomo</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T05. El atomo y la tabla periodica/502_Ejercicios_atomo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ejercicios átomo</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">T07. Movimiento - cinemática</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Movimiento y cinemática. Posición.</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinemática: velocidad</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinemática: aceleración</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gráficas del movimiento</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción"><span class="header-section-number">1</span> Introducción</a></li>
+  <li><a href="#el-movimiento-es-relativo" id="toc-el-movimiento-es-relativo" class="nav-link" data-scroll-target="#el-movimiento-es-relativo"><span class="header-section-number">2</span> El movimiento es relativo</a>
+  <ul class="collapse">
+  <li><a href="#sistema-de-referencia-y-posición" id="toc-sistema-de-referencia-y-posición" class="nav-link" data-scroll-target="#sistema-de-referencia-y-posición"><span class="header-section-number">2.1</span> Sistema de referencia y posición</a></li>
+  <li><a href="#criterio-de-signos-para-la-posición" id="toc-criterio-de-signos-para-la-posición" class="nav-link" data-scroll-target="#criterio-de-signos-para-la-posición"><span class="header-section-number">2.2</span> Criterio de signos para la posición</a></li>
+  </ul></li>
+  <li><a href="#qué-es-el-movimiento-entonces" id="toc-qué-es-el-movimiento-entonces" class="nav-link" data-scroll-target="#qué-es-el-movimiento-entonces"><span class="header-section-number">3</span> ¿Qué es el movimiento entonces?</a>
+  <ul class="collapse">
+  <li><a href="#trayectoria" id="toc-trayectoria" class="nav-link" data-scroll-target="#trayectoria"><span class="header-section-number">3.1</span> Trayectoria</a></li>
+  <li><a href="#ejercicios" id="toc-ejercicios" class="nav-link" data-scroll-target="#ejercicios"><span class="header-section-number">3.2</span> Ejercicios</a></li>
+  </ul></li>
+  <li><a href="#espacio-recorrido-y-desplazamiento" id="toc-espacio-recorrido-y-desplazamiento" class="nav-link" data-scroll-target="#espacio-recorrido-y-desplazamiento"><span class="header-section-number">4</span> Espacio recorrido y desplazamiento</a>
+  <ul class="collapse">
+  <li><a href="#ejercicios-1" id="toc-ejercicios-1" class="nav-link" data-scroll-target="#ejercicios-1"><span class="header-section-number">4.1</span> Ejercicios</a></li>
+  </ul></li>
+  <li><a href="#recursos-adicionales" id="toc-recursos-adicionales" class="nav-link" data-scroll-target="#recursos-adicionales"><span class="header-section-number">5</span> Recursos adicionales</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="700_Cinematica_Posicion.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/index.html">2º ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">Movimiento y cinemática. Posición.</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Movimiento y cinemática. Posición.</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introducción" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introducción</h1>
+<p>La <strong>cinemática</strong> es la parte de la física que estudia <strong>cómo se mueven los objetos</strong>, sin preocuparse de por qué se mueven.</p>
+<p>Ejemplo: cuando vas en bicicleta, puedes fijarte en <strong>dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando</strong>. Todo eso lo estudia la cinemática.</p>
+</section>
+<section id="el-movimiento-es-relativo" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> El movimiento es relativo</h1>
+<p>¿Qué significa esto? Que una persona sentada a tu lado en el autobús está quieta desde tu punto de vista. Pero desde el punto de vista de una persona sentada en la parada del autobús, verá a esa persona moverse.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>El movimiento siempre depende del observador: algo se mueve cuando cambia su posición respecto a un punto que nosotros decidimos (en este caso respecto al observador). Es punto es el <strong>origen del sistema de referencia</strong> y forma parte del <strong>punto de referencia</strong>.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/bus-stop-in-tel-aviv.jpg" class="img-fluid figure-img" width="300"></p>
+<figcaption>Parada de autobús</figcaption>
+</figure>
+</div>
+<section id="sistema-de-referencia-y-posición" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sistema-de-referencia-y-posición"><span class="header-section-number">2.1</span> Sistema de referencia y posición</h2>
+<p>Para poder entender y describir los movimientos necesitamos algunos elementos fundamentales.</p>
+<p>Imagina que estás hablando con un amigo para que te encuentre un un parque y le dices que estás a cien metros de la puerta de entrada. Con esa información le has dado un punto que actúa como origen del sistema de referencia (“la entrada”) y la posición (“a cien metros de esa entrada”).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/esp/sistemaReferencia_1D.jpg" class="img-fluid figure-img"></p>
+<figcaption>Sistema referencia 1D</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Sistema de referencia</strong>: conjunto de ejes y un <em>punto</em>, que es el <strong>origen</strong>, desde el que medimos posiciones.
+<ul>
+<li>En cada problema elegiremos un sistema de referencia y su origen. En general estos se considerarán fijos e inmóviles durante todo el problema.</li>
+</ul></li>
+<li><strong>Posición (x)</strong>: lugar donde está un objeto <span style="color:red;">respecto al origen del sistema de referencia en cada instante.</span> Unidad: <strong>metro (m)</strong>.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="criterio-de-signos-para-la-posición" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="criterio-de-signos-para-la-posición"><span class="header-section-number">2.2</span> Criterio de signos para la posición</h2>
+<p>Para poder describir el movimiento es importante tener claro los signos de la posición.</p>
+<ul>
+<li>Si nos movemos hacia la derecha, la posición definida por <span class="math inline">\(x\)</span> irá creciendo hacia valores más positivos.<br>
+</li>
+<li>Si nos movemos hacia la izquierda, la <span class="math inline">\(x\)</span> irá teniendo valores más pequeños hasta el cero. Si seguimos moviéndonos hacia la izquierda, la <span class="math inline">\(x\)</span> irá teniendo valores más negativos.</li>
+</ul>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/both/sign-criteria_1Axis_numbres.jpg" class="img-fluid figure-img" width="500"></p>
+<figcaption>Criterio de signos de posición</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="qué-es-el-movimiento-entonces" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> ¿Qué es el movimiento entonces?</h1>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Diremos que un “cuerpo” está en <strong>movimiento</strong> cuando cambia su posición (<span class="math inline">\('x'\)</span>)respecto al origen del sistema de referencia a lo largo del tiempo (<span class="math inline">\(t\)</span>).</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/SistemaReferencia_1D_movimiento.jpg" class="img-fluid figure-img"></p>
+<figcaption>Movimiento en el eje horizontal con sistema de referencia</figcaption>
+</figure>
+</div>
+<p>En la imagen anterior se observa cómo en el instante <span class="math inline">\(t1\)</span> la persona está en una posición <span class="math inline">\(x=10m\)</span> y después de que el tiempo haya avanzado, esa persona está en la posición <span class="math inline">\(x=95m\)</span>.<br>
+- Ha recorrido una distancia de <span class="math inline">\(d = 95m-10m  = 85m\)</span>.<br>
+- Coincide con el desplazamiento (que se calcula como la posición final <span class="math inline">\(x_f\)</span> menos la posición inicial <span class="math inline">\(x_i\)</span>): <span class="math inline">\(\Delta x = x_f - x_i = 95 - 10 = 85m\)</span>.<br>
+- Lo ha hecho en el siguiente tiempo: <span class="math inline">\(\Delta t = t_2-t_1 = 60s - 0s = 60s\)</span>.<br>
+- Su velocidad se puede calcular así: <span class="math display">\[
+v = \dfrac{\Delta x}{\Delta t} = \dfrac{85m}{60s} \approx 1,42 \dfrac{m}{s}
+\]</span></p>
+<section id="trayectoria" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="trayectoria"><span class="header-section-number">3.1</span> Trayectoria</h2>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Trayectoria</strong>: es el camino que sigue un objeto, es decir, el conjunto de sus posiciones a medida que pasa el tiempo.</p>
+</div>
+</div>
+<p>Por ejemplo: los puntos por donde pasaría un ciclista siguiendo la carretera del dibujo.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/camino.jpg" class="img-fluid figure-img" width="300"></p>
+<figcaption>Trayectoria</figcaption>
+</figure>
+</div>
+<p>Las trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/330px_parabolic_trajectory.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Trayectoria curva de una pelota al tirar a canasta</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="¡Atentos!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>¡Atentos!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Este curso solo vamos a considerar trayectorias rectas. Si la trayectoria va por diferentes calles, romperemos la trayectoria final en diferentes segmentos rectos.</p>
+</div>
+</div>
+</section>
+<section id="ejercicios" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="ejercicios"><span class="header-section-number">3.2</span> Ejercicios</h2>
+<ol type="1">
+<li>Define trayectoria con tus palabras.<br>
+</li>
+<li>¿Puede cambiar la posición sin cambiar la trayectoria?<br>
+</li>
+<li>Pon un ejemplo de trayectoria curva.</li>
+<li>¿Cómo dibujarías la trayectoria de una persona que quiere ir desde la Escuela a la Cancha Deportiva?</li>
+</ol>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/esp/city_map.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>Mapa de ciudad</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Soluciones
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Camino que sigue un objeto.<br>
+</li>
+<li>Sí, si se mueve dentro del mismo tipo de trayectoria.<br>
+</li>
+<li>Una pelota lanzada.</li>
+<li>Este ejercicio tiene diferentes soluciones. Lo interesante es simplemente pensar que ha de pasar por numerosas calles.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="espacio-recorrido-y-desplazamiento" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Espacio recorrido y desplazamiento</h1>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Espacio recorrido (s)</strong>: es la distancia total recorrida por un cuerpo en su movimiento. Unidad: <strong>metro (m)</strong>.</p>
+<p><strong>Desplazamiento(<span class="math inline">\(\Delta x\)</span>)</strong>: es la distancia entre la posición inicial (<span class="math inline">\(x_i\)</span>) y la posición final (<span class="math inline">\(x_f\)</span>), se mide también en <strong>metros (m)</strong> y se calcula como: <span class="math inline">\(\Delta x = x_f - x_i\)</span></p>
+</div>
+</div>
+<p>Cuando vamos en línea recta y no volvemos hacia atrás el espacio recorrido coincide con el desplazamiento.</p>
+<p>Pero cuando vamos a un sitio y volvemos, estos valores pueden no coincidir. <em>Por ejemplo: hay veces que podemos tener que el espacio recorrido es de 100 m, pero el desplazamiento es 0. ¿Cuándo? Cuando vamos de nuestra casa al instituto que está a 50 m y luego volvemos.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/Espacio_recorrido_y_Desplazamiento.jpg" class="img-fluid figure-img"></p>
+<figcaption>Diferencia entre espacio recorrido y desplazamiento</figcaption>
+</figure>
+</div>
+<section id="ejercicios-1" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="ejercicios-1"><span class="header-section-number">4.1</span> Ejercicios</h2>
+<ol type="1">
+<li>¿Es igual espacio recorrido que desplazamiento?<br>
+</li>
+<li>Calcula el espacio recorrido vas de tu casa al instituto (200 m), de allí al supermercado (otros 60 m en el mismo sentido) y del supermercado a casa (260 m del supermercado a casa en sentido contrario).</li>
+<li>Calcula ahora el desplazamiento yendo a los sitios anteriores y considerando que tu casa es el punto inicial y final.</li>
+<li>¿Cuál sería el desplazamiento si fueras de casa al instituto y de allí al supermercado sin volver a casa?</li>
+<li>¿Y el espacio recorrido?</li>
+<li>¿Puede ser cero el espacio recorrido?</li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Soluciones
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>No.<br>
+</li>
+<li><span class="math inline">\(s=200 + 60 + 260  = 520 m\)</span>.</li>
+<li><span class="math inline">\(\Delta x = x_f - x_i = 0 - 0 = 0 m\)</span>.</li>
+<li><span class="math inline">\(\Delta x = x_f - x_i = (200+60) - 0 = 260 m\)</span>.</li>
+<li><span class="math inline">\(s=200 + 60 = 260 m\)</span>.</li>
+<li>Sí, solo cuando no hay movimiento, es decir, si no te desplazas.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="recursos-adicionales" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Recursos adicionales</h1>
+<ul>
+<li><p>English video <a href="https://www.youtube.com/watch?v=ZM8ECpBuQYE">Motion in one dimension</a></p></li>
+<li><p><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/3-introduccion">Movimiento rectilíneo</a></p></li>
+</ul>
+<!--
+- https://phet.colorado.edu  
+- https://www.fisicalab.com  
+- https://www.khanacademy.org/science/physics  
+- https://www.educaplus.org  
+-->
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
