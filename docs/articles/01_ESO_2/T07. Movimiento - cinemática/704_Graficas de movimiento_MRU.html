@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gráficas del movimiento</title>
+<title>Gráficas movimiento MRU</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -238,7 +273,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/index.html">2º ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html">Gráficas del movimiento</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/index.html">2º ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html">Gráficas movimiento MRU</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -305,13 +340,19 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gráficas del movimiento</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Gráficas movimiento MRU</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gráficas movimiento MRU</span></a>
   </div>
 </li>
@@ -370,23 +411,33 @@ window.Quarto = {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#normas-importantes-a-la-hora-de-representar-las-gráficas" id="toc-normas-importantes-a-la-hora-de-representar-las-gráficas" class="nav-link active" data-scroll-target="#normas-importantes-a-la-hora-de-representar-las-gráficas">Normas importantes a la hora de representar las gráficas:</a></li>
-  <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
-  <li><a href="#ejemplo-ida" id="toc-ejemplo-ida" class="nav-link" data-scroll-target="#ejemplo-ida">Ejemplo (ida)</a></li>
-  <li><a href="#ejemplo-ida-y-vuelta" id="toc-ejemplo-ida-y-vuelta" class="nav-link" data-scroll-target="#ejemplo-ida-y-vuelta">Ejemplo (ida y vuelta)</a></li>
-  <li><a href="#ejercicio-posición-velocidad-y-gráficas-de-movimiento." id="toc-ejercicio-posición-velocidad-y-gráficas-de-movimiento." class="nav-link" data-scroll-target="#ejercicio-posición-velocidad-y-gráficas-de-movimiento.">Ejercicio posición, velocidad y gráficas de movimiento.</a>
+  <li><a href="#mru-movimiento-rectilíneo-uniforme" id="toc-mru-movimiento-rectilíneo-uniforme" class="nav-link active" data-scroll-target="#mru-movimiento-rectilíneo-uniforme">MRU: movimiento rectilíneo uniforme</a></li>
+  <li><a href="#ejemplo-de-problema-con-gráficas-de-mru" id="toc-ejemplo-de-problema-con-gráficas-de-mru" class="nav-link" data-scroll-target="#ejemplo-de-problema-con-gráficas-de-mru">Ejemplo de problema con gráficas de MRU</a>
   <ul class="collapse">
-  <li><a href="#ejercicio" id="toc-ejercicio" class="nav-link" data-scroll-target="#ejercicio">Ejercicio</a></li>
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link" data-scroll-target="#enunciado">Enunciado</a></li>
+  <li><a href="#datos-del-movimiento" id="toc-datos-del-movimiento" class="nav-link" data-scroll-target="#datos-del-movimiento">Datos del movimiento</a>
+  <ul class="collapse">
+  <li><a href="#ida" id="toc-ida" class="nav-link" data-scroll-target="#ida">Ida</a></li>
+  </ul></li>
+  <li><a href="#permanencia-en-la-escuela" id="toc-permanencia-en-la-escuela" class="nav-link" data-scroll-target="#permanencia-en-la-escuela">Permanencia en la escuela</a></li>
+  <li><a href="#vuelta" id="toc-vuelta" class="nav-link" data-scroll-target="#vuelta">Vuelta</a></li>
+  <li><a href="#interpretación-de-las-gráficas" id="toc-interpretación-de-las-gráficas" class="nav-link" data-scroll-target="#interpretación-de-las-gráficas">Interpretación de las gráficas</a>
+  <ul class="collapse">
+  <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
+  <li><a href="#gráfica-velocidad-tiempo" id="toc-gráfica-velocidad-tiempo" class="nav-link" data-scroll-target="#gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</a></li>
+  <li><a href="#gráfica-aceleración-tiempo" id="toc-gráfica-aceleración-tiempo" class="nav-link" data-scroll-target="#gráfica-aceleración-tiempo">Gráfica aceleración-tiempo</a></li>
+  </ul></li>
+  <li><a href="#código-para-generar-las-gráficas" id="toc-código-para-generar-las-gráficas" class="nav-link" data-scroll-target="#código-para-generar-las-gráficas">Código para generar las gráficas</a></li>
   </ul></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="703_Graficas-de-movimiento.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="704_Graficas-de-movimiento_MRU.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/index.html">2º ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html">Gráficas del movimiento</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/index.html">2º ESO</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/700_Cinematica_Posicion.html">T07. Movimiento - cinemática</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html">Gráficas movimiento MRU</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Gráficas del movimiento</h1>
+<h1 class="title">Gráficas movimiento MRU</h1>
 </div>
 
 
@@ -403,275 +454,164 @@ window.Quarto = {
 </header>
 
 
-<p>Una gráfica es una representación visual de los datos de un fenómeno físico. En este caso vamos a representar en gráficas en movimientos sencillos la relación que existe entre:</p>
+<section id="mru-movimiento-rectilíneo-uniforme" class="level2">
+<h2 class="anchored" data-anchor-id="mru-movimiento-rectilíneo-uniforme">MRU: movimiento rectilíneo uniforme</h2>
+<p>El movimiento que hemos visto hasta ahora se llama MRU: Movimiento Rectilíneo Uniforme. ¿Qué significa esto?</p>
 <ul>
-<li>El tiempo y la posición.<br>
+<li><strong>Rectilíneo</strong>: que se mueve en línea recta. En este movimiento no hay curvas.<br>
 </li>
-<li>El tiempo y la velocidad.<br>
-</li>
-<li>El tiempo y la aceleración.</li>
-</ul>
-<section id="normas-importantes-a-la-hora-de-representar-las-gráficas" class="level2">
-<h2 class="anchored" data-anchor-id="normas-importantes-a-la-hora-de-representar-las-gráficas">Normas importantes a la hora de representar las gráficas:</h2>
+<li><strong>Uniforme</strong>: que la velocidad es constante. Es decir, no existe aceleración.
 <ul>
-<li>Se hacen en un sistema de referencia de dos dimensiones:
-<ul>
-<li>El <strong>eje horizontal o eje X</strong> siempre muestra el tiempo <span class="math inline">\(t\)</span>. Este se puede medir en segundos(<span class="math inline">\(s\)</span>), minutos (<span class="math inline">\(min\)</span>), horas (<span class="math inline">\(h\)</span>) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.</li>
-<li>El <strong>eje vertical o eje Y</strong> va a mostrar la otra magnitud: <em>posición, velocidad o aceleración</em>. Hay que indicar siempre sus unidades:
-<ul>
-<li>Posición (representa la variable <span class="math inline">\(x\)</span>): tiene unidades de longitud, generalmente <span class="math inline">\(m\)</span> o <span class="math inline">\(km\)</span>.</li>
-<li>Velocidad (<span class="math inline">\(v\)</span>): sus unidades más habituales son <span class="math inline">\(\dfrac{m}{s}\)</span> o <span class="math inline">\(\dfrac{km}{h}\)</span>.</li>
-<li>Aceleración (<span class="math inline">\(a\)</span>): sus unidades más habituales son <span class="math inline">\(\dfrac{m}{s^2}\)</span> aunque a veces podemos ver <span class="math inline">\(\dfrac{km}{h^2}\)</span>. En cualquier caso siempre son: <span class="math inline">\(\dfrac{unidad\ de\ espacio}{unidad\ de\ tiempo^2}\)</span>.</li>
-</ul></li>
+<li>Es importante entender que cuando hay varios tramos, esto signfica que la velocidad es constante en cada tramo. Pero la velocidad SÍ puede variar entre tramo y tramo, lo que sucede es que consideramos cada tramo independiente y no tenemos en cuenta el cambio de tramo a tramo por lo que ignoramos la aceleración. Esto es una simplificación, pero muy útil cuando estamos empezando a entender el movimiento.</li>
 </ul></li>
 </ul>
-<!-- Aquí en el artículo principal incluiríamos las gráficas que queramos poner -->
-</section>
-<section id="gráfica-posición-tiempo" class="level2">
-<h2 class="anchored" data-anchor-id="gráfica-posición-tiempo">Gráfica posición-tiempo</h2>
-<p>Las gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.</p>
-<p>Estas gráficas siempre tienen dos ejes:</p>
-<ul>
-<li>Eje horizontal (<em>eje X</em>), muestra el tiempo, <span class="math inline">\(t\)</span> y sus unidades serán habitualmente <span class="math inline">\(s\)</span>, <span class="math inline">\(min\)</span> o <span class="math inline">\(h\)</span>.
-<ul>
-<li>Siempre empieza en el origen (<em>X=0</em>) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.<br>
-</li>
-<li><strong>Importante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X</strong>.</li>
-</ul></li>
-<li>Eje vertical (<em>eje Y</em>), muestra la posición <span class="math inline">\(x\)</span>. Sus unidades serán <span class="math inline">\(m\)</span> o <span class="math inline">\(km\)</span> generalmente.
-<ul>
-<li>El origen (<em>Y=0</em>) indica una posición fija.<br>
-</li>
-<li>A medida que nos alejamos del origen, la posición <span class="math inline">\(x\)</span> se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.<br>
-</li>
-<li>Si nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.</li>
-</ul></li>
-</ul>
-</section>
-<section id="ejemplo-ida" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplo-ida">Ejemplo (ida)</h2>
-<p>La siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.</p>
-<p>Vemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición <span class="math inline">\(x = 0m\)</span>).</p>
-<div id="c76edb88" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="703_Graficas de movimiento_files/figure-html/cell-2-output-1.png" width="325" height="327" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplo-ida-y-vuelta" class="level2">
-<h2 class="anchored" data-anchor-id="ejemplo-ida-y-vuelta">Ejemplo (ida y vuelta)</h2>
-<p>En la siguiente gŕafica se ve cómo la persona va al instituto (<span class="math inline">\(x=500m\)</span>) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.</p>
-<p>Ahora vemos que la vuelta se muestra acercándose a al eje horizontal (<span class="math inline">\(x=0m\)</span>) con una diagonal que decrece hacia la derecha.</p>
-<div id="a4811ae0" class="cell" data-execution_count="2">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="703_Graficas de movimiento_files/figure-html/cell-3-output-1.png" width="808" height="327" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><strong>Pregunta</strong>: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: <span class="math inline">\(v\dfrac{d}{t}\)</span>.</p>
-</section>
-<section id="ejercicio-posición-velocidad-y-gráficas-de-movimiento." class="level2">
-<h2 class="anchored" data-anchor-id="ejercicio-posición-velocidad-y-gráficas-de-movimiento.">Ejercicio posición, velocidad y gráficas de movimiento.</h2>
-<p>Un ciclista se mueve en línea recta con velocidad constante. En el instante inicial <span class="math inline">\(t = 0\)</span> s se encuentra en la posición <span class="math inline">\(x = 10\)</span> m. A los 5 segundos está en la posición <span class="math inline">\(x = 30\)</span> m.</p>
-<p><strong>Se pide:</strong></p>
-<ol type="1">
-<li>Calcula la velocidad del ciclista.<br>
-</li>
-<li>Escribe la ecuación del movimiento.<br>
-</li>
-<li>Completa la tabla de valores:</li>
-</ol>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>t (s)</th>
-<th>x (m)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ol start="4" type="1">
-<li>Representa:
-<ul>
-<li>Gráfica posición-tiempo <span class="math inline">\(x(t)\)</span></li>
-<li>Gráfica velocidad-tiempo <span class="math inline">\(v(t)\)</span></li>
-</ul></li>
-</ol>
-<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<section id="ecuaciones-del-movimiento-mru" class="level4">
+<h4 class="anchored" data-anchor-id="ecuaciones-del-movimiento-mru">Ecuaciones del movimiento MRU</h4>
+<p>Es fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Precaución</span>Soluciones
+<span class="screen-reader-only">Importante</span>Muy importante
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<section id="velocidad" class="level4">
-<h4 class="anchored" data-anchor-id="velocidad">1. Velocidad</h4>
-<p><span class="math display">\[
-v = \frac{30 - 10}{5} = 4 \text{ m/s}
-\]</span></p>
-</section>
-<section id="ecuación-del-movimiento" class="level4">
-<h4 class="anchored" data-anchor-id="ecuación-del-movimiento">2. Ecuación del movimiento</h4>
-<p><span class="math display">\[
-x(t) = 10 + 4t
-\]</span></p>
-</section>
-<section id="tabla" class="level4">
-<h4 class="anchored" data-anchor-id="tabla">3. Tabla</h4>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>t (s)</th>
-<th>x (m)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>18</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>26</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>34</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>42</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="gráficas" class="level4">
-<h4 class="anchored" data-anchor-id="gráficas">4. Gráficas</h4>
-<div id="7ba0115e" class="cell" data-execution_count="3">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="703_Graficas de movimiento_files/figure-html/cell-4-output-1.png" width="585" height="449" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-</div>
-<section id="ejercicio" class="level3">
-<h3 class="anchored" data-anchor-id="ejercicio">Ejercicio</h3>
-<!--Ejercicio de posición, velocidad y gráficas de movimiento. MRU. Coche con velocidad constante. -->
-<p>Un coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en <span class="math inline">\(x = -20\)</span> m.</p>
-<p><strong>Se pide:</strong></p>
-<ol type="1">
-<li>Convierte la velocidad a m/s.<br>
-</li>
-<li>Escribe la ecuación del movimiento.<br>
-</li>
-<li>Calcula la posición a los 3 s, 6 s y 10 s.<br>
-</li>
-<li>Representa:
 <ul>
-<li>Gráfica <span class="math inline">\(x(t)\)</span></li>
-<li>Gráfica <span class="math inline">\(v(t)\)</span></li>
-</ul></li>
-</ol>
-<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Precaución</span>Soluciones
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<section id="conversión-de-velocidad" class="level4">
-<h4 class="anchored" data-anchor-id="conversión-de-velocidad">1. Conversión de velocidad</h4>
+<li><span class="math inline">\(d\)</span> o <span class="math inline">\(s\)</span> o <span class="math inline">\(e\)</span>: espacio o distancia recorrida (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(k&lt;m\)</span>).<br>
+</li>
+<li><span class="math inline">\(x\)</span>: posición en un determinado momento (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(km\)</span>).</li>
+</ul>
 <p><span class="math display">\[
-72 \text{ km/h} = 20 \text{ m/s}
+\Delta s = s_f - s_i
+\]</span> <span class="math display">\[
+\Delta x= x_f - x_i
+\]</span> <span class="math display">\[
+\Delta t = t_f - t_i
+\]</span> <span class="math display">\[
+v = \dfrac{s}{t} =  \dfrac{\Delta x}{\Delta t} = \dfrac{x_f-x_i}{t_f-t_i}
 \]</span></p>
-</section>
-<section id="ecuación-del-movimiento-1" class="level4">
-<h4 class="anchored" data-anchor-id="ecuación-del-movimiento-1">2. Ecuación del movimiento</h4>
-<p><span class="math display">\[
-x(t) = -20 + 20t
+<p>De aquí hay que saber despejar las ecuaciones: <span class="math display">\[
+s = \Delta x = v · t
+\]</span> <span class="math display">\[
+t = \Delta t = \dfrac{s}{v}
+\]</span> <span class="math display">\[
+x_f = x_i + s = x_i + v · t
 \]</span></p>
+</div>
+</div>
 </section>
-<section id="posiciones" class="level4">
-<h4 class="anchored" data-anchor-id="posiciones">3. Posiciones</h4>
+</section>
+<section id="ejemplo-de-problema-con-gráficas-de-mru" class="level1">
+<h1>Ejemplo de problema con gráficas de MRU</h1>
+<section id="enunciado" class="level2">
+<h2 class="anchored" data-anchor-id="enunciado">Enunciado</h2>
+<p>Una chica va andando desde su casa hasta la escuela, que está a 1 km de distancia. Permanece allí durante 6 horas y después vuelve a su casa.</p>
 <ul>
-<li><span class="math inline">\(x(3) = 40\)</span> m<br>
-</li>
-<li><span class="math inline">\(x(6) = 100\)</span> m<br>
-</li>
-<li><span class="math inline">\(x(10) = 180\)</span> m</li>
+<li>Tiempo: minutos.</li>
+<li>Espacio: kilómetros.</li>
+</ul>
+<p>Se representan las siguientes gráficas:</p>
+<ul>
+<li>Posición-tiempo.</li>
+<li>Velocidad-tiempo.</li>
+<li>Aceleración-tiempo.</li>
 </ul>
 </section>
-<section id="gráficas-1" class="level4">
-<h4 class="anchored" data-anchor-id="gráficas-1">4. Gráficas</h4>
-<p>Gráfica de tiempo-posición:</p>
-<div id="2cb67826" class="cell" data-execution_count="4">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="703_Graficas de movimiento_files/figure-html/cell-5-output-1.png" width="596" height="449" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Gráfica de tiempo-velocidad:</p>
-<div id="839cf22d" class="cell" data-execution_count="5">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="703_Graficas de movimiento_files/figure-html/cell-6-output-1.png" width="585" height="449" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
+<section id="datos-del-movimiento" class="level2">
+<h2 class="anchored" data-anchor-id="datos-del-movimiento">Datos del movimiento</h2>
+<section id="ida" class="level3">
+<h3 class="anchored" data-anchor-id="ida">Ida</h3>
+<p>La chica tarda 20 minutos en llegar a la escuela.</p>
+<p>Distancia recorrida:</p>
+<p><span class="math display">\[
+1\ \text{km}
+\]</span></p>
+<p>Tiempo empleado:</p>
+<p><span class="math display">\[
+20\ \text{min}
+\]</span></p>
+<p>Velocidad:</p>
+<p><span class="math display">\[
+v = \dfrac{1}{20} = 0{,}05\ \text{km/min}
+\]</span></p>
+<p>Código LaTeX:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ss">v = </span><span class="sc">\dfrac</span><span class="ss">{1}{20} = 0{,}05</span><span class="sc">\ \text</span>{km/min}</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
+</section>
+<section id="permanencia-en-la-escuela" class="level2">
+<h2 class="anchored" data-anchor-id="permanencia-en-la-escuela">Permanencia en la escuela</h2>
+<p>La chica permanece en la escuela durante 6 horas:</p>
+<p><span class="math display">\[
+6\ \text{h} = 360\ \text{min}
+\]</span></p>
+<p>Código LaTeX:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ss">6</span><span class="sc">\ \text</span>{h}<span class="ss"> = 360</span><span class="sc">\ \text</span>{min}</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="vuelta" class="level2">
+<h2 class="anchored" data-anchor-id="vuelta">Vuelta</h2>
+<p>La vuelta dura también 20 minutos.</p>
+<p>Velocidad:</p>
+<p><span class="math display">\[
+v = -0{,}05\ \text{km/min}
+\]</span></p>
+<p>Código LaTeX:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ss">v = -0{,}05</span><span class="sc">\ \text</span>{km/min}</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="interpretación-de-las-gráficas" class="level2">
+<h2 class="anchored" data-anchor-id="interpretación-de-las-gráficas">Interpretación de las gráficas</h2>
+<section id="gráfica-posición-tiempo" class="level3">
+<h3 class="anchored" data-anchor-id="gráfica-posición-tiempo">Gráfica posición-tiempo</h3>
+<ul>
+<li>La posición aumenta linealmente desde 0 km hasta 1 km durante la ida.</li>
+<li>Durante las 6 horas en la escuela la posición permanece constante.</li>
+<li>En la vuelta la posición disminuye linealmente hasta regresar a 0 km.</li>
+</ul>
+</section>
+<section id="gráfica-velocidad-tiempo" class="level3">
+<h3 class="anchored" data-anchor-id="gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</h3>
+<ul>
+<li>La velocidad es constante y positiva durante la ida.</li>
+<li>La velocidad es 0 mientras permanece en la escuela.</li>
+<li>La velocidad es constante y negativa durante la vuelta.</li>
+</ul>
+</section>
+<section id="gráfica-aceleración-tiempo" class="level3">
+<h3 class="anchored" data-anchor-id="gráfica-aceleración-tiempo">Gráfica aceleración-tiempo</h3>
+<ul>
+<li>La aceleración es 0 durante todo el movimiento, ya que la velocidad es constante en cada tramo.</li>
+</ul>
+</section>
+</section>
+<section id="código-para-generar-las-gráficas" class="level2">
+<h2 class="anchored" data-anchor-id="código-para-generar-las-gráficas">Código para generar las gráficas</h2>
+<div id="4444ca07" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-1.png" width="663" height="377" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-2.png" width="683" height="376" class="figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-3.png" width="683" height="377" class="figure-img"></p>
+</figure>
 </div>
 </div>
 </div>
