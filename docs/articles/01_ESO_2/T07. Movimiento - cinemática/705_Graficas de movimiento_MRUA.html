@@ -372,21 +372,24 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#mrua-movimiento-rectilíneo-uniformemente-acelerado" id="toc-mrua-movimiento-rectilíneo-uniformemente-acelerado" class="nav-link active" data-scroll-target="#mrua-movimiento-rectilíneo-uniformemente-acelerado">MRUA: Movimiento rectilíneo uniformemente acelerado</a></li>
-  <li><a href="#ejemplo-de-problema-con-gráficas-de-mrua" id="toc-ejemplo-de-problema-con-gráficas-de-mrua" class="nav-link" data-scroll-target="#ejemplo-de-problema-con-gráficas-de-mrua">Ejemplo de problema con gráficas de MRUA</a>
+  <li><a href="#mrua-movimiento-rectilíneo-uniformemente-acelerado" id="toc-mrua-movimiento-rectilíneo-uniformemente-acelerado" class="nav-link active" data-scroll-target="#mrua-movimiento-rectilíneo-uniformemente-acelerado"><span class="header-section-number">1</span> MRUA: Movimiento rectilíneo uniformemente acelerado</a>
   <ul class="collapse">
-  <li><a href="#enunciado" id="toc-enunciado" class="nav-link" data-scroll-target="#enunciado">Enunciado</a></li>
-  <li><a href="#datos-del-movimiento" id="toc-datos-del-movimiento" class="nav-link" data-scroll-target="#datos-del-movimiento">Datos del movimiento</a>
+  <li><a href="#ecuaciones-del-movimiento-mrua" id="toc-ecuaciones-del-movimiento-mrua" class="nav-link" data-scroll-target="#ecuaciones-del-movimiento-mrua"><span class="header-section-number">1.1</span> Ecuaciones del movimiento MRUA</a></li>
+  </ul></li>
+  <li><a href="#gráficas-de-mrua---con-un-problema-de-ejemplo" id="toc-gráficas-de-mrua---con-un-problema-de-ejemplo" class="nav-link" data-scroll-target="#gráficas-de-mrua---con-un-problema-de-ejemplo"><span class="header-section-number">2</span> Gráficas de MRUA - con un problema de ejemplo</a>
+  <ul class="collapse">
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link" data-scroll-target="#enunciado"><span class="header-section-number">2.1</span> Enunciado</a></li>
+  <li><a href="#resolución" id="toc-resolución" class="nav-link" data-scroll-target="#resolución"><span class="header-section-number">2.2</span> Resolución</a>
   <ul class="collapse">
   <li><a href="#tramo-1-aceleración" id="toc-tramo-1-aceleración" class="nav-link" data-scroll-target="#tramo-1-aceleración">Tramo 1: aceleración</a></li>
   <li><a href="#tramo-2-frenado" id="toc-tramo-2-frenado" class="nav-link" data-scroll-target="#tramo-2-frenado">Tramo 2: frenado</a></li>
   <li><a href="#tramo-3-vuelta-a-velocidad-constante" id="toc-tramo-3-vuelta-a-velocidad-constante" class="nav-link" data-scroll-target="#tramo-3-vuelta-a-velocidad-constante">Tramo 3: vuelta a velocidad constante</a></li>
   </ul></li>
-  <li><a href="#interpretación-de-las-gráficas" id="toc-interpretación-de-las-gráficas" class="nav-link" data-scroll-target="#interpretación-de-las-gráficas">Interpretación de las gráficas</a>
+  <li><a href="#gráficas-y-su-interpretación" id="toc-gráficas-y-su-interpretación" class="nav-link" data-scroll-target="#gráficas-y-su-interpretación"><span class="header-section-number">2.3</span> Gráficas y su interpretación</a>
   <ul class="collapse">
   <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
   <li><a href="#gráfica-velocidad-tiempo" id="toc-gráfica-velocidad-tiempo" class="nav-link" data-scroll-target="#gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</a></li>
@@ -418,13 +421,102 @@ window.Quarto = {
 </header>
 
 
-<section id="mrua-movimiento-rectilíneo-uniformemente-acelerado" class="level2">
-<h2 class="anchored" data-anchor-id="mrua-movimiento-rectilíneo-uniformemente-acelerado">MRUA: Movimiento rectilíneo uniformemente acelerado</h2>
+<section id="mrua-movimiento-rectilíneo-uniformemente-acelerado" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> MRUA: Movimiento rectilíneo uniformemente acelerado</h1>
+<p>¡Qué significa este nombre?</p>
+<ul>
+<li><strong>Rectilíneo</strong>: que se mueve en línea recta. En este movimiento no hay curvas.<br>
+</li>
+<li><strong>Uniformement acelerado</strong>: que la aceleración es constante. Es decir la aceleración no varía. Pero aunque no varíe no es 0, por lo que sí habrá un aumento disminución de la velocidad que sucederá todo el rato al mismo ritmo.
+<ul>
+<li>Es decir, si <span class="math inline">\(a&gt;0\)</span> veremos aumentar la velocidad del móvil todo el rato al mismo ritmo. Por ejemplo si <span class="math inline">\(a = 2 \frac{m}{s^2}\)</span> eso imlica que cada segundo, su velocidad aumenta en <span class="math inline">\(2\frac{m}{s}\)</span>.</li>
+<li>Y si <span class="math inline">\(a&lt;0\)</span> veremos disminuir la velocidad del móvil también al mismo ritmo, pero ahora frenando. Por ejemplo si <span class="math inline">\(a = -5 \frac{m}{s^2}\)</span> eso imlica que cada segundo, su velocidad disminuye en <span class="math inline">\(5\frac{m}{s}\)</span>.</li>
+</ul></li>
+</ul>
+<section id="ecuaciones-del-movimiento-mrua" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="ecuaciones-del-movimiento-mrua"><span class="header-section-number">1.1</span> Ecuaciones del movimiento MRUA</h2>
+<p>Es fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.</p>
+<p>Lo primero es entender qué variables vamos a usar para representar las magnitudes y aprender sus “nombres” (la letra) y sus “apellidos” (el subíndice):</p>
+<ul>
+<li><span class="math inline">\(d\)</span> o <span class="math inline">\(s\)</span> o <span class="math inline">\(e\)</span>: espacio o distancia recorrida (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(k&lt;m\)</span>).<br>
+</li>
+<li><span class="math inline">\(x\)</span>: posición en un determinado momento (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(km\)</span>).
+<ul>
+<li>Hay muchos ejercicios en que tenemos una posición inicial y final en cada tramo del movimiento.<br>
+</li>
+<li>Si es así las llamaremos respectivamente <span class="math inline">\(x_i\)</span> y <span class="math inline">\(x_f\)</span>.</li>
+</ul></li>
+<li><span class="math inline">\(v\)</span>: velocidad en cada instante. Normalmente en <span class="math inline">\(\dfrac{m}{s}\)</span> o <span class="math inline">\(\dfrac{km}{h}\)</span>.
+<ul>
+<li>Hay muchos ejercicios en que tenemos una velocidad inicial y final en cada tramo del movimiento.<br>
+</li>
+<li>Si es así las llamaremos respectivamente <span class="math inline">\(v_i\)</span> y <span class="math inline">\(v_f\)</span>.</li>
+<li>La <span class="math inline">\(v\)</span> a secas significa que es la velocidad en cada instante de tiempo que quizá tengamos que calcular. Podemos considerar por tanto que v=v_f en cada momento que queramos calcularla.</li>
+</ul></li>
+<li><span class="math inline">\(a\)</span>: aceleración. Se mide normalmente en <span class="math inline">\(\dfrac{m}{s^2}\)</span> pero a veces también en <span class="math inline">\(\dfrac{km}{h^2}\)</span>.</li>
+</ul>
+<p>Para dar las ecuaciones, aquí es útil ir al contrario:</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Ecuación de la aceleración, que es constante, es decir no cambia (¡¡pero no es ceo!!). <span class="math display">\[
+a = cte \ \dfrac{m}{s^2}
+\]</span></li>
+<li>Ecuación de la velocidad. Que sí cambia con la aceleración a medida que pasa el tiempo. <span class="math display">\[
+v = v_i + a t
+\]</span></li>
+<li>Ecuación de la posición. Que sí cambia debido a la velocidad y a la aceleración a medida que pasa el tiempo. <span class="math display">\[
+x = x_i + v_i  t + \dfrac{1}{2}a  t^2
+\]</span></li>
+</ol>
+<p>Si tratamos de eliminar el tiempo usando la ecuación de la velocidad y de la posición, podemos llegar a una expresión así: <span class="math display">\[
+v^2 - v_i^2 = 2ax
+\]</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Para saber más">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Para saber más
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Algunas reflexiones:</p>
+<ul>
+<li><p>Si queremos sacar la aceleración de la ecuación de la velocidad: <span class="math display">\[
+v = v_i + a t \ \ \rightarrow\ \ v-v_i = a t \ \ \rightarrow\ \ \dfrac{v-v_i}{t} = a \ \ \rightarrow\ \ a= \dfrac{v-v_i}{t}
+\]</span></p></li>
+<li><p>Si queremos sacar el instante de tiempo en que tenemos una determinada velocidad, tendremos que resolver una ecuación de 2º grado. Esta es la fórmula genérica. <span class="math display">\[
+ax^2 + bx + c = 0 \ \ \rightarrow\ \ x = \dfrac{-b \pm \sqrt{b^2-4ac}}{2a}
+\]</span> Y ahora la adaptamos a la ecuación del movimiento que tenemos: <span class="math display">\[
+x = x_i + v_i  t + \dfrac{1}{2}a  t^2 \ \ \rightarrow\ \ \dfrac{1}{2}a  t^2 + v_i t + (x_i-x) = 0  \ \ \rightarrow\ \
+\]</span> <span class="math display">\[
+t = \dfrac{-v_i \pm \sqrt{v_i^2-4(\dfrac{1}{2}a)(x_i-x)}}{2(\dfrac{1}{2}a)} = \dfrac{-v_i \pm \sqrt{v_i^2-2a(x_i-x)}}{a}
+\]</span></p></li>
+</ul>
+<p>Estas últimas fórmulas no hay que aprenderlas de memoria, sino conocer muy bien una ecuacuión de segundo grado, la fórmula para resolverla y saberla utilizar cuando nos encontramos con una.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="ejemplo-de-problema-con-gráficas-de-mrua" class="level1">
-<h1>Ejemplo de problema con gráficas de MRUA</h1>
-<section id="enunciado" class="level2">
-<h2 class="anchored" data-anchor-id="enunciado">Enunciado</h2>
+</section>
+<section id="gráficas-de-mrua---con-un-problema-de-ejemplo" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Gráficas de MRUA - con un problema de ejemplo</h1>
+<section id="enunciado" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="enunciado"><span class="header-section-number">2.1</span> Enunciado</h2>
 <p>Un hombre sale de su casa y acelera durante 10 segundos a <span class="math inline">\(2m/s^2\)</span> hasta unos metros antes de la escuela, que está a <span class="math inline">\(200 m\)</span>, donde reduce el ritmo y frena a <span class="math inline">\(4m/s^2\)</span> durante 5 segundos. Se queda en la escuela 20 segundos parada y después vuelve a su casa a una velocidad constante de <span class="math inline">\(10 m/s\)</span>.</p>
 <p>Representar las siguientes gráficas:</p>
 <ul>
@@ -433,21 +525,22 @@ window.Quarto = {
 <li>Aceleración-tiempo.</li>
 </ul>
 </section>
-<section id="datos-del-movimiento" class="level2">
-<h2 class="anchored" data-anchor-id="datos-del-movimiento">Datos del movimiento</h2>
+<section id="resolución" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="resolución"><span class="header-section-number">2.2</span> Resolución</h2>
+<p>Siempre que tengamos un problema con varios tramos de movimiento, hemos de analizar cada tramo por separado y obtener sus valores de <span class="math inline">\(x\)</span>, <span class="math inline">\(v\)</span> y <span class="math inline">\(a\)</span> en función del <span class="math inline">\(t\)</span>.</p>
 <section id="tramo-1-aceleración" class="level3">
 <h3 class="anchored" data-anchor-id="tramo-1-aceleración">Tramo 1: aceleración</h3>
 <p>El hombre parte del reposo y acelera durante 10 segundos con una aceleración constante:</p>
 <p><span class="math display">\[
 a = 2\ \text{m/s}^2
 \]</span></p>
-<p>Velocidad alcanzada:</p>
+<p>Velocidad alcanzada: aquí la <span class="math inline">\(v_i=0\)</span> así que podemos simplificar un poco la ecuación:</p>
 <p><span class="math display">\[
-v = a \cdot t = 2 \cdot 10 = 20\ \text{m/s}
+v = v_i + a \cdot t = a \cdot t= 2 \cdot 10 = 20\ \text{m/s}
 \]</span></p>
-<p>Posición recorrida:</p>
+<p>Posición recorrida: como <span class="math inline">\(x_i=0\)</span> y <span class="math inline">\(v_i=0\)</span> simplificamos mucho la ecuación:</p>
 <p><span class="math display">\[
-x = \dfrac{1}{2} \cdot a \cdot t^2
+x = x_i+ v_i t + \dfrac{1}{2} \cdot a \cdot t^2  = \dfrac{1}{2} \cdot a \cdot t^2
 \]</span></p>
 <p><span class="math display">\[
 x = \dfrac{1}{2} \cdot 2 \cdot 10^2 = 100\ \text{m}
@@ -461,7 +554,7 @@ a = -4\ \text{m/s}^2
 \]</span></p>
 <p>Velocidad final:</p>
 <p><span class="math display">\[
-v = 20 - 4 \cdot 5 = 0\ \text{m/s}
+v =  v_i + at = 20 - 4 \cdot 5 = 0\ \text{m/s}
 \]</span></p>
 </section>
 <section id="tramo-3-vuelta-a-velocidad-constante" class="level3">
@@ -472,8 +565,9 @@ v = -10\ \text{m/s}
 \]</span></p>
 </section>
 </section>
-<section id="interpretación-de-las-gráficas" class="level2">
-<h2 class="anchored" data-anchor-id="interpretación-de-las-gráficas">Interpretación de las gráficas</h2>
+<section id="gráficas-y-su-interpretación" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="gráficas-y-su-interpretación"><span class="header-section-number">2.3</span> Gráficas y su interpretación</h2>
+<p>Interpretar una gráfica es entender qué significa lo que vemos y ser capaz de explicarlo. Por supuesto tiene que ser coherente con el enunciado del ejercicio.</p>
 <section id="gráfica-posición-tiempo" class="level3">
 <h3 class="anchored" data-anchor-id="gráfica-posición-tiempo">Gráfica posición-tiempo</h3>
 <ul>
@@ -481,7 +575,7 @@ v = -10\ \text{m/s}
 <li>Después la pendiente disminuye durante el frenado.</li>
 <li>Finalmente la posición disminuye linealmente porque vuelve a velocidad constante.</li>
 </ul>
-<div id="f181b236" class="cell" data-execution_count="1">
+<div id="64b12bfe" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -498,7 +592,7 @@ v = -10\ \text{m/s}
 <li>Después disminuye linealmente durante el frenado.</li>
 <li>Finalmente permanece constante y negativa en la vuelta.</li>
 </ul>
-<div id="412cec13" class="cell" data-execution_count="2">
+<div id="0b7f43d8" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -515,7 +609,7 @@ v = -10\ \text{m/s}
 <li>Luego es negativa durante el frenado.</li>
 <li>Finalmente es 0 durante el movimiento uniforme.</li>
 </ul>
-<div id="41cd324a" class="cell" data-execution_count="3">
+<div id="9c759286" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">

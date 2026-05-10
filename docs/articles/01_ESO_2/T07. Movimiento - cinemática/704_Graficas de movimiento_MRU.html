@@ -23,41 +23,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -407,27 +372,29 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#mru-movimiento-rectilíneo-uniforme" id="toc-mru-movimiento-rectilíneo-uniforme" class="nav-link active" data-scroll-target="#mru-movimiento-rectilíneo-uniforme">MRU: movimiento rectilíneo uniforme</a></li>
-  <li><a href="#ejemplo-de-problema-con-gráficas-de-mru" id="toc-ejemplo-de-problema-con-gráficas-de-mru" class="nav-link" data-scroll-target="#ejemplo-de-problema-con-gráficas-de-mru">Ejemplo de problema con gráficas de MRU</a>
+  <li><a href="#mru-movimiento-rectilíneo-uniforme" id="toc-mru-movimiento-rectilíneo-uniforme" class="nav-link active" data-scroll-target="#mru-movimiento-rectilíneo-uniforme"><span class="header-section-number">1</span> MRU: movimiento rectilíneo uniforme</a>
   <ul class="collapse">
-  <li><a href="#enunciado" id="toc-enunciado" class="nav-link" data-scroll-target="#enunciado">Enunciado</a></li>
-  <li><a href="#datos-del-movimiento" id="toc-datos-del-movimiento" class="nav-link" data-scroll-target="#datos-del-movimiento">Datos del movimiento</a>
+  <li><a href="#ecuaciones-del-movimiento-mru" id="toc-ecuaciones-del-movimiento-mru" class="nav-link" data-scroll-target="#ecuaciones-del-movimiento-mru"><span class="header-section-number">1.1</span> Ecuaciones del movimiento MRU</a></li>
+  </ul></li>
+  <li><a href="#ejemplo-de-problema-con-gráficas-de-mru" id="toc-ejemplo-de-problema-con-gráficas-de-mru" class="nav-link" data-scroll-target="#ejemplo-de-problema-con-gráficas-de-mru"><span class="header-section-number">2</span> Ejemplo de problema con gráficas de MRU</a>
+  <ul class="collapse">
+  <li><a href="#enunciado" id="toc-enunciado" class="nav-link" data-scroll-target="#enunciado"><span class="header-section-number">2.1</span> Enunciado</a></li>
+  <li><a href="#resolución" id="toc-resolución" class="nav-link" data-scroll-target="#resolución"><span class="header-section-number">2.2</span> Resolución</a>
   <ul class="collapse">
   <li><a href="#ida" id="toc-ida" class="nav-link" data-scroll-target="#ida">Ida</a></li>
-  </ul></li>
   <li><a href="#permanencia-en-la-escuela" id="toc-permanencia-en-la-escuela" class="nav-link" data-scroll-target="#permanencia-en-la-escuela">Permanencia en la escuela</a></li>
   <li><a href="#vuelta" id="toc-vuelta" class="nav-link" data-scroll-target="#vuelta">Vuelta</a></li>
-  <li><a href="#interpretación-de-las-gráficas" id="toc-interpretación-de-las-gráficas" class="nav-link" data-scroll-target="#interpretación-de-las-gráficas">Interpretación de las gráficas</a>
+  </ul></li>
+  <li><a href="#gráficas-y-su-interpretación" id="toc-gráficas-y-su-interpretación" class="nav-link" data-scroll-target="#gráficas-y-su-interpretación"><span class="header-section-number">2.3</span> Gráficas y su interpretación</a>
   <ul class="collapse">
   <li><a href="#gráfica-posición-tiempo" id="toc-gráfica-posición-tiempo" class="nav-link" data-scroll-target="#gráfica-posición-tiempo">Gráfica posición-tiempo</a></li>
   <li><a href="#gráfica-velocidad-tiempo" id="toc-gráfica-velocidad-tiempo" class="nav-link" data-scroll-target="#gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</a></li>
   <li><a href="#gráfica-aceleración-tiempo" id="toc-gráfica-aceleración-tiempo" class="nav-link" data-scroll-target="#gráfica-aceleración-tiempo">Gráfica aceleración-tiempo</a></li>
   </ul></li>
-  <li><a href="#código-para-generar-las-gráficas" id="toc-código-para-generar-las-gráficas" class="nav-link" data-scroll-target="#código-para-generar-las-gráficas">Código para generar las gráficas</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="704_Graficas-de-movimiento_MRU.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
@@ -454,8 +421,8 @@ window.Quarto = {
 </header>
 
 
-<section id="mru-movimiento-rectilíneo-uniforme" class="level2">
-<h2 class="anchored" data-anchor-id="mru-movimiento-rectilíneo-uniforme">MRU: movimiento rectilíneo uniforme</h2>
+<section id="mru-movimiento-rectilíneo-uniforme" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> MRU: movimiento rectilíneo uniforme</h1>
 <p>El movimiento que hemos visto hasta ahora se llama MRU: Movimiento Rectilíneo Uniforme. ¿Qué significa esto?</p>
 <ul>
 <li><strong>Rectilíneo</strong>: que se mueve en línea recta. En este movimiento no hay curvas.<br>
@@ -465,9 +432,14 @@ window.Quarto = {
 <li>Es importante entender que cuando hay varios tramos, esto signfica que la velocidad es constante en cada tramo. Pero la velocidad SÍ puede variar entre tramo y tramo, lo que sucede es que consideramos cada tramo independiente y no tenemos en cuenta el cambio de tramo a tramo por lo que ignoramos la aceleración. Esto es una simplificación, pero muy útil cuando estamos empezando a entender el movimiento.</li>
 </ul></li>
 </ul>
-<section id="ecuaciones-del-movimiento-mru" class="level4">
-<h4 class="anchored" data-anchor-id="ecuaciones-del-movimiento-mru">Ecuaciones del movimiento MRU</h4>
+<section id="ecuaciones-del-movimiento-mru" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="ecuaciones-del-movimiento-mru"><span class="header-section-number">1.1</span> Ecuaciones del movimiento MRU</h2>
 <p>Es fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.</p>
+<ul>
+<li><span class="math inline">\(d\)</span> o <span class="math inline">\(s\)</span> o <span class="math inline">\(e\)</span>: espacio o distancia recorrida (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(k&lt;m\)</span>).<br>
+</li>
+<li><span class="math inline">\(x\)</span>: posición en un determinado momento (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(km\)</span>).</li>
+</ul>
 <div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -478,11 +450,6 @@ window.Quarto = {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li><span class="math inline">\(d\)</span> o <span class="math inline">\(s\)</span> o <span class="math inline">\(e\)</span>: espacio o distancia recorrida (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(k&lt;m\)</span>).<br>
-</li>
-<li><span class="math inline">\(x\)</span>: posición en un determinado momento (normalmente en <span class="math inline">\(m\)</span> o <span class="math inline">\(km\)</span>).</li>
-</ul>
 <p><span class="math display">\[
 \Delta s = s_f - s_i
 \]</span> <span class="math display">\[
@@ -492,7 +459,20 @@ window.Quarto = {
 \]</span> <span class="math display">\[
 v = \dfrac{s}{t} =  \dfrac{\Delta x}{\Delta t} = \dfrac{x_f-x_i}{t_f-t_i}
 \]</span></p>
-<p>De aquí hay que saber despejar las ecuaciones: <span class="math display">\[
+</div>
+</div>
+<p>De aquí hay que saber despejar las ecuaciones:</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante. Despejar ecuaciones">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante. Despejar ecuaciones
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
 s = \Delta x = v · t
 \]</span> <span class="math display">\[
 t = \Delta t = \dfrac{s}{v}
@@ -503,70 +483,65 @@ x_f = x_i + s = x_i + v · t
 </div>
 </section>
 </section>
-<section id="ejemplo-de-problema-con-gráficas-de-mru" class="level1">
-<h1>Ejemplo de problema con gráficas de MRU</h1>
-<section id="enunciado" class="level2">
-<h2 class="anchored" data-anchor-id="enunciado">Enunciado</h2>
-<p>Una chica va andando desde su casa hasta la escuela, que está a 1 km de distancia. Permanece allí durante 6 horas y después vuelve a su casa.</p>
+<section id="ejemplo-de-problema-con-gráficas-de-mru" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Ejemplo de problema con gráficas de MRU</h1>
+<section id="enunciado" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="enunciado"><span class="header-section-number">2.1</span> Enunciado</h2>
+<p>Una chica va andando desde su casa hasta la escuela, que está a 1 km de distancia y tarda 20 minutos. Permanece allí durante 1 horas y después vuelve a su casa.</p>
 <ul>
 <li>Tiempo: minutos.</li>
 <li>Espacio: kilómetros.</li>
 </ul>
-<p>Se representan las siguientes gráficas:</p>
+<p>Representar las siguientes gráficas:</p>
 <ul>
 <li>Posición-tiempo.</li>
 <li>Velocidad-tiempo.</li>
 <li>Aceleración-tiempo.</li>
 </ul>
 </section>
-<section id="datos-del-movimiento" class="level2">
-<h2 class="anchored" data-anchor-id="datos-del-movimiento">Datos del movimiento</h2>
+<section id="resolución" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="resolución"><span class="header-section-number">2.2</span> Resolución</h2>
+<p>Siempre que tengamos un problema con varios tramos de movimiento, hemos de analizar cada tramo por separado y obtener sus valores de <span class="math inline">\(x\)</span>, <span class="math inline">\(v\)</span> y <span class="math inline">\(a\)</span> en función del <span class="math inline">\(t\)</span>.</p>
+<p>Como es MRU veremos que la <span class="math inline">\(a=0 \dfrac{m}{s^2}\)</span> en todos los casos.</p>
 <section id="ida" class="level3">
 <h3 class="anchored" data-anchor-id="ida">Ida</h3>
 <p>La chica tarda 20 minutos en llegar a la escuela.</p>
-<p>Distancia recorrida:</p>
-<p><span class="math display">\[
-1\ \text{km}
+<ul>
+<li>Distancia recorrida: <span class="math inline">\(1 km\)</span></li>
+<li>Tiempo empleado: <span class="math display">\[
+20 min = 20 min \dfrac{1 h}{60 min} = \dfrac{20 h}{60} = \dfrac{2 h}{6} = \dfrac{1 h}{3} = 0,33 h
+\]</span></li>
+<li>Velocidad en km/min: <span class="math display">\[
+v = \dfrac{d}{t} = \dfrac{1 km}{20 min} = 0{,}05\ \text{km/min}
+\]</span></li>
+</ul>
+<p>Si calculáramos la velocidad en en km/h: <span class="math display">\[
+v = \dfrac{d}{t} = \dfrac{1 km}{0,33 h} = 3\ \text{km/h}
 \]</span></p>
-<p>Tiempo empleado:</p>
-<p><span class="math display">\[
-20\ \text{min}
-\]</span></p>
-<p>Velocidad:</p>
-<p><span class="math display">\[
-v = \dfrac{1}{20} = 0{,}05\ \text{km/min}
-\]</span></p>
-<p>Código LaTeX:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ss">v = </span><span class="sc">\dfrac</span><span class="ss">{1}{20} = 0{,}05</span><span class="sc">\ \text</span>{km/min}</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-</section>
-<section id="permanencia-en-la-escuela" class="level2">
-<h2 class="anchored" data-anchor-id="permanencia-en-la-escuela">Permanencia en la escuela</h2>
+<section id="permanencia-en-la-escuela" class="level3">
+<h3 class="anchored" data-anchor-id="permanencia-en-la-escuela">Permanencia en la escuela</h3>
 <p>La chica permanece en la escuela durante 6 horas:</p>
-<p><span class="math display">\[
-6\ \text{h} = 360\ \text{min}
-\]</span></p>
-<p>Código LaTeX:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ss">6</span><span class="sc">\ \text</span>{h}<span class="ss"> = 360</span><span class="sc">\ \text</span>{min}</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Distancia recorrida: <span class="math inline">\(0 km\)</span></li>
+<li>Tiempo empleado: <span class="math inline">\(1 horas = 1·60 min = 60 min\)</span></li>
+<li>Velocidad: <span class="math display">\[
+v = \dfrac{d}{t} = \dfrac{0 km}{6h} = 0\ \text{km/h}
+\]</span></li>
+</ul>
 </section>
-<section id="vuelta" class="level2">
-<h2 class="anchored" data-anchor-id="vuelta">Vuelta</h2>
-<p>La vuelta dura también 20 minutos.</p>
-<p>Velocidad:</p>
-<p><span class="math display">\[
-v = -0{,}05\ \text{km/min}
+<section id="vuelta" class="level3">
+<h3 class="anchored" data-anchor-id="vuelta">Vuelta</h3>
+<p>La vuelta dura también 20 minutos. - Distancia recorrida: <span class="math inline">\(1 km\)</span> - Tiempo empleado: <span class="math inline">\(20 min = 0,33 horas\)</span> - Velocidad: aquí tenemos que tener cuidado, porque está volviendo: <span class="math inline">\(d = 1 km\)</span>, pero como es de vuelta es mejor usar el desplazamiento: <span class="math display">\[
+\delta x = x_f-x_i = (0-1) \text{km} = - 1 km
+\]</span> <span class="math display">\[
+v = \dfrac{\delta x}{t} = \dfrac{-1 km}{20 min} = -0{,}05\ \text{km/min} = - 3\ \text{km/h}
 \]</span></p>
-<p>Código LaTeX:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode latex code-with-copy"><code class="sourceCode latex"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ss">v = -0{,}05</span><span class="sc">\ \text</span>{km/min}</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ss">$$</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="interpretación-de-las-gráficas" class="level2">
-<h2 class="anchored" data-anchor-id="interpretación-de-las-gráficas">Interpretación de las gráficas</h2>
+</section>
+<section id="gráficas-y-su-interpretación" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="gráficas-y-su-interpretación"><span class="header-section-number">2.3</span> Gráficas y su interpretación</h2>
+<p>Interpretar una gráfica es entender qué significa lo que vemos y ser capaz de explicarlo. Por supuesto tiene que ser coherente con el enunciado del ejercicio.</p>
 <section id="gráfica-posición-tiempo" class="level3">
 <h3 class="anchored" data-anchor-id="gráfica-posición-tiempo">Gráfica posición-tiempo</h3>
 <ul>
@@ -574,6 +549,15 @@ v = -0{,}05\ \text{km/min}
 <li>Durante las 6 horas en la escuela la posición permanece constante.</li>
 <li>En la vuelta la posición disminuye linealmente hasta regresar a 0 km.</li>
 </ul>
+<div id="719663e6" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-1.png" width="663" height="377" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="gráfica-velocidad-tiempo" class="level3">
 <h3 class="anchored" data-anchor-id="gráfica-velocidad-tiempo">Gráfica velocidad-tiempo</h3>
@@ -582,42 +566,34 @@ v = -0{,}05\ \text{km/min}
 <li>La velocidad es 0 mientras permanece en la escuela.</li>
 <li>La velocidad es constante y negativa durante la vuelta.</li>
 </ul>
+<div id="a36d8a25" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-3-output-1.png" width="683" height="376" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="gráfica-aceleración-tiempo" class="level3">
 <h3 class="anchored" data-anchor-id="gráfica-aceleración-tiempo">Gráfica aceleración-tiempo</h3>
 <ul>
 <li>La aceleración es 0 durante todo el movimiento, ya que la velocidad es constante en cada tramo.</li>
 </ul>
+<div id="a750bcf2" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-4-output-1.png" width="683" height="377" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+
 </section>
-</section>
-<section id="código-para-generar-las-gráficas" class="level2">
-<h2 class="anchored" data-anchor-id="código-para-generar-las-gráficas">Código para generar las gráficas</h2>
-<div id="2eebe3d3" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-1.png" width="663" height="377" class="figure-img"></p>
-</figure>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-2.png" width="683" height="376" class="figure-img"></p>
-</figure>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="704_Graficas de movimiento_MRU_files/figure-html/cell-2-output-3.png" width="683" height="377" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-
-
-
 </section>
 </section>
 

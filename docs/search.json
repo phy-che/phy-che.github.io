@@ -14,7 +14,7 @@
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html",
     "title": "Gráficas movimiento MRU",
     "section": "",
-    "text": "El movimiento que hemos visto hasta ahora se llama MRU: Movimiento Rectilíneo Uniforme. ¿Qué significa esto?\n\nRectilíneo: que se mueve en línea recta. En este movimiento no hay curvas.\n\nUniforme: que la velocidad es constante. Es decir, no existe aceleración.\n\nEs importante entender que cuando hay varios tramos, esto signfica que la velocidad es constante en cada tramo. Pero la velocidad SÍ puede variar entre tramo y tramo, lo que sucede es que consideramos cada tramo independiente y no tenemos en cuenta el cambio de tramo a tramo por lo que ignoramos la aceleración. Esto es una simplificación, pero muy útil cuando estamos empezando a entender el movimiento.\n\n\n\n\nEs fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\n\\(d\\) o \\(s\\) o \\(e\\): espacio o distancia recorrida (normalmente en \\(m\\) o \\(k&lt;m\\)).\n\n\\(x\\): posición en un determinado momento (normalmente en \\(m\\) o \\(km\\)).\n\n\\[\n\\Delta s = s_f - s_i\n\\] \\[\n\\Delta x= x_f - x_i\n\\] \\[\n\\Delta t = t_f - t_i\n\\] \\[\nv = \\dfrac{s}{t} =  \\dfrac{\\Delta x}{\\Delta t} = \\dfrac{x_f-x_i}{t_f-t_i}\n\\]\nDe aquí hay que saber despejar las ecuaciones: \\[\ns = \\Delta x = v · t\n\\] \\[\nt = \\Delta t = \\dfrac{s}{v}\n\\] \\[\nx_f = x_i + s = x_i + v · t\n\\]",
+    "text": "El movimiento que hemos visto hasta ahora se llama MRU: Movimiento Rectilíneo Uniforme. ¿Qué significa esto?\n\nRectilíneo: que se mueve en línea recta. En este movimiento no hay curvas.\n\nUniforme: que la velocidad es constante. Es decir, no existe aceleración.\n\nEs importante entender que cuando hay varios tramos, esto signfica que la velocidad es constante en cada tramo. Pero la velocidad SÍ puede variar entre tramo y tramo, lo que sucede es que consideramos cada tramo independiente y no tenemos en cuenta el cambio de tramo a tramo por lo que ignoramos la aceleración. Esto es una simplificación, pero muy útil cuando estamos empezando a entender el movimiento.\n\n\n\n\nEs fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.\n\n\\(d\\) o \\(s\\) o \\(e\\): espacio o distancia recorrida (normalmente en \\(m\\) o \\(k&lt;m\\)).\n\n\\(x\\): posición en un determinado momento (normalmente en \\(m\\) o \\(km\\)).\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\\[\n\\Delta s = s_f - s_i\n\\] \\[\n\\Delta x= x_f - x_i\n\\] \\[\n\\Delta t = t_f - t_i\n\\] \\[\nv = \\dfrac{s}{t} =  \\dfrac{\\Delta x}{\\Delta t} = \\dfrac{x_f-x_i}{t_f-t_i}\n\\]\n\n\nDe aquí hay que saber despejar las ecuaciones:\n\n\n\n\n\n\nImportanteMuy importante. Despejar ecuaciones\n\n\n\n\\[\ns = \\Delta x = v · t\n\\] \\[\nt = \\Delta t = \\dfrac{s}{v}\n\\] \\[\nx_f = x_i + s = x_i + v · t\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -23,11 +23,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#mru-movimiento-rectilíneo-uniforme",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#mru-movimiento-rectilíneo-uniforme",
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#ecuaciones-del-movimiento-mru",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#ecuaciones-del-movimiento-mru",
     "title": "Gráficas movimiento MRU",
     "section": "",
-    "text": "El movimiento que hemos visto hasta ahora se llama MRU: Movimiento Rectilíneo Uniforme. ¿Qué significa esto?\n\nRectilíneo: que se mueve en línea recta. En este movimiento no hay curvas.\n\nUniforme: que la velocidad es constante. Es decir, no existe aceleración.\n\nEs importante entender que cuando hay varios tramos, esto signfica que la velocidad es constante en cada tramo. Pero la velocidad SÍ puede variar entre tramo y tramo, lo que sucede es que consideramos cada tramo independiente y no tenemos en cuenta el cambio de tramo a tramo por lo que ignoramos la aceleración. Esto es una simplificación, pero muy útil cuando estamos empezando a entender el movimiento.\n\n\n\n\nEs fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\n\\(d\\) o \\(s\\) o \\(e\\): espacio o distancia recorrida (normalmente en \\(m\\) o \\(k&lt;m\\)).\n\n\\(x\\): posición en un determinado momento (normalmente en \\(m\\) o \\(km\\)).\n\n\\[\n\\Delta s = s_f - s_i\n\\] \\[\n\\Delta x= x_f - x_i\n\\] \\[\n\\Delta t = t_f - t_i\n\\] \\[\nv = \\dfrac{s}{t} =  \\dfrac{\\Delta x}{\\Delta t} = \\dfrac{x_f-x_i}{t_f-t_i}\n\\]\nDe aquí hay que saber despejar las ecuaciones: \\[\ns = \\Delta x = v · t\n\\] \\[\nt = \\Delta t = \\dfrac{s}{v}\n\\] \\[\nx_f = x_i + s = x_i + v · t\n\\]",
+    "text": "Es fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.\n\n\\(d\\) o \\(s\\) o \\(e\\): espacio o distancia recorrida (normalmente en \\(m\\) o \\(k&lt;m\\)).\n\n\\(x\\): posición en un determinado momento (normalmente en \\(m\\) o \\(km\\)).\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\\[\n\\Delta s = s_f - s_i\n\\] \\[\n\\Delta x= x_f - x_i\n\\] \\[\n\\Delta t = t_f - t_i\n\\] \\[\nv = \\dfrac{s}{t} =  \\dfrac{\\Delta x}{\\Delta t} = \\dfrac{x_f-x_i}{t_f-t_i}\n\\]\n\n\nDe aquí hay que saber despejar las ecuaciones:\n\n\n\n\n\n\nImportanteMuy importante. Despejar ecuaciones\n\n\n\n\\[\ns = \\Delta x = v · t\n\\] \\[\nt = \\Delta t = \\dfrac{s}{v}\n\\] \\[\nx_f = x_i + s = x_i + v · t\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -39,8 +39,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#enunciado",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#enunciado",
     "title": "Gráficas movimiento MRU",
-    "section": "Enunciado",
-    "text": "Enunciado\nUna chica va andando desde su casa hasta la escuela, que está a 1 km de distancia. Permanece allí durante 6 horas y después vuelve a su casa.\n\nTiempo: minutos.\nEspacio: kilómetros.\n\nSe representan las siguientes gráficas:\n\nPosición-tiempo.\nVelocidad-tiempo.\nAceleración-tiempo.",
+    "section": "2.1 Enunciado",
+    "text": "2.1 Enunciado\nUna chica va andando desde su casa hasta la escuela, que está a 1 km de distancia y tarda 20 minutos. Permanece allí durante 1 horas y después vuelve a su casa.\n\nTiempo: minutos.\nEspacio: kilómetros.\n\nRepresentar las siguientes gráficas:\n\nPosición-tiempo.\nVelocidad-tiempo.\nAceleración-tiempo.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -49,11 +49,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#datos-del-movimiento",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#datos-del-movimiento",
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#resolución",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#resolución",
     "title": "Gráficas movimiento MRU",
-    "section": "Datos del movimiento",
-    "text": "Datos del movimiento\n\nIda\nLa chica tarda 20 minutos en llegar a la escuela.\nDistancia recorrida:\n\\[\n1\\ \\text{km}\n\\]\nTiempo empleado:\n\\[\n20\\ \\text{min}\n\\]\nVelocidad:\n\\[\nv = \\dfrac{1}{20} = 0{,}05\\ \\text{km/min}\n\\]\nCódigo LaTeX:\n$$\nv = \\dfrac{1}{20} = 0{,}05\\ \\text{km/min}\n$$",
+    "section": "2.2 Resolución",
+    "text": "2.2 Resolución\nSiempre que tengamos un problema con varios tramos de movimiento, hemos de analizar cada tramo por separado y obtener sus valores de \\(x\\), \\(v\\) y \\(a\\) en función del \\(t\\).\nComo es MRU veremos que la \\(a=0 \\dfrac{m}{s^2}\\) en todos los casos.\n\nIda\nLa chica tarda 20 minutos en llegar a la escuela.\n\nDistancia recorrida: \\(1 km\\)\nTiempo empleado: \\[\n20 min = 20 min \\dfrac{1 h}{60 min} = \\dfrac{20 h}{60} = \\dfrac{2 h}{6} = \\dfrac{1 h}{3} = 0,33 h\n\\]\nVelocidad en km/min: \\[\nv = \\dfrac{d}{t} = \\dfrac{1 km}{20 min} = 0{,}05\\ \\text{km/min}\n\\]\n\nSi calculáramos la velocidad en en km/h: \\[\nv = \\dfrac{d}{t} = \\dfrac{1 km}{0,33 h} = 3\\ \\text{km/h}\n\\]\n\n\nPermanencia en la escuela\nLa chica permanece en la escuela durante 6 horas:\n\nDistancia recorrida: \\(0 km\\)\nTiempo empleado: \\(1 horas = 1·60 min = 60 min\\)\nVelocidad: \\[\nv = \\dfrac{d}{t} = \\dfrac{0 km}{6h} = 0\\ \\text{km/h}\n\\]\n\n\n\nVuelta\nLa vuelta dura también 20 minutos. - Distancia recorrida: \\(1 km\\) - Tiempo empleado: \\(20 min = 0,33 horas\\) - Velocidad: aquí tenemos que tener cuidado, porque está volviendo: \\(d = 1 km\\), pero como es de vuelta es mejor usar el desplazamiento: \\[\n\\delta x = x_f-x_i = (0-1) \\text{km} = - 1 km\n\\] \\[\nv = \\dfrac{\\delta x}{t} = \\dfrac{-1 km}{20 min} = -0{,}05\\ \\text{km/min} = - 3\\ \\text{km/h}\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -62,50 +62,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#permanencia-en-la-escuela",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#permanencia-en-la-escuela",
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#gráficas-y-su-interpretación",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#gráficas-y-su-interpretación",
     "title": "Gráficas movimiento MRU",
-    "section": "Permanencia en la escuela",
-    "text": "Permanencia en la escuela\nLa chica permanece en la escuela durante 6 horas:\n\\[\n6\\ \\text{h} = 360\\ \\text{min}\n\\]\nCódigo LaTeX:\n$$\n6\\ \\text{h} = 360\\ \\text{min}\n$$",
-    "crumbs": [
-      "Home",
-      "2º ESO",
-      "T07. Movimiento - cinemática",
-      "Gráficas movimiento MRU"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#vuelta",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#vuelta",
-    "title": "Gráficas movimiento MRU",
-    "section": "Vuelta",
-    "text": "Vuelta\nLa vuelta dura también 20 minutos.\nVelocidad:\n\\[\nv = -0{,}05\\ \\text{km/min}\n\\]\nCódigo LaTeX:\n$$\nv = -0{,}05\\ \\text{km/min}\n$$",
-    "crumbs": [
-      "Home",
-      "2º ESO",
-      "T07. Movimiento - cinemática",
-      "Gráficas movimiento MRU"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#interpretación-de-las-gráficas",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#interpretación-de-las-gráficas",
-    "title": "Gráficas movimiento MRU",
-    "section": "Interpretación de las gráficas",
-    "text": "Interpretación de las gráficas\n\nGráfica posición-tiempo\n\nLa posición aumenta linealmente desde 0 km hasta 1 km durante la ida.\nDurante las 6 horas en la escuela la posición permanece constante.\nEn la vuelta la posición disminuye linealmente hasta regresar a 0 km.\n\n\n\nGráfica velocidad-tiempo\n\nLa velocidad es constante y positiva durante la ida.\nLa velocidad es 0 mientras permanece en la escuela.\nLa velocidad es constante y negativa durante la vuelta.\n\n\n\nGráfica aceleración-tiempo\n\nLa aceleración es 0 durante todo el movimiento, ya que la velocidad es constante en cada tramo.",
-    "crumbs": [
-      "Home",
-      "2º ESO",
-      "T07. Movimiento - cinemática",
-      "Gráficas movimiento MRU"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#código-para-generar-las-gráficas",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/704_Graficas de movimiento_MRU.html#código-para-generar-las-gráficas",
-    "title": "Gráficas movimiento MRU",
-    "section": "Código para generar las gráficas",
-    "text": "Código para generar las gráficas",
+    "section": "2.3 Gráficas y su interpretación",
+    "text": "2.3 Gráficas y su interpretación\nInterpretar una gráfica es entender qué significa lo que vemos y ser capaz de explicarlo. Por supuesto tiene que ser coherente con el enunciado del ejercicio.\n\nGráfica posición-tiempo\n\nLa posición aumenta linealmente desde 0 km hasta 1 km durante la ida.\nDurante las 6 horas en la escuela la posición permanece constante.\nEn la vuelta la posición disminuye linealmente hasta regresar a 0 km.\n\n\n\n\n\n\n\n\n\n\n\n\nGráfica velocidad-tiempo\n\nLa velocidad es constante y positiva durante la ida.\nLa velocidad es 0 mientras permanece en la escuela.\nLa velocidad es constante y negativa durante la vuelta.\n\n\n\n\n\n\n\n\n\n\n\n\nGráfica aceleración-tiempo\n\nLa aceleración es 0 durante todo el movimiento, ya que la velocidad es constante en cada tramo.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -130,8 +91,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#algunos-ejemplos-de-gráficas",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#algunos-ejemplos-de-gráficas",
     "title": "Gráficas del movimiento",
-    "section": "Algunos ejemplos de gráficas",
-    "text": "Algunos ejemplos de gráficas",
+    "section": "1 Algunos ejemplos de gráficas",
+    "text": "1 Algunos ejemplos de gráficas",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -143,8 +104,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#normas-importantes-a-la-hora-de-representar-las-gráficas",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#normas-importantes-a-la-hora-de-representar-las-gráficas",
     "title": "Gráficas del movimiento",
-    "section": "Normas importantes a la hora de representar las gráficas:",
-    "text": "Normas importantes a la hora de representar las gráficas:\n\nSe hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).",
+    "section": "2 Normas importantes a la hora de representar las gráficas:",
+    "text": "2 Normas importantes a la hora de representar las gráficas:\n\nSe hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -156,8 +117,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#tipos-de-movimientos",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#tipos-de-movimientos",
     "title": "Gráficas del movimiento",
-    "section": "Tipos de movimientos",
-    "text": "Tipos de movimientos\nLos movimientos que se estudian más habitualmente son: - MRU: movimiento rectilíneo uniforme:\n- El móvil va en línea recta. - Su velocidad es constante (\\(v=cte \\ \\frac{m}{s}\\)). Es lo mismo que decir que no tiene aceleración o su aceleración es 0 (\\(a=0 \\ \\frac{m}{s^2}\\).) - MRUA: movimiento rectilíneo uniformemente acelerado: - El móvil va en línea recta. - Tiene una aceleración constante (\\(a=cte \\ \\frac{m}{s^2}\\)). - Aceleración constante significa que la velocidad varía pero siempre al mismo ritmo. Es decir, hay una relación matemática lineal entre la velocidad y el tiempo y la aceleración. La velocidad será más alta cuando más tiempo actúe la aceleración (si esta es positiva): \\(v = a·t + k\\).",
+    "section": "3 Tipos de movimientos",
+    "text": "3 Tipos de movimientos\nLos movimientos que se estudian más habitualmente son: - MRU: movimiento rectilíneo uniforme:\n- El móvil va en línea recta. - Su velocidad es constante (\\(v=cte \\ \\frac{m}{s}\\)). Es lo mismo que decir que no tiene aceleración o su aceleración es 0 (\\(a=0 \\ \\frac{m}{s^2}\\).) - MRUA: movimiento rectilíneo uniformemente acelerado: - El móvil va en línea recta. - Tiene una aceleración constante (\\(a=cte \\ \\frac{m}{s^2}\\)). - Aceleración constante significa que la velocidad varía pero siempre al mismo ritmo. Es decir, hay una relación matemática lineal entre la velocidad y el tiempo y la aceleración. La velocidad será más alta cuando más tiempo actúe la aceleración (si esta es positiva): \\(v = a·t + k\\).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -169,8 +130,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#gráfica-posición-tiempo",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#gráfica-posición-tiempo",
     "title": "Gráficas del movimiento",
-    "section": "Gráfica posición-tiempo",
-    "text": "Gráfica posición-tiempo\nLas gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.",
+    "section": "4 Gráfica posición-tiempo",
+    "text": "4 Gráfica posición-tiempo\nLas gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -182,8 +143,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida",
     "title": "Gráficas del movimiento",
-    "section": "Ejemplo (ida)",
-    "text": "Ejemplo (ida)\nLa siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).",
+    "section": "5 Ejemplo (ida)",
+    "text": "5 Ejemplo (ida)\nLa siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -195,8 +156,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida-y-vuelta",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida-y-vuelta",
     "title": "Gráficas del movimiento",
-    "section": "Ejemplo (ida y vuelta)",
-    "text": "Ejemplo (ida y vuelta)\nEn la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).",
+    "section": "6 Ejemplo (ida y vuelta)",
+    "text": "6 Ejemplo (ida y vuelta)\nEn la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -208,8 +169,8 @@
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicios",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejercicios",
     "title": "Gráficas del movimiento",
-    "section": "Ejercicios:",
-    "text": "Ejercicios:\n\nEjercicio ciclista\n\nUn ciclista se mueve en línea recta con velocidad constante. En el instante inicial \\(t = 0\\) s se encuentra en la posición \\(x = 10\\) m. A los 5 segundos está en la posición \\(x = 30\\) m.\nSe pide:\n\nCalcula la velocidad del ciclista.\n\nEscribe la ecuación del movimiento.\n\nCompleta la tabla de valores:\n\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n\n\n\n2\n\n\n\n4\n\n\n\n6\n\n\n\n8\n\n\n\n\n\nRepresenta:\n\nGráfica posición-tiempo \\(x(t)\\)\nGráfica velocidad-tiempo \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Velocidad\n\\[\nv = \\frac{30 - 10}{5} = 4 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = 10 + 4t\n\\]\n\n\n3. Tabla\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n10\n\n\n2\n18\n\n\n4\n26\n\n\n6\n34\n\n\n8\n42\n\n\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio coche\n\nUn coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en \\(x = -20\\) m.\nSe pide:\n\nConvierte la velocidad a m/s.\n\nEscribe la ecuación del movimiento.\n\nCalcula la posición a los 3 s, 6 s y 10 s.\n\nRepresenta:\n\nGráfica \\(x(t)\\)\nGráfica \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Conversión de velocidad\n\\[\n72 \\text{ km/h} = 20 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = -20 + 20t\n\\]\n\n\n3. Posiciones\n\n\\(x(3) = 40\\) m\n\n\\(x(6) = 100\\) m\n\n\\(x(10) = 180\\) m\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:",
+    "section": "7 Ejercicios:",
+    "text": "7 Ejercicios:\n\nEjercicio ciclista\n\nUn ciclista se mueve en línea recta con velocidad constante. En el instante inicial \\(t = 0\\) s se encuentra en la posición \\(x = 10\\) m. A los 5 segundos está en la posición \\(x = 30\\) m.\nSe pide:\n\nCalcula la velocidad del ciclista.\n\nEscribe la ecuación del movimiento.\n\nCompleta la tabla de valores:\n\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n\n\n\n2\n\n\n\n4\n\n\n\n6\n\n\n\n8\n\n\n\n\n\nRepresenta:\n\nGráfica posición-tiempo \\(x(t)\\)\nGráfica velocidad-tiempo \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Velocidad\n\\[\nv = \\frac{30 - 10}{5} = 4 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = 10 + 4t\n\\]\n\n\n3. Tabla\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n10\n\n\n2\n18\n\n\n4\n26\n\n\n6\n34\n\n\n8\n42\n\n\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio coche\n\nUn coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en \\(x = -20\\) m.\nSe pide:\n\nConvierte la velocidad a m/s.\n\nEscribe la ecuación del movimiento.\n\nCalcula la posición a los 3 s, 6 s y 10 s.\n\nRepresenta:\n\nGráfica \\(x(t)\\)\nGráfica \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Conversión de velocidad\n\\[\n72 \\text{ km/h} = 20 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = -20 + 20t\n\\]\n\n\n3. Posiciones\n\n\\(x(3) = 40\\) m\n\n\\(x(6) = 100\\) m\n\n\\(x(10) = 180\\) m\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -1354,8 +1315,8 @@
     "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#algunos-ejemplos-de-gráficas",
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#algunos-ejemplos-de-gráficas",
     "title": "Gráficas del movimiento",
-    "section": "Algunos ejemplos de gráficas",
-    "text": "Algunos ejemplos de gráficas",
+    "section": "1 Algunos ejemplos de gráficas",
+    "text": "1 Algunos ejemplos de gráficas",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -1367,8 +1328,8 @@
     "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#normas-importantes-a-la-hora-de-representar-las-gráficas",
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#normas-importantes-a-la-hora-de-representar-las-gráficas",
     "title": "Gráficas del movimiento",
-    "section": "Normas importantes a la hora de representar las gráficas:",
-    "text": "Normas importantes a la hora de representar las gráficas:\n\nSe hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).",
+    "section": "2 Normas importantes a la hora de representar las gráficas:",
+    "text": "2 Normas importantes a la hora de representar las gráficas:\n\nSe hacen en un sistema de referencia de dos dimensiones:\n\nEl eje horizontal o eje X siempre muestra el tiempo \\(t\\). Este se puede medir en segundos(\\(s\\)), minutos (\\(min\\)), horas (\\(h\\)) u otras unidades de tiempo como días, años, etc, aunque estas últimas son menos habituales.\nEl eje vertical o eje Y va a mostrar la otra magnitud: posición, velocidad o aceleración. Hay que indicar siempre sus unidades:\n\nPosición (representa la variable \\(x\\)): tiene unidades de longitud, generalmente \\(m\\) o \\(km\\).\nVelocidad (\\(v\\)): sus unidades más habituales son \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\nAceleración (\\(a\\)): sus unidades más habituales son \\(\\dfrac{m}{s^2}\\) aunque a veces podemos ver \\(\\dfrac{km}{h^2}\\). En cualquier caso siempre son: \\(\\dfrac{unidad\\ de\\ espacio}{unidad\\ de\\ tiempo^2}\\).",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -1380,8 +1341,8 @@
     "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#tipos-de-movimientos",
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#tipos-de-movimientos",
     "title": "Gráficas del movimiento",
-    "section": "Tipos de movimientos",
-    "text": "Tipos de movimientos\nLos movimientos que se estudian más habitualmente son: - MRU: movimiento rectilíneo uniforme:\n- El móvil va en línea recta. - Su velocidad es constante (\\(v=cte \\ \\frac{m}{s}\\)). Es lo mismo que decir que no tiene aceleración o su aceleración es 0 (\\(a=0 \\ \\frac{m}{s^2}\\).) - MRUA: movimiento rectilíneo uniformemente acelerado: - El móvil va en línea recta. - Tiene una aceleración constante (\\(a=cte \\ \\frac{m}{s^2}\\)). - Aceleración constante significa que la velocidad varía pero siempre al mismo ritmo. Es decir, hay una relación matemática lineal entre la velocidad y el tiempo y la aceleración. La velocidad será más alta cuando más tiempo actúe la aceleración (si esta es positiva): \\(v = a·t + k\\).",
+    "section": "3 Tipos de movimientos",
+    "text": "3 Tipos de movimientos\nLos movimientos que se estudian más habitualmente son: - MRU: movimiento rectilíneo uniforme:\n- El móvil va en línea recta. - Su velocidad es constante (\\(v=cte \\ \\frac{m}{s}\\)). Es lo mismo que decir que no tiene aceleración o su aceleración es 0 (\\(a=0 \\ \\frac{m}{s^2}\\).) - MRUA: movimiento rectilíneo uniformemente acelerado: - El móvil va en línea recta. - Tiene una aceleración constante (\\(a=cte \\ \\frac{m}{s^2}\\)). - Aceleración constante significa que la velocidad varía pero siempre al mismo ritmo. Es decir, hay una relación matemática lineal entre la velocidad y el tiempo y la aceleración. La velocidad será más alta cuando más tiempo actúe la aceleración (si esta es positiva): \\(v = a·t + k\\).",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -1393,8 +1354,8 @@
     "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#gráfica-posición-tiempo",
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#gráfica-posición-tiempo",
     "title": "Gráficas del movimiento",
-    "section": "Gráfica posición-tiempo",
-    "text": "Gráfica posición-tiempo\nLas gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.",
+    "section": "4 Gráfica posición-tiempo",
+    "text": "4 Gráfica posición-tiempo\nLas gráficas de posición-tiempo o posición-tiempo nos muestran la posición de un móvil (un cuerpo que se mueve) a lo largo del tiempo.\nEstas gráficas siempre tienen dos ejes:\n\nEje horizontal (eje X), muestra el tiempo, \\(t\\) y sus unidades serán habitualmente \\(s\\), \\(min\\) o \\(h\\).\n\nSiempre empieza en el origen (X=0) y el tiempo avanza hacia la derecha. Es como si iniciarámos el cronómetro (el 0) en el origen y a medida que pasa el tiempo nos desplazamos hacia la derecha.\n\nImportante recordad que en el tiempo nunca vamos hacia atrás, es decir hacia la izquierda del eje X.\n\nEje vertical (eje Y), muestra la posición \\(x\\). Sus unidades serán \\(m\\) o \\(km\\) generalmente.\n\nEl origen (Y=0) indica una posición fija.\n\nA medida que nos alejamos del origen, la posición \\(x\\) se hace más grande y en la gráfica se verá que vamos hacia arriba a medida que el tiempo avanza. Será como una diagonal que sube hacia la derecha.\n\nSi nos hemos alejado y volvemos hacia el origen, lo que veremos es una diagonal que baja hacia la derecha, pero nunca hacia la izquierda!, porque nunca podemos ir hacia tiempos pasados.",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -1406,8 +1367,8 @@
     "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida",
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida",
     "title": "Gráficas del movimiento",
-    "section": "Ejemplo (ida)",
-    "text": "Ejemplo (ida)\nLa siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).",
+    "section": "5 Ejemplo (ida)",
+    "text": "5 Ejemplo (ida)\nLa siguiente gráfica muestra como una persona sale de su casa (que consideramos el origen) camino al instituto que está a 500 m.\nVemos que a medida que pasa el tiempo (hacia la derecha) cada vez su posición vertical está más alejada del eje X (que corresponde con la posición \\(x = 0m\\)).",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -1419,8 +1380,8 @@
     "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida-y-vuelta",
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/703_Graficas de movimiento.html#ejemplo-ida-y-vuelta",
     "title": "Gráficas del movimiento",
-    "section": "Ejemplo (ida y vuelta)",
-    "text": "Ejemplo (ida y vuelta)\nEn la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).\n\nEjercicio ciclista\n\nUn ciclista se mueve en línea recta con velocidad constante. En el instante inicial \\(t = 0\\) s se encuentra en la posición \\(x = 10\\) m. A los 5 segundos está en la posición \\(x = 30\\) m.\nSe pide:\n\nCalcula la velocidad del ciclista.\n\nEscribe la ecuación del movimiento.\n\nCompleta la tabla de valores:\n\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n\n\n\n2\n\n\n\n4\n\n\n\n6\n\n\n\n8\n\n\n\n\n\nRepresenta:\n\nGráfica posición-tiempo \\(x(t)\\)\nGráfica velocidad-tiempo \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Velocidad\n\\[\nv = \\frac{30 - 10}{5} = 4 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = 10 + 4t\n\\]\n\n\n3. Tabla\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n10\n\n\n2\n18\n\n\n4\n26\n\n\n6\n34\n\n\n8\n42\n\n\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio coche\n\nUn coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en \\(x = -20\\) m.\nSe pide:\n\nConvierte la velocidad a m/s.\n\nEscribe la ecuación del movimiento.\n\nCalcula la posición a los 3 s, 6 s y 10 s.\n\nRepresenta:\n\nGráfica \\(x(t)\\)\nGráfica \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Conversión de velocidad\n\\[\n72 \\text{ km/h} = 20 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = -20 + 20t\n\\]\n\n\n3. Posiciones\n\n\\(x(3) = 40\\) m\n\n\\(x(6) = 100\\) m\n\n\\(x(10) = 180\\) m\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:",
+    "section": "6 Ejemplo (ida y vuelta)",
+    "text": "6 Ejemplo (ida y vuelta)\nEn la siguiente gŕafica se ve cómo la persona va al instituto (\\(x=500m\\)) igualmente, está allí unos minutos y vuelve a casa a la misma velociddad.\nAhora vemos que la vuelta se muestra acercándose a al eje horizontal (\\(x=0m\\)) con una diagonal que decrece hacia la derecha.\n\n\n\n\n\n\n\n\n\nPregunta: Observando la gráfica, ¿dónde crees que va más rápido: al ir o al volver? ¿Por qué? Razónalo en relación a la fórmula de velocidad que conoces: \\(v\\dfrac{d}{t}\\).\n\nEjercicio ciclista\n\nUn ciclista se mueve en línea recta con velocidad constante. En el instante inicial \\(t = 0\\) s se encuentra en la posición \\(x = 10\\) m. A los 5 segundos está en la posición \\(x = 30\\) m.\nSe pide:\n\nCalcula la velocidad del ciclista.\n\nEscribe la ecuación del movimiento.\n\nCompleta la tabla de valores:\n\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n\n\n\n2\n\n\n\n4\n\n\n\n6\n\n\n\n8\n\n\n\n\n\nRepresenta:\n\nGráfica posición-tiempo \\(x(t)\\)\nGráfica velocidad-tiempo \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Velocidad\n\\[\nv = \\frac{30 - 10}{5} = 4 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = 10 + 4t\n\\]\n\n\n3. Tabla\n\n\n\nt (s)\nx (m)\n\n\n\n\n0\n10\n\n\n2\n18\n\n\n4\n26\n\n\n6\n34\n\n\n8\n42\n\n\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEjercicio coche\n\nUn coche se desplaza con velocidad constante de 72 km/h. En el instante inicial se encuentra en \\(x = -20\\) m.\nSe pide:\n\nConvierte la velocidad a m/s.\n\nEscribe la ecuación del movimiento.\n\nCalcula la posición a los 3 s, 6 s y 10 s.\n\nRepresenta:\n\nGráfica \\(x(t)\\)\nGráfica \\(v(t)\\)\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\n1. Conversión de velocidad\n\\[\n72 \\text{ km/h} = 20 \\text{ m/s}\n\\]\n\n\n2. Ecuación del movimiento\n\\[\nx(t) = -20 + 20t\n\\]\n\n\n3. Posiciones\n\n\\(x(3) = 40\\) m\n\n\\(x(6) = 100\\) m\n\n\\(x(10) = 180\\) m\n\n\n\n4. Gráficas\n\nGráfica de tiempo-posición:\n\n\n\n\n\n\n\n\n\n\n\nGráfica de tiempo-velocidad:",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -3530,11 +3491,37 @@
     ]
   },
   {
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html",
+    "title": "Gráficas movimiento MRUA",
+    "section": "",
+    "text": "¡Qué significa este nombre?\n\nRectilíneo: que se mueve en línea recta. En este movimiento no hay curvas.\n\nUniformement acelerado: que la aceleración es constante. Es decir la aceleración no varía. Pero aunque no varíe no es 0, por lo que sí habrá un aumento disminución de la velocidad que sucederá todo el rato al mismo ritmo.\n\nEs decir, si \\(a&gt;0\\) veremos aumentar la velocidad del móvil todo el rato al mismo ritmo. Por ejemplo si \\(a = 2 \\frac{m}{s^2}\\) eso imlica que cada segundo, su velocidad aumenta en \\(2\\frac{m}{s}\\).\nY si \\(a&lt;0\\) veremos disminuir la velocidad del móvil también al mismo ritmo, pero ahora frenando. Por ejemplo si \\(a = -5 \\frac{m}{s^2}\\) eso imlica que cada segundo, su velocidad disminuye en \\(5\\frac{m}{s}\\).\n\n\n\n\nEs fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.\nLo primero es entender qué variables vamos a usar para representar las magnitudes y aprender sus “nombres” (la letra) y sus “apellidos” (el subíndice):\n\n\\(d\\) o \\(s\\) o \\(e\\): espacio o distancia recorrida (normalmente en \\(m\\) o \\(k&lt;m\\)).\n\n\\(x\\): posición en un determinado momento (normalmente en \\(m\\) o \\(km\\)).\n\nHay muchos ejercicios en que tenemos una posición inicial y final en cada tramo del movimiento.\n\nSi es así las llamaremos respectivamente \\(x_i\\) y \\(x_f\\).\n\n\\(v\\): velocidad en cada instante. Normalmente en \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\n\nHay muchos ejercicios en que tenemos una velocidad inicial y final en cada tramo del movimiento.\n\nSi es así las llamaremos respectivamente \\(v_i\\) y \\(v_f\\).\nLa \\(v\\) a secas significa que es la velocidad en cada instante de tiempo que quizá tengamos que calcular. Podemos considerar por tanto que v=v_f en cada momento que queramos calcularla.\n\n\\(a\\): aceleración. Se mide normalmente en \\(\\dfrac{m}{s^2}\\) pero a veces también en \\(\\dfrac{km}{h^2}\\).\n\nPara dar las ecuaciones, aquí es útil ir al contrario:\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\nEcuación de la aceleración, que es constante, es decir no cambia (¡¡pero no es ceo!!). \\[\na = cte \\ \\dfrac{m}{s^2}\n\\]\nEcuación de la velocidad. Que sí cambia con la aceleración a medida que pasa el tiempo. \\[\nv = v_i + a t\n\\]\nEcuación de la posición. Que sí cambia debido a la velocidad y a la aceleración a medida que pasa el tiempo. \\[\nx = x_i + v_i  t + \\dfrac{1}{2}a  t^2\n\\]\n\nSi tratamos de eliminar el tiempo usando la ecuación de la velocidad y de la posición, podemos llegar a una expresión así: \\[\nv^2 - v_i^2 = 2ax\n\\]\n\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nAlgunas reflexiones:\n\nSi queremos sacar la aceleración de la ecuación de la velocidad: \\[\nv = v_i + a t \\ \\ \\rightarrow\\ \\ v-v_i = a t \\ \\ \\rightarrow\\ \\ \\dfrac{v-v_i}{t} = a \\ \\ \\rightarrow\\ \\ a= \\dfrac{v-v_i}{t}\n\\]\nSi queremos sacar el instante de tiempo en que tenemos una determinada velocidad, tendremos que resolver una ecuación de 2º grado. Esta es la fórmula genérica. \\[\nax^2 + bx + c = 0 \\ \\ \\rightarrow\\ \\ x = \\dfrac{-b \\pm \\sqrt{b^2-4ac}}{2a}\n\\] Y ahora la adaptamos a la ecuación del movimiento que tenemos: \\[\nx = x_i + v_i  t + \\dfrac{1}{2}a  t^2 \\ \\ \\rightarrow\\ \\ \\dfrac{1}{2}a  t^2 + v_i t + (x_i-x) = 0  \\ \\ \\rightarrow\\ \\\n\\] \\[\nt = \\dfrac{-v_i \\pm \\sqrt{v_i^2-4(\\dfrac{1}{2}a)(x_i-x)}}{2(\\dfrac{1}{2}a)} = \\dfrac{-v_i \\pm \\sqrt{v_i^2-2a(x_i-x)}}{a}\n\\]\n\nEstas últimas fórmulas no hay que aprenderlas de memoria, sino conocer muy bien una ecuacuión de segundo grado, la fórmula para resolverla y saberla utilizar cuando nos encontramos con una.",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas movimiento MRUA"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#ecuaciones-del-movimiento-mrua",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#ecuaciones-del-movimiento-mrua",
+    "title": "Gráficas movimiento MRUA",
+    "section": "",
+    "text": "Es fundamental aprender muy bien las siguientes ecuaciones, que como veis son las que ya hemos estudiado aunque parezcan diferentes.\nLo primero es entender qué variables vamos a usar para representar las magnitudes y aprender sus “nombres” (la letra) y sus “apellidos” (el subíndice):\n\n\\(d\\) o \\(s\\) o \\(e\\): espacio o distancia recorrida (normalmente en \\(m\\) o \\(k&lt;m\\)).\n\n\\(x\\): posición en un determinado momento (normalmente en \\(m\\) o \\(km\\)).\n\nHay muchos ejercicios en que tenemos una posición inicial y final en cada tramo del movimiento.\n\nSi es así las llamaremos respectivamente \\(x_i\\) y \\(x_f\\).\n\n\\(v\\): velocidad en cada instante. Normalmente en \\(\\dfrac{m}{s}\\) o \\(\\dfrac{km}{h}\\).\n\nHay muchos ejercicios en que tenemos una velocidad inicial y final en cada tramo del movimiento.\n\nSi es así las llamaremos respectivamente \\(v_i\\) y \\(v_f\\).\nLa \\(v\\) a secas significa que es la velocidad en cada instante de tiempo que quizá tengamos que calcular. Podemos considerar por tanto que v=v_f en cada momento que queramos calcularla.\n\n\\(a\\): aceleración. Se mide normalmente en \\(\\dfrac{m}{s^2}\\) pero a veces también en \\(\\dfrac{km}{h^2}\\).\n\nPara dar las ecuaciones, aquí es útil ir al contrario:\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\nEcuación de la aceleración, que es constante, es decir no cambia (¡¡pero no es ceo!!). \\[\na = cte \\ \\dfrac{m}{s^2}\n\\]\nEcuación de la velocidad. Que sí cambia con la aceleración a medida que pasa el tiempo. \\[\nv = v_i + a t\n\\]\nEcuación de la posición. Que sí cambia debido a la velocidad y a la aceleración a medida que pasa el tiempo. \\[\nx = x_i + v_i  t + \\dfrac{1}{2}a  t^2\n\\]\n\nSi tratamos de eliminar el tiempo usando la ecuación de la velocidad y de la posición, podemos llegar a una expresión así: \\[\nv^2 - v_i^2 = 2ax\n\\]\n\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nAlgunas reflexiones:\n\nSi queremos sacar la aceleración de la ecuación de la velocidad: \\[\nv = v_i + a t \\ \\ \\rightarrow\\ \\ v-v_i = a t \\ \\ \\rightarrow\\ \\ \\dfrac{v-v_i}{t} = a \\ \\ \\rightarrow\\ \\ a= \\dfrac{v-v_i}{t}\n\\]\nSi queremos sacar el instante de tiempo en que tenemos una determinada velocidad, tendremos que resolver una ecuación de 2º grado. Esta es la fórmula genérica. \\[\nax^2 + bx + c = 0 \\ \\ \\rightarrow\\ \\ x = \\dfrac{-b \\pm \\sqrt{b^2-4ac}}{2a}\n\\] Y ahora la adaptamos a la ecuación del movimiento que tenemos: \\[\nx = x_i + v_i  t + \\dfrac{1}{2}a  t^2 \\ \\ \\rightarrow\\ \\ \\dfrac{1}{2}a  t^2 + v_i t + (x_i-x) = 0  \\ \\ \\rightarrow\\ \\\n\\] \\[\nt = \\dfrac{-v_i \\pm \\sqrt{v_i^2-4(\\dfrac{1}{2}a)(x_i-x)}}{2(\\dfrac{1}{2}a)} = \\dfrac{-v_i \\pm \\sqrt{v_i^2-2a(x_i-x)}}{a}\n\\]\n\nEstas últimas fórmulas no hay que aprenderlas de memoria, sino conocer muy bien una ecuacuión de segundo grado, la fórmula para resolverla y saberla utilizar cuando nos encontramos con una.",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T07. Movimiento - cinemática",
+      "Gráficas movimiento MRUA"
+    ]
+  },
+  {
     "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#enunciado",
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#enunciado",
     "title": "Gráficas movimiento MRUA",
-    "section": "Enunciado",
-    "text": "Enunciado\nUn hombre sale de su casa y acelera durante 10 segundos a \\(2m/s^2\\) hasta unos metros antes de la escuela, que está a \\(200 m\\), donde reduce el ritmo y frena a \\(4m/s^2\\) durante 5 segundos. Se queda en la escuela 20 segundos parada y después vuelve a su casa a una velocidad constante de \\(10 m/s\\).\nRepresentar las siguientes gráficas:\n\nPosición-tiempo.\nVelocidad-tiempo.\nAceleración-tiempo.",
+    "section": "2.1 Enunciado",
+    "text": "2.1 Enunciado\nUn hombre sale de su casa y acelera durante 10 segundos a \\(2m/s^2\\) hasta unos metros antes de la escuela, que está a \\(200 m\\), donde reduce el ritmo y frena a \\(4m/s^2\\) durante 5 segundos. Se queda en la escuela 20 segundos parada y después vuelve a su casa a una velocidad constante de \\(10 m/s\\).\nRepresentar las siguientes gráficas:\n\nPosición-tiempo.\nVelocidad-tiempo.\nAceleración-tiempo.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -3543,11 +3530,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#datos-del-movimiento",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#datos-del-movimiento",
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#resolución",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#resolución",
     "title": "Gráficas movimiento MRUA",
-    "section": "Datos del movimiento",
-    "text": "Datos del movimiento\n\nTramo 1: aceleración\nEl hombre parte del reposo y acelera durante 10 segundos con una aceleración constante:\n\\[\na = 2\\ \\text{m/s}^2\n\\]\nVelocidad alcanzada:\n\\[\nv = a \\cdot t = 2 \\cdot 10 = 20\\ \\text{m/s}\n\\]\nPosición recorrida:\n\\[\nx = \\dfrac{1}{2} \\cdot a \\cdot t^2\n\\]\n\\[\nx = \\dfrac{1}{2} \\cdot 2 \\cdot 10^2 = 100\\ \\text{m}\n\\]\n\n\nTramo 2: frenado\nReduce la velocidad durante 5 segundos con aceleración negativa:\n\\[\na = -4\\ \\text{m/s}^2\n\\]\nVelocidad final:\n\\[\nv = 20 - 4 \\cdot 5 = 0\\ \\text{m/s}\n\\]\n\n\nTramo 3: vuelta a velocidad constante\nVuelve a casa con velocidad constante:\n\\[\nv = -10\\ \\text{m/s}\n\\]",
+    "section": "2.2 Resolución",
+    "text": "2.2 Resolución\nSiempre que tengamos un problema con varios tramos de movimiento, hemos de analizar cada tramo por separado y obtener sus valores de \\(x\\), \\(v\\) y \\(a\\) en función del \\(t\\).\n\nTramo 1: aceleración\nEl hombre parte del reposo y acelera durante 10 segundos con una aceleración constante:\n\\[\na = 2\\ \\text{m/s}^2\n\\]\nVelocidad alcanzada: aquí la \\(v_i=0\\) así que podemos simplificar un poco la ecuación:\n\\[\nv = v_i + a \\cdot t = a \\cdot t= 2 \\cdot 10 = 20\\ \\text{m/s}\n\\]\nPosición recorrida: como \\(x_i=0\\) y \\(v_i=0\\) simplificamos mucho la ecuación:\n\\[\nx = x_i+ v_i t + \\dfrac{1}{2} \\cdot a \\cdot t^2  = \\dfrac{1}{2} \\cdot a \\cdot t^2\n\\]\n\\[\nx = \\dfrac{1}{2} \\cdot 2 \\cdot 10^2 = 100\\ \\text{m}\n\\]\n\n\nTramo 2: frenado\nReduce la velocidad durante 5 segundos con aceleración negativa:\n\\[\na = -4\\ \\text{m/s}^2\n\\]\nVelocidad final:\n\\[\nv =  v_i + at = 20 - 4 \\cdot 5 = 0\\ \\text{m/s}\n\\]\n\n\nTramo 3: vuelta a velocidad constante\nVuelve a casa con velocidad constante:\n\\[\nv = -10\\ \\text{m/s}\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -3556,11 +3543,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#interpretación-de-las-gráficas",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#interpretación-de-las-gráficas",
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#gráficas-y-su-interpretación",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/705_Graficas de movimiento_MRUA.html#gráficas-y-su-interpretación",
     "title": "Gráficas movimiento MRUA",
-    "section": "Interpretación de las gráficas",
-    "text": "Interpretación de las gráficas\n\nGráfica posición-tiempo\n\nAl principio la pendiente aumenta porque el hombre acelera.\nDespués la pendiente disminuye durante el frenado.\nFinalmente la posición disminuye linealmente porque vuelve a velocidad constante.\n\n\n\n\n\n\n\n\n\n\n\n\nGráfica velocidad-tiempo\n\nLa velocidad aumenta linealmente durante la aceleración.\nDespués disminuye linealmente durante el frenado.\nFinalmente permanece constante y negativa en la vuelta.\n\n\n\n\n\n\n\n\n\n\n\n\nGráfica aceleración-tiempo\n\nLa aceleración es positiva al inicio.\nLuego es negativa durante el frenado.\nFinalmente es 0 durante el movimiento uniforme.",
+    "section": "2.3 Gráficas y su interpretación",
+    "text": "2.3 Gráficas y su interpretación\nInterpretar una gráfica es entender qué significa lo que vemos y ser capaz de explicarlo. Por supuesto tiene que ser coherente con el enunciado del ejercicio.\n\nGráfica posición-tiempo\n\nAl principio la pendiente aumenta porque el hombre acelera.\nDespués la pendiente disminuye durante el frenado.\nFinalmente la posición disminuye linealmente porque vuelve a velocidad constante.\n\n\n\n\n\n\n\n\n\n\n\n\nGráfica velocidad-tiempo\n\nLa velocidad aumenta linealmente durante la aceleración.\nDespués disminuye linealmente durante el frenado.\nFinalmente permanece constante y negativa en la vuelta.\n\n\n\n\n\n\n\n\n\n\n\n\nGráfica aceleración-tiempo\n\nLa aceleración es positiva al inicio.\nLuego es negativa durante el frenado.\nFinalmente es 0 durante el movimiento uniforme.",
     "crumbs": [
       "Home",
       "2º ESO",
