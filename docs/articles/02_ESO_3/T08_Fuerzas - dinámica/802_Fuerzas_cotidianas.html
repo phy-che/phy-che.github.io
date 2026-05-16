@@ -395,13 +395,17 @@ window.Quarto = {
    
   <ul>
   <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción"><span class="header-section-number">1</span> Introducción</a></li>
-  <li><a href="#peso" id="toc-peso" class="nav-link" data-scroll-target="#peso"><span class="header-section-number">2</span> Peso</a></li>
-  <li><a href="#normal" id="toc-normal" class="nav-link" data-scroll-target="#normal"><span class="header-section-number">3</span> Normal</a></li>
-  <li><a href="#tensión" id="toc-tensión" class="nav-link" data-scroll-target="#tensión"><span class="header-section-number">4</span> Tensión</a></li>
-  <li><a href="#fuerza-elástica" id="toc-fuerza-elástica" class="nav-link" data-scroll-target="#fuerza-elástica"><span class="header-section-number">5</span> Fuerza elástica</a></li>
-  <li><a href="#fricción" id="toc-fricción" class="nav-link" data-scroll-target="#fricción"><span class="header-section-number">6</span> Fricción</a></li>
+  <li><a href="#peso-p" id="toc-peso-p" class="nav-link" data-scroll-target="#peso-p"><span class="header-section-number">2</span> Peso (<span class="math inline">\(P\)</span>)</a>
+  <ul class="collapse">
+  <li><a href="#ejericicio-resuelto-sobre-el-peso" id="toc-ejericicio-resuelto-sobre-el-peso" class="nav-link" data-scroll-target="#ejericicio-resuelto-sobre-el-peso">Ejericicio resuelto sobre el peso:</a></li>
+  <li><a href="#ejercicio-mrua" id="toc-ejercicio-mrua" class="nav-link" data-scroll-target="#ejercicio-mrua">Ejercicio MRUA</a></li>
+  </ul></li>
+  <li><a href="#normal-n" id="toc-normal-n" class="nav-link" data-scroll-target="#normal-n"><span class="header-section-number">3</span> Normal (<span class="math inline">\(N\)</span>)</a></li>
+  <li><a href="#tensión-t" id="toc-tensión-t" class="nav-link" data-scroll-target="#tensión-t"><span class="header-section-number">4</span> Tensión (<span class="math inline">\(T\)</span>)</a></li>
+  <li><a href="#fuerza-elástica-f_e" id="toc-fuerza-elástica-f_e" class="nav-link" data-scroll-target="#fuerza-elástica-f_e"><span class="header-section-number">5</span> Fuerza elástica (<span class="math inline">\(F_E\)</span>)</a></li>
+  <li><a href="#fricción-o-rozamiento-f_r-o-r" id="toc-fricción-o-rozamiento-f_r-o-r" class="nav-link" data-scroll-target="#fricción-o-rozamiento-f_r-o-r"><span class="header-section-number">6</span> Fricción o rozamiento (<span class="math inline">\(F_R\)</span> o <span class="math inline">\(R\)</span>)</a></li>
   <li><a href="#colisiones" id="toc-colisiones" class="nav-link" data-scroll-target="#colisiones"><span class="header-section-number">7</span> Colisiones</a></li>
-  <li><a href="#empuje" id="toc-empuje" class="nav-link" data-scroll-target="#empuje"><span class="header-section-number">8</span> Empuje</a></li>
+  <li><a href="#empuje-e" id="toc-empuje-e" class="nav-link" data-scroll-target="#empuje-e"><span class="header-section-number">8</span> Empuje (<span class="math inline">\(E\)</span>)</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Otros formatos</h2><ul><li><a href="802_Fuerzas_cotidianas.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -429,27 +433,151 @@ window.Quarto = {
 
 <section id="introducción" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="introducción"><span class="header-section-number">1</span> Introducción</h2>
+<p>Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.</p>
 </section>
-<section id="peso" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="peso"><span class="header-section-number">2</span> Peso</h2>
+<section id="peso-p" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="peso-p"><span class="header-section-number">2</span> Peso (<span class="math inline">\(P\)</span>)</h2>
+<p>El peso es <strong>la fuerza con que la Tierra (u otro planeta) atrae a los cuerpos</strong>. El peso es la fuerza responsable de que al soltar un cuerpo este caiga al suelo.</p>
+<p>La fuerza-peso que la Tierra hace sobre un objeto se calcula teniendo en cuenta:</p>
+<ul>
+<li>La masa <span class="math inline">\(m\ [kg]\)</span> del objeto.<br>
+</li>
+<li>La <strong>aceleración de la gravedad</strong> (<span class="math inline">\(g\ \dfrac{m}{s^2}\)</span>) que, aunque no lo vamos a ver ahora con detalle, depende de la masa del planeta en que estemos. Cuanta más masa tenga el planeta, más alto será el valor de <span class="math inline">\(g\)</span>. Como la Tierra tiene más masa que la Luna, luego <span class="math inline">\(g_{Tierra} &gt; g_{Luna}\)</span>.</li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled" title="Muy importante">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Muy importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La fórmula con la que calculamos el peso (o fuerza-peso) es: <span class="math display">\[
+P = F_P = m·g
+\]</span></p>
+<p>La aceleración de la gravedad en la Tierra es: <span class="math inline">\(g_T=9,8\dfrac{m}{s^2}\)</span>, valor que hay que conocer de memoria, aunque alguna veces por simplicidad se aproxima a <span class="math inline">\(g_T=9,8\dfrac{m}{s^2} \approx 10 \dfrac{m}{s^2}\)</span>.</p>
+</div>
+</div>
+<section id="ejericicio-resuelto-sobre-el-peso" class="level3">
+<h3 class="anchored" data-anchor-id="ejericicio-resuelto-sobre-el-peso">Ejericicio resuelto sobre el peso:</h3>
+<p>Sabiendo que la Tierra tiene una <span class="math inline">\(g_T=10\dfrac{m}{s^2}\)</span> y la Luna <span class="math inline">\(g_T=1,6\dfrac{m}{s^2}\)</span>, calcula la fuerza que sufrirá un cuerpo de <span class="math inline">\(masa=1 kg\)</span> en ambos sitios.</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Soluciones
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><span class="math display">\[
+P_{Tierra} = P_T = m · g_T = 1 kg · 10 \dfrac{m}{s^2} = 10 N
+\]</span> <span class="math display">\[
+P_{Luna} = P_L = m · g_L = 1 kg · 1,6 \dfrac{m}{s^2} = 1,6 N
+\]</span></p>
+</div>
+</div>
+</div>
 </section>
-<section id="normal" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="normal"><span class="header-section-number">3</span> Normal</h2>
+<section id="ejercicio-mrua" class="level3">
+<h3 class="anchored" data-anchor-id="ejercicio-mrua">Ejercicio MRUA</h3>
+<p>Sabiendo que la <strong>aceleración de la gravedad</strong> es realmente una aceleración (<span class="math inline">\(g = a\ \frac{m}{s^2}\)</span>), calcula la velocidad a la que llegaría un objeto (¡fíjate que la masa no va a influir en las fórmulas!) al suelo si lo dejamos caer desde 2 m de altura.</p>
+<p>Datos: <span class="math inline">\(g_T=-10\dfrac{m}{s^2}\)</span> y <span class="math inline">\(g_L=-1,6\dfrac{m}{s^2}\)</span>. Las aceleraciones son negativas porque van hacia abajo.</p>
+<div class="callout callout-style-default callout-caution callout-titled" title="Soluciones">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Precaución</span>Soluciones
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Al tener aceleración y ser un movimiento de caída, vamos a usar la fórmula de MRUA: <span class="math display">\[
+v^2-v_0^2 = 2a·(x-x_0)
+\]</span> Y a partir del enunciado identificamos los siguientes datos: <span class="math display">\[
+a = g
+\]</span> <span class="math display">\[
+v_0=0 m/s
+\]</span> <span class="math display">\[
+x_0=2 m/s
+\]</span> <span class="math display">\[
+x=0 m/s
+\]</span></p>
+<p>Así la fórmula anterior queda: <span class="math display">\[
+v^2-v_0^2 = 2a·(x-x_0)
+\]</span> <span class="math display">\[
+v^2-0 = 2g·(0-2)
+\]</span> <span class="math display">\[
+v^2 = 2g·(-2) = -4g
+\]</span> <span class="math display">\[
+v = \sqrt{-4g}
+\]</span></p>
+<p>En la Tierra: <span class="math display">\[
+v = \sqrt{-4·(-10)} = \sqrt{40} =  6,32 \dfrac{m}{s}
+\]</span></p>
+<p>En la Luna: <span class="math display">\[
+v = \sqrt{-4·(-1,6)} = \sqrt{6,4} = 2,52 \dfrac{m}{s}
+\]</span></p>
+</div>
+</div>
+</div>
 </section>
-<section id="tensión" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="tensión"><span class="header-section-number">4</span> Tensión</h2>
 </section>
-<section id="fuerza-elástica" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="fuerza-elástica"><span class="header-section-number">5</span> Fuerza elástica</h2>
+<section id="normal-n" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="normal-n"><span class="header-section-number">3</span> Normal (<span class="math inline">\(N\)</span>)</h2>
+<p>Dejamos caer un cuerpo, por la gravedad caería al suelo. Pero si lo apoyamos en una mesa, eso no sucede. ¿Por qué? Porque la mesa ejerce una fuerza del mismo valor que el peso, en la misma dirección pero en sentido contrario, y logra anularlo. Por eso los vasos no atraviesan la mesa debido a la gravedad. Y por eso nosotros no atravesamos el suelo.</p>
+<p>Así definimos la <strong>fuerza normal</strong> o simplemente <strong>normal (<span class="math inline">\(N\)</span>)</strong> como la fuerza que hacen las superficies que impiden que las atravesemos. Esta fuerza siempre es <strong>perpendicular a la superficie</strong>.</p>
 </section>
-<section id="fricción" class="level2" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="fricción"><span class="header-section-number">6</span> Fricción</h2>
+<section id="tensión-t" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="tensión-t"><span class="header-section-number">4</span> Tensión (<span class="math inline">\(T\)</span>)</h2>
+<p>La <strong>tensión (<span class="math inline">\(T\)</span>)</strong> es la fuerza que ejerce una cuerda, un hilo, un cable, etc. que sujeta un objeto. Esta se opone a la gravedad (mismo valor, misma dirección pero distinto sentido), la anula y permite que podamos tener objetos colgados.</p>
+<p>Cuando el valor de la tensión es superior al de la gravedad, entonces el objeto subiría.</p>
+</section>
+<section id="fuerza-elástica-f_e" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="fuerza-elástica-f_e"><span class="header-section-number">5</span> Fuerza elástica (<span class="math inline">\(F_E\)</span>)</h2>
+<p>La <strong>fuerza elástica (<span class="math inline">\(F_E\)</span>)</strong> es la fuerza que ejerce un muelle sobre un objeto cuando el muelle o está estirado o está encogidoo.</p>
+<p>La fuerza elástica depende de dos parámetros:</p>
+<ul>
+<li><p>Del valor de elasticidad del muelle que se indica según la llamada <strong>constante de electricidad (<span class="math inline">\(k\)</span>)</strong>. Se mide habitualmente en <span class="math inline">\(\dfrac{N}{m}\)</span> o <span class="math inline">\(\dfrac{N}{cm}\)</span>. Cuanta más alta sea <span class="math inline">\(k\)</span>, significa que el muelle es más rígido (hay que hacer más fuerza para estirarlo).</p></li>
+<li><p>De lo estirado o encogido que esté el muelle respecto a su posición de equilibrio. Esta variación se suele indicar como <span class="math inline">\(\Delta x\)</span> y se mide o en <span class="math inline">\(cm\)</span> o en <span class="math inline">\(m\)</span>.</p></li>
+</ul>
+<p>A partir de estos parámetros podemos calcular la fuerza elástica: <span class="math display">\[
+F_e = - k \Delta x
+\]</span> El signo menos indica que la fuerza elástica siempre se opone a la variación de longitud del muelle respecto de su posición de equilibrio. Esto significa:</p>
+<ul>
+<li>Cuando estiramos el muelle, la fuerza elástica intentará reducirlo.<br>
+</li>
+<li>Cuando encogemos el muelle, la fuerza elástica intentará estirarlo.</li>
+</ul>
+</section>
+<section id="fricción-o-rozamiento-f_r-o-r" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="fricción-o-rozamiento-f_r-o-r"><span class="header-section-number">6</span> Fricción o rozamiento (<span class="math inline">\(F_R\)</span> o <span class="math inline">\(R\)</span>)</h2>
+<p>La <strong>fricción (<span class="math inline">\(F_R\)</span> o <span class="math inline">\(R\)</span>)</strong> es la fuerza que hace que cuando un objeto se mueve acabe parándose. Surge porque tanto las superficies como el aire el agua y otros fluidos rozan los objetos que se mueven sobre o en ellos y ejercen una fuerza siempre en la misma dirección pero <strong>sentido contrario</strong> al movimiento.</p>
+<p>Normalmente la fricción se llama:</p>
+<ul>
+<li><strong>Fuerza de rozamiento</strong> si es una superficie la que la genera.<br>
+</li>
+<li><strong>Resistencia</strong> cuando es un fluido (líquido o gasesoso) la que la genera. Ej.: la resistencia del aire en automovilismo.</li>
+</ul>
 </section>
 <section id="colisiones" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="colisiones"><span class="header-section-number">7</span> Colisiones</h2>
+<p>Cuando dos cuerpos chocan (o colisionan) cada cuerpo ejerce sobre el otro una fuerza que puede deformarlo (ej.: colisión de un coche contra una pared) o cambiar su movimiento (ej: dos bolas de billar).</p>
 </section>
-<section id="empuje" class="level2" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="empuje"><span class="header-section-number">8</span> Empuje</h2>
+<section id="empuje-e" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="empuje-e"><span class="header-section-number">8</span> Empuje (<span class="math inline">\(E\)</span>)</h2>
+<p>El <strong>empuje</strong> es una fuerza que se va a ejercer hacia arriba en cualquier objeto que esté sumergido en un fluido. Recuerda que un fluido puede ser agua, pero también el aire. Por lo que nosotros, por estar dentro del aire, experimentamos empuje (aunque es muy débil y por eso no tiene efectos apreciables en nosotros).</p>
+<p>El valor del empuje lo describe el <strong>principio de Arquímedes</strong>: <em>“Todo cuerpo sumergido en un fluido, experimenta un empuje vertical y hacia arriba igual al peso del volumen de fluido que desaloja”</em>.</p>
+<p>En el aire nosotros no notamos este empuje, porque el peso del aire que desplazamos por nuestro volumen es muy bajo, y por lo tanto en comparación con el peso es despreciable. Sin embargo, esto explica por qué cuando buceamos notamos una fuerza que tira de nosotros hacia arriba y nos acerca a la superficie. Eso sucede porque el mismo volumen pero de agua, pesa mucho más y se acerca e incluso puede superar la fuerza-peso que empuja hacia abajo.</p>
+<p>El empuje es el causante de que puedan volar los globos aerostáticos. Pero ¿por qué? Para responder esto piensa por qué los globos tienen una llama que intenta calentar el aire que llevan dentro.</p>
 <!-- {{< include "/_exercises/01_ESO/080_Dinamica/.qmd" >}} -->
 
 
