@@ -322,11 +322,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso",
-    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso",
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html",
     "title": "Fuerzas cotidianas",
-    "section": "2 Peso",
-    "text": "2 Peso",
+    "section": "",
+    "text": "Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -335,11 +335,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal",
-    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal",
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#introducción",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#introducción",
     "title": "Fuerzas cotidianas",
-    "section": "3 Normal",
-    "text": "3 Normal",
+    "section": "",
+    "text": "Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -348,11 +348,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión",
-    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión",
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso-p",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso-p",
     "title": "Fuerzas cotidianas",
-    "section": "4 Tensión",
-    "text": "4 Tensión",
+    "section": "2 Peso (\\(P\\))",
+    "text": "2 Peso (\\(P\\))\nEl peso es la fuerza con que la Tierra (u otro planeta) atrae a los cuerpos. El peso es la fuerza responsable de que al soltar un cuerpo este caiga al suelo.\nLa fuerza-peso que la Tierra hace sobre un objeto se calcula teniendo en cuenta:\n\nLa masa \\(m\\ [kg]\\) del objeto.\n\nLa aceleración de la gravedad (\\(g\\ \\dfrac{m}{s^2}\\)) que, aunque no lo vamos a ver ahora con detalle, depende de la masa del planeta en que estemos. Cuanta más masa tenga el planeta, más alto será el valor de \\(g\\). Como la Tierra tiene más masa que la Luna, luego \\(g_{Tierra} &gt; g_{Luna}\\).\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nLa fórmula con la que calculamos el peso (o fuerza-peso) es: \\[\nP = F_P = m·g\n\\]\nLa aceleración de la gravedad en la Tierra es: \\(g_T=9,8\\dfrac{m}{s^2}\\), valor que hay que conocer de memoria, aunque alguna veces por simplicidad se aproxima a \\(g_T=9,8\\dfrac{m}{s^2} \\approx 10 \\dfrac{m}{s^2}\\).\n\n\n\nEjericicio resuelto sobre el peso:\nSabiendo que la Tierra tiene una \\(g_T=10\\dfrac{m}{s^2}\\) y la Luna \\(g_T=1,6\\dfrac{m}{s^2}\\), calcula la fuerza que sufrirá un cuerpo de \\(masa=1 kg\\) en ambos sitios.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\\[\nP_{Tierra} = P_T = m · g_T = 1 kg · 10 \\dfrac{m}{s^2} = 10 N\n\\] \\[\nP_{Luna} = P_L = m · g_L = 1 kg · 1,6 \\dfrac{m}{s^2} = 1,6 N\n\\]\n\n\n\n\n\nEjercicio MRUA\nSabiendo que la aceleración de la gravedad es realmente una aceleración (\\(g = a\\ \\frac{m}{s^2}\\)), calcula la velocidad a la que llegaría un objeto (¡fíjate que la masa no va a influir en las fórmulas!) al suelo si lo dejamos caer desde 2 m de altura.\nDatos: \\(g_T=-10\\dfrac{m}{s^2}\\) y \\(g_L=-1,6\\dfrac{m}{s^2}\\). Las aceleraciones son negativas porque van hacia abajo.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\nAl tener aceleración y ser un movimiento de caída, vamos a usar la fórmula de MRUA: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] Y a partir del enunciado identificamos los siguientes datos: \\[\na = g\n\\] \\[\nv_0=0 m/s\n\\] \\[\nx_0=2 m/s\n\\] \\[\nx=0 m/s\n\\]\nAsí la fórmula anterior queda: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] \\[\nv^2-0 = 2g·(0-2)\n\\] \\[\nv^2 = 2g·(-2) = -4g\n\\] \\[\nv = \\sqrt{-4g}\n\\]\nEn la Tierra: \\[\nv = \\sqrt{-4·(-10)} = \\sqrt{40} =  6,32 \\dfrac{m}{s}\n\\]\nEn la Luna: \\[\nv = \\sqrt{-4·(-1,6)} = \\sqrt{6,4} = 2,52 \\dfrac{m}{s}\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -361,11 +361,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica",
-    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica",
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal-n",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal-n",
     "title": "Fuerzas cotidianas",
-    "section": "5 Fuerza elástica",
-    "text": "5 Fuerza elástica",
+    "section": "3 Normal (\\(N\\))",
+    "text": "3 Normal (\\(N\\))\nDejamos caer un cuerpo, por la gravedad caería al suelo. Pero si lo apoyamos en una mesa, eso no sucede. ¿Por qué? Porque la mesa ejerce una fuerza del mismo valor que el peso, en la misma dirección pero en sentido contrario, y logra anularlo. Por eso los vasos no atraviesan la mesa debido a la gravedad. Y por eso nosotros no atravesamos el suelo.\nAsí definimos la fuerza normal o simplemente normal (\\(N\\)) como la fuerza que hacen las superficies que impiden que las atravesemos. Esta fuerza siempre es perpendicular a la superficie.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -374,11 +374,37 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción",
-    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción",
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión-t",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión-t",
     "title": "Fuerzas cotidianas",
-    "section": "6 Fricción",
-    "text": "6 Fricción",
+    "section": "4 Tensión (\\(T\\))",
+    "text": "4 Tensión (\\(T\\))\nLa tensión (\\(T\\)) es la fuerza que ejerce una cuerda, un hilo, un cable, etc. que sujeta un objeto. Esta se opone a la gravedad (mismo valor, misma dirección pero distinto sentido), la anula y permite que podamos tener objetos colgados.\nCuando el valor de la tensión es superior al de la gravedad, entonces el objeto subiría.",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T08_Fuerzas - dinámica",
+      "Fuerzas cotidianas"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica-f_e",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica-f_e",
+    "title": "Fuerzas cotidianas",
+    "section": "5 Fuerza elástica (\\(F_E\\))",
+    "text": "5 Fuerza elástica (\\(F_E\\))\nLa fuerza elástica (\\(F_E\\)) es la fuerza que ejerce un muelle sobre un objeto cuando el muelle o está estirado o está encogidoo.\nLa fuerza elástica depende de dos parámetros:\n\nDel valor de elasticidad del muelle que se indica según la llamada constante de electricidad (\\(k\\)). Se mide habitualmente en \\(\\dfrac{N}{m}\\) o \\(\\dfrac{N}{cm}\\). Cuanta más alta sea \\(k\\), significa que el muelle es más rígido (hay que hacer más fuerza para estirarlo).\nDe lo estirado o encogido que esté el muelle respecto a su posición de equilibrio. Esta variación se suele indicar como \\(\\Delta x\\) y se mide o en \\(cm\\) o en \\(m\\).\n\nA partir de estos parámetros podemos calcular la fuerza elástica: \\[\nF_e = - k \\Delta x\n\\] El signo menos indica que la fuerza elástica siempre se opone a la variación de longitud del muelle respecto de su posición de equilibrio. Esto significa:\n\nCuando estiramos el muelle, la fuerza elástica intentará reducirlo.\n\nCuando encogemos el muelle, la fuerza elástica intentará estirarlo.",
+    "crumbs": [
+      "Home",
+      "2º ESO",
+      "T08_Fuerzas - dinámica",
+      "Fuerzas cotidianas"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r-o-r",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r-o-r",
+    "title": "Fuerzas cotidianas",
+    "section": "6 Fricción o rozamiento (\\(F_R\\) o \\(R\\))",
+    "text": "6 Fricción o rozamiento (\\(F_R\\) o \\(R\\))\nLa fricción (\\(F_R\\) o \\(R\\)) es la fuerza que hace que cuando un objeto se mueve acabe parándose. Surge porque tanto las superficies como el aire el agua y otros fluidos rozan los objetos que se mueven sobre o en ellos y ejercen una fuerza siempre en la misma dirección pero sentido contrario al movimiento.\nNormalmente la fricción se llama:\n\nFuerza de rozamiento si es una superficie la que la genera.\n\nResistencia cuando es un fluido (líquido o gasesoso) la que la genera. Ej.: la resistencia del aire en automovilismo.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -391,7 +417,7 @@
     "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#colisiones",
     "title": "Fuerzas cotidianas",
     "section": "7 Colisiones",
-    "text": "7 Colisiones",
+    "text": "7 Colisiones\nCuando dos cuerpos chocan (o colisionan) cada cuerpo ejerce sobre el otro una fuerza que puede deformarlo (ej.: colisión de un coche contra una pared) o cambiar su movimiento (ej: dos bolas de billar).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -400,11 +426,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje",
-    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje",
+    "objectID": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje-e",
+    "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje-e",
     "title": "Fuerzas cotidianas",
-    "section": "8 Empuje",
-    "text": "8 Empuje",
+    "section": "8 Empuje (\\(E\\))",
+    "text": "8 Empuje (\\(E\\))\nEl empuje es una fuerza que se va a ejercer hacia arriba en cualquier objeto que esté sumergido en un fluido. Recuerda que un fluido puede ser agua, pero también el aire. Por lo que nosotros, por estar dentro del aire, experimentamos empuje (aunque es muy débil y por eso no tiene efectos apreciables en nosotros).\nEl valor del empuje lo describe el principio de Arquímedes: “Todo cuerpo sumergido en un fluido, experimenta un empuje vertical y hacia arriba igual al peso del volumen de fluido que desaloja”.\nEn el aire nosotros no notamos este empuje, porque el peso del aire que desplazamos por nuestro volumen es muy bajo, y por lo tanto en comparación con el peso es despreciable. Sin embargo, esto explica por qué cuando buceamos notamos una fuerza que tira de nosotros hacia arriba y nos acerca a la superficie. Eso sucede porque el mismo volumen pero de agua, pesa mucho más y se acerca e incluso puede superar la fuerza-peso que empuja hacia abajo.\nEl empuje es el causante de que puedan volar los globos aerostáticos. Pero ¿por qué? Para responder esto piensa por qué los globos tienen una llama que intenta calentar el aire que llevan dentro.",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -778,6 +804,34 @@
       "T05. El atomo y la tabla periodica",
       "Atom exercises"
     ]
+  },
+  {
+    "objectID": "articles/11_vectores/103_coordenadas_de_vectores.html#coordenadas-polares-r-theta",
+    "href": "articles/11_vectores/103_coordenadas_de_vectores.html#coordenadas-polares-r-theta",
+    "title": "",
+    "section": "Coordenadas polares (\\(r, \\theta\\))",
+    "text": "Coordenadas polares (\\(r, \\theta\\))"
+  },
+  {
+    "objectID": "articles/11_vectores/103_coordenadas_de_vectores.html#conversión-de-coordenadas-entre-una-y-la-otra",
+    "href": "articles/11_vectores/103_coordenadas_de_vectores.html#conversión-de-coordenadas-entre-una-y-la-otra",
+    "title": "",
+    "section": "Conversión de coordenadas entre una y la otra",
+    "text": "Conversión de coordenadas entre una y la otra\n\nDe polares a cartesianas:\n\\[\nx = r·cos(\\theta)\n\\] \\[\ny = r·sen(\\theta)\n\\]\n\n\nDe cartesianas a polares:\n\\[\nr = \\sqrt{x^2+y^2}\n\\] \\[\n\\theta = arctg(\\dfrac{y}{x})\n\\]"
+  },
+  {
+    "objectID": "articles/11_vectores/102_magnitudes_escalares y vectoriales.html",
+    "href": "articles/11_vectores/102_magnitudes_escalares y vectoriales.html",
+    "title": "",
+    "section": "",
+    "text": "Estas magnitudes en las que es importante dar toda esa información son llamadas magnitudes vectoriales. En las que no,es decir aquellas en las que solo importa su valor, son las llamadas magnitudes escalares.\nEntonces:\n- Magnitudes escalares: solo importa su valor númerico y sus unidades.\n- Magnitudes vectoriales: además de lo anterior importa sobre qué cuerpo se aplica (por ejemplo la fuerza), y hacia dónde se aplica.\nAquí algunos ejemplos. Se incluye la letra de la magnitud y sus unidades principales en el Sistema Internacional.\n\n\n\n\n\n\n\nMagnitud escalar\nMagnitud vectorial\n\n\n\n\nmasa: \\(m \\rightarrow [kg]\\)\nvelocidad: \\(\\vec v\\) \\(\\left( v \\rightarrow \\left[\\dfrac{m}{s}\\right] \\right)\\)\n\n\nvolumen: \\(v \\rightarrow [m^3]\\)\naceleración: \\(\\vec a\\) \\(\\left( a \\rightarrow \\left[\\dfrac{m}{s^2}\\right] \\right)\\)\n\n\ntiempo: \\(t \\rightarrow [s]\\)\nfuerza: \\(\\vec F\\) \\(\\left( F \\rightarrow \\left[N\\right] \\right)\\)\n\n\ndensidad: \\(d \\rightarrow \\left[ \\dfrac{kg}{m^3}\\right]\\)\ncampo magnético: \\(\\vec B\\) \\(\\left(B \\rightarrow \\left[T\\right]\\right)\\)"
+  },
+  {
+    "objectID": "articles/11_vectores/102_magnitudes_escalares y vectoriales.html#magnitudes-vectoriales-y-magnitudes-escalares",
+    "href": "articles/11_vectores/102_magnitudes_escalares y vectoriales.html#magnitudes-vectoriales-y-magnitudes-escalares",
+    "title": "",
+    "section": "",
+    "text": "Estas magnitudes en las que es importante dar toda esa información son llamadas magnitudes vectoriales. En las que no,es decir aquellas en las que solo importa su valor, son las llamadas magnitudes escalares.\nEntonces:\n- Magnitudes escalares: solo importa su valor númerico y sus unidades.\n- Magnitudes vectoriales: además de lo anterior importa sobre qué cuerpo se aplica (por ejemplo la fuerza), y hacia dónde se aplica.\nAquí algunos ejemplos. Se incluye la letra de la magnitud y sus unidades principales en el Sistema Internacional.\n\n\n\n\n\n\n\nMagnitud escalar\nMagnitud vectorial\n\n\n\n\nmasa: \\(m \\rightarrow [kg]\\)\nvelocidad: \\(\\vec v\\) \\(\\left( v \\rightarrow \\left[\\dfrac{m}{s}\\right] \\right)\\)\n\n\nvolumen: \\(v \\rightarrow [m^3]\\)\naceleración: \\(\\vec a\\) \\(\\left( a \\rightarrow \\left[\\dfrac{m}{s^2}\\right] \\right)\\)\n\n\ntiempo: \\(t \\rightarrow [s]\\)\nfuerza: \\(\\vec F\\) \\(\\left( F \\rightarrow \\left[N\\right] \\right)\\)\n\n\ndensidad: \\(d \\rightarrow \\left[ \\dfrac{kg}{m^3}\\right]\\)\ncampo magnético: \\(\\vec B\\) \\(\\left(B \\rightarrow \\left[T\\right]\\right)\\)"
   },
   {
     "objectID": "articles/03_ESO_4/index.html",
@@ -2098,11 +2152,11 @@
     "text": "Sobre los materiales\nEsta web solo tiene un ánimo educativo y no tiene ánimo de lucro. Todos los materiales aquí usados son propios o tienen licencias abiertas. A medida que vamos generando material tratamos de incoporar la licencia.\n\n\n\n\n\n\nImportant\n\n\n\nEn general todo el contenido propio está bajo esta licencia:\nCC BY-NC-SA 4.0\nAtribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional\n\n\n\n\n\n\n\n\nNote\n\n\n\nTambién hay enlaces a otras páginas y recursos realizados por grandes profesionales que tienen compartido también su trabajo. Si por error detecta que alguno de los materiales aquí usados tiene copyright, no está bien licenciado o el enlace por algún motivo no es adecuado, por favor, no dude en comentarlo (ser.internete@gmail.com)y trataremos de corregir el error lo antes posible."
   },
   {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso",
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html",
     "title": "Fuerzas cotidianas",
-    "section": "2 Peso",
-    "text": "2 Peso\nEl peso es la fuerza con que la Tierra (u otro planeta) atrae a los cuerpos. El peso es la fuerza responsable de que al soltar un cuerpo este caiga al suelo.\nLa fuerza-peso que la Tierra hace sobre un objeto se calcula teniendo en cuenta: - La masa \\(m\\ [kg]\\) del objeto. - La aceleración de la gravedad (\\(g\\ \\dfrac{m}{s^2}\\)) que, aunque no lo vamos a ver ahora con detalle, depende de la masa del planeta en que estemos. Cuanta más masa tenga el planeta, más alto será el valor de \\(g\\). Como la Tierra tiene más masa que la Luna, luego \\(g_{Tierra} &gt; g_{Luna}\\).\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nLa fórmula con la que calculamos el peso (o fuerza-peso) es: \\[\nP = F_P = m·g\n\\]\nLa aceleración de la gravedad en la Tierra es: \\(g_T=9,8\\dfrac{m}{s^2}\\), valor que hay que conocer de memoria, aunque alguna veces por simplicidad se aproxima a \\(g_T=9,8\\dfrac{m}{s^2} \\approx 10 \\dfrac{m}{s^2}\\).\n\n\n\nEjericicio resuelto sobre el peso:\nSabiendo que la Tierra tiene una \\(g_T=10\\dfrac{m}{s^2}\\) y la Luna \\(g_T=1,6\\dfrac{m}{s^2}\\), calcula la fuerza que sufrirá un cuerpo de \\(masa=1 kg\\) en ambos sitios.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\\[\nP_{Tierra} = P_T = m · g_T = 1 kg · 10 \\dfrac{m}{s^2} = 10 N\n\\] \\[\nP_{Luna} = P_L = m · g_L = 1 kg · 1,6 \\dfrac{m}{s^2} = 1,6 N\n\\]\n\n\n\n\n\nEjercicio MRUA\nSabiendo que la aceleración de la gravedad es realmente una aceleración (\\(g = a\\ \\frac{m}{s^2}\\)), calcula la velocidad a la que llegaría un objeto (¡fíjate que la masa no va a influir en las fórmulas!) al suelo si lo dejamos caer desde 2 m de altura. Datos: \\(g_T=-10\\dfrac{m}{s^2}\\) y \\(g_L=-1,6\\dfrac{m}{s^2}\\). Las aceleraciones son negativas porque van hacia abajo.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\nAl tener aceleración y ser un movimiento de caída, vamos a usar la fórmula de MRUA: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] Y a partir del enunciado identificamos los siguientes datos: \\[\na = g\n\\] \\[\nv_0=0 m/s\n\\] \\[\nx_0=2 m/s\n\\] \\[\nx=0 m/s\n\\]\nAsí la fórmula anterior queda: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] \\[\nv^2-0 = 2g·(0-2)\n\\] \\[\nv^2 = 2g·(-2) = -4g\n\\] \\[\nv = \\sqrt{-4g}\n\\]\nEn la Tierra: \\[\nv = \\sqrt{-4·(-10)} = \\sqrt{40} =  6,32 \\dfrac{m}{s}\n\\]\nEn la Luna: \\[\nv = \\sqrt{-4·(-1,6)} = \\sqrt{6,4} = 2,52 \\dfrac{m}{s}\n\\]",
+    "section": "",
+    "text": "Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2111,11 +2165,11 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal",
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#introducción",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#introducción",
     "title": "Fuerzas cotidianas",
-    "section": "3 Normal",
-    "text": "3 Normal\nDejamos caer un cuerpo, por la gravedad caería al suelo. Pero si lo apoyamos en una mesa, eso no sucede. ¿Por qué? Porque la mesa ejerce una fuerza del mismo valor que el peso, en la misma dirección pero en sentido contrario, y logra anularlo. Por eso los vasos no atraviesan la mesa debido a la gravedad. Y por eso nosotros no atravesamos el suelo.\nEs fuerza que hacen las superficies que impiden que las atravesemos por la gravedad es lo que llamamos fuerza normal o simplemente normal. ## Tensión ## Fuerza elástica ## Fricción ## Colisiones ## Empuje",
+    "section": "",
+    "text": "Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2124,11 +2178,11 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión",
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso-p",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso-p",
     "title": "Fuerzas cotidianas",
-    "section": "4 Tensión",
-    "text": "4 Tensión",
+    "section": "2 Peso (\\(P\\))",
+    "text": "2 Peso (\\(P\\))\nEl peso es la fuerza con que la Tierra (u otro planeta) atrae a los cuerpos. El peso es la fuerza responsable de que al soltar un cuerpo este caiga al suelo.\nLa fuerza-peso que la Tierra hace sobre un objeto se calcula teniendo en cuenta:\n\nLa masa \\(m\\ [kg]\\) del objeto.\n\nLa aceleración de la gravedad (\\(g\\ \\dfrac{m}{s^2}\\)) que, aunque no lo vamos a ver ahora con detalle, depende de la masa del planeta en que estemos. Cuanta más masa tenga el planeta, más alto será el valor de \\(g\\). Como la Tierra tiene más masa que la Luna, luego \\(g_{Tierra} &gt; g_{Luna}\\).\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nLa fórmula con la que calculamos el peso (o fuerza-peso) es: \\[\nP = F_P = m·g\n\\]\nLa aceleración de la gravedad en la Tierra es: \\(g_T=9,8\\dfrac{m}{s^2}\\), valor que hay que conocer de memoria, aunque alguna veces por simplicidad se aproxima a \\(g_T=9,8\\dfrac{m}{s^2} \\approx 10 \\dfrac{m}{s^2}\\).\n\n\n\nEjericicio resuelto sobre el peso:\nSabiendo que la Tierra tiene una \\(g_T=10\\dfrac{m}{s^2}\\) y la Luna \\(g_T=1,6\\dfrac{m}{s^2}\\), calcula la fuerza que sufrirá un cuerpo de \\(masa=1 kg\\) en ambos sitios.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\\[\nP_{Tierra} = P_T = m · g_T = 1 kg · 10 \\dfrac{m}{s^2} = 10 N\n\\] \\[\nP_{Luna} = P_L = m · g_L = 1 kg · 1,6 \\dfrac{m}{s^2} = 1,6 N\n\\]\n\n\n\n\n\nEjercicio MRUA\nSabiendo que la aceleración de la gravedad es realmente una aceleración (\\(g = a\\ \\frac{m}{s^2}\\)), calcula la velocidad a la que llegaría un objeto (¡fíjate que la masa no va a influir en las fórmulas!) al suelo si lo dejamos caer desde 2 m de altura.\nDatos: \\(g_T=-10\\dfrac{m}{s^2}\\) y \\(g_L=-1,6\\dfrac{m}{s^2}\\). Las aceleraciones son negativas porque van hacia abajo.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\nAl tener aceleración y ser un movimiento de caída, vamos a usar la fórmula de MRUA: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] Y a partir del enunciado identificamos los siguientes datos: \\[\na = g\n\\] \\[\nv_0=0 m/s\n\\] \\[\nx_0=2 m/s\n\\] \\[\nx=0 m/s\n\\]\nAsí la fórmula anterior queda: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] \\[\nv^2-0 = 2g·(0-2)\n\\] \\[\nv^2 = 2g·(-2) = -4g\n\\] \\[\nv = \\sqrt{-4g}\n\\]\nEn la Tierra: \\[\nv = \\sqrt{-4·(-10)} = \\sqrt{40} =  6,32 \\dfrac{m}{s}\n\\]\nEn la Luna: \\[\nv = \\sqrt{-4·(-1,6)} = \\sqrt{6,4} = 2,52 \\dfrac{m}{s}\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2137,11 +2191,11 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica",
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal-n",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal-n",
     "title": "Fuerzas cotidianas",
-    "section": "5 Fuerza elástica",
-    "text": "5 Fuerza elástica",
+    "section": "3 Normal (\\(N\\))",
+    "text": "3 Normal (\\(N\\))\nDejamos caer un cuerpo, por la gravedad caería al suelo. Pero si lo apoyamos en una mesa, eso no sucede. ¿Por qué? Porque la mesa ejerce una fuerza del mismo valor que el peso, en la misma dirección pero en sentido contrario, y logra anularlo. Por eso los vasos no atraviesan la mesa debido a la gravedad. Y por eso nosotros no atravesamos el suelo.\nAsí definimos la fuerza normal o simplemente normal (\\(N\\)) como la fuerza que hacen las superficies que impiden que las atravesemos. Esta fuerza siempre es perpendicular a la superficie.",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2150,11 +2204,37 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción",
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión-t",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión-t",
     "title": "Fuerzas cotidianas",
-    "section": "6 Fricción",
-    "text": "6 Fricción",
+    "section": "4 Tensión (\\(T\\))",
+    "text": "4 Tensión (\\(T\\))\nLa tensión (\\(T\\)) es la fuerza que ejerce una cuerda, un hilo, un cable, etc. que sujeta un objeto. Esta se opone a la gravedad (mismo valor, misma dirección pero distinto sentido), la anula y permite que podamos tener objetos colgados.\nCuando el valor de la tensión es superior al de la gravedad, entonces el objeto subiría.",
+    "crumbs": [
+      "Home",
+      "3ª ESO",
+      "T08_Fuerzas - dinámica",
+      "Fuerzas cotidianas"
+    ]
+  },
+  {
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica-f_e",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica-f_e",
+    "title": "Fuerzas cotidianas",
+    "section": "5 Fuerza elástica (\\(F_E\\))",
+    "text": "5 Fuerza elástica (\\(F_E\\))\nLa fuerza elástica (\\(F_E\\)) es la fuerza que ejerce un muelle sobre un objeto cuando el muelle o está estirado o está encogidoo.\nLa fuerza elástica depende de dos parámetros:\n\nDel valor de elasticidad del muelle que se indica según la llamada constante de electricidad (\\(k\\)). Se mide habitualmente en \\(\\dfrac{N}{m}\\) o \\(\\dfrac{N}{cm}\\). Cuanta más alta sea \\(k\\), significa que el muelle es más rígido (hay que hacer más fuerza para estirarlo).\nDe lo estirado o encogido que esté el muelle respecto a su posición de equilibrio. Esta variación se suele indicar como \\(\\Delta x\\) y se mide o en \\(cm\\) o en \\(m\\).\n\nA partir de estos parámetros podemos calcular la fuerza elástica: \\[\nF_e = - k \\Delta x\n\\] El signo menos indica que la fuerza elástica siempre se opone a la variación de longitud del muelle respecto de su posición de equilibrio. Esto significa:\n\nCuando estiramos el muelle, la fuerza elástica intentará reducirlo.\n\nCuando encogemos el muelle, la fuerza elástica intentará estirarlo.",
+    "crumbs": [
+      "Home",
+      "3ª ESO",
+      "T08_Fuerzas - dinámica",
+      "Fuerzas cotidianas"
+    ]
+  },
+  {
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r-o-r",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r-o-r",
+    "title": "Fuerzas cotidianas",
+    "section": "6 Fricción o rozamiento (\\(F_R\\) o \\(R\\))",
+    "text": "6 Fricción o rozamiento (\\(F_R\\) o \\(R\\))\nLa fricción (\\(F_R\\) o \\(R\\)) es la fuerza que hace que cuando un objeto se mueve acabe parándose. Surge porque tanto las superficies como el aire el agua y otros fluidos rozan los objetos que se mueven sobre o en ellos y ejercen una fuerza siempre en la misma dirección pero sentido contrario al movimiento.\nNormalmente la fricción se llama:\n\nFuerza de rozamiento si es una superficie la que la genera.\n\nResistencia cuando es un fluido (líquido o gasesoso) la que la genera. Ej.: la resistencia del aire en automovilismo.",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2176,11 +2256,11 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje",
+    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje-e",
+    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje-e",
     "title": "Fuerzas cotidianas",
-    "section": "8 Empuje",
-    "text": "8 Empuje",
+    "section": "8 Empuje (\\(E\\))",
+    "text": "8 Empuje (\\(E\\))\nEl empuje es una fuerza que se va a ejercer hacia arriba en cualquier objeto que esté sumergido en un fluido. Recuerda que un fluido puede ser agua, pero también el aire. Por lo que nosotros, por estar dentro del aire, experimentamos empuje (aunque es muy débil y por eso no tiene efectos apreciables en nosotros).\nEl valor del empuje lo describe el principio de Arquímedes: “Todo cuerpo sumergido en un fluido, experimenta un empuje vertical y hacia arriba igual al peso del volumen de fluido que desaloja”.\nEn el aire nosotros no notamos este empuje, porque el peso del aire que desplazamos por nuestro volumen es muy bajo, y por lo tanto en comparación con el peso es despreciable. Sin embargo, esto explica por qué cuando buceamos notamos una fuerza que tira de nosotros hacia arriba y nos acerca a la superficie. Eso sucede porque el mismo volumen pero de agua, pesa mucho más y se acerca e incluso puede superar la fuerza-peso que empuja hacia abajo.\nEl empuje es el causante de que puedan volar los globos aerostáticos. Pero ¿por qué? Para responder esto piensa por qué los globos tienen una llama que intenta calentar el aire que llevan dentro.",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -3179,6 +3259,20 @@
     "text": "Vídeos de los cursos de la UPV\nListas de vídeos de la UPV"
   },
   {
+    "objectID": "articles/11_vectores/101_vector_basico.html",
+    "href": "articles/11_vectores/101_vector_basico.html",
+    "title": "",
+    "section": "",
+    "text": "Un vector es la representación gráfica de una magnitud física (fuerza, velocidad, aceleración) que proporciona información no solo sobre su valor, si no también donde actúa y hacia dónde actúa.\nImaginemos una fuerza: no es lo mismo la fuerza que haces para abrir un cajón que para cerrarlo. Y eso se tiene que indicar de alguna manera."
+  },
+  {
+    "objectID": "articles/11_vectores/101_vector_basico.html#elementos-de-un-vector",
+    "href": "articles/11_vectores/101_vector_basico.html#elementos-de-un-vector",
+    "title": "",
+    "section": "Elementos de un vector",
+    "text": "Elementos de un vector\nAquí se puede ver un diagrama de los elementos de un vector:\n\n\n\nVector\n\n\n\nEl módulo que es el valor numérico de la magnitud del vector. Cuanto más alto sea su valor, más largo es el vector.\n\nSu dirección que es “la línea recta” sobre la que está el vector.\nSu sentido que es el lado de la dirección hacia el que actúa. Se indica con la punta de la flecha.\n\nY el nombre del vector se suele escribir con el nombre de la magnitud y se le pone una pequeña flechita arriba: \\(\\vec v\\) si es velocidad, \\(\\vec F\\) si es fuerza, \\(\\vec a\\) si es aceleración, etc."
+  },
+  {
     "objectID": "articles/02_ESO_3_eng/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
     "href": "articles/02_ESO_3_eng/T05. El atomo y la tabla periodica/501_Ficha resumen atomo_eng.html",
     "title": "The atom and its particles",
@@ -3495,7 +3589,7 @@
     "href": "articles/01_ESO_2/T08_Fuerzas - dinámica/801_Fuerzas_introduccion.html#fuerza-neta-o-resultante",
     "title": "Las fuerzas. Introducción.",
     "section": "4 Fuerza neta o resultante",
-    "text": "4 Fuerza neta o resultante\nCuando actúan dos o más fuerzas sobre un cuerpo, la fuerza total, neta o resultante es aquella que generará los mismos efectos que la combinación de las fuerzas individuales.\nPara calcularla, hay que hacer una “suma vectorial” de las fuerzas que actúan. Para ello consideraremos:\n- Fuerzas positivas (\\(+\\)): aquellas horizontales que vayan hacia la derecha y las verticales que vayan hacia arriba.\n- Fuerzas positivas (\\(+\\)): aquellas horizontales que vayan hacia la izquierda y las verticales que vayan hacia abajo.\n\n\n\n\n\n\nSuma de fuerzas horizontales\n\n\n\n\n\n\n\nSuma de fuerzas verticales\n\n\n\n\n\n\n\n\nSuma de fuerzas perpendiculares",
+    "text": "4 Fuerza neta o resultante\nCuando actúan dos o más fuerzas sobre un cuerpo, la fuerza total, neta o resultante es aquella que generará los mismos efectos que la combinación de las fuerzas individuales.\nPara calcularla, hay que hacer una “suma vectorial” de las fuerzas que actúan. Para ello consideraremos:\n- Fuerzas positivas (\\(+\\)): aquellas horizontales que vayan hacia la derecha y las verticales que vayan hacia arriba.\n- Fuerzas positivas (\\(+\\)): aquellas horizontales que vayan hacia la izquierda y las verticales que vayan hacia abajo.\n\nSuma de fuerzas que tienen la misma dirección\nCuando las fuerzas tienen la misma dirección, tendremos en cuenta los signos anteriores para sumar sus valores y lograr calcular la resultante.\n\n\n\n\n\n\nSuma de fuerzas horizontales\n\n\n\n\n\n\n\n\n\nSuma de fuerzas verticales\n\n\n\n\n\n\n\nSuma de fuerzas que tienen direcciones perpendiculares\nEn el caso de que las fuerzas tengan direcciones perpendiculares (forman un ángulo de \\(90^{\\circ}\\)), entonces se usaría pitágoras para hallar la longitud de la hipotenusa.\n\n\n\nSuma de fuerzas perpendiculares\n\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nLa suma de fuerzas siempre es vectorial. Aquí hemos visto sumas sencillas: cuando las fuerzas tienen la misma dirección y cuando tienen direcciones perpendiculares.\nNo obstante cuando trabajamos con vectores se hacen sumas vectoriales que se pueden ver en el artículo Operaciones con vectores\nLa fórmula general para averiguar la fuerza resultante (\\(\\vec F_T\\)) que actúa sobre un cuerpo e obtiene a través de la suma vectorial de todas las fuerzas que actúan sobre ese cuerpo (\\(\\vec{F_i}\\)):\n\\[\n\\vec F_T = \\sum_{i=0}^n \\vec F_i\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -3907,123 +4001,6 @@
     "crumbs": [
       "Home",
       "2º ESO"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html",
-    "title": "Fuerzas cotidianas",
-    "section": "",
-    "text": "Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#introducción",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#introducción",
-    "title": "Fuerzas cotidianas",
-    "section": "",
-    "text": "Si observamos los efectos que las fuerzas producen en los objetos que nos rodean, podemos identificar fuerzas que actúan a nuestro alrededor.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso-p",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#peso-p",
-    "title": "Fuerzas cotidianas",
-    "section": "2 Peso (\\(P\\))",
-    "text": "2 Peso (\\(P\\))\nEl peso es la fuerza con que la Tierra (u otro planeta) atrae a los cuerpos. El peso es la fuerza responsable de que al soltar un cuerpo este caiga al suelo.\nLa fuerza-peso que la Tierra hace sobre un objeto se calcula teniendo en cuenta:\n\nLa masa \\(m\\ [kg]\\) del objeto.\n\nLa aceleración de la gravedad (\\(g\\ \\dfrac{m}{s^2}\\)) que, aunque no lo vamos a ver ahora con detalle, depende de la masa del planeta en que estemos. Cuanta más masa tenga el planeta, más alto será el valor de \\(g\\). Como la Tierra tiene más masa que la Luna, luego \\(g_{Tierra} &gt; g_{Luna}\\).\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nLa fórmula con la que calculamos el peso (o fuerza-peso) es: \\[\nP = F_P = m·g\n\\]\nLa aceleración de la gravedad en la Tierra es: \\(g_T=9,8\\dfrac{m}{s^2}\\), valor que hay que conocer de memoria, aunque alguna veces por simplicidad se aproxima a \\(g_T=9,8\\dfrac{m}{s^2} \\approx 10 \\dfrac{m}{s^2}\\).\n\n\n\nEjericicio resuelto sobre el peso:\nSabiendo que la Tierra tiene una \\(g_T=10\\dfrac{m}{s^2}\\) y la Luna \\(g_T=1,6\\dfrac{m}{s^2}\\), calcula la fuerza que sufrirá un cuerpo de \\(masa=1 kg\\) en ambos sitios.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\\[\nP_{Tierra} = P_T = m · g_T = 1 kg · 10 \\dfrac{m}{s^2} = 10 N\n\\] \\[\nP_{Luna} = P_L = m · g_L = 1 kg · 1,6 \\dfrac{m}{s^2} = 1,6 N\n\\]\n\n\n\n\n\nEjercicio MRUA\nSabiendo que la aceleración de la gravedad es realmente una aceleración (\\(g = a\\ \\frac{m}{s^2}\\)), calcula la velocidad a la que llegaría un objeto (¡fíjate que la masa no va a influir en las fórmulas!) al suelo si lo dejamos caer desde 2 m de altura.\nDatos: \\(g_T=-10\\dfrac{m}{s^2}\\) y \\(g_L=-1,6\\dfrac{m}{s^2}\\). Las aceleraciones son negativas porque van hacia abajo.\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\nAl tener aceleración y ser un movimiento de caída, vamos a usar la fórmula de MRUA: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] Y a partir del enunciado identificamos los siguientes datos: \\[\na = g\n\\] \\[\nv_0=0 m/s\n\\] \\[\nx_0=2 m/s\n\\] \\[\nx=0 m/s\n\\]\nAsí la fórmula anterior queda: \\[\nv^2-v_0^2 = 2a·(x-x_0)\n\\] \\[\nv^2-0 = 2g·(0-2)\n\\] \\[\nv^2 = 2g·(-2) = -4g\n\\] \\[\nv = \\sqrt{-4g}\n\\]\nEn la Tierra: \\[\nv = \\sqrt{-4·(-10)} = \\sqrt{40} =  6,32 \\dfrac{m}{s}\n\\]\nEn la Luna: \\[\nv = \\sqrt{-4·(-1,6)} = \\sqrt{6,4} = 2,52 \\dfrac{m}{s}\n\\]",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal-n",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#normal-n",
-    "title": "Fuerzas cotidianas",
-    "section": "3 Normal (\\(N\\))",
-    "text": "3 Normal (\\(N\\))\nDejamos caer un cuerpo, por la gravedad caería al suelo. Pero si lo apoyamos en una mesa, eso no sucede. ¿Por qué? Porque la mesa ejerce una fuerza del mismo valor que el peso, en la misma dirección pero en sentido contrario, y logra anularlo. Por eso los vasos no atraviesan la mesa debido a la gravedad. Y por eso nosotros no atravesamos el suelo.\nAsí definimos la fuerza normal o simplemente normal (\\(N\\)) como la fuerza que hacen las superficies que impiden que las atravesemos. Esta fuerza siempre es perpendicular a la superficie.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión-t",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#tensión-t",
-    "title": "Fuerzas cotidianas",
-    "section": "4 Tensión (\\(T\\))",
-    "text": "4 Tensión (\\(T\\))\nLa tensión (\\(T\\)) es la fuerza que ejerce una cuerda, un hilo, un cable, etc. que sujeta un objeto. Esta se opone a la gravedad (mismo valor, misma dirección pero distinto sentido), la anula y permite que podamos tener objetos colgados.\nCuando el valor de la tensión es superior al de la gravedad, entonces el objeto subiría.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica-f_e",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fuerza-elástica-f_e",
-    "title": "Fuerzas cotidianas",
-    "section": "5 Fuerza elástica (\\(F_E\\))",
-    "text": "5 Fuerza elástica (\\(F_E\\))\nLa fuerza elástica (\\(F_E\\)) es la fuerza que ejerce un muelle sobre un objeto cuando el muelle o está estirado o está encogidoo.\nLa fuerza elástica depende de dos parámetros:\n\nDel valor de elasticidad del muelle que se indica según la llamada constante de electricidad (\\(k\\)). Se mide habitualmente en \\(\\dfrac{N}{m}\\) o \\(\\dfrac{N}{cm}\\). Cuanta más alta sea \\(k\\), significa que el muelle es más rígido (hay que hacer más fuerza para estirarlo).\nDe lo estirado o encogido que esté el muelle respecto a su posición de equilibrio. Esta variación se suele indicar como \\(\\Delta x\\) y se mide o en \\(cm\\) o en \\(m\\).\n\nA partir de estos parámetros podemos calcular la fuerza elástica: \\[\nF_e = - k \\Delta x\n\\] El signo menos indica que la fuerza elástica siempre se opone a la variación de longitud del muelle respecto de su posición de equilibrio. Esto significa:\n\nCuando estiramos el muelle, la fuerza elástica intentará reducirlo.\n\nCuando encogemos el muelle, la fuerza elástica intentará estirarlo.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r",
-    "title": "Fuerzas cotidianas",
-    "section": "6 Fricción o rozamiento (\\(F_R\\))",
-    "text": "6 Fricción o rozamiento (\\(F_R\\))",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r-o-r",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#fricción-o-rozamiento-f_r-o-r",
-    "title": "Fuerzas cotidianas",
-    "section": "6 Fricción o rozamiento (\\(F_R\\) o \\(R\\))",
-    "text": "6 Fricción o rozamiento (\\(F_R\\) o \\(R\\))\nLa fricción (\\(F_R\\) o \\(R\\)) es la fuerza que hace que cuando un objeto se mueve acabe parándose. Surge porque tanto las superficies como el aire el agua y otros fluidos rozan los objetos que se mueven sobre o en ellos y ejercen una fuerza siempre en la misma dirección pero sentido contrario al movimiento.\nNormalmente la fricción se llama:\n\nFuerza de rozamiento si es una superficie la que la genera.\n\nResistencia cuando es un fluido (líquido o gasesoso) la que la genera. Ej.: la resistencia del aire en automovilismo.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
-    ]
-  },
-  {
-    "objectID": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje-e",
-    "href": "articles/02_ESO_3/T08_Fuerzas - dinámica/802_Fuerzas_cotidianas.html#empuje-e",
-    "title": "Fuerzas cotidianas",
-    "section": "8 Empuje (\\(E\\))",
-    "text": "8 Empuje (\\(E\\))\nEl empuje es una fuerza que se va a ejercer hacia arriba en cualquier objeto que esté sumergido en un fluido. Recuerda que un fluido puede ser agua, pero también el aire. Por lo que nosotros, por estar dentro del aire, experimentamos empuje (aunque es muy débil y por eso no tiene efectos apreciables en nosotros).\nEl valor del empuje lo describe el principio de Arquímedes: “Todo cuerpo sumergido en un fluido, experimenta un empuje vertical y hacia arriba igual al peso del volumen de fluido que desaloja”.\nEn el aire nosotros no notamos este empuje, porque el peso del aire que desplazamos por nuestro volumen es muy bajo, y por lo tanto en comparación con el peso es despreciable. Sin embargo, esto explica por qué cuando buceamos notamos una fuerza que tira de nosotros hacia arriba y nos acerca a la superficie. Eso sucede porque el mismo volumen pero de agua, pesa mucho más y se acerca e incluso puede superar la fuerza-peso que empuja hacia abajo.\nEl empuje es el causante de que puedan volar los globos aerostáticos. Pero ¿por qué? Para responder esto piensa por qué los globos tienen una llama que intenta calentar el aire que llevan dentro.",
-    "crumbs": [
-      "Home",
-      "3ª ESO",
-      "T08_Fuerzas - dinámica",
-      "Fuerzas cotidianas"
     ]
   }
 ]
