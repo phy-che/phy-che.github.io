@@ -92,7 +92,7 @@
     "href": "articles/01_ESO_2/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html",
     "title": "Cinemática: velocidad",
     "section": "",
-    "text": "No es lo mismo ir rápido (rapidez) que saber hacia dónde vas con esa rapidez (velocidad).\n\nRapidez: cuánto de rápido se mueve. Unidad: \\(\\dfrac{m}{s}\\).\nVelocidad: rapidez + sentido de esa velocidad. También se mide en \\(\\dfrac{m}{s}\\) y el signo indicará si va hacia la derecha (+) o a la izquierda (-).\n\n\n\n\nCriterio de signos para posición y velocidad\n\n\nEl sentido indica si va hacia la derecha (velocidad positiva) o hacia la izquierda (velocidad negativa) según el criterio de signos indicado. Se representa con una flecha. La longitud de esa flecha, que es el módulo (el valor númerico sin signo), sería la rapidez.\nNormalmente vamos a usar el término velocidad, pero eso implica que tenemos que tener cuidado con los signos que nos salgan:\n- El desplazamiento \\(\\Delta x\\) puede ser positivo o negativo.\n- El tiempo siempre será positivo.\n\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.\n\nVelocidad:\n\\(\\large v = \\dfrac{s}{t}\\). Se mide en metros por segundo (\\(\\frac{m}{s}\\))\nDespejar a partir de la velocidad el espacio:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar a partir de la velocidad el tiempo:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).\n\n\n\n\n\n\nEn general es mejor escribir \\(\\dfrac{m}{s}\\) en vez de \\(m/s\\) y mejor \\(\\dfrac{km}{h}\\) que \\(km/h\\) porque así sabemos sin duda cuál es el denominador.\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvierte \\(15 m/s\\) en \\(km/h\\).\nConvierte \\(90 km/h\\) en \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 m/s\\) en \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 km/h\\) en \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\nVelocidad instantánea: es la velocidad que posee un móvil en un punto concreto de su trayectoria, en un instante determinado. Esto se ve bien en los coches: en su panel de mandos se puede ver a qué velocidad va el coche en cada instante.\nVelocidad media: es el resultado de dividir la distancia recorrida entre el tiempo que hemos tardado en recorrerlo. En todos los problemas que hagamos usaremos este concepto de velocidad. Ejemplo: si vamos de Burgos a Palencia hay casi 90 km. No podremos ir todo el rato a la misma velocidad por los semáforos o el límite en distintas carreteras. Pero si yo divido la distancia total entre el tiempo total que he usado tendré una media de mi velocidad: \\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} =  \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nA medida que aprendemos más en física, veremos que la velocidad es una magnitud vectorial. Esto quiere decir que no solo importa su valor numérico pero también hacia donde se mueve. No es lo mismo que algo suba o baje, que vaya hacia la derecha o la izquierda.\nPor eso cuando se define completamente una velocidad hay que indicar:\n\nSu módulo que es el valor numérico de la velocidad. Cuanto más alto sea su valor, más largo es el vector.\nSu dirección que es “la línea recta” sobre la que se produce el movimiento.\nSu sentido que es hacia que lado de esa línea recta se mueve el móvil. Se indica con la punta de la flecha.\n\n\n\n\nVector\n\n\n\n\n\nVelocidad vectorial\n\n\n\n\n\n\n\n\n1. El Autobús de la Castellana. Un autobús de la EMT recorre los 6 km que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente 15 minutos (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nAplicamos la fórmula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. El patinete por el Retiro. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de 750 metros, en su patinete eléctrico. Si tarda 150 segundos en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. El Metro de Madrid (Línea 1). Un tren de metro se encuentra en la posición \\(x_i = 200 \\text{ m}\\) (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición \\(x_f = 1400 \\text{ m}\\) (cerca de la estación de Bilbao). Si ha tardado 80 segundos en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nCalculamos el desplazamiento (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nCalculamos la velocidad: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. De Compras por la Gran Vía. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición \\(0 \\text{ m}\\)) y caminan hasta la Plaza de España, que está en la posición \\(1300 \\text{ m}\\). Si tardan 20 minutos (\\(1200 \\text{ s}\\)) en llegar, calcula el desplazamiento y la velocidad media en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nDesplazamiento: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocidad: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. El Cercanías a Alcalá de Henares Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de 90 km/h. Si el trayecto dura 20 minutos (es decir, \\(1/3\\) de hora o \\(0,33 \\text{ h}\\)), ¿qué distancia ha recorrido el tren?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nDespejamos el desplazamiento a partir de la ecuación anterior (como \\(t\\) está dividiendo lo pasamos al otro lado multiplicando): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nCalculamos con valores numéricos: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Viaje a Segovia en Coche Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de 90 km. Si mantienen una velocidad media constante de 120 km/h (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nPara no equivocarnos lo primero que hacemos es quitar el denominador que es el \\(t\\) y luego despejamos \\(t\\). ¡¡Mucho cuidado que si no seguis los pasos os sale al revés!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nSustituimos los valores numéricos y calculamos: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ horas}\\)\n\nPara pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutos}\n\\]",
+    "text": "No es lo mismo ir rápido (rapidez) que saber hacia dónde vas con esa rapidez (velocidad).\n\nRapidez: cuánto de rápido se mueve. Unidad: \\(\\dfrac{m}{s}\\).\nVelocidad: rapidez + sentido de esa velocidad. También se mide en \\(\\dfrac{m}{s}\\) y el signo indicará si va hacia la derecha (+) o a la izquierda (-).\n\n\n\n\nCriterio de signos para posición y velocidad\n\n\nEl sentido indica si va hacia la derecha (velocidad positiva) o hacia la izquierda (velocidad negativa) según el criterio de signos indicado. Se representa con una flecha. La longitud de esa flecha, que es el módulo (el valor númerico sin signo), sería la rapidez.\nNormalmente vamos a usar el término velocidad, pero eso implica que tenemos que tener cuidado con los signos que nos salgan:\n- El desplazamiento \\(\\Delta x\\) puede ser positivo o negativo.\n- El tiempo siempre será positivo.\n\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad.\nVelocidad:\n\\[\n\\boxed{\\large v = \\dfrac{s}{t}}\n\\]\nLa velocidad se mide en metros por segundo (\\(\\frac{m}{s}\\)). \\(s\\) es el espacio o distancia recorrida (siempre positivo) y \\(t\\) es el tiempo tardado en recorrerlo.\nAdemás saber despejar todas las variables de la fórmula.\n\nDespejar el espacio recorrido a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar el tiempo a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).\n\n\n\n\n\n\nEn general es mejor escribir \\(\\dfrac{m}{s}\\) en vez de \\(m/s\\) y mejor \\(\\dfrac{km}{h}\\) que \\(km/h\\) porque así sabemos sin duda cuál es el denominador.\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvierte \\(15 m/s\\) en \\(km/h\\).\nConvierte \\(90 km/h\\) en \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 m/s\\) en \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 km/h\\) en \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\nVelocidad instantánea: es la velocidad que posee un móvil en un punto concreto de su trayectoria, en un instante determinado. Esto se ve bien en los coches: en su panel de mandos se puede ver a qué velocidad va el coche en cada instante.\nVelocidad media: es el resultado de dividir la distancia recorrida entre el tiempo que hemos tardado en recorrerlo. En todos los problemas que hagamos usaremos este concepto de velocidad. Ejemplo: si vamos de Burgos a Palencia hay casi 90 km. No podremos ir todo el rato a la misma velocidad por los semáforos o el límite en distintas carreteras. Pero si yo divido la distancia total entre el tiempo total que he usado tendré una media de mi velocidad: \\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} =  \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nA medida que aprendemos más en física, veremos que la velocidad es una magnitud vectorial. Esto quiere decir que no solo importa su valor numérico pero también hacia donde se mueve. No es lo mismo que algo suba o baje, que vaya hacia la derecha o la izquierda.\nPor eso cuando se define completamente una velocidad hay que indicar:\n\nSu módulo que es el valor numérico de la velocidad. Cuanto más alto sea su valor, más largo es el vector.\nSu dirección que es “la línea recta” sobre la que se produce el movimiento.\nSu sentido que es hacia que lado de esa línea recta se mueve el móvil. Se indica con la punta de la flecha.\n\n\n\n\nVector\n\n\n\n\n\nVelocidad vectorial\n\n\n\n\n\n\n\n\n1. El Autobús de la Castellana. Un autobús de la EMT recorre los 6 km que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente 15 minutos (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nAplicamos la fórmula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. El patinete por el Retiro. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de 750 metros, en su patinete eléctrico. Si tarda 150 segundos en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. El Metro de Madrid (Línea 1). Un tren de metro se encuentra en la posición \\(x_i = 200 \\text{ m}\\) (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición \\(x_f = 1400 \\text{ m}\\) (cerca de la estación de Bilbao). Si ha tardado 80 segundos en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nCalculamos el desplazamiento (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nCalculamos la velocidad: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. De Compras por la Gran Vía. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición \\(0 \\text{ m}\\)) y caminan hasta la Plaza de España, que está en la posición \\(1300 \\text{ m}\\). Si tardan 20 minutos (\\(1200 \\text{ s}\\)) en llegar, calcula el desplazamiento y la velocidad media en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nDesplazamiento: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocidad: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. El Cercanías a Alcalá de Henares Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de 90 km/h. Si el trayecto dura 20 minutos (es decir, \\(1/3\\) de hora o \\(0,33 \\text{ h}\\)), ¿qué distancia ha recorrido el tren?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nDespejamos el desplazamiento a partir de la ecuación anterior (como \\(t\\) está dividiendo lo pasamos al otro lado multiplicando): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nCalculamos con valores numéricos: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Viaje a Segovia en Coche Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de 90 km. Si mantienen una velocidad media constante de 120 km/h (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nPara no equivocarnos lo primero que hacemos es quitar el denominador que es el \\(t\\) y luego despejamos \\(t\\). ¡¡Mucho cuidado que si no seguis los pasos os sale al revés!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nSustituimos los valores numéricos y calculamos: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ horas}\\)\n\nPara pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutos}\n\\]",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -101,11 +101,11 @@
     ]
   },
   {
-    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
-    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
+    "objectID": "articles/01_ESO_2/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#fórmula-de-velocidad",
+    "href": "articles/01_ESO_2/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#fórmula-de-velocidad",
     "title": "Cinemática: velocidad",
     "section": "",
-    "text": "ImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.\n\nVelocidad:\n\\(\\large v = \\dfrac{s}{t}\\). Se mide en metros por segundo (\\(\\frac{m}{s}\\))\nDespejar a partir de la velocidad el espacio:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar a partir de la velocidad el tiempo:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).",
+    "text": "ImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad.\nVelocidad:\n\\[\n\\boxed{\\large v = \\dfrac{s}{t}}\n\\]\nLa velocidad se mide en metros por segundo (\\(\\frac{m}{s}\\)). \\(s\\) es el espacio o distancia recorrida (siempre positivo) y \\(t\\) es el tiempo tardado en recorrerlo.\nAdemás saber despejar todas las variables de la fórmula.\n\nDespejar el espacio recorrido a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar el tiempo a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).",
     "crumbs": [
       "Home",
       "2º ESO",
@@ -494,301 +494,301 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html",
     "title": "(ENG) Kinematics: velocity",
     "section": "",
     "text": "It is not the same to move fast (speed) as to know in which direction you are moving with that speed (velocity).\n\nSpeed: how fast something moves. Unit: \\(\\dfrac{m}{s}\\).\nVelocity: speed + direction of that motion. It is also measured in \\(\\dfrac{m}{s}\\) and the sign will indicate whether it goes to the right (+) or to the left (-).\n\n\n\n\nSign convention for position and velocity\n\n\nThe direction indicates whether it goes to the right (positive velocity) or to the left (negative velocity) according to the given sign convention. It is represented with an arrow. The length of that arrow, which is the magnitude (the numerical value without sign), would be the speed.\nNormally we will use the term velocity, but this implies that we must be careful with the signs we obtain:\n- The displacement \\(\\Delta x\\) can be positive or negative.\n- Time will always be positive.\n\n\n\n\n\n\nImportanteVery important\n\n\n\n\nIt is very important to know how to calculate velocity, and also how to solve the formula for all variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in meters per second (\\(\\frac{m}{s}\\))\nSolving for distance from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in meters (m).\nSolving for time from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).\n\n\n\n\n\nIn general it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because this way we clearly know what the denominator is.\nIt is very useful to learn how to convert between different velocity units and we will do it using conversion factors:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 m/s\\) into \\(km/h\\).\nConvert \\(90 km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 m/s\\) into \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResult: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convert \\(90 km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResult: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\n1. The Castellana Bus. An EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is done in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nWe apply the formula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The scooter in Retiro Park. A boy travels along Paseo de Fernán Núñez in Retiro Park, which has a length of 750 meters, on his electric scooter. If it takes him 150 seconds to complete the route at constant speed, what is his velocity in meters per second (m/s)?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. The Madrid Metro (Line 1). A metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it took 80 seconds to move from one point to the other, first calculate the displacement and then its velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe calculate the displacement (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nWe calculate the velocity: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. Shopping on Gran Vía. Two friends are walking. They start at number 1 on Gran Vía (position \\(0 \\text{ m}\\)) and walk to Plaza de España, which is at position \\(1300 \\text{ m}\\). If they take 20 minutes (\\(1200 \\text{ s}\\)) to arrive, calculate the displacement and the average velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocity: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. The commuter train to Alcalá de Henares A commuter train travels from Atocha station to Alcalá de Henares with a constant velocity of 90 km/h. If the journey lasts 20 minutes (that is, \\(1/3\\) of an hour or \\(0,33 \\text{ h}\\)), what distance has the train traveled?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nWe solve for displacement from the previous equation (since \\(t\\) is dividing, we move it multiplying): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nWe calculate with numerical values: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Trip to Segovia by car A family decides to go from Madrid to Segovia by highway. The distance is 90 km. If they maintain a constant average velocity of 120 km/h (the legal maximum), how long will it take them to reach their destination in hours and minutes?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nTo avoid mistakes, first we eliminate the denominator \\(t\\) and then solve for \\(t\\). Be very careful, otherwise you may get it reversed!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nWe substitute numerical values and calculate: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ hours}\\)\n\nTo convert to minutes, we take the non-integer part (the integer part is hours) and multiply by 60 because each hour has 60 minutes: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutes}\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Kinematics: velocity"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html#solving-the-formula-for-different-variables",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html#solving-the-formula-for-different-variables",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html#solving-the-formula-for-different-variables",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html#solving-the-formula-for-different-variables",
     "title": "(ENG) Kinematics: velocity",
     "section": "",
     "text": "It is very important to know how to calculate velocity, and also how to solve the formula for all variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in meters per second (\\(\\frac{m}{s}\\))\nSolving for distance from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in meters (m).\nSolving for time from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Kinematics: velocity"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html#units-of-velocity-fracms-and-frackmh",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html#units-of-velocity-fracms-and-frackmh",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html#units-of-velocity-fracms-and-frackmh",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html#units-of-velocity-fracms-and-frackmh",
     "title": "(ENG) Kinematics: velocity",
     "section": "",
     "text": "In general it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because this way we clearly know what the denominator is.\nIt is very useful to learn how to convert between different velocity units and we will do it using conversion factors:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 m/s\\) into \\(km/h\\).\nConvert \\(90 km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 m/s\\) into \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResult: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convert \\(90 km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResult: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Kinematics: velocity"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html#velocity-problems",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad_eng.html#velocity-problems",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html#velocity-problems",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad_eng.html#velocity-problems",
     "title": "(ENG) Kinematics: velocity",
     "section": "",
     "text": "1. The Castellana Bus. An EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is done in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nWe apply the formula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The scooter in Retiro Park. A boy travels along Paseo de Fernán Núñez in Retiro Park, which has a length of 750 meters, on his electric scooter. If it takes him 150 seconds to complete the route at constant speed, what is his velocity in meters per second (m/s)?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. The Madrid Metro (Line 1). A metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it took 80 seconds to move from one point to the other, first calculate the displacement and then its velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe calculate the displacement (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nWe calculate the velocity: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. Shopping on Gran Vía. Two friends are walking. They start at number 1 on Gran Vía (position \\(0 \\text{ m}\\)) and walk to Plaza de España, which is at position \\(1300 \\text{ m}\\). If they take 20 minutes (\\(1200 \\text{ s}\\)) to arrive, calculate the displacement and the average velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocity: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. The commuter train to Alcalá de Henares A commuter train travels from Atocha station to Alcalá de Henares with a constant velocity of 90 km/h. If the journey lasts 20 minutes (that is, \\(1/3\\) of an hour or \\(0,33 \\text{ h}\\)), what distance has the train traveled?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nWe solve for displacement from the previous equation (since \\(t\\) is dividing, we move it multiplying): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nWe calculate with numerical values: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Trip to Segovia by car A family decides to go from Madrid to Segovia by highway. The distance is 90 km. If they maintain a constant average velocity of 120 km/h (the legal maximum), how long will it take them to reach their destination in hours and minutes?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nTo avoid mistakes, first we eliminate the denominator \\(t\\) and then solve for \\(t\\). Be very careful, otherwise you may get it reversed!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nWe substitute numerical values and calculate: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ hours}\\)\n\nTo convert to minutes, we take the non-integer part (the integer part is hours) and multiply by 60 because each hour has 60 minutes: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutes}\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Kinematics: velocity"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html",
     "title": "Gráficas del movimiento",
     "section": "",
     "text": "En física, usamos gráficas para entender cómo se mueve un objeto. Las más importantes son:\n\n\nRepresenta cómo cambia la posición con el tiempo.\n\nEje horizontal: tiempo (\\(t\\)).\n\nEje vertical: posición (\\(x\\)).\n\nIdeas clave: - Línea recta inclinada → movimiento con velocidad constante.\n- Más inclinada → mayor velocidad.\n- Línea horizontal → el objeto está parado.\n\n\n\nRepresenta cómo cambia la velocidad con el tiempo.\n\nEje horizontal: tiempo (\\(t\\)).\n\nEje vertical: velocidad (\\(v\\)).\n\nIdeas clave: - Línea horizontal → velocidad constante.\n- Línea inclinada → hay aceleración.\n- Subiendo → acelera.\n- Bajando → frena.\n\n\n\nRepresenta cómo cambia la aceleración con el tiempo.\n\nEje horizontal: tiempo (\\(t\\)).\n\nEje vertical: aceleración (\\(a\\)).\n\nIdeas clave: - Línea horizontal → aceleración constante.\n- Valor positivo → aumenta velocidad.\n- Valor negativo → disminuye velocidad.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-coche-parado",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-coche-parado",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-2-coche-parado",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-2-coche-parado",
     "title": "Gráficas del movimiento",
     "section": "Ejemplo 2: Coche parado",
     "text": "Ejemplo 2: Coche parado\nUn coche está detenido en un semáforo en una avenida. Durante varios segundos permanece siempre en la misma posición, situada a 5 metros del punto de referencia.\nPregunta: Dibuja la gráfica posición-tiempo de este movimiento.\n\\[\nx = 5\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-movimiento-constante",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-movimiento-constante",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-1-movimiento-constante",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-1-movimiento-constante",
     "title": "Gráficas del movimiento",
     "section": "Ejemplo 1: Movimiento constante",
     "text": "Ejemplo 1: Movimiento constante\nUn tren de cercanías circula entre dos estaciones manteniendo una velocidad constante de 10 m/s durante todo el trayecto.\nPregunta: Representa la gráfica velocidad-tiempo.\n\\[\nv = 10\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-aceleración-constante",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-aceleración-constante",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-2-aceleración-constante",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-2-aceleración-constante",
     "title": "Gráficas del movimiento",
     "section": "Ejemplo 2: Aceleración constante",
     "text": "Ejemplo 2: Aceleración constante\nUn coche arranca desde el reposo en un semáforo y aumenta su velocidad de forma uniforme con una aceleración constante. Su velocidad sigue la relación:\nv=2t\nPregunta: Dibuja la gráfica velocidad-tiempo y describe cómo cambia la velocidad.\n\\[\nv = 2t\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-aceleración-constante",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-1-aceleración-constante",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-1-aceleración-constante",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-1-aceleración-constante",
     "title": "Gráficas del movimiento",
     "section": "Ejemplo 1: Aceleración constante",
     "text": "Ejemplo 1: Aceleración constante\n\\[\na = 3\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-frenado",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#ejemplo-2-frenado",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-2-frenado",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#ejemplo-2-frenado",
     "title": "Gráficas del movimiento",
     "section": "Ejemplo 2: Frenado",
     "text": "Ejemplo 2: Frenado\nUn coche circula por una carretera y comienza a frenar de forma constante con una aceleración de -2 m/s² hasta detenerse.\nPregunta: Dibuja la gráfica aceleración-tiempo e indica qué significa que la aceleración sea negativa. \\[\na = -2\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#enunciado-del-problema",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#enunciado-del-problema",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#enunciado-del-problema",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#enunciado-del-problema",
     "title": "Gráficas del movimiento",
     "section": "Enunciado del Problema",
     "text": "Enunciado del Problema\nUn niño realiza un trayecto dividido en las siguientes etapas:\n\nCasa a Escuela: Camina \\(d_1 = 300\\text{ m}\\) a una velocidad constante de \\(v = 1.5\\text{ m/s}\\).\nEscuela a Supermercado: Acelera uniformemente desde \\(1.5\\text{ m/s}\\) hasta alcanzar una velocidad máxima de \\(3\\text{ m/s}\\) en un tramo de \\(50\\text{ m}\\).\nEntrada al Supermercado: Mantiene esa velocidad máxima de \\(3\\text{ m/s}\\) durante \\(20\\text{ s}\\).\nSupermercado de vuelta a Escuela: Regresa a velocidad constante de \\(-2\\text{ m/s}\\) (sentido opuesto) durante \\(100\\text{ m}\\).\nEscuela a Casa (Aceleración y Frenado):\n\nAcelera desde \\(-2\\text{ m/s}\\) hasta \\(-4\\text{ m/s}\\) en \\(10\\text{ s}\\).\nInmediatamente frena (desacelera) hasta detenerse justo al llegar a su casa (\\(v=0\\)).",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#cálculos-cinemáticos",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#cálculos-cinemáticos",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#cálculos-cinemáticos",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#cálculos-cinemáticos",
     "title": "Gráficas del movimiento",
     "section": "Cálculos Cinemáticos",
     "text": "Cálculos Cinemáticos\nUtilizaremos las ecuaciones del Movimiento Rectilíneo Uniforme (MRU) y Uniformemente Variado (MRUV).\n\nParte 1: Casa \\(\\rightarrow\\) Escuela (MRU)\nDatos: \\(v_0 = 1.5\\), \\(\\Delta x = 300\\). \\[\\Delta t_1 = \\frac{\\Delta x}{v} = \\frac{300}{1.5} = 200\\text{ s}\\]\n\n\nParte 2: Escuela \\(\\rightarrow\\) Tramo Acelerado (MRUV)\nDatos: \\(v_0 = 1.5\\), \\(v_f = 3\\), \\(\\Delta x = 50\\). Usamos \\(v_f^2 = v_0^2 + 2a\\Delta x\\): \\[a_2 = \\frac{v_f^2 - v_0^2}{2\\Delta x} = \\frac{3^2 - 1.5^2}{2(50)} = \\frac{9 - 2.25}{100} = 0.0675\\text{ m/s}^2\\] Tiempo empleado: \\(\\Delta t_2 = \\frac{v_f - v_0}{a} = \\frac{1.5}{0.0675} \\approx 22.22\\text{ s}\\).\n\n\nParte 3: Velocidad Máxima (MRU)\nDatos: \\(v = 3\\), \\(\\Delta t_3 = 20\\). \\[\\Delta x_3 = v \\cdot \\Delta t = 3 \\cdot 20 = 60\\text{ m}\\]\n\n\nParte 5: El Frenado Final (MRUV)\nPara la última etapa, el niño debe quedar en \\(x = 0\\) y \\(v = 0\\). Supongamos que tras la aceleración del punto 5, se encuentra en una posición \\(x_{pre}\\) y debe recorrer la distancia restante frenando.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#visualización-de-gráficas-cinemáticas",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento copy.html#visualización-de-gráficas-cinemáticas",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#visualización-de-gráficas-cinemáticas",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento copy.html#visualización-de-gráficas-cinemáticas",
     "title": "Gráficas del movimiento",
     "section": "Visualización de Gráficas Cinemáticas",
     "text": "Visualización de Gráficas Cinemáticas\nEl siguiente código genera las tres gráficas (Posición, Velocidad y Aceleración) compartiendo el eje del tiempo para observar la correlación exacta entre ellas.\n\n\n\n\n\n\n\n\n\n\nExplicación de los ajustes:\n\nAlineación: Se usa plt.subplots(3, 1, sharex=True), lo que garantiza que el eje del tiempo sea el mismo para las tres gráficas y los eventos (como el cambio de velocidad) se vean verticalmente sincronizados.\nSentido del movimiento: En el regreso (Super \\(\\rightarrow\\) Escuela \\(\\rightarrow\\) Casa), la velocidad se vuelve negativa porque el niño está volviendo hacia el origen (\\(x=0\\)).\nCálculo de Frenado: En la última etapa, la aceleración es positiva (\\(+0.266\\text{ m/s}^2\\)) a pesar de que está “frenando”. Esto es físicamente correcto porque su velocidad es negativa y para detenerse (llegar a \\(0\\)) la aceleración debe tener sentido opuesto al movimiento.\n\n\n\n\n\n\n\n\n\nFigure 1: Gráficas sincronizadas de Posición, Velocidad y Aceleración.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html",
     "title": "Cinemática: velocidad",
     "section": "",
     "text": "No es lo mismo ir rápido (rapidez) que saber hacia dónde vas con esa rapidez (velocidad).\n\nRapidez: cuánto de rápido se mueve. Unidad: \\(\\dfrac{m}{s}\\).\nVelocidad: rapidez + sentido de esa velocidad. También se mide en \\(\\dfrac{m}{s}\\) y el signo indicará si va hacia la derecha (+) o a la izquierda (-).\n\n\n\n\nCriterio de signos para posición y velocidad\n\n\nEl sentido indica si va hacia la derecha (velocidad positiva) o hacia la izquierda (velocidad negativa) según el criterio de signos indicado. Se representa con una flecha. La longitud de esa flecha, que es el módulo (el valor númerico sin signo), sería la rapidez.\nNormalmente vamos a usar el término velocidad, pero eso implica que tenemos que tener cuidado con los signos que nos salgan:\n- El desplazamiento \\(\\Delta x\\) puede ser positivo o negativo.\n- El tiempo siempre será positivo.\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\nEs muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.\n\nVelocidad:\n\\(\\large v = \\dfrac{s}{t}\\). Se mide en metros por segundo (\\(\\frac{m}{s}\\))\nDespejar a partir de la velocidad el espacio:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar a partir de la velocidad el tiempo:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).\n\n\n\n\n\nEn general es mejor escribir \\(\\dfrac{m}{s}\\) en vez de \\(m/s\\) y mejor \\(\\dfrac{km}{h}\\) que \\(km/h\\) porque así sabemos sin duda cuál es el denominador.\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvierte \\(15 m/s\\) en \\(km/h\\).\nConvierte \\(90 km/h\\) en \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 m/s\\) en \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 km/h\\) en \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n1. El Autobús de la Castellana. Un autobús de la EMT recorre los 6 km que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente 15 minutos (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nAplicamos la fórmula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. El patinete por el Retiro. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de 750 metros, en su patinete eléctrico. Si tarda 150 segundos en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. El Metro de Madrid (Línea 1). Un tren de metro se encuentra en la posición \\(x_i = 200 \\text{ m}\\) (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición \\(x_f = 1400 \\text{ m}\\) (cerca de la estación de Bilbao). Si ha tardado 80 segundos en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nCalculamos el desplazamiento (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nCalculamos la velocidad: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. De Compras por la Gran Vía. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición \\(0 \\text{ m}\\)) y caminan hasta la Plaza de España, que está en la posición \\(1300 \\text{ m}\\). Si tardan 20 minutos (\\(1200 \\text{ s}\\)) en llegar, calcula el desplazamiento y la velocidad media en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nDesplazamiento: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocidad: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. El Cercanías a Alcalá de Henares Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de 90 km/h. Si el trayecto dura 20 minutos (es decir, \\(1/3\\) de hora o \\(0,33 \\text{ h}\\)), ¿qué distancia ha recorrido el tren?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nDespejamos el desplazamiento a partir de la ecuación anterior (como \\(t\\) está dividiendo lo pasamos al otro lado multiplicando): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nCalculamos con valores numéricos: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Viaje a Segovia en Coche Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de 90 km. Si mantienen una velocidad media constante de 120 km/h (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nPara no equivocarnos lo primero que hacemos es quitar el denominador que es el \\(t\\) y luego despejamos \\(t\\). ¡¡Mucho cuidado que si no seguis los pasos os sale al revés!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nSustituimos los valores numéricos y calculamos: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ horas}\\)\n\nPara pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutos}\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: velocidad"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
     "title": "Cinemática: velocidad",
     "section": "",
     "text": "Es muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.\n\nVelocidad:\n\\(\\large v = \\dfrac{s}{t}\\). Se mide en metros por segundo (\\(\\frac{m}{s}\\))\nDespejar a partir de la velocidad el espacio:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar a partir de la velocidad el tiempo:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: velocidad"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#unidades-de-velocidad-fracms-y-frackmh",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#unidades-de-velocidad-fracms-y-frackmh",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html#unidades-de-velocidad-fracms-y-frackmh",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html#unidades-de-velocidad-fracms-y-frackmh",
     "title": "Cinemática: velocidad",
     "section": "",
     "text": "En general es mejor escribir \\(\\dfrac{m}{s}\\) en vez de \\(m/s\\) y mejor \\(\\dfrac{km}{h}\\) que \\(km/h\\) porque así sabemos sin duda cuál es el denominador.\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvierte \\(15 m/s\\) en \\(km/h\\).\nConvierte \\(90 km/h\\) en \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 m/s\\) en \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 km/h\\) en \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: velocidad"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#problemas-de-velocidad",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#problemas-de-velocidad",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html#problemas-de-velocidad",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/701_Cinematica_Velocidad.html#problemas-de-velocidad",
     "title": "Cinemática: velocidad",
     "section": "",
     "text": "1. El Autobús de la Castellana. Un autobús de la EMT recorre los 6 km que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente 15 minutos (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nAplicamos la fórmula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. El patinete por el Retiro. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de 750 metros, en su patinete eléctrico. Si tarda 150 segundos en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. El Metro de Madrid (Línea 1). Un tren de metro se encuentra en la posición \\(x_i = 200 \\text{ m}\\) (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición \\(x_f = 1400 \\text{ m}\\) (cerca de la estación de Bilbao). Si ha tardado 80 segundos en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nCalculamos el desplazamiento (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nCalculamos la velocidad: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. De Compras por la Gran Vía. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición \\(0 \\text{ m}\\)) y caminan hasta la Plaza de España, que está en la posición \\(1300 \\text{ m}\\). Si tardan 20 minutos (\\(1200 \\text{ s}\\)) en llegar, calcula el desplazamiento y la velocidad media en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nDesplazamiento: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocidad: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. El Cercanías a Alcalá de Henares Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de 90 km/h. Si el trayecto dura 20 minutos (es decir, \\(1/3\\) de hora o \\(0,33 \\text{ h}\\)), ¿qué distancia ha recorrido el tren?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nDespejamos el desplazamiento a partir de la ecuación anterior (como \\(t\\) está dividiendo lo pasamos al otro lado multiplicando): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nCalculamos con valores numéricos: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Viaje a Segovia en Coche Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de 90 km. Si mantienen una velocidad media constante de 120 km/h (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nPara no equivocarnos lo primero que hacemos es quitar el denominador que es el \\(t\\) y luego despejamos \\(t\\). ¡¡Mucho cuidado que si no seguis los pasos os sale al revés!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nSustituimos los valores numéricos y calculamos: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ horas}\\)\n\nPara pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutos}\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: velocidad"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html",
     "title": "Movimiento y cinemática",
     "section": "",
     "text": "La cinemática es la parte de la física que estudia cómo se mueven los objetos, sin preocuparse de por qué se mueven.\nEjemplo: cuando vas en bicicleta, puedes fijarte en dónde estás, qué camino sigues, lo rápido que vas o si estás acelerando. Todo eso lo estudia la cinemática.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Movimiento y cinemática"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#sistema-de-referencia-y-posición",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#sistema-de-referencia-y-posición",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#sistema-de-referencia-y-posición",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#sistema-de-referencia-y-posición",
     "title": "Movimiento y cinemática",
     "section": "Sistema de referencia y posición",
     "text": "Sistema de referencia y posición\nPara poder entender y describir los movimientos necesitamos algunos elementos fundamentales.\nImagina que estás hablando con un amigo para que te encuentre un un parque y le dices que estás a cien metros de la puerta de entrada. Con esa información le has dado un punto que actúa como origen del sistema de referencia (“la entrada”) y la posición (“a cien metros de esa entrada”).\n\n\n\nSistema referencia 1D\n\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\n\nSistema de referencia: conjunto de ejes y un punto, que es el origen, desde el que medimos posiciones.\n\nEn cada problema elegiremos un sistema de referencia y su origen. En general estos se considerarán fijos e inmóviles durante todo el problema.\n\nPosición (x): lugar donde está un objeto respecto al origen del sistema de referencia en cada instante. Unidad: metro (m).",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Movimiento y cinemática"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#criterio-de-signos-para-la-posición",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#criterio-de-signos-para-la-posición",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#criterio-de-signos-para-la-posición",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#criterio-de-signos-para-la-posición",
     "title": "Movimiento y cinemática",
     "section": "Criterio de signos para la posición",
     "text": "Criterio de signos para la posición\nPara poder describir el movimiento es importante tener claro los signos de la posición.\n\nSi nos movemos hacia la derecha, la posición definida por \\(x\\) irá creciendo hacia valores más positivos.\n\nSi nos movemos hacia la izquierda, la \\(x\\) irá teniendo valores más pequeños hasta el cero. Si seguimos moviéndonos hacia la izquierda, la \\(x\\) irá teniendo valores más negativos.\n\n\n\n\nCriterio de signos de posición",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Movimiento y cinemática"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#trayectoria",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#trayectoria",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#trayectoria",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#trayectoria",
     "title": "Movimiento y cinemática",
     "section": "Trayectoria",
     "text": "Trayectoria\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nTrayectoria: es el camino que sigue un objeto, es decir, el conjunto de sus posiciones a medida que pasa el tiempo.\n\n\nPor ejemplo: los puntos por donde pasaría un ciclista siguiendo la carretera del dibujo.\n\n\n\nTrayectoria\n\n\nLas trayectorias puden ser rectas (una pelota que dejamos caer o un coche en una carretera recta) o curvas como la imagen anterior o el tiro de una pelota a canasta.\n\n\n\nTrayectoria curva de una pelota al tirar a canasta\n\n\n\n\n\n\n\n\nNota¡Atentos!\n\n\n\nEste curso solo vamos a considerar trayectorias rectas. Si la trayectoria va por diferentes calles, romperemos la trayectoria final en diferentes segmentos rectos.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Movimiento y cinemática"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#ejercicios",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#ejercicios",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#ejercicios",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#ejercicios",
     "title": "Movimiento y cinemática",
     "section": "Ejercicios",
     "text": "Ejercicios\n\nDefine trayectoria con tus palabras.\n\n¿Puede cambiar la posición sin cambiar la trayectoria?\n\nPon un ejemplo de trayectoria curva.\n¿Cómo dibujarías la trayectoria de una persona que quiere ir desde la Escuela a la Cancha Deportiva?\n\n\n\n\nMapa de ciudad\n\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\nCamino que sigue un objeto.\n\nSí, si se mueve dentro del mismo tipo de trayectoria.\n\nUna pelota lanzada.\nEste ejercicio tiene diferentes soluciones. Lo interesante es simplemente pensar que ha de pasar por numerosas calles.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Movimiento y cinemática"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#ejercicios-1",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion.html#ejercicios-1",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#ejercicios-1",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion.html#ejercicios-1",
     "title": "Movimiento y cinemática",
     "section": "Ejercicios",
     "text": "Ejercicios\n\n¿Es igual espacio recorrido que desplazamiento?\n\nCalcula el espacio recorrido vas de tu casa al instituto (200 m), de allí al supermercado (otros 60 m en el mismo sentido) y del supermercado a casa (260 m del supermercado a casa en sentido contrario).\nCalcula ahora el desplazamiento yendo a los sitios anteriores y considerando que tu casa es el punto inicial y final.\n¿Cuál sería el desplazamiento si fueras de casa al instituto y de allí al supermercado sin volver a casa?\n¿Y el espacio recorrido?\n¿Puede ser cero el espacio recorrido?\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nSí, solo cuando no hay movimiento, es decir, si no te desplazas.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Movimiento y cinemática"
     ]
   },
@@ -1469,66 +1469,27 @@
   {
     "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html",
     "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html",
-    "title": "Movimiento MRU",
+    "title": "Movement MRU",
     "section": "",
-    "text": "Going fast (speed) is not the same as knowing where you are going while moving fast (velocity).\n\nSpeed: how fast something moves. Unit: \\(\\dfrac{m}{s}\\).\nVelocity: speed + the direction of movement. It is also measured in \\(\\dfrac{m}{s}\\), and the sign shows whether it moves to the right (+) or to the left (-).\n\n\n\n\nSign rules for position and velocity\n\n\nThe direction tells us if the object moves to the right (positive velocity) or to the left (negative velocity) according to the sign rules shown above. It is shown with an arrow. The length of the arrow, called the magnitude (the numerical value without the sign), is the speed.\nNormally, we will use the word velocity, but this means we must be careful with the signs:\n\nThe displacement \\(\\Delta x\\) can be positive or negative.\nTime is always positive.\n\n\n\n\n\n\n\n\n\nImportanteVery important\n\n\n\nIt is very important to know how to calculate velocity and how to rearrange the formula for all the variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in metres per second (\\(\\frac{m}{s}\\)).\nRearranging to find distance:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in metres (m).\nRearranging to find time:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).\n\n\n\n\n\n\nIn general, it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because it is clearer which part is the denominator.\nIt is very useful to learn how to change between different velocity units. We do this with conversion factors.\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3.6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3.6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 \\ m/s\\) into \\(km/h\\).\nConvert \\(90 \\ km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 \\ m/s\\) into \\(km/h\\).\n\\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}\n\\]\n\\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h}\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nAnswer: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n2. Convert \\(90 \\ km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s}\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s}\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nAnswer: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\nInstantaneous velocity: the velocity an object has at one exact moment during its movement. You can see this in cars: the dashboard shows the car’s velocity at each moment.\nAverage velocity: the total distance travelled divided by the total time taken. In all our problems we will use this idea of velocity.\n\nExample: the distance from Burgos to Palencia is almost 90 km. A car cannot travel at exactly the same velocity all the time because of traffic lights or different speed limits. But if we divide the total distance by the total time, we get the average velocity:\n\\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} = \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]\n\n\n\n1. The Castellana Bus.\nAn EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nUsing the formula:\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0.25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The Scooter in Retiro Park.\nA boy rides his electric scooter along the Paseo de Fernán Núñez in Retiro Park, which is 750 metres long. If he takes 150 seconds to complete the journey at a constant speed, what is his velocity in metres per second?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. Madrid Underground (Line 1).\nA metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it takes 80 seconds to travel from one point to the other, first calculate the displacement and then the velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement (\\(\\Delta x\\)):\n\n\\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nVelocity:\n\n\\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)",
+    "text": "The motion we have studied so far is called MRU: Uniform Rectilinear Motion. What does this mean?\n\nRectilinear: it moves in a straight line. In this type of motion there are no curves.\n\nUniform: the speed is constant. In other words, there is no acceleration.\n\nIt is important to understand that when there are several sections, this means that the speed is constant in each section. However, the speed CAN change from one section to another. We consider each section independently and we do not take into account the change between sections, so we ignore acceleration. This is a simplification, but it is very useful when we are starting to understand motion.\n\n\n\n\nIt is essential to learn the following equations very well. As you can see, they are the same equations we have already studied, even if they may look different.\n\n\\(d\\) or \\(s\\) or \\(e\\): distance travelled (normally in \\(m\\) or \\(km\\)).\n\n\\(x\\): position at a given moment (normally in \\(m\\) or \\(km\\)).\n\n\n\n\n\n\n\nImportanteVery important\n\n\n\n\\[\n\\Delta s = s_f - s_i\n\\] \\[\n\\Delta x= x_f - x_i\n\\] \\[\n\\Delta t = t_f - t_i\n\\] \\[\nv = \\dfrac{s}{t} =  \\dfrac{\\Delta x}{\\Delta t} = \\dfrac{x_f-x_i}{t_f-t_i}\n\\]\n\n\nFrom these equations, you must also know how to rearrange the formulas:\n\n\n\n\n\n\nImportanteVery important: Rearranging equations\n\n\n\n\\[\ns = \\Delta x = v \\cdot t\n\\] \\[\nt = \\Delta t = \\dfrac{s}{v}\n\\] \\[\nx_f = x_i + s = x_i + v \\cdot t\n\\]",
     "crumbs": [
       "Home",
       "2º ESO (eng)",
       "T07. Movement: kinematics",
-      "Movimiento MRU"
+      "Movement MRU"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#rearranging-the-formula",
-    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#rearranging-the-formula",
-    "title": "Movimiento MRU",
+    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#equations-of-mru-motion",
+    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#equations-of-mru-motion",
+    "title": "Movement MRU",
     "section": "",
-    "text": "ImportanteVery important\n\n\n\nIt is very important to know how to calculate velocity and how to rearrange the formula for all the variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in metres per second (\\(\\frac{m}{s}\\)).\nRearranging to find distance:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in metres (m).\nRearranging to find time:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).",
+    "text": "It is essential to learn the following equations very well. As you can see, they are the same equations we have already studied, even if they may look different.\n\n\\(d\\) or \\(s\\) or \\(e\\): distance travelled (normally in \\(m\\) or \\(km\\)).\n\n\\(x\\): position at a given moment (normally in \\(m\\) or \\(km\\)).\n\n\n\n\n\n\n\nImportanteVery important\n\n\n\n\\[\n\\Delta s = s_f - s_i\n\\] \\[\n\\Delta x= x_f - x_i\n\\] \\[\n\\Delta t = t_f - t_i\n\\] \\[\nv = \\dfrac{s}{t} =  \\dfrac{\\Delta x}{\\Delta t} = \\dfrac{x_f-x_i}{t_f-t_i}\n\\]\n\n\nFrom these equations, you must also know how to rearrange the formulas:\n\n\n\n\n\n\nImportanteVery important: Rearranging equations\n\n\n\n\\[\ns = \\Delta x = v \\cdot t\n\\] \\[\nt = \\Delta t = \\dfrac{s}{v}\n\\] \\[\nx_f = x_i + s = x_i + v \\cdot t\n\\]",
     "crumbs": [
       "Home",
       "2º ESO (eng)",
       "T07. Movement: kinematics",
-      "Movimiento MRU"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#units-of-velocity-fracms-and-frackmh",
-    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#units-of-velocity-fracms-and-frackmh",
-    "title": "Movimiento MRU",
-    "section": "",
-    "text": "In general, it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because it is clearer which part is the denominator.\nIt is very useful to learn how to change between different velocity units. We do this with conversion factors.\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3.6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3.6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 \\ m/s\\) into \\(km/h\\).\nConvert \\(90 \\ km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 \\ m/s\\) into \\(km/h\\).\n\\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}\n\\]\n\\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h}\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nAnswer: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n2. Convert \\(90 \\ km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s}\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s}\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nAnswer: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)",
-    "crumbs": [
-      "Home",
-      "2º ESO (eng)",
-      "T07. Movement: kinematics",
-      "Movimiento MRU"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#instantaneous-velocity-and-average-velocity",
-    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#instantaneous-velocity-and-average-velocity",
-    "title": "Movimiento MRU",
-    "section": "",
-    "text": "Instantaneous velocity: the velocity an object has at one exact moment during its movement. You can see this in cars: the dashboard shows the car’s velocity at each moment.\nAverage velocity: the total distance travelled divided by the total time taken. In all our problems we will use this idea of velocity.\n\nExample: the distance from Burgos to Palencia is almost 90 km. A car cannot travel at exactly the same velocity all the time because of traffic lights or different speed limits. But if we divide the total distance by the total time, we get the average velocity:\n\\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} = \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]",
-    "crumbs": [
-      "Home",
-      "2º ESO (eng)",
-      "T07. Movement: kinematics",
-      "Movimiento MRU"
-    ]
-  },
-  {
-    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#velocity-problems",
-    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html#velocity-problems",
-    "title": "Movimiento MRU",
-    "section": "",
-    "text": "1. The Castellana Bus.\nAn EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nUsing the formula:\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0.25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The Scooter in Retiro Park.\nA boy rides his electric scooter along the Paseo de Fernán Núñez in Retiro Park, which is 750 metres long. If he takes 150 seconds to complete the journey at a constant speed, what is his velocity in metres per second?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. Madrid Underground (Line 1).\nA metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it takes 80 seconds to travel from one point to the other, first calculate the displacement and then the velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement (\\(\\Delta x\\)):\n\n\\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nVelocity:\n\n\\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)",
-    "crumbs": [
-      "Home",
-      "2º ESO (eng)",
-      "T07. Movement: kinematics",
-      "Movimiento MRU"
+      "Movement MRU"
     ]
   },
   {
@@ -2591,7 +2552,7 @@
     "href": "articles/02_ESO_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html",
     "title": "Cinemática: velocidad",
     "section": "",
-    "text": "No es lo mismo ir rápido (rapidez) que saber hacia dónde vas con esa rapidez (velocidad).\n\nRapidez: cuánto de rápido se mueve. Unidad: \\(\\dfrac{m}{s}\\).\nVelocidad: rapidez + sentido de esa velocidad. También se mide en \\(\\dfrac{m}{s}\\) y el signo indicará si va hacia la derecha (+) o a la izquierda (-).\n\n\n\n\nCriterio de signos para posición y velocidad\n\n\nEl sentido indica si va hacia la derecha (velocidad positiva) o hacia la izquierda (velocidad negativa) según el criterio de signos indicado. Se representa con una flecha. La longitud de esa flecha, que es el módulo (el valor númerico sin signo), sería la rapidez.\nNormalmente vamos a usar el término velocidad, pero eso implica que tenemos que tener cuidado con los signos que nos salgan:\n- El desplazamiento \\(\\Delta x\\) puede ser positivo o negativo.\n- El tiempo siempre será positivo.\n\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.\n\nVelocidad:\n\\(\\large v = \\dfrac{s}{t}\\). Se mide en metros por segundo (\\(\\frac{m}{s}\\))\nDespejar a partir de la velocidad el espacio:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar a partir de la velocidad el tiempo:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).\n\n\n\n\n\n\nEn general es mejor escribir \\(\\dfrac{m}{s}\\) en vez de \\(m/s\\) y mejor \\(\\dfrac{km}{h}\\) que \\(km/h\\) porque así sabemos sin duda cuál es el denominador.\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvierte \\(15 m/s\\) en \\(km/h\\).\nConvierte \\(90 km/h\\) en \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 m/s\\) en \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 km/h\\) en \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\nVelocidad instantánea: es la velocidad que posee un móvil en un punto concreto de su trayectoria, en un instante determinado. Esto se ve bien en los coches: en su panel de mandos se puede ver a qué velocidad va el coche en cada instante.\nVelocidad media: es el resultado de dividir la distancia recorrida entre el tiempo que hemos tardado en recorrerlo. En todos los problemas que hagamos usaremos este concepto de velocidad. Ejemplo: si vamos de Burgos a Palencia hay casi 90 km. No podremos ir todo el rato a la misma velocidad por los semáforos o el límite en distintas carreteras. Pero si yo divido la distancia total entre el tiempo total que he usado tendré una media de mi velocidad: \\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} =  \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nA medida que aprendemos más en física, veremos que la velocidad es una magnitud vectorial. Esto quiere decir que no solo importa su valor numérico pero también hacia donde se mueve. No es lo mismo que algo suba o baje, que vaya hacia la derecha o la izquierda.\nPor eso cuando se define completamente una velocidad hay que indicar:\n\nSu módulo que es el valor numérico de la velocidad. Cuanto más alto sea su valor, más largo es el vector.\nSu dirección que es “la línea recta” sobre la que se produce el movimiento.\nSu sentido que es hacia que lado de esa línea recta se mueve el móvil. Se indica con la punta de la flecha.\n\n\n\n\nVector\n\n\n\n\n\nVelocidad vectorial\n\n\n\n\n\n\n\n\n1. El Autobús de la Castellana. Un autobús de la EMT recorre los 6 km que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente 15 minutos (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nAplicamos la fórmula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. El patinete por el Retiro. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de 750 metros, en su patinete eléctrico. Si tarda 150 segundos en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. El Metro de Madrid (Línea 1). Un tren de metro se encuentra en la posición \\(x_i = 200 \\text{ m}\\) (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición \\(x_f = 1400 \\text{ m}\\) (cerca de la estación de Bilbao). Si ha tardado 80 segundos en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nCalculamos el desplazamiento (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nCalculamos la velocidad: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. De Compras por la Gran Vía. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición \\(0 \\text{ m}\\)) y caminan hasta la Plaza de España, que está en la posición \\(1300 \\text{ m}\\). Si tardan 20 minutos (\\(1200 \\text{ s}\\)) en llegar, calcula el desplazamiento y la velocidad media en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nDesplazamiento: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocidad: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. El Cercanías a Alcalá de Henares Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de 90 km/h. Si el trayecto dura 20 minutos (es decir, \\(1/3\\) de hora o \\(0,33 \\text{ h}\\)), ¿qué distancia ha recorrido el tren?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nDespejamos el desplazamiento a partir de la ecuación anterior (como \\(t\\) está dividiendo lo pasamos al otro lado multiplicando): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nCalculamos con valores numéricos: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Viaje a Segovia en Coche Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de 90 km. Si mantienen una velocidad media constante de 120 km/h (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nPara no equivocarnos lo primero que hacemos es quitar el denominador que es el \\(t\\) y luego despejamos \\(t\\). ¡¡Mucho cuidado que si no seguis los pasos os sale al revés!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nSustituimos los valores numéricos y calculamos: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ horas}\\)\n\nPara pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutos}\n\\]",
+    "text": "No es lo mismo ir rápido (rapidez) que saber hacia dónde vas con esa rapidez (velocidad).\n\nRapidez: cuánto de rápido se mueve. Unidad: \\(\\dfrac{m}{s}\\).\nVelocidad: rapidez + sentido de esa velocidad. También se mide en \\(\\dfrac{m}{s}\\) y el signo indicará si va hacia la derecha (+) o a la izquierda (-).\n\n\n\n\nCriterio de signos para posición y velocidad\n\n\nEl sentido indica si va hacia la derecha (velocidad positiva) o hacia la izquierda (velocidad negativa) según el criterio de signos indicado. Se representa con una flecha. La longitud de esa flecha, que es el módulo (el valor númerico sin signo), sería la rapidez.\nNormalmente vamos a usar el término velocidad, pero eso implica que tenemos que tener cuidado con los signos que nos salgan:\n- El desplazamiento \\(\\Delta x\\) puede ser positivo o negativo.\n- El tiempo siempre será positivo.\n\n\n\n\n\n\n\n\nImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad.\nVelocidad:\n\\[\n\\boxed{\\large v = \\dfrac{s}{t}}\n\\]\nLa velocidad se mide en metros por segundo (\\(\\frac{m}{s}\\)). \\(s\\) es el espacio o distancia recorrida (siempre positivo) y \\(t\\) es el tiempo tardado en recorrerlo.\nAdemás saber despejar todas las variables de la fórmula.\n\nDespejar el espacio recorrido a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar el tiempo a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).\n\n\n\n\n\n\nEn general es mejor escribir \\(\\dfrac{m}{s}\\) en vez de \\(m/s\\) y mejor \\(\\dfrac{km}{h}\\) que \\(km/h\\) porque así sabemos sin duda cuál es el denominador.\nEs muy útil aprender a cambiar entre las diferentes unidades de velocidad y lo haremos con factores de conversión:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvierte \\(15 m/s\\) en \\(km/h\\).\nConvierte \\(90 km/h\\) en \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n1. Convierte \\(15 m/s\\) en \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResultado: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convierte \\(90 km/h\\) en \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResultado: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\nVelocidad instantánea: es la velocidad que posee un móvil en un punto concreto de su trayectoria, en un instante determinado. Esto se ve bien en los coches: en su panel de mandos se puede ver a qué velocidad va el coche en cada instante.\nVelocidad media: es el resultado de dividir la distancia recorrida entre el tiempo que hemos tardado en recorrerlo. En todos los problemas que hagamos usaremos este concepto de velocidad. Ejemplo: si vamos de Burgos a Palencia hay casi 90 km. No podremos ir todo el rato a la misma velocidad por los semáforos o el límite en distintas carreteras. Pero si yo divido la distancia total entre el tiempo total que he usado tendré una media de mi velocidad: \\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} =  \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]\n\n\n\n\n\n\n\nNotaPara saber más\n\n\n\n\n\nA medida que aprendemos más en física, veremos que la velocidad es una magnitud vectorial. Esto quiere decir que no solo importa su valor numérico pero también hacia donde se mueve. No es lo mismo que algo suba o baje, que vaya hacia la derecha o la izquierda.\nPor eso cuando se define completamente una velocidad hay que indicar:\n\nSu módulo que es el valor numérico de la velocidad. Cuanto más alto sea su valor, más largo es el vector.\nSu dirección que es “la línea recta” sobre la que se produce el movimiento.\nSu sentido que es hacia que lado de esa línea recta se mueve el móvil. Se indica con la punta de la flecha.\n\n\n\n\nVector\n\n\n\n\n\nVelocidad vectorial\n\n\n\n\n\n\n\n\n1. El Autobús de la Castellana. Un autobús de la EMT recorre los 6 km que separan la Plaza de Colón de las Cuatro Torres. Si el trayecto lo realiza en línea recta (sin paradas) y tarda exactamente 15 minutos (0,25 horas), ¿a qué velocidad media circula el autobús en km/h?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nAplicamos la fórmula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. El patinete por el Retiro. Un chico recorre el Paseo de Fernán Núñez en el Parque del Retiro, que tiene una longitud de 750 metros, en su patinete eléctrico. Si tarda 150 segundos en completar el recorrido a ritmo constante, ¿cuál es su velocidad en metros por segundo (m/s)?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. El Metro de Madrid (Línea 1). Un tren de metro se encuentra en la posición \\(x_i = 200 \\text{ m}\\) (tomando como origen la Puerta del Sol). Unos segundos después, se encuentra en la posición \\(x_f = 1400 \\text{ m}\\) (cerca de la estación de Bilbao). Si ha tardado 80 segundos en pasar de un punto a otro, calcula primero el desplazamiento y luego su velocidad en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nCalculamos el desplazamiento (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nCalculamos la velocidad: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. De Compras por la Gran Vía. Dos amigos están paseando. Empiezan en el número 1 de la Gran Vía (posición \\(0 \\text{ m}\\)) y caminan hasta la Plaza de España, que está en la posición \\(1300 \\text{ m}\\). Si tardan 20 minutos (\\(1200 \\text{ s}\\)) en llegar, calcula el desplazamiento y la velocidad media en m/s.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nDesplazamiento: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocidad: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. El Cercanías a Alcalá de Henares Un tren de Cercanías viaja desde la estación de Atocha hacia Alcalá de Henares con una velocidad constante de 90 km/h. Si el trayecto dura 20 minutos (es decir, \\(1/3\\) de hora o \\(0,33 \\text{ h}\\)), ¿qué distancia ha recorrido el tren?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nDespejamos el desplazamiento a partir de la ecuación anterior (como \\(t\\) está dividiendo lo pasamos al otro lado multiplicando): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nCalculamos con valores numéricos: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Viaje a Segovia en Coche Una familia decide ir de Madrid a Segovia por la autopista. La distancia es de 90 km. Si mantienen una velocidad media constante de 120 km/h (el máximo legal), ¿cuánto tiempo tardarán en llegar a su destino en horas y minutos?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\n\nEscribimos la ecuación de la velocidad: \\(v=\\dfrac{d}{t}\\).\nPara no equivocarnos lo primero que hacemos es quitar el denominador que es el \\(t\\) y luego despejamos \\(t\\). ¡¡Mucho cuidado que si no seguis los pasos os sale al revés!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nSustituimos los valores numéricos y calculamos: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ horas}\\)\n\nPara pasar a minutos cogemos la parte del tiempo que no es entera (la parte entera son horas), y la multiplicamos por 60 porque cada hora tiene 60 minutos: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutos}\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2600,11 +2561,11 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
-    "href": "articles/02_ESO_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#despejar-las-magnitudes-de-la-fórmula",
+    "objectID": "articles/02_ESO_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#fórmula-de-velocidad",
+    "href": "articles/02_ESO_3/T07. Movimiento - cinemática/701_Cinematica_Velocidad.html#fórmula-de-velocidad",
     "title": "Cinemática: velocidad",
     "section": "",
-    "text": "ImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad, y además saber despejar todas las variables de la fórmula.\n\nVelocidad:\n\\(\\large v = \\dfrac{s}{t}\\). Se mide en metros por segundo (\\(\\frac{m}{s}\\))\nDespejar a partir de la velocidad el espacio:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar a partir de la velocidad el tiempo:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).",
+    "text": "ImportanteMuy importante\n\n\n\nEs muy importante saber cómo calcular la velocidad.\nVelocidad:\n\\[\n\\boxed{\\large v = \\dfrac{s}{t}}\n\\]\nLa velocidad se mide en metros por segundo (\\(\\frac{m}{s}\\)). \\(s\\) es el espacio o distancia recorrida (siempre positivo) y \\(t\\) es el tiempo tardado en recorrerlo.\nAdemás saber despejar todas las variables de la fórmula.\n\nDespejar el espacio recorrido a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). Se mide en metros (m).\nDespejar el tiempo a partir de la velocidad:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). Se mide en segundos (s).",
     "crumbs": [
       "Home",
       "3ª ESO",
@@ -2810,53 +2771,66 @@
   {
     "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html",
     "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html",
-    "title": "(ENG) Kinematics: velocity",
+    "title": "Kinematics: velocity",
     "section": "",
-    "text": "It is not the same to move fast (speed) as to know in which direction you are moving with that speed (velocity).\n\nSpeed: how fast something moves. Unit: \\(\\dfrac{m}{s}\\).\nVelocity: speed + direction of that motion. It is also measured in \\(\\dfrac{m}{s}\\) and the sign will indicate whether it goes to the right (+) or to the left (-).\n\n\n\n\nSign convention for position and velocity\n\n\nThe direction indicates whether it goes to the right (positive velocity) or to the left (negative velocity) according to the given sign convention. It is represented with an arrow. The length of that arrow, which is the magnitude (the numerical value without sign), would be the speed.\nNormally we will use the term velocity, but this implies that we must be careful with the signs we obtain:\n- The displacement \\(\\Delta x\\) can be positive or negative.\n- Time will always be positive.\n\n\n\n\n\n\nImportanteVery important\n\n\n\n\nIt is very important to know how to calculate velocity, and also how to solve the formula for all variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in meters per second (\\(\\frac{m}{s}\\))\nSolving for distance from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in meters (m).\nSolving for time from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).\n\n\n\n\n\nIn general it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because this way we clearly know what the denominator is.\nIt is very useful to learn how to convert between different velocity units and we will do it using conversion factors:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 m/s\\) into \\(km/h\\).\nConvert \\(90 km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 m/s\\) into \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResult: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convert \\(90 km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResult: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\n1. The Castellana Bus. An EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is done in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nWe apply the formula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The scooter in Retiro Park. A boy travels along Paseo de Fernán Núñez in Retiro Park, which has a length of 750 meters, on his electric scooter. If it takes him 150 seconds to complete the route at constant speed, what is his velocity in meters per second (m/s)?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. The Madrid Metro (Line 1). A metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it took 80 seconds to move from one point to the other, first calculate the displacement and then its velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe calculate the displacement (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nWe calculate the velocity: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. Shopping on Gran Vía. Two friends are walking. They start at number 1 on Gran Vía (position \\(0 \\text{ m}\\)) and walk to Plaza de España, which is at position \\(1300 \\text{ m}\\). If they take 20 minutes (\\(1200 \\text{ s}\\)) to arrive, calculate the displacement and the average velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocity: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. The commuter train to Alcalá de Henares A commuter train travels from Atocha station to Alcalá de Henares with a constant velocity of 90 km/h. If the journey lasts 20 minutes (that is, \\(1/3\\) of an hour or \\(0,33 \\text{ h}\\)), what distance has the train traveled?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nWe solve for displacement from the previous equation (since \\(t\\) is dividing, we move it multiplying): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nWe calculate with numerical values: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Trip to Segovia by car A family decides to go from Madrid to Segovia by highway. The distance is 90 km. If they maintain a constant average velocity of 120 km/h (the legal maximum), how long will it take them to reach their destination in hours and minutes?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nTo avoid mistakes, first we eliminate the denominator \\(t\\) and then solve for \\(t\\). Be very careful, otherwise you may get it reversed!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nWe substitute numerical values and calculate: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ hours}\\)\n\nTo convert to minutes, we take the non-integer part (the integer part is hours) and multiply by 60 because each hour has 60 minutes: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutes}\n\\]",
+    "text": "Going fast (speed) is not the same as knowing where you are going while moving fast (velocity).\n\nSpeed: how fast something moves. Unit: \\(\\dfrac{m}{s}\\).\nVelocity: speed + the direction of movement. It is also measured in \\(\\dfrac{m}{s}\\), and the sign shows whether it moves to the right (+) or to the left (-).\n\n\n\n\nSign rules for position and velocity\n\n\nThe direction tells us if the object moves to the right (positive velocity) or to the left (negative velocity) according to the sign rules shown above. It is shown with an arrow. The length of the arrow, called the magnitude (the numerical value without the sign), is the speed.\nNormally, we will use the word velocity, but this means we must be careful with the signs:\n\nThe displacement \\(\\Delta x\\) can be positive or negative.\nTime is always positive.\n\n\n\n\n\n\n\n\n\nImportanteVery important\n\n\n\nIt is very important to know how to calculate velocity and how to rearrange the formula for all the variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in metres per second (\\(\\frac{m}{s}\\)).\nRearranging to find distance:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in metres (m).\nRearranging to find time:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).\n\n\n\n\n\n\nIn general, it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because it is clearer which part is the denominator.\nIt is very useful to learn how to change between different velocity units. We do this with conversion factors.\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3.6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3.6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 \\ m/s\\) into \\(km/h\\).\nConvert \\(90 \\ km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 \\ m/s\\) into \\(km/h\\).\n\\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}\n\\]\n\\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h}\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nAnswer: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n2. Convert \\(90 \\ km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s}\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s}\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nAnswer: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)\n\n\n\n\n\n\n\n\n\nInstantaneous velocity: the velocity an object has at one exact moment during its movement. You can see this in cars: the dashboard shows the car’s velocity at each moment.\nAverage velocity: the total distance travelled divided by the total time taken. In all our problems we will use this idea of velocity.\n\nExample: the distance from Burgos to Palencia is almost 90 km. A car cannot travel at exactly the same velocity all the time because of traffic lights or different speed limits. But if we divide the total distance by the total time, we get the average velocity:\n\\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} = \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]\n\n\n\n1. The Castellana Bus.\nAn EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nUsing the formula:\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0.25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The Scooter in Retiro Park.\nA boy rides his electric scooter along the Paseo de Fernán Núñez in Retiro Park, which is 750 metres long. If he takes 150 seconds to complete the journey at a constant speed, what is his velocity in metres per second?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. Madrid Underground (Line 1).\nA metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it takes 80 seconds to travel from one point to the other, first calculate the displacement and then the velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement (\\(\\Delta x\\)):\n\n\\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nVelocity:\n\n\\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)",
     "crumbs": [
       "Home",
       "2º ESO (eng)",
       "T07. Movement: kinematics",
-      "(ENG) Kinematics: velocity"
+      "Kinematics: velocity"
     ]
   },
   {
-    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#solving-the-formula-for-different-variables",
-    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#solving-the-formula-for-different-variables",
-    "title": "(ENG) Kinematics: velocity",
+    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#rearranging-the-formula",
+    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#rearranging-the-formula",
+    "title": "Kinematics: velocity",
     "section": "",
-    "text": "It is very important to know how to calculate velocity, and also how to solve the formula for all variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in meters per second (\\(\\frac{m}{s}\\))\nSolving for distance from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in meters (m).\nSolving for time from velocity:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s  \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).",
+    "text": "ImportanteVery important\n\n\n\nIt is very important to know how to calculate velocity and how to rearrange the formula for all the variables.\n\nVelocity:\n\\(\\large v = \\dfrac{s}{t}\\). It is measured in metres per second (\\(\\frac{m}{s}\\)).\nRearranging to find distance:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s\\). It is measured in metres (m).\nRearranging to find time:\n\\(v = \\dfrac{s}{t} \\rightarrow v·t = s \\rightarrow t = \\dfrac{s}{v}\\). It is measured in seconds (s).",
     "crumbs": [
       "Home",
       "2º ESO (eng)",
       "T07. Movement: kinematics",
-      "(ENG) Kinematics: velocity"
+      "Kinematics: velocity"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#units-of-velocity-fracms-and-frackmh",
     "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#units-of-velocity-fracms-and-frackmh",
-    "title": "(ENG) Kinematics: velocity",
+    "title": "Kinematics: velocity",
     "section": "",
-    "text": "In general it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because this way we clearly know what the denominator is.\nIt is very useful to learn how to convert between different velocity units and we will do it using conversion factors:\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3,6 \\dfrac{km}{h}\n\\]\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3,6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 m/s\\) into \\(km/h\\).\nConvert \\(90 km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 m/s\\) into \\(km/h\\). \\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}=\n\\] \\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h} =\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nResult: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n\\[\n\\\\\n\\\\\n\\]\n2. Convert \\(90 km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s} =\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s} =\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nResult: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)",
+    "text": "In general, it is better to write \\(\\dfrac{m}{s}\\) instead of \\(m/s\\) and \\(\\dfrac{km}{h}\\) instead of \\(km/h\\) because it is clearer which part is the denominator.\nIt is very useful to learn how to change between different velocity units. We do this with conversion factors.\n\n\n\\[\n1\\dfrac{m}{s} = \\dfrac{1\\ m}{s} · \\dfrac{1\\ km}{1000\\ m} · \\dfrac{60·60\\ s}{1\\ h}= \\dfrac{3600\\ km}{1000\\ h} = 3.6 \\dfrac{km}{h}\n\\]\n\n\n\n\\[\n1\\dfrac{km}{h} = \\dfrac{1\\ km}{h} · \\dfrac{1000\\ m}{1\\ km} · \\dfrac{1\\ h}{3600\\ s} = \\dfrac{1000\\ m}{3600\\ s} = \\dfrac{1}{3.6}\\dfrac{m}{s}\n\\]\n\n\n\n\nConvert \\(15 \\ m/s\\) into \\(km/h\\).\nConvert \\(90 \\ km/h\\) into \\(m/s\\).\n\n\n\n\n\n\n\nPrecauciónSolutions\n\n\n\n\n\n1. Convert \\(15 \\ m/s\\) into \\(km/h\\).\n\\[\n15 \\dfrac{m}{s} · \\dfrac{1 \\, km}{1000 \\, m} · \\dfrac{3600 \\, s}{1 \\, h}\n\\]\n\\[\n= 15 · \\dfrac{3600}{1000} \\dfrac{km}{h}\n\\]\n\\[\n= 15 · 3.6 = 54 \\dfrac{km}{h}\n\\]\n\nAnswer: \\(15 \\dfrac{m}{s} = 54 \\dfrac{km}{h}\\).\n\n2. Convert \\(90 \\ km/h\\) into \\(m/s\\).\n\\[\n90 \\dfrac{km}{h} · \\dfrac{1000 \\, m}{1 \\, km} · \\dfrac{1 \\, h}{3600 \\, s}\n\\]\n\\[\n= 90 · \\dfrac{1000}{3600} \\dfrac{m}{s}\n\\]\n\\[\n= \\dfrac{90}{3.6} = 25 \\dfrac{m}{s}\n\\]\n\nAnswer: \\(90 \\dfrac{km}{h} = 25 \\dfrac{m}{s}\\)",
     "crumbs": [
       "Home",
       "2º ESO (eng)",
       "T07. Movement: kinematics",
-      "(ENG) Kinematics: velocity"
+      "Kinematics: velocity"
+    ]
+  },
+  {
+    "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#instantaneous-velocity-and-average-velocity",
+    "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#instantaneous-velocity-and-average-velocity",
+    "title": "Kinematics: velocity",
+    "section": "",
+    "text": "Instantaneous velocity: the velocity an object has at one exact moment during its movement. You can see this in cars: the dashboard shows the car’s velocity at each moment.\nAverage velocity: the total distance travelled divided by the total time taken. In all our problems we will use this idea of velocity.\n\nExample: the distance from Burgos to Palencia is almost 90 km. A car cannot travel at exactly the same velocity all the time because of traffic lights or different speed limits. But if we divide the total distance by the total time, we get the average velocity:\n\\[\nd = 90 km\nt = 1 h\nv_m = v = \\dfrac{d}{t} = \\dfrac{90}{1} = 90 \\dfrac{km}{h}\n\\]",
+    "crumbs": [
+      "Home",
+      "2º ESO (eng)",
+      "T07. Movement: kinematics",
+      "Kinematics: velocity"
     ]
   },
   {
     "objectID": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#velocity-problems",
     "href": "articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html#velocity-problems",
-    "title": "(ENG) Kinematics: velocity",
+    "title": "Kinematics: velocity",
     "section": "",
-    "text": "1. The Castellana Bus. An EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is done in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nWe apply the formula: \\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0,25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The scooter in Retiro Park. A boy travels along Paseo de Fernán Núñez in Retiro Park, which has a length of 750 meters, on his electric scooter. If it takes him 150 seconds to complete the route at constant speed, what is his velocity in meters per second (m/s)?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. The Madrid Metro (Line 1). A metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it took 80 seconds to move from one point to the other, first calculate the displacement and then its velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe calculate the displacement (\\(\\Delta x\\)): \\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nWe calculate the velocity: \\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)\n\n\n\n\n\n4. Shopping on Gran Vía. Two friends are walking. They start at number 1 on Gran Vía (position \\(0 \\text{ m}\\)) and walk to Plaza de España, which is at position \\(1300 \\text{ m}\\). If they take 20 minutes (\\(1200 \\text{ s}\\)) to arrive, calculate the displacement and the average velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement: \\(1300 \\text{ m} - 0 \\text{ m} = 1300 \\text{ m}\\)\n\nVelocity: \\(v = \\dfrac{1300 \\text{ m}}{1200 \\text{ s}} \\approx 1,08 \\text{ m/s}\\)\n\n\n\n\n\n5. The commuter train to Alcalá de Henares A commuter train travels from Atocha station to Alcalá de Henares with a constant velocity of 90 km/h. If the journey lasts 20 minutes (that is, \\(1/3\\) of an hour or \\(0,33 \\text{ h}\\)), what distance has the train traveled?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nWe solve for displacement from the previous equation (since \\(t\\) is dividing, we move it multiplying): \\(v·t=d \\rightarrow d = v \\cdot t\\)\n\nWe calculate with numerical values: \\(d = 90 \\text{ km/h} \\cdot 0,333 \\text{ h} = 30 \\text{ km}\\)\n\n\n\n\n6. Trip to Segovia by car A family decides to go from Madrid to Segovia by highway. The distance is 90 km. If they maintain a constant average velocity of 120 km/h (the legal maximum), how long will it take them to reach their destination in hours and minutes?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nWe write the velocity equation: \\(v=\\dfrac{d}{t}\\).\nTo avoid mistakes, first we eliminate the denominator \\(t\\) and then solve for \\(t\\). Be very careful, otherwise you may get it reversed!! \\[\nv=\\dfrac{d}{t} \\rightarrow v·t = d \\rightarrow  t=\\dfrac{d}{v}\n\\]\nWe substitute numerical values and calculate: \\(t = \\dfrac{90 \\text{ km}}{120 \\text{ km/h}} = 0,75 \\text{ hours}\\)\n\nTo convert to minutes, we take the non-integer part (the integer part is hours) and multiply by 60 because each hour has 60 minutes: \\[\nt = 0,75 h \\rightarrow 0,75 h · \\dfrac{60 min}{1 h} =  45 \\text{ minutes}\n\\]",
+    "text": "1. The Castellana Bus.\nAn EMT bus travels the 6 km between Plaza de Colón and the Cuatro Torres. If the journey is in a straight line (without stops) and takes exactly 15 minutes (0.25 hours), what is the average velocity of the bus in km/h?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\nUsing the formula:\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{6 \\text{ km}}{0.25 \\text{ h}} = 24 \\text{ km/h}\\)\n\n\n\n2. The Scooter in Retiro Park.\nA boy rides his electric scooter along the Paseo de Fernán Núñez in Retiro Park, which is 750 metres long. If he takes 150 seconds to complete the journey at a constant speed, what is his velocity in metres per second?\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\\(v = \\dfrac{d}{t}\\)\n\\(v = \\dfrac{750 \\text{ m}}{150 \\text{ s}} = 5 \\text{ m/s}\\)\n\n\n\n3. Madrid Underground (Line 1).\nA metro train is at position \\(x_i = 200 \\text{ m}\\) (taking Puerta del Sol as the origin). A few seconds later, it is at position \\(x_f = 1400 \\text{ m}\\) (near Bilbao station). If it takes 80 seconds to travel from one point to the other, first calculate the displacement and then the velocity in m/s.\n\n\n\n\n\n\nPrecauciónSolution\n\n\n\n\n\n\nDisplacement (\\(\\Delta x\\)):\n\n\\(x_f - x_i = 1400 - 200 = 1200 \\text{ m}\\)\n\nVelocity:\n\n\\(v = \\dfrac{\\Delta x}{t} = \\dfrac{1200 \\text{ m}}{80 \\text{ s}} = 15 \\text{ m/s}\\)",
     "crumbs": [
       "Home",
       "2º ESO (eng)",
       "T07. Movement: kinematics",
-      "(ENG) Kinematics: velocity"
+      "Kinematics: velocity"
     ]
   },
   {
@@ -3407,19 +3381,6 @@
     ]
   },
   {
-    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#ley-de-la-desintegración-radiactiva-1",
-    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#ley-de-la-desintegración-radiactiva-1",
-    "title": "Formulario física nuclear y de partículas",
-    "section": "6 Ley de la desintegración radiactiva",
-    "text": "6 Ley de la desintegración radiactiva\n\nActividad radiactiva: nº de desintegraciones por segundo que tiene una determinada muestra radiactiva. Medido en Becquerel[\\(Bq\\)]. 1 Bq es una desintegración por segundo. \\[\nA = \\dfrac{nº\\ desintegraciones}{s}\\ \\ [Bq]\n\\]\n\n1 Bq es una unidad muy pequeña. Se usa el Curio (\\(Cu\\)): \\[\n1 Cu = 3,7 · 10^{10} Bq\n\\]",
-    "crumbs": [
-      "Home",
-      "2º BACH Física",
-      "T11. Física nuclear y de partículas",
-      "Formulario física nuclear y de partículas"
-    ]
-  },
-  {
     "objectID": "articles/05_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-teóricos",
     "href": "articles/05_BACH_2_Fisica/T02. Campo eléctrico/0200_Introduccion.html#recursos-teóricos",
     "title": "Introducción",
@@ -3560,223 +3521,223 @@
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html",
     "title": "Cinemática: aceleración",
     "section": "",
     "text": "La aceleración es una magnitud física que mide cómo cambia la velocidad de un objeto a lo largo del tiempo.\n\nSi la velocidad aumenta → aceleración positiva\nSi la velocidad disminuye → aceleración negativa (deceleración)\n\n\n\nEn Madrid, una ciudad con más de 3 millones de habitantes, un coche pasa de 10 m/s a 20 m/s en 5 s.\nHay un aumento de velocidad, por lo que la aceleración es positiva.\n\n\n\nEn Tokio, una de las ciudades más pobladas del mundo, un tren reduce su velocidad de 30 m/s a 10 m/s en 4 s.\nLa velocidad disminuye, por lo que la aceleración es negativa.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-la-aceleración",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-la-aceleración",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-la-aceleración",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-la-aceleración",
     "title": "Cinemática: aceleración",
     "section": "1) Calcular la aceleración",
     "text": "1) Calcular la aceleración\n\nEjercicio 1 (Madrid, España)\nMadrid es la capital de España y cuenta con una extensa red de transporte urbano. Un autobús de la EMT arranca desde una parada en el centro y pasa de 4 m/s a 16 m/s en 6 s.\nPregunta: ¿Cuál es la aceleración del autobús?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\na = \\frac{v_f - v_i}{t}\n\\]\n\\[\na = \\frac{16 - 4}{6} = \\frac{12}{6} = 2 \\, m/s^2\n\\]\n\n\n\n\n\nEjercicio 2 (Nueva York, EE.UU.)\nNueva York es conocida por su tráfico intenso. Un taxi acelera en Manhattan pasando de 2 m/s a 22 m/s en 10 s.\nPregunta: Calcula la aceleración.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\na = \\frac{22 - 2}{10} = \\frac{20}{10} = 2 \\, m/s^2\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-el-tiempo",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-el-tiempo",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-el-tiempo",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-el-tiempo",
     "title": "Cinemática: aceleración",
     "section": "2) Calcular el tiempo",
     "text": "2) Calcular el tiempo\n\nEjercicio 1 (Tokio, Japón)\nTokio tiene uno de los sistemas ferroviarios más eficientes del mundo. Un tren pasa de 0 m/s a 30 m/s con una aceleración de 3 m/s^2.\nPregunta: ¿Cuánto tiempo tarda en alcanzar esa velocidad?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt = \\frac{v_f - v_i}{a}\n\\]\n\\[\nt = \\frac{30 - 0}{3} = 10 \\, s\n\\]\n\n\n\n\n\nEjercicio 2 (París, Francia)\nParís cuenta con una gran red de metro. Un tren acelera de 5 m/s a 25 m/s con una aceleración de 4 m/s^2.\nPregunta: ¿Cuánto tiempo tarda?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt = \\frac{25 - 5}{4} = \\frac{20}{4} = 5 \\, s\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-δv",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-δv",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-δv",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-δv",
     "title": "Cinemática: aceleración",
     "section": "3) Calcular Δv",
     "text": "3) Calcular Δv\n\nEjercicio 1 (Roma, Italia)\nRoma es famosa por su historia milenaria. Un coche pasa de 10 m/s a 18 m/s en una avenida cercana al Coliseo.\nPregunta: ¿Cuál es el cambio de velocidad?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\n\\Delta v = v_f - v_i = 18 - 10 = 8 \\, m/s\n\\]\n\n\n\n\n\nEjercicio 2 (El Cairo, Egipto)\nEl Cairo es una de las ciudades más grandes de África. Un autobús pasa de 12 m/s a 30 m/s.\nPregunta: Calcula Δv.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\n\\Delta v = 30 - 12 = 18 \\, m/s\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-inicial",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-inicial",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-velocidad-inicial",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-velocidad-inicial",
     "title": "Cinemática: aceleración",
     "section": "4) Calcular velocidad inicial",
     "text": "4) Calcular velocidad inicial\n\nEjercicio 1 (Buenos Aires, Argentina)\nBuenos Aires es conocida por su cultura y el tango. Un coche alcanza 25 m/s tras acelerar durante 5 s con una aceleración de 3 m/s^2.\nPregunta: ¿Cuál era su velocidad inicial?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_i = v_f - a \\cdot t\n\\]\n\\[\nv_i = 25 - (3 \\cdot 5) = 25 - 15 = 10 \\, m/s\n\\]\n\n\n\n\n\nEjercicio 2 (Ciudad de México, México)\nCiudad de México es una de las más pobladas del mundo. Un vehículo llega a 40 m/s tras 8 s con una aceleración de 4 m/s^2.\nPregunta: Calcula la velocidad inicial.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_i = 40 - (4 \\cdot 8) = 40 - 32 = 8 \\, m/s\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-final",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-velocidad-final",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-velocidad-final",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-velocidad-final",
     "title": "Cinemática: aceleración",
     "section": "5) Calcular velocidad final",
     "text": "5) Calcular velocidad final\n\nEjercicio 1 (Sídney, Australia)\nSídney es famosa por su ópera. Un coche parte de 6 m/s y acelera a 2 m/s^2 durante 7 s.\nPregunta: ¿Cuál es su velocidad final?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_f = v_i + a \\cdot t\n\\]\n\\[\nv_f = 6 + (2 \\cdot 7) = 6 + 14 = 20 \\, m/s\n\\]\n\n\n\n\n\nEjercicio 2 (Toronto, Canadá)\nToronto es una ciudad multicultural. Un vehículo parte de 3 m/s con una aceleración de 5 m/s^2 durante 4 s.\nPregunta: Calcula la velocidad final.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nv_f = 3 + (5 \\cdot 4) = 3 + 20 = 23 \\, m/s\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-inicial",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-inicial",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-tiempo-inicial",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-tiempo-inicial",
     "title": "Cinemática: aceleración",
     "section": "6) Calcular tiempo inicial",
     "text": "6) Calcular tiempo inicial\n\nEjercicio 1 (Dubái, Emiratos Árabes Unidos)\nDubái es conocida por sus rascacielos como el Burj Khalifa. Un coche termina de acelerar en t_f = 12 s y el proceso duró 7 s.\nPregunta: ¿Cuál era el tiempo inicial?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_i = t_f - t\n\\]\n\\[\nt_i = 12 - 7 = 5 \\, s\n\\]\n\n\n\n\n\nEjercicio 2 (Singapur)\nSingapur es una ciudad-estado muy avanzada tecnológicamente. Un movimiento termina en t_f = 9 s y duró 4 s.\nPregunta: Calcula t_i.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_i = 9 - 4 = 5 \\, s\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-final",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/702_Cinematica_Aceleracion.html#calcular-tiempo-final",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-tiempo-final",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/702_Cinematica_Aceleracion.html#calcular-tiempo-final",
     "title": "Cinemática: aceleración",
     "section": "7) Calcular tiempo final",
     "text": "7) Calcular tiempo final\n\nEjercicio 1 (Seúl, Corea del Sur)\nSeúl es un referente tecnológico mundial. Un movimiento empieza en t_i = 3 s y dura 6 s.\nPregunta: ¿Cuál es el tiempo final?\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_f = t_i + t\n\\]\n\\[\nt_f = 3 + 6 = 9 \\, s\n\\]\n\n\n\n\n\nEjercicio 2 (Ámsterdam, Países Bajos)\nÁmsterdam es famosa por sus canales. Un movimiento comienza en t_i = 2 s y dura 5 s.\nPregunta: Calcula el tiempo final.\n\n\n\n\n\n\nPrecauciónSolución\n\n\n\n\n\nSolución:\n\\[\nt_f = 2 + 5 = 7 \\, s\n\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Cinemática: aceleración"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento.html#conversión-de-unidades",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento.html#conversión-de-unidades",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento.html#conversión-de-unidades",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento.html#conversión-de-unidades",
     "title": "Gráficas del movimiento",
     "section": "Conversión de unidades",
     "text": "Conversión de unidades\nLas velocidades están en km/h, pero vamos a trabajar en unidades del SI (m/s):\n\\[v (m/s) = v (km/h) × \\dfrac{1000}{3600}\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento.html#cálculo-de-tiempos",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento.html#cálculo-de-tiempos",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento.html#cálculo-de-tiempos",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento.html#cálculo-de-tiempos",
     "title": "Gráficas del movimiento",
     "section": "Cálculo de tiempos",
     "text": "Cálculo de tiempos\nCada tramo se calcula con:\n\\[t = \\dfrac{Δx}{v}\\]",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento.html#interpretación-física",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/703_Graficas de movimiento.html#interpretación-física",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento.html#interpretación-física",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/703_Graficas de movimiento.html#interpretación-física",
     "title": "Gráficas del movimiento",
     "section": "Interpretación física",
     "text": "Interpretación física\n\nGráfica posición–tiempo\n\nCada tramo recto indica velocidad constante.\nLa pendiente de la recta representa la velocidad:\n\\[v = \\dfrac{Δx}{Δt}\\]\nPendiente positiva → se aleja de casa.\nPendiente negativa → vuelve a casa.\n\n\n\nGráfica velocidad–tiempo\n\nCada tramo horizontal indica velocidad constante.\nValores positivos → movimiento hacia adelante.\nValores negativos → movimiento de regreso.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "Gráficas del movimiento"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html",
     "title": "(ENG) Movement and kinematics",
     "section": "",
     "text": "Kinematics is the part of physics that studies how objects move, without worrying about why they move.\nExample: when you ride a bicycle, you can pay attention to where you are, what path you follow, how fast you go or if you are accelerating. All of that is studied by kinematics.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Movement and kinematics"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#reference-system-and-position",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#reference-system-and-position",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#reference-system-and-position",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#reference-system-and-position",
     "title": "(ENG) Movement and kinematics",
     "section": "Reference system and position",
     "text": "Reference system and position\nTo understand and describe motion we need some fundamental elements.\nImagine you are talking to a friend so they can find you in a park and you tell them you are one hundred meters from the entrance. With that information you have given a point that acts as the origin of the reference system (“the entrance”) and the position (“one hundred meters from that entrance”).\n\n\n\n1D reference system\n\n\n\n\n\n\n\n\nImportantVery important\n\n\n\n\nReference system: set of axes and a point, which is the origin, from which we measure positions.\n\nIn each problem we will choose a reference system and its origin. In general these will be considered fixed and immobile throughout the problem.\n\nPosition (x): place where an object is with respect to the origin of the reference system at each instant. Unit: meter (m).",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Movement and kinematics"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#sign-convention-for-position",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#sign-convention-for-position",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#sign-convention-for-position",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#sign-convention-for-position",
     "title": "(ENG) Movement and kinematics",
     "section": "Sign convention for position",
     "text": "Sign convention for position\nTo describe motion it is important to be clear about the signs of position.\n\nIf we move to the right, the position defined by \\(x\\) will increase towards more positive values.\n\nIf we move to the left, \\(x\\) will take smaller values until zero. If we keep moving to the left, \\(x\\) will take more negative values.\n\n\n\n\nSign convention for position",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Movement and kinematics"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#trajectory",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#trajectory",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#trajectory",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#trajectory",
     "title": "(ENG) Movement and kinematics",
     "section": "Trajectory",
     "text": "Trajectory\n\n\n\n\n\n\nImportantVery important\n\n\n\nTrajectory: is the path followed by an object, that is, the set of its positions as time passes.\n\n\nFor example: the points a cyclist would pass through following the road in the drawing.\n\n\n\nTrajectory\n\n\nTrajectories can be straight (a ball that we drop or a car on a straight road) or curved like the previous image or the shot of a ball into a basket.\n\n\n\nCurved trajectory of a ball when shooting into a basket\n\n\n\n\n\n\n\n\nNotePay attention!\n\n\n\nThis course we will only consider straight trajectories. If the trajectory goes through different streets, we will break the final trajectory into different straight segments.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Movement and kinematics"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#exercises",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#exercises",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#exercises",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#exercises",
     "title": "(ENG) Movement and kinematics",
     "section": "Exercises",
     "text": "Exercises\n\nDefine trajectory in your own words.\n\nCan the position change without changing the trajectory?\n\nGive an example of a curved trajectory.\nHow would you draw the trajectory of a person who wants to go from the School to the Sports Field?\n\n\n\n\nCity map\n\n\n\n\n\n\n\n\nCautionSolutions\n\n\n\n\n\n\nPath followed by an object.\n\nYes, if it moves within the same type of trajectory.\n\nA thrown ball.\nThis exercise has different solutions. The interesting thing is simply to think that they must go through many streets.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Movement and kinematics"
     ]
   },
   {
-    "objectID": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#exercises-1",
-    "href": "articles/02_ESO_3_eng/T07. Movimiento - cinemática/700_Cinematica_Posicion_eng.html#exercises-1",
+    "objectID": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#exercises-1",
+    "href": "articles/02_ESO_3_eng/T07. Movement - kinematics/700_Cinematica_Posicion_eng.html#exercises-1",
     "title": "(ENG) Movement and kinematics",
     "section": "Exercises",
     "text": "Exercises\n\nIs distance traveled the same as displacement?\n\nCalculate the distance traveled: you go from your house to the school (200 m), from there to the supermarket (another 60 m in the same direction) and from the supermarket back home (260 m from the supermarket to home in the opposite direction).\nNow calculate the displacement going to the previous places considering that your house is the initial and final point.\nWhat would be the displacement if you went from home to the school and from there to the supermarket without returning home?\nAnd the distance traveled?\nCan the distance traveled be zero?\n\n\n\n\n\n\n\nCautionSolutions\n\n\n\n\n\n\nNo.\n\n\\(s=200 + 60 + 260  = 520 m\\).\n\\(\\Delta x = x_f - x_i = 0 - 0 = 0 m\\).\n\\(\\Delta x = x_f - x_i = (200+60) - 0 = 260 m\\).\n\\(s=200 + 60 = 260 m\\).\nYes, only when there is no motion, that is, if you do not move.",
     "crumbs": [
       "Home",
       "3ª ESO (eng)",
-      "T07. Movimiento - cinemática",
+      "T07. Movement - kinematics",
       "(ENG) Movement and kinematics"
     ]
   },
