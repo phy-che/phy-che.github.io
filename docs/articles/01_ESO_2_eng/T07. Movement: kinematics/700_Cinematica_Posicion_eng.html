@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.30">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Movement and kinematics</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-b045d97e262b05561b740d7cbd1ab6ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-eso" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">ESO</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-eso">    
+        <li>
+    <a class="dropdown-item" href="../../../articles/01_ESO_2/index.html">
+ <span class="dropdown-text">2º ESO</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/01_ESO_2_eng/index.html">
+ <span class="dropdown-text">2º ESO (eng)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/02_ESO_3/index.html">
+ <span class="dropdown-text">3ª ESO</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/02_ESO_3_eng/index.html">
+ <span class="dropdown-text">3ª ESO (eng)</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/03_ESO_4/index.html">
+ <span class="dropdown-text">4º ESO</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bach" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">BACH</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bach">    
+        <li>
+    <a class="dropdown-item" href="../../../articles/04_BACH_1/index.html">
+ <span class="dropdown-text">1º BACH</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/05_BACH_2_Fisica/index.html">
+ <span class="dropdown-text">2º BACH Física</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../articles/06_BACH_2_Quimica/index.html">
+ <span class="dropdown-text">2º BACH Química</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recursos-gigantes" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recursos gigantes</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recursos-gigantes">    
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/001_recursos_gigantes.html">
+ <span class="dropdown-text">Recursos gigantes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/002_recursos_ESO_23_FyQ.html">
+ <span class="dropdown-text">Recursos 2ª y 3ª ESO FyQ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/002_recursos_ESO_40_FyQ.html">
+ <span class="dropdown-text">Recursos 4ª ESO FyQ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/003_recursos_1BACH_FyQ.html">
+ <span class="dropdown-text">Recursos 1º Bach FyQ</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/004_recursos_2BACH_Fisica.html">
+ <span class="dropdown-text">Recursos 2º Bach Física</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/005_recursos_2BACH_Quimica.html">
+ <span class="dropdown-text">Recursos 2º Bach Química</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../recursos_gigantes/100_Otros recursos.html">
+ <span class="dropdown-text">Otros recursos</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-otros-recursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Otros recursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-otros-recursos">    
+        <li>
+    <a class="dropdown-item" href="../../../otros_recursos/001_HigieneSueno.html">
+ <span class="dropdown-text">Higiene del sueño</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../otros_recursos/002_LecturaComprensiva.html">
+ <span class="dropdown-text">Lectura comprensiva</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../otros_recursos/003_TecnicasEstudio.html">
+ <span class="dropdown-text">Técnicas de estudio</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/phy-che/phy-che.github.io"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_eng/index.html">2º ESO (eng)</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/700_Cinematica_Posicion_eng.html">T07. Movement: kinematics</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/700_Cinematica_Posicion_eng.html">Movement and kinematics</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../articles/01_ESO_2_eng/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2º ESO (eng)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">T05. Atoms and periodic table</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_eng/T05. Atoms and periodic table/501_Ficha resumen atomo_eng.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The atom and its particles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_eng/T05. Atoms and periodic table/502_Ejercicios_atomo_eng.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Atom exercises</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">T07. Movement: kinematics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/700_Cinematica_Posicion_eng.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Movement and kinematics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/701_Cinematica_Velocidad_eng.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">(ENG) Kinematics: velocity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/702_Movimiento MRU_eng.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Movimiento MRU</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#motion-is-relative" id="toc-motion-is-relative" class="nav-link" data-scroll-target="#motion-is-relative"><span class="header-section-number">2</span> Motion is relative</a>
+  <ul class="collapse">
+  <li><a href="#reference-system-and-position" id="toc-reference-system-and-position" class="nav-link" data-scroll-target="#reference-system-and-position"><span class="header-section-number">2.1</span> Reference system and position</a></li>
+  <li><a href="#sign-convention-for-position" id="toc-sign-convention-for-position" class="nav-link" data-scroll-target="#sign-convention-for-position"><span class="header-section-number">2.2</span> Sign convention for position</a></li>
+  </ul></li>
+  <li><a href="#what-is-motion-then" id="toc-what-is-motion-then" class="nav-link" data-scroll-target="#what-is-motion-then"><span class="header-section-number">3</span> What is motion then?</a>
+  <ul class="collapse">
+  <li><a href="#trajectory" id="toc-trajectory" class="nav-link" data-scroll-target="#trajectory"><span class="header-section-number">3.1</span> Trajectory</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises"><span class="header-section-number">3.2</span> Exercises</a></li>
+  </ul></li>
+  <li><a href="#distance-traveled-and-displacement" id="toc-distance-traveled-and-displacement" class="nav-link" data-scroll-target="#distance-traveled-and-displacement"><span class="header-section-number">4</span> Distance traveled and displacement</a>
+  <ul class="collapse">
+  <li><a href="#exercises-1" id="toc-exercises-1" class="nav-link" data-scroll-target="#exercises-1"><span class="header-section-number">4.1</span> Exercises</a></li>
+  </ul></li>
+  <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources"><span class="header-section-number">5</span> Additional resources</a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="700_Cinematica_Posicion_eng.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_eng/index.html">2º ESO (eng)</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/700_Cinematica_Posicion_eng.html">T07. Movement: kinematics</a></li><li class="breadcrumb-item"><a href="../../../articles/01_ESO_2_eng/T07. Movement: kinematics/700_Cinematica_Posicion_eng.html">Movement and kinematics</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Movement and kinematics</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p><strong>Kinematics</strong> is the part of physics that studies <strong>how objects move</strong>, without worrying about why they move.</p>
+<p>Example: when you ride a bicycle, you can pay attention to <strong>where you are, what path you follow, how fast you go or if you are accelerating</strong>. All of that is studied by kinematics.</p>
+</section>
+<section id="motion-is-relative" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Motion is relative</h1>
+<p>What does this mean? A person sitting next to you on the bus is at rest from your point of view. But from the point of view of a person sitting at the bus stop, they will see that person moving.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Motion always depends on the observer: something moves when it changes its position with respect to a point that we choose (in this case with respect to the observer). This point is the <strong>origin of the reference system</strong> and is part of the <strong>reference point</strong>.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/bus-stop-in-tel-aviv.jpg" class="img-fluid figure-img" width="300"></p>
+<figcaption>Bus stop</figcaption>
+</figure>
+</div>
+<section id="reference-system-and-position" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="reference-system-and-position"><span class="header-section-number">2.1</span> Reference system and position</h2>
+<p>To understand and describe motion we need some fundamental elements.</p>
+<p>Imagine you are talking to a friend so they can find you in a park and you tell them you are one hundred meters from the entrance. With that information you have given a point that acts as the origin of the reference system (“the entrance”) and the position (“one hundred meters from that entrance”).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/esp/sistemaReferencia_1D.jpg" class="img-fluid figure-img"></p>
+<figcaption>1D reference system</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Reference system</strong>: set of axes and a <em>point</em>, which is the <strong>origin</strong>, from which we measure positions.
+<ul>
+<li>In each problem we will choose a reference system and its origin. In general these will be considered fixed and immobile throughout the problem.</li>
+</ul></li>
+<li><strong>Position (x)</strong>: place where an object is <span style="color:red;">with respect to the origin of the reference system at each instant.</span> Unit: <strong>meter (m)</strong>.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="sign-convention-for-position" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sign-convention-for-position"><span class="header-section-number">2.2</span> Sign convention for position</h2>
+<p>To describe motion it is important to be clear about the signs of position.</p>
+<ul>
+<li>If we move to the right, the position defined by <span class="math inline">\(x\)</span> will increase towards more positive values.<br>
+</li>
+<li>If we move to the left, <span class="math inline">\(x\)</span> will take smaller values until zero. If we keep moving to the left, <span class="math inline">\(x\)</span> will take more negative values.</li>
+</ul>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/both/sign-criteria_1Axis_numbres.jpg" class="img-fluid figure-img" width="500"></p>
+<figcaption>Sign convention for position</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="what-is-motion-then" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> What is motion then?</h1>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We will say that a “body” is in <strong>motion</strong> when it changes its position (<span class="math inline">\('x'\)</span>) with respect to the origin of the reference system over time (<span class="math inline">\(t\)</span>).</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/SistemaReferencia_1D_movimiento.jpg" class="img-fluid figure-img"></p>
+<figcaption>Motion on the horizontal axis with reference system</figcaption>
+</figure>
+</div>
+<p>In the previous image we observe how at time <span class="math inline">\(t1\)</span> the person is at a position <span class="math inline">\(x=10m\)</span> and after time has passed, that person is at position <span class="math inline">\(x=95m\)</span>.<br>
+- They have covered a distance of <span class="math inline">\(d = 95m-10m  = 85m\)</span>.<br>
+- It coincides with the displacement (which is calculated as final position <span class="math inline">\(x_f\)</span> minus initial position <span class="math inline">\(x_i\)</span>): <span class="math inline">\(\Delta x = x_f - x_i = 95 - 10 = 85m\)</span>.<br>
+- They did it in the following time: <span class="math inline">\(\Delta t = t_2-t_1 = 60s - 0s = 60s\)</span>.<br>
+- Their velocity can be calculated as: <span class="math display">\[
+v = \dfrac{\Delta x}{\Delta t} = \dfrac{85m}{60s} \approx 1,42 \dfrac{m}{s}
+\]</span></p>
+<section id="trajectory" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="trajectory"><span class="header-section-number">3.1</span> Trajectory</h2>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Trajectory</strong>: is the path followed by an object, that is, the set of its positions as time passes.</p>
+</div>
+</div>
+<p>For example: the points a cyclist would pass through following the road in the drawing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/camino.jpg" class="img-fluid figure-img" width="300"></p>
+<figcaption>Trajectory</figcaption>
+</figure>
+</div>
+<p>Trajectories can be straight (a ball that we drop or a car on a straight road) or curved like the previous image or the shot of a ball into a basket.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/330px_parabolic_trajectory.png" class="img-fluid figure-img" width="300"></p>
+<figcaption>Curved trajectory of a ball when shooting into a basket</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Pay attention!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pay attention!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This course we will only consider straight trajectories. If the trajectory goes through different streets, we will break the final trajectory into different straight segments.</p>
+</div>
+</div>
+</section>
+<section id="exercises" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="exercises"><span class="header-section-number">3.2</span> Exercises</h2>
+<ol type="1">
+<li>Define trajectory in your own words.<br>
+</li>
+<li>Can the position change without changing the trajectory?<br>
+</li>
+<li>Give an example of a curved trajectory.</li>
+<li>How would you draw the trajectory of a person who wants to go from the School to the Sports Field?</li>
+</ol>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../../../img/esp/city_map.png" class="img-fluid figure-img" width="400"></p>
+<figcaption>City map</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Path followed by an object.<br>
+</li>
+<li>Yes, if it moves within the same type of trajectory.<br>
+</li>
+<li>A thrown ball.</li>
+<li>This exercise has different solutions. The interesting thing is simply to think that they must go through many streets.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="distance-traveled-and-displacement" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Distance traveled and displacement</h1>
+<div class="callout callout-style-default callout-important callout-titled" title="Very important">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Very important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Distance traveled (s)</strong>: is the total distance covered by a body in its motion. Unit: <strong>meter (m)</strong>.</p>
+<p><strong>Displacement(<span class="math inline">\(\Delta x\)</span>)</strong>: is the distance between the initial position (<span class="math inline">\(x_i\)</span>) and the final position (<span class="math inline">\(x_f\)</span>), it is also measured in <strong>meters (m)</strong> and is calculated as: <span class="math inline">\(\Delta x = x_f - x_i\)</span></p>
+</div>
+</div>
+<p>When we move in a straight line and do not go back, the distance traveled coincides with the displacement.</p>
+<p>But when we go somewhere and come back, these values may not coincide. <em>For example: sometimes we may have a distance traveled of 100 m, but the displacement is 0. When? When we go from our house to the school which is 50 m away and then return.</em></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../img/both/Espacio_recorrido_y_Desplazamiento.jpg" class="img-fluid figure-img"></p>
+<figcaption>Difference between distance traveled and displacement</figcaption>
+</figure>
+</div>
+<section id="exercises-1" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="exercises-1"><span class="header-section-number">4.1</span> Exercises</h2>
+<ol type="1">
+<li>Is distance traveled the same as displacement?<br>
+</li>
+<li>Calculate the distance traveled: you go from your house to the school (200 m), from there to the supermarket (another 60 m in the same direction) and from the supermarket back home (260 m from the supermarket to home in the opposite direction).</li>
+<li>Now calculate the displacement going to the previous places considering that your house is the initial and final point.</li>
+<li>What would be the displacement if you went from home to the school and from there to the supermarket without returning home?</li>
+<li>And the distance traveled?</li>
+<li>Can the distance traveled be zero?</li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled" title="Solutions">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Solutions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>No.<br>
+</li>
+<li><span class="math inline">\(s=200 + 60 + 260  = 520 m\)</span>.</li>
+<li><span class="math inline">\(\Delta x = x_f - x_i = 0 - 0 = 0 m\)</span>.</li>
+<li><span class="math inline">\(\Delta x = x_f - x_i = (200+60) - 0 = 260 m\)</span>.</li>
+<li><span class="math inline">\(s=200 + 60 = 260 m\)</span>.</li>
+<li>Yes, only when there is no motion, that is, if you do not move.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="additional-resources" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Additional resources</h1>
+<ul>
+<li><p>English video <a href="https://www.youtube.com/watch?v=ZM8ECpBuQYE">Motion in one dimension</a></p></li>
+<li><p><a href="https://openstax.org/books/f%C3%ADsica-universitaria-volumen-1/pages/3-introduccion">Rectilinear motion</a></p></li>
+</ul>
+<!-- {{< include "/_exercises/01_ESO/080_Dinamica/.qmd" >}} -->
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
