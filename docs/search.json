@@ -984,7 +984,7 @@
     "href": "articles/05_BACH_2_Fisica/T07. OEM y óptica física/0799_formulario.html#dispersión-de-la-luz",
     "title": "Formulario OEM y Óptica física",
     "section": "Dispersión de la luz",
-    "text": "Dispersión de la luz\nEs el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, el ángulo de refracción cambia con la frecuencia de la onda.\n\n\n\n\n\n\nTipFijarse\n\n\n\nLa ecuación básica de la velocidad es: \\(v= \\dfrac{\\lambda}{T} = \\lambda·f\\). Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:\n- \\(\\lambda_1 = \\dfrac{v_1}{f}\\)\n- \\(\\lambda_2 = \\dfrac{v_2}{f}\\)\n\n\n\nAnálisis de la dispersión en un prisma:\nEn los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.\n- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).\n- El ángulo de desviación del rayo emergente (\\(\\delta\\)) se calcula por geometría y depende del ángulo de incidencia en el prisma (\\(i_{1}\\)), el ángulo de refracción de salida en el prisma (\\(r_{2}\\)) y el ángulo de fabricación del prisma (\\(\\varphi\\)). \\[\n\\large \\delta = i_1+r_2-\\varphi\n\\]\n\n\n\n\n\n\n\nNoteDemostración\n\n\n\n\n\nDemostración de: \\(\\delta = i_1+r_2-\\varphi\\) \n\\(r_1+i_2+(180\\textdegree - \\varphi)=180\\textdegree\\)\nNotar que el ánglo de separación de las caras oblicuas del prisma (\\(\\varphi\\)) es el ángulo suplementario del tercer ángulo del triángulo que forman \\(r_1\\) e \\(i_2\\).\n\\(\\phi = r_1 + i_2\\)\n\\((i_1-r_1) + (r_2-i2)+(180\\textdegree-\\delta)=180\\textdegree\\)\n\\(\\delta = i_1+r_2-(r_1+i_2)\\)\n\\(\\delta = i_1+r_2-\\varphi\\)",
+    "text": "Dispersión de la luz\nEs el fenómeno por el que la luz se descompone en sus componentes (los diferentes colores que tienen frecuencias diferentes). Esto sucede porque al pasar la luz entre dos medios, el ángulo de refracción cambia con la frecuencia de la onda.\n\n\n\n\n\n\nTipFijarse\n\n\n\nLa ecuación básica de la velocidad es: \\(v= \\dfrac{\\lambda}{T} = \\lambda·f\\). Al cambiar la luz de medio, NO cambia su color, es decir su frecuencia se mantendrá constante. Pero sí cambia su velocidad. Eso implica que también cambiará su longitud de onda:\n- \\(\\lambda_1 = \\dfrac{v_1}{f}\\)\n- \\(\\lambda_2 = \\dfrac{v_2}{f}\\)\n\n\n\nAnálisis de la dispersión en un prisma:\nEn los problemas donde se analizan prismas, tener en cuenta lo siguiente: -La frecuencia de la onda permanece constante pero la velocidad y su longitud de onda NO.\n- Todos los ángulos se miden con respecto a la normal (línea perpendicular a la superficie de separación entre dos medios).\n- El ángulo de desviación del rayo emergente (\\(\\Delta\\)) se calcula por geometría y depende del ángulo de incidencia en el prisma (\\(i_{1}\\)), el ángulo de refracción de salida en el prisma (\\(r_{2}\\)) y el ángulo de fabricación del prisma (\\(\\varphi\\)). \\[\n\\large \\Delta = i_1+r_2-\\varphi\n\\]\n\n\n\n\n\n\n\nNoteDemostración\n\n\n\n\n\nDemostración de: \\(\\Delta = i_1+r_2-\\varphi\\) \n\\(r_1+i_2+(180\\textdegree - \\varphi)=180\\textdegree\\)\nNotar que el ánglo de separación de las caras oblicuas del prisma (\\(\\varphi\\)) es el ángulo suplementario del tercer ángulo del triángulo que forman \\(r_1\\) e \\(i_2\\).\n\\(\\phi = r_1 + i_2\\)\n\\((i_1-r_1) + (r_2-i2)+(180\\textdegree-\\Delta)=180\\textdegree\\)\n\\(\\Delta = i_1+r_2-(r_1+i_2)\\)\n\\(\\Delta = i_1+r_2-\\varphi\\)",
     "crumbs": [
       "Home",
       "2º BACH Física",
@@ -1063,79 +1063,79 @@
   {
     "objectID": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html",
     "href": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html",
-    "title": "Formulario",
+    "title": "Formulario física cuántica",
     "section": "",
     "text": "Efecto fotoeléctrico: hallar cte Planck, trabajo de extracción de un electrón, energía cinética.\n\nImportante: como estamos con partículas que se mueven y a veces a velocidades altas, para calcular energías no sirven las fórmulas de la relatividad especial, \\(\\gamma\\), etc, dado que las masas cambiarán con la velocidad.",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T10. Física cuántica",
-      "Formulario"
+      "Formulario física cuántica"
     ]
   },
   {
     "objectID": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#ejercicios-pau-en-madrid-más-frecuentes",
     "href": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#ejercicios-pau-en-madrid-más-frecuentes",
-    "title": "Formulario",
+    "title": "Formulario física cuántica",
     "section": "",
     "text": "Efecto fotoeléctrico: hallar cte Planck, trabajo de extracción de un electrón, energía cinética.\n\nImportante: como estamos con partículas que se mueven y a veces a velocidades altas, para calcular energías no sirven las fórmulas de la relatividad especial, \\(\\gamma\\), etc, dado que las masas cambiarán con la velocidad.",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T10. Física cuántica",
-      "Formulario"
+      "Formulario física cuántica"
     ]
   },
   {
     "objectID": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#efecto-fotoeléctrico",
     "href": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#efecto-fotoeléctrico",
-    "title": "Formulario",
+    "title": "Formulario física cuántica",
     "section": "2 Efecto fotoeléctrico",
     "text": "2 Efecto fotoeléctrico\nEfecto fotoeléctrico: un rayo de luz con fotones con la suficiente energía (esta depende de su frecuencia) que inciden sobre un metal pueden arrancar electrones de sus átomos y generar una corriente eléctrica.\nLa siguiente fórmula indica que la energía con la que incide un fotón en el metal se va a usar para tratar de extraer un electrón del mismo, y si sobra se usará para darle una cierta velocidad. \\[\nE_{fotón} = h · \\nu = h · f = W_0 + E_c\n\\]\nDonde:\n- \\(E_{foton}\\): es la energía que tiene un fotón determinado (en \\(J\\) o \\(eV\\). Recuerda: \\(1 eV = 1,6·10^{-19}J\\)).\n- \\(h = 6,63 ·10^{-34} \\dfrac{J}{s}\\): es la constante de Planck.\n- \\(\\nu = f\\): es la frecuencia del fotón en \\(Hz=s^{-1}\\).\n- \\(W_0\\): es el trabajo necesario para la extracción de un electrón (en \\(J\\) o \\(eV\\)).\n- \\(E_c\\): es la energía cinética que se le da al electrón después de extraído (en \\(J\\) o \\(eV\\)). Notar que \\(E_c= \\dfrac{1}{2}mv^2\\).\nNota: la velocidad de los electrones arrancados por efecto fotoeléctrico con luz visible no es relativista (\\(\\geq10\\%\\ c\\)).\n\nFrecuencia umbral\nLa frecuencia umbral es la mínima frecuencia que debe tener un fotón para extraer un electrón de un metal. \\[\n\\nu_0 = f_0 = \\dfrac{W_0}{h}\n\\]\n\n\nPotencial de frenado\nEs la diferencia de potencial (\\(\\Delta V = V_F\\)) que habría que poner en un circuito eléctrico para frenar a un electrón arrancado por un fotón que va con una cierta \\(E_c\\).\nDado que \\(E_c = q·V_F\\), podemos escribir el efecto fotoeléctrico así:\n\\[\nE_{fotón} = h · \\nu = h · f = W_0 + E_c = W_0 + q·V_F\n\\]",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T10. Física cuántica",
-      "Formulario"
+      "Formulario física cuántica"
     ]
   },
   {
     "objectID": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#el-efecto-compton",
     "href": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#el-efecto-compton",
-    "title": "Formulario",
+    "title": "Formulario física cuántica",
     "section": "3 El efecto Compton",
     "text": "3 El efecto Compton\nEl efecto Compton explica lo que sucede en la colisión entre un fotón y un electrón. Al chocar, el fotón transfiere parte de su energía al electrón, por lo que sale rebotado con menor energía y, en consecuencia, disminuye su frecuencia y aumenta su longitud de onda.\nRecordad que la velocidad de un fotón es: \\[\nc = \\dfrac{\\lambda}{T} = \\lambda·f\n\\]\n\nConservación del momento lineal (\\(p = m·v\\)) en los choques\nLa conservación del momento lineal establece que, si un sistema de objetos no experimenta fuerzas externas netas, la cantidad de movimiento total antes de un choque es exactamente igual a la cantidad de movimiento total después del choque. \\[\n\\overrightarrow{p_{A_1}}+ \\overrightarrow{p_{B_1}} = \\overrightarrow{p_{A_2}}+ \\overrightarrow{p_{B_2}}\n\\] \\[\nm_A·v_{A_{inicial}} + m_B·v_{B_{inicial}} = m_A·v_{A_{final}} + m_B·v_{B_{final}}\n\\] \\[\nm_A·v_{A1} + m_B·v_{B1} = m_A·v_{A2} + m_B·v_{B2}\n\\]\n\n\nConservación de la energía en el Efecto Compton\nAl considerar al fotón como un corpúsculo, se puede explicar como la conervación del momento lineal. \\[\nh·f = h·f' + E_c\n\\]\nDonde: - h·f: es la energía del fotón incidente. - h·f’: es la energía del fotón saliente. - E_c: es la energía cinética que adquiere el electrón golpeado.\nSí se conserva el momento lineal \\(p\\): \\[\n\\vec p = \\dfrac{\\overrightarrow{hf}}{c}\n\\]\n\\[\n\\overrightarrow{p_{foton_1}} = \\overrightarrow{p_{foton_2}}+ \\overrightarrow{p_{electron}}\n\\] \\[\n\\overrightarrow{\\dfrac{hf}{c}} = \\overrightarrow{\\dfrac{hf'}{c}}+ \\overrightarrow{p_{electron}}\n\\]",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T10. Física cuántica",
-      "Formulario"
+      "Formulario física cuántica"
     ]
   },
   {
     "objectID": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#dualidad-onda-corpúsculo-de-broglie",
     "href": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#dualidad-onda-corpúsculo-de-broglie",
-    "title": "Formulario",
+    "title": "Formulario física cuántica",
     "section": "4 Dualidad onda-corpúsculo (De Broglie)",
     "text": "4 Dualidad onda-corpúsculo (De Broglie)\nSi las ondas se comportan como corpúsculos de tamaño \\(h\\nu = hf\\), los corpúsculos (las partículas) también se comporten de manera ondulatoria.\nComo las partículas también se comportan como ondas, se define la longitud de onda asociada a una partícula: \\[\n\\lambda = \\dfrac{h}{p} =  \\dfrac{h}{mv}\n\\]\nDonde:\n- \\(\\lambda\\) es la longitud de onda asociada a esa partícula.\n- \\(h\\) es la cte de Planck.\n- \\(p=mv\\) es la cantidad de movimiento de la partícula.\n\nAplicación práctica en el átomo de Bohr\nLa energía de cualquier nivel del átomo de Bohr es: \\[\nE_n = \\dfrac{E_1}{n^2}\n\\]\nDonde:\n\n\\(E_1\\) es la energía en el primer nivel \\[\nE_1 = -\\dfrac{2\\pi k q^2}{h}·\\dfrac{m}{2}\n\\] Donde:\n\\(k = 9·10^9 N·m^2/C^2\\): es la constante eléctrica.\n\\(q = 1,6·10^{-19}C\\): es la carga del electrón.\n\\(m= 9,1·10^{-31}kg\\): es la masa del electrón.\n\nCon esto se pueden explicar los colores (frecuencias o longitudes de onda) de las líneas del espectro emisión de hidrógeno que Rydberg obtuvo empíricamente: \\[\n\\dfrac{1}{\\lambda} = R_H·\\left( \\dfrac{1}{n_i^2}-\\dfrac{1}{n_j^2} \\right)\n\\]",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T10. Física cuántica",
-      "Formulario"
+      "Formulario física cuántica"
     ]
   },
   {
     "objectID": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#relaciones-de-incertidumbre",
     "href": "articles/05_BACH_2_Fisica/T10. Física cuántica/1099_Formulario.html#relaciones-de-incertidumbre",
-    "title": "Formulario",
+    "title": "Formulario física cuántica",
     "section": "5 Relaciones de incertidumbre",
     "text": "5 Relaciones de incertidumbre\n\nPrincipio de incertidumbre de Heisemberg\nNo se puede medir con total precisión la posición y el momento (la velocidad) de una partícula simultáneamente. Esto sucede por limitaciones de la naturaleza, no por la tecnología. \\[\n\\Delta x · \\Delta p \\geq \\dfrac{h}{4\\pi} = \\dfrac{\\hbar}{2}\n\\]\nDonde:\n- \\(h\\): cte de Planck.\n- \\(\\hbar\\): es la cte de Planck reducida o h barra = \\(\\dfrac{h}{2\\pi}\\).\n\\(\\dfrac{h}{4\\pi}\\) es del orden de 10-34 pero NO es cero, y por tanto tiene consecuencias.\n\n\nPrincipio de incertidumbre. Formulación de Einstein\nno puedo conocer en un instante exacto la energía exacta que tiene la partícula. Para medir cualquier energía requerimos un tiempo, y teniendo en cuenta que según Planck la energía está cuantizada, siempre necesitaremos un tiempo mínimo que no va a ser despreciable. \\[\n\\Delta E · \\Delta t \\geq \\dfrac{h}{4\\pi} = \\dfrac{\\hbar}{2}\n\\]\nDonde:\n- \\(E\\): energía de una partícula.\n- \\(\\Delta t\\): es el tiempo que tardo en medir esa energía.",
     "crumbs": [
       "Home",
       "2º BACH Física",
       "T10. Física cuántica",
-      "Formulario"
+      "Formulario física cuántica"
     ]
   },
   {
@@ -3326,6 +3326,97 @@
       "2º BACH Física",
       "T07. OEM y óptica física",
       "Introducción"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "",
+    "text": "Número atómico: \\(Z = p^+\\)\nNúmero másico: \\(A = p^+ + n = Z + n\\)\nCarga: \\(Q = p^+ - e^- = Z - e^-\\)\n\nLos isótopos son aquellos átomos de un mismo elemento (\\(=Z\\)) que varían en su número de neutrones (distinto \\(A\\)).\nLos iones son aquellos átomos cargados eléctricamente, es decir, aquellos cuya \\(Q\\neq0\\).",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#números-básicos-en-un-átomo",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#números-básicos-en-un-átomo",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "",
+    "text": "Número atómico: \\(Z = p^+\\)\nNúmero másico: \\(A = p^+ + n = Z + n\\)\nCarga: \\(Q = p^+ - e^- = Z - e^-\\)\n\nLos isótopos son aquellos átomos de un mismo elemento (\\(=Z\\)) que varían en su número de neutrones (distinto \\(A\\)).\nLos iones son aquellos átomos cargados eléctricamente, es decir, aquellos cuya \\(Q\\neq0\\).",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#radiactividad-y-descomposición-radiactiva",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#radiactividad-y-descomposición-radiactiva",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "2 Radiactividad y descomposición radiactiva",
+    "text": "2 Radiactividad y descomposición radiactiva\n\nRadiación alfa (\\(\\alpha\\)):\n\nUna partícula alfa es un núcleos de helio (\\(2 p^+\\) y \\(2 n\\)).\nCuando un átomo emite esta radiación, pierde 2 protones y 2 neutrones. Luego su Z baja en 2.\n\\(^{238} U\\) emite esta radiación.\n\n\nDescomposición radiactiva:\n\\[\n^{A}_{Z}X \\rightarrow ^{A-4}_{Z-2}Y + ^{4}_{2}\\alpha\n\\] Ejemplo: \\[\n^{238}_{92}U \\rightarrow ^{234}_{90}Th + ^{4}_{2}\\alpha\n\\]\n\n\n\nRadiación beta (\\(\\beta\\)):\nLa radiación beta son electrones (\\(\\beta^-\\) o \\(\\beta\\) o \\(e^-\\)) o positrones (\\(\\beta^+\\) o \\(e^+\\)). Los positrones tienen la misma masa que el electrón pero su carga es positiva e igual a la del protón. \\(^{14} C\\) emite esta radiación.\nSe produce cuando:\n- Un neutrón se desintegra en 3 partículas: 1 protón (\\(p^+\\)) + 1 electrón (\\(\\beta^-\\)) + 1 antineutrino (\\(\\overline{\\nu}\\)). El protón se queda en el átomo pero el electrón es radiado.\n- Un protón se desintegra en 3 partículas: 1 neutrón (n) + 1 positrón (\\(\\beta^+\\) o \\(e^+\\)) + 1 neutrino (\\(\\nu\\)). Aquí Z baja 1 unidad.\n\nDescomposición radiactiva\nDescomposición radiactiva por una partícula beta: cuando un núcleo emite una, se convierte en otro núcleo cuyo Z es una unidad mayor. \\[\n^{A}_{Z}X \\rightarrow ^{A}_{Z+1}Y + ^{0}_{-1}\\beta\n\\]\nEjemplo: \\[\n^{214}_{82}Pb \\rightarrow ^{214}_{83}Bi + ^{0}_{-1}\\beta\n\\]\nDescomposición radiactiva por un positrón: cuando un núcleo emite un positrón, se convierte en otro núcleo cuyo Z es una unidad menor: \\[\n^{A}_{Z}X \\rightarrow ^{A}_{Z-1}Y + e^{+}\n\\]\n\n\n\nRadiación gamma (\\(\\gamma\\)):\nLa radiación gamma son fotones de muy alta energía. \\(^{60} Co\\) emite este tipo de radiación.\n\nDescomposición radiactiva\nCuando un núcleo emite raciación gamma, cambia su energía ppero no varía ninguno de sus nucleones (partículas del núcleo) por lo que no cambia el elemento. \\[\n^{A}_{Z}X^{*} \\rightarrow ^{A}_{Z}X + \\gamma\n\\] Ejemplo: \\[\n^{8}_{4}Be^{*} \\rightarrow ^{8}_{4}X + \\gamma\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#ley-de-la-desintegración-radiactiva",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#ley-de-la-desintegración-radiactiva",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "3 Ley de la desintegración radiactiva",
+    "text": "3 Ley de la desintegración radiactiva\n\nDefiniciones previas\n\nActividad radiactiva: nº de desintegraciones por segundo que tiene una determinada muestra radiactiva. Es decir, es el número de núcleos que se pierden por segundo. \\[\nA = \\dfrac{nº\\ desintegraciones}{s}\\ \\ [Bq]\n\\] Se mide en :\n\nBecquerel [\\(Bq\\)]: 1 Bq es una desintegración por segundo.\nCurio (\\(Cu\\)): Se usa en lugar del Bq porque esta es una unidad muy pequeña.\n\\[\n1 Cu = 3,7 · 10^{10} Bq\n\\]\n\nConstante de decrecimiento o constante radiactiva: \\(\\lambda[s^{-1}]\\)\nVida radiactiva: \\(\\tau[s]\\). Es el tiempo medio que tarda un núcleo en desintegrarse. \\[\n\\tau = \\dfrac{1}{\\lambda}\n\\]\nLa actividad con varios núcleos (N) se calcula como: \\[\nA = \\lambda·N\n\\]\n\n\n\nDesarrollo de la ley\nCuando una muestra se va desintegrando, va perdiendo núcleos, con lo que la actividad radiactiva (A) va decayendo en el tiempo. (En 2º bach. solo tenemos en cuenta que los elementos a los que decaen NO son a su vez radiactivos). \\[\nA = -\\dfrac{dN}{dt} = \\lambda N\n\\] Si integramos esto llegamos a: \\[\n\\boxed{N(t) = N_0·e^{-\\lambda t}}\n\\] Como \\(A = \\lambda N\\), al multiplicar la expresión anterior por \\(lambda\\) en ambos lados: \\[\n\\lambda ·N(t) = \\lambda·N_0·e^{-\\lambda t} \\rightarrow \\boxed{A = A_0·e^{-\\lambda t}}\n\\] Y si A, que es el número de núcleos desintegrados por segundo se divide por el número de Avogrado (\\(N_A\\)) tendremos el número de moles: \\[\nA = A_0·e^{-\\lambda t} \\rightarrow \\dfrac{A}{N_A} = \\dfrac{A_0}{N_A}·e^{-\\lambda t} \\rightarrow \\boxed{n = n_0·e^{-\\lambda t}} \\ [mol]\n\\] Recordar que, siendo M la masa molar: \\[\nn = \\dfrac{m}{M}\n\\] Por lo que si multiplicamos los moles por M podemos llegar a: \\[\nM·n = M·n_0·e^{-\\lambda t} \\rightarrow \\boxed{m = m_0·e^{-\\lambda t}} \\ [g]\n\\]\n\n\nPeríodo de desintegración, semidesintegración o semivida (\\(T\\) o \\(t_{1/2}\\))\n\\[\nA = A_0·e^{-\\lambda t} \\rightarrow  \\frac{A_o}{2} = A_o e^{-\\lambda T} \\rightarrow ln(1/2)= -ln(2) = -\\lambda T \\rightarrow \\boxed{T = \\dfrac{ln(2)}{\\lambda} = \\tau·ln(2)}\n\\]\nAlgunos ejemplos:\n\n\\(^{238}U\\) → T = 4510 millones de años (tiempo en que una muestra disminuirá a la mitad).\n\n\\(^{60} Co\\) → T = 5731 años.\n\n\\(^{14}C\\) = C-14 → T = 5730 años. El C-14 se utiliza sabiendo esto para datar restos arqueológicos: las plantas lo absorben con el \\(CO_2\\) y los animales al comer plantas. Al morir ya no aumenta la cantidad de C-14 y empieza a desintegrarse progresivamente. Midiendo la cantidad de C-14 que queda en la muestra y comparándola con la cantidad original, se puede estimar el tiempo transcurrido desde la muerte.\n\n\nEjercicio de ejemplo:\nUno de los casos más conocidos de datación por carbono-14 es el de los restos del hombre de Tollund, un cuerpo momificado naturalmente hallado en una turbera en Dinamarca. - Descubrimiento: 1950 - Material datado: tejidos blandos y restos orgánicos del cuerpo - Porcentaje de C-14 restante medido: aproximadamente 56 % del original -Vida media del C-14: T1/2=5730 añosT1/2​=5730 años\n\n\n\n\n\n\nPrecauciónSoluciones\n\n\n\n\n\n\\[\nN(t) = N_0·e^{-\\lambda t}\n\\] \\[\n\\dfrac{N(t)}{N_0} = 0,56 = e^{-\\lambda t}\n\\] Sabemos que: \\[\n\\lambda = \\dfrac{ln(2)}{5730}\n\\] Tomando algoritmos: \\[\nln(0,56) = -\\lambda·t \\rightarrow t = \\dfrac{-ln(0,56)}{\\lambda}\n\\] Calculamos: \\[\nt = \\dfrac{-ln(0,56)}{\\lambda} \\approx -\\dfrac{-0,5798}{\\dfrac{ln(2)}{5730}} \\approx \\dfrac{0,5798}{1,209·10^{-4}} = 4795\\ años\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#fuerzas-nucleares-energía-de-enlace-y-defecto-de-masa",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#fuerzas-nucleares-energía-de-enlace-y-defecto-de-masa",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "4 Fuerzas nucleares, energía de enlace y defecto de masa",
+    "text": "4 Fuerzas nucleares, energía de enlace y defecto de masa",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#reacciones-nucleares",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#reacciones-nucleares",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "5 Reacciones nucleares",
+    "text": "5 Reacciones nucleares",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
+    ]
+  },
+  {
+    "objectID": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#ley-de-la-desintegración-radiactiva-1",
+    "href": "articles/05_BACH_2_Fisica/T11. Física nuclear y de partículas/1199_Formulario.html#ley-de-la-desintegración-radiactiva-1",
+    "title": "Formulario física nuclear y de partículas",
+    "section": "6 Ley de la desintegración radiactiva",
+    "text": "6 Ley de la desintegración radiactiva\n\nActividad radiactiva: nº de desintegraciones por segundo que tiene una determinada muestra radiactiva. Medido en Becquerel[\\(Bq\\)]. 1 Bq es una desintegración por segundo. \\[\nA = \\dfrac{nº\\ desintegraciones}{s}\\ \\ [Bq]\n\\]\n\n1 Bq es una unidad muy pequeña. Se usa el Curio (\\(Cu\\)): \\[\n1 Cu = 3,7 · 10^{10} Bq\n\\]",
+    "crumbs": [
+      "Home",
+      "2º BACH Física",
+      "T11. Física nuclear y de partículas",
+      "Formulario física nuclear y de partículas"
     ]
   },
   {
